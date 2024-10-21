@@ -57,12 +57,12 @@
                </witness>
                <witness xml:id="P">
                   <abbr type="siglum">P</abbr>
-                  <name>Patmos, Monê tou Hagiou Iôannou tou Theologou,
+                  <name key="PTAMS00579">Patmos, Monê tou Hagiou Iôannou tou Theologou,
                      215</name>
                </witness>
                <witness xml:id="Wa">
                   <abbr type="siglum">Wa</abbr>
-                  <name>Wien, ÖNB, theol. gr. 8</name>
+                  <name key="PTAMS00587">Wien, ÖNB, theol. gr. 8</name>
                </witness>
                <witness xml:id="Xp">
                   <abbr type="siglum">Xp</abbr>
@@ -102,6 +102,10 @@
                <witness xml:id="Na">
                   <abbr type="siglum"> Na </abbr>
                   <name> Alexandrinus gr. 11 (Niketaskatene)</name>
+               </witness>
+               <witness xml:id="Nb">
+                  <abbr type="siglum"> Nb </abbr>
+                  <name>Vatikan, Biblioteca Apostolica Vaticana, Palat. gr. 247 (Niketaskatene)</name>
                </witness>
                <witness xml:id="Sav">
                   <abbr type="siglum">Savile<hi rend="superscript">ms</hi>
@@ -301,17 +305,227 @@
                target="https://github.com/PatristicTextArchive/Schema"
                >TEI-PTA-Schema</ref>
          </change>
+         <change when="2024-07-20" who="#AvS">Digitized edition as published in GCS series (NF 30)</change>
          <change when="2020-08-20" who="#AvS">Preliminary edition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="praefatio" xml:lang="deu">
-            <p>Bei dem hier dargebotenen Text des eusebianischen
-               Psalmenkommentars handelt es sich um einen vorläufigen Lesetext
-               der in Arbeit befindlichen kritischen Edition, der aus den mit
-               dem Classical Text Editor erstellten Dateien konvertiert
-               wurde.</p>
+            <div type="section" n="pr">
+                  <head>Vorbemerkung der Online-Edition</head>
+                  <p>Bei dem hier dargebotenen Text des eusebianischen
+                     Psalmenkommentars handelt es sich um einen vorläufigen Lesetext
+                     der in Arbeit befindlichen kritischen Edition, der aus den mit
+                     dem Classical Text Editor erstellten Dateien konvertiert
+                     wurde. Soweit vorhanden, sind die Apparate (Bezeugung und Varianten) 
+                     daher (vorerst) nicht für die Anzeige im PTA optimiert, da größtenteils 
+                     die Bezeugung des Lemmas fehlt. Für Ps 51–71 greift die vorliegende 
+                     Online-Fassung auf die als „Eusebius von Caesarea Werke Band X: 
+                     Der Psalmenkommentar. Teil 2,1: Die Kommentare zu Psalm 51­–71. 
+                     Herausgegeben von Cordula Bandt, GCS.NF 30, Berlin/Boston 2024“ 
+                     publizierte Druckfassung zurück. Die folgende Praefatio ist diesem Band entnommen. </p>
+            </div>
+            <div type="section" n="1">
+					<head>Die handschriftliche Überlieferung</head>
+					<p>Die Kommentare des Eusebius zu Ps 51–71 werden in direkter Tradition im <ref target="#E">Codex Coislin 44 (Sigle E)</ref> überliefert, der Kommentar zu Ps 51 außerdem mit Zuschreibung an Johannes Chrysostomus im <ref target="#Xp">Codex Paris. gr. 655 (Sigle Xp)</ref>. Neben der direkten Überlieferung wurde die Katenentradition ausgewertet.</p>
+					<div type="subsection" n="1">
+						<head>Handschriften der direkten Überlieferung</head>
+						<p><ref target="#E">(E) Paris, Bibliothèque nationale de France, Coislin 44 (10. Jh.)</ref>
+							<note>Die technischen Angaben im Folgenden sind weitgehend übernommen aus: <bibl>Robert Devreesse, Catalogue des manuscrits grecs II: Le fonds Coislin (Paris 1945) 39</bibl>.</note>
+						</p>
+						<p>Die Pergamenthandschrift umfasst 429 Folia, welche in der rechten oberen Ecke des Rectos mit arabischen Zahlen nummeriert sind. Fünf Seitenzahlen sind zweimal vergeben, im vorliegenden Band betrifft das fol. 122a (Kommentar zu Ps 65). Bis auf die erste und die letzte Lage (5 bzw. 6 Folia) sind die Quaternionen vollständig. Durch den Textverlust aus der ersten Lage sind offenbar 2 Folia vor dem eigentlichen Kommentar zu Ps 51 verloren gegangen. Diese könnten ein Inhaltsverzeichnis und/oder eine Einleitung enthalten haben. Das dritte Folium ist aus dem Kommentar zu Ps 51 zwischen fol. 3v und 4r ausgefallen. Die Handschrift wurde, vermutlich im Zuge einer zweiten Bindung, an den äußeren Rändern beschnitten, wodurch die oberen Marginalien teilweise zerstört worden sind. Der Text erscheint in zwei Kolumnen mit jeweils 30 Zeilen. </p>
+						<p>Auf fol. 1r ist oberhalb des Textes von späterer Hand
+							<note><bibl>Devreesse (wie Anm. 1)</bibl> datiert diese Hand ins 14. Jh.</note> eine Inhaltsangabe nachgetragen: Εὐσεβίου (von einer weiteren Hand ü.d.Z. erg.: τοῦ Παμφύλου [sic]) Ἀρειανοῦ ἐξήγησις εἰς τοὺς (korr. aus τὸν) ψαλμοὺς τοῦ Δα(υὶ)δ τοὺς ἀπὸ ναʹ ἕως ρʹου. Das bedeutet, dass der Codex offenbar zum Zeitpunkt dieses Eintrags zwar kein Titelblatt, Vorwort oder Inhaltsverzeichnis mehr enthielt, aber die Kommentare zu Ps 51 bis 100. Durch den Verlust einer unbekannten Zahl von Folia am Ende bricht jedoch im jetzigen Umfang der Handschrift der Text in der Kommentierung von Ps 95,2b–3b ab. Weiterhin findet sich auf fol. 1r im unteren Seitenrand ein Hinweis zur Provenienz der Handschrift aus der Großen Lavra auf dem Athos.
+							<note>Vgl. <bibl>Devreesse (wie Anm. 1)</bibl>. Auf den mir vorliegenden Reproduktionen lese ich unterhalb des Textes von einer weiteren Hand den Vermerk: βίβλιον τοῦ ἀθανασίου(?) δέκατον, was sich auf den Gründer der Großen Lavra, Athanasios den Athoniten, beziehen lässt. </note>
+						</p>
+						<p>Aufgrund ihres sehr schlechten konservatorischen Zustands war es mir nicht möglich, die Handschrift in situ zu konsultieren. Ich benutzte durchgängig einen Mikrofilm und die online zugänglichen Digitalisate des Mikrofilms der BnF.
+							<note><ref target="https://gallica.bnf.fr/ark:/12148/btv1b11004562j">https://gallica.bnf.fr/ark:/12148/btv1b11004562j</ref>.</note> Die Handschrift ist jedoch auf diesen Reproduktionen sehr gut lesbar.</p>
+						<p>Formal ist <ref target="#E">E</ref> sehr klar und übersichtlich strukturiert. Jeder Kommentar trägt im oberen Seitenrand eine Überschrift, die weitgehend mit der entsprechenden eusebianischen Perioché übereinstimmt.
+							<note>Vgl. dazu <bibl>Cordula Bandt, Eusebius, Periochae, in: Cordula Bandt / Franz Xaver Risch / Barbara Villani (Hrsg.), Die Prologtexte zu den Psalmen von Origenes und Eusebius = TU 183 (Berlin 2019) 122–141</bibl>.</note> Wie oben erwähnt, sind diese Marginalien allerdings durch die nachträgliche Beschneidung des Codex teilweise beschädigt oder sogar gänzlich zerstört. Mit Sicherheit sind die Überschriften ein ursprünglicher Bestandteil des Psalmenkommentars, denn auf fol. 80r findet sich ein Pinax, der die nächsten 11 Kommentare zu Ps 61–71 mit genau diesen Überschriften ankündigt.
+							<note>Siehe unten, <ref target="#Pinax61ad71">S. 138</ref>. Für eine farbige Abbildung des Pinax in <ref target="#E">E</ref> siehe <bibl>Bandt / Risch / Villani (Hrsg.), Prologtexte (wie Anm. 5) 364 (Abb. 4)</bibl>.</note> Dies ist zwar die einzige in <ref target="#E">E</ref> erhaltene Übersicht dieser Art, da jedoch auch in anderen Werken des Eusebius solche Pinakes erscheinen, ist davon auszugehen, dass es sich um einen ursprünglichen Bestandteil des Werkes handelt.
+							<note>Zumindest für die Asafpsalmen (Ps 72–82) erübrigt sich ein solcher Pinax durch die ausführliche Einleitung zu dieser Psalmengruppe, die überschrieben ist: τῶν ἐπιγεγραμμένων τοῦ Ἀσὰφ ψαλμῶν αἱ περιοχαί (fol. 209r, mit dieser Einleitung beginnt der Editionstext des zweiten Teilbands der Kommentare und Katenenfragmente zu Ps 72–100). Sowohl in der Praeparatio evangelica als auch in der Historia ecclesiastica finden sich am Beginn der einzelnen Bücher Pinakes über die enthaltenen Kapitel.</note>
+						</p>
+						<p>Nicht immer beginnen die einzelnen Kommentare mit einer neuen Kolumne. Die Anfänge werden daher durch die vergößerte und teilweise ausgestellte Zahl des Psalms und durch den Gebrauch einer Auszeichnungsmajuskel für die Überschriften der Psalmen abgesetzt. Kapitel der Kommentare werden in der Regel durch das zu kommentierende Lemma eingeleitet. Diese einleitenden Lemmata wie auch längere Abschnitte aus dem Lemma innerhalb des Kommentars, andere Verse aus dem jeweils kommentierten Psalm und mitunter auch längere Zitate aus anderen biblischen Büchern sind durch Diplé am linken Rand der Kolumne gekennzeichnet.</p>
+						<p>Der Text in <ref target="#E">E</ref> ist im Allgemeinen sehr zuverlässig und erfordert nur wenige editorische Eingriffe. Iotazismen und offensichtliche Schreibfehler wurden stillschweigend korrigiert, sofern es sich nicht um orthographisch mögliche Varianten handelt. In zwei Fällen habe ich jedoch nicht normalisiert: Zum einen finden sich in überwiegender Zahl die nicht-augmentierten Formen ἴδεν und ἴδον (statt εἶδε[ν] und εἶδον), zum anderen steht das bewegliche ν sehr häufig an Stellen, an denen es nicht nötig ist. Interessanterweise treten diese beiden Besonderheiten vorwiegend in Bibel- oder Hexaplazitaten auf. Aus diesem Grund gehe ich davon aus, dass es sich mit hoher Wahrscheinlichkeit nicht um Nachlässigkeit oder Konvention des/der Kopisten, sondern um bewusst eingesetzte Sprache des Autors handelt, auch wenn der Grund dafür nur vermutet werden kann. Möglicherweise fand Eusebius die Schreibweisen in den von ihm benutzten Bibelhandschriften vor; vielleicht evozierte ein solcher Sprachgebrauch für ihn auch eine gewisse (Alt-)Ehrwürdigkeit.</p>
+						<p><ref target="#Xp">(Xp) Paris, Bibliothèque nationale de France, Grec 655 (11. Jh.)</ref></p>
+						<p>Diese Handschrift überliefert auf fol. 133v–140r den vollständigen Kommentar des Eusebius zu Ps 51. Bei <ref target="#Xp">Xp</ref> handelt es sich um eine Sammlung von Psalmenauslegungen, die Johannes Chrysostomus zugeschrieben werden. Neben dem Kommentar zu Ps 51 sind weitere Pseudo-Chrysostomica enthalten, beispielsweise zu Ps 101–107 eine Katene.
+							<note>Die Analyse dieser Katene durch Marcel Richard ist aufgenommen in: José Antonio de Aldama, Repertorium Pseudochrysostomicum (Paris 1965), unter den Nummern 73, 109, 165, 207, 424, 438, 522.</note> Es ist unbekannt, wie die Zuschreibung des gesamten Codex an Johannes Chrysostomus zustande kam. Die Handschrift wurde zuletzt umfassend beschrieben durch Pierre Augustin und Jacques-Hubert Sautel.
+							<note>Pierre Augustin / Jacques-Hubert Sautel, Codices Chrysostomici Graeci VII: Codicum Parisinorum pars prior (Paris 2011) 119–120.</note> Für die vorliegende Edition habe ich das online zugängliche Digitalisat des Mikrofilms der BnF benutzt.
+							<note><ref target="https://gallica.bnf.fr/ark:/12148/btv1b10723869s">https://gallica.bnf.fr/ark:/12148/btv1b10723869s</ref>.</note> Der Text trägt auf fol. 133v die mit Sicherheit sekundäre Überschrift τοῦ αὐτοῦ εἰς τὸν ναʹ ψαλμόν:~</p>
+						<p>Die Parallelüberlieferung durch <ref target="#Xp">Xp</ref> ist ein besonderer editorischer Glücksfall, da mit ihr der oben erwähnte Textausfall in <ref target="#E">E</ref> geheilt werden kann. Ansonsten sind die Abweichungen zwischen <ref target="#E">E</ref> und <ref target="#Xp">Xp</ref> nicht groß, bei Varianten ist allerdings meist <ref target="#E">E</ref> der Vorzug zu geben. Gegenüber der Katenenüberlieferung stimmen beide Handschriften in der Regel überein. Eine direkte Abhängigkeit von <ref target="#E">E</ref> schließt sich für <ref target="#Xp">Xp</ref> schon aufgrund der Zuschreibung an Chrysostomus aus; sie kommt auch nicht infrage aufgrund besserer Varianten in <ref target="#Xp">Xp</ref>.
+							<note>Siehe den app. crit. zu 1,4; 2,10–11; 8,23 u.ö.</note> Umgekehrt kann natürlich <ref target="#E">E</ref> keinesfalls von <ref target="#Xp">Xp</ref> abhängig sein, aufgrund der Überlieferung, der Datierung und des in der Regel besseren Textes in <ref target="#E">E</ref>.</p>
+						<p>Henry Savile hat den Text für seine Chrysostomus-Edition kopiert und redigiert. Diese Abschrift findet sich im Codex Oxford, Bodl., Auct. E. 4.6, pag. 65–80,
+							<note>Für eine Beschreibung dieser Handschrift vgl. Michel Aubineau, Codices Chrysostomici Graeci I: Codices Britanniae et Hiberniae (Paris 1968) 158.</note> der Vorlage für die Edition
+							<note><bibl>Henry Savile (Hrsg): Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰωάννου τοῦ Χρυσοστόμου τῶν εὑρισκομένων τόμος 1 (Eton 1612) 912–916</bibl>. Seine Edition wurde nachgedruckt durch Jacques-Paul Migne in <bibl>PG 55, 589–594</bibl>.</note>. Dass es sich um eine Abschrift aus <ref target="#Xp">Xp</ref> handelt, ist einerseits aus Saviles eigenen Anmerkungen zu schließen,
+							<note>Vgl. <bibl>Henry Savile (Hrsg): Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰωάννου τοῦ Χρυσοστόμου τῶν εὑρισκομένων τόμος 8 (Eton 1613) 123</bibl>.</note> andererseits zeigt es sich auch bei einem Vergleich beider Handschriften: In der Tat sind alle Fehler in <ref target="#Xp">Xp</ref> von Savile kopiert und später teilweise korrigiert worden.
+							<note>So fehlt in <ref target="#Xp">Xp</ref> beispielsweise die Zahl λγʹ (1,14), diese wurde aber von Savile i.m. mit Verweiszeichen ergänzt. Einige Änderungen hat Savile schon bei der Abschrift vorgenommen; so schreibt er den Namen Δαυίδ, der in <ref target="#Xp">Xp</ref> immer in der üblichen Weise als nomen sacrum abgekürzt wird, konsequent aus als Δαβίδ. Neben Korrekturen sind i.m. auch die von Eusebius zitierten Bibelstellen notiert, wie sie im Druck in Saviles Edition erscheinen.</note> Da mit <ref target="#Xp">Xp</ref> die Vorlage des Oxforder Codex erhalten ist, sind nur relevante Konjekturen von Savile im Apparat vermerkt: <ref target="#Sav">Savile<hi rend="superscript">ms</hi></ref> steht dabei für die Oxforder Handschrift, <ref target="#Savile">Savile<hi rend="superscript">editio</hi></ref> für die gedruckte Edition. </p>
+					</div>
+					<div type="subsection" n="2">
+						<head>Handschriften der Katenenüberlieferung</head>
+						<p>Wie beim ersten Drittel und der zweiten Hälfte des Psalters sind auch für die im vorliegenden Band enthaltenen Kommentare vor allem die Exzerpte der Ersten Palästinischen Katene (Typ VI bzw. XI Karo / Lietzmann, <ref target="https://clavis.brepols.net/clacla/OA/link.aspx?clavis=CPG&amp;number=C12">CPG C 12</ref>, bzw. <ref target="https://clavis.brepols.net/clacla/OA/link.aspx?clavis=CPG&amp;number=C19">C 19</ref> und <ref target="https://clavis.brepols.net/clacla/OA/link.aspx?clavis=CPG&amp;number=C24">C 24</ref>) für die Textkritik maßgeblich. Allerdings wurde diese Katene für unseren Teil des Psalters nur in einer einzigen Handschrift bis in die Neuzeit überliefert, dem <ref target="#Bt">Codex Tauriensis C II 6 (Sigle Bt)</ref>, der bedauerlicherweise 1904 durch einen verheerenden Brand in der Biblioteca Nazionale Universitaria di Torino fast gänzlich zerstört wurde. Neben den wenigen erhaltenen Fragmenten dieser Handschrift wurden daher verschiedene Sekundärtraditionen der Ersten Palästinischen Katene ausgewertet, und zwar Katenen, die wörtliche Auszüge dieser Katene enthalten.
+							<note>Um den textkritischen Apparat nicht unnötig aufzublähen, wurden nach eingehender Prüfung einige zunächst aussichtsreiche Sekundärüberlieferungen nicht aufgenommen, denn diese Handschriften enthalten keine relevanten Varianten: Athos, Μονή Βατοπεδίου, 660 (10.–11. Jh., keine Klassifizierung bei Karo / Lietzmann, CPG C 40.1); Wien, ÖNB, Theol. gr. 59 (12.–13. Jh.,Typ VII K/L, CPG C 20); Vatikan, BAV, gr. 754 (10. Jh., Typ XIII bzw. XIX K/L, CPG C 26 bzw. 32); Moskau, GIM, gr. 194 (10.–11. Jh., Typ XIII bzw. IV K/L, CPG C 26 bzw. C 17); Vatikan, BAV, Ottob. gr. 398 (11. Jh., Typ IV K/L, CPG C 17); Vatikan, BAV, Borg. gr. 3 (anno 1665, Typ X K/L, CPG C 23).</note> Die Niketaskatene, die sich für das letzte Drittel des Psalters als wichtige Quelle eusebianischer Fragmente erweist, ist für die Textkritik der im vorliegenden Band enthaltenen Kommentare weitgehend zu vernachlässigen.</p>
+						<p><ref target="#Bt">(Bt) Turin, Biblioteca Nazionale Universitaria, C II 6 (11. Jh.)</ref>
+							<note>Der Codex wird als Nr. 221 beschrieben in <bibl>Giuseppe Pasini / Antonio Rivautella / Francesco Berta, Codices Manuscripti Bibliothecae Regii Taurinensis Athenaei per Linguas digesti, binas in Partes distributi, in quarum prima Hebraei, Graeci, in altera Latini, Italici, Gallici (Turin 1749) 311</bibl>. Eine kurze Beschriebung geben weiterhin <bibl>Georg Karo / Hans Lietzmann, Catenarum Graecarum Catalogus, Pars 1, in: Nachrichten von der Königl. Gesellschaft der Wissenschaften zu Göttingen, Philologisch-historische Klasse (1902) 1–66, hier 64–65</bibl>.</note>
+						</p>
+						<p>Vor seiner Zerstörung durch den Brand 1904 umfasste der Pergamentcodex 323 in zwei Kolumnen mit je 37 Zeilen beschriebene Folia und enthielt die Erste Palästinische Katene zu Ps 51–100. Da es sich um einen zweiten Band der von Karo / Lietzmann als Typ VI (<ref target="https://clavis.brepols.net/clacla/OA/link.aspx?clavis=CPG&amp;number=C12">CPG C 19</ref>)
+							<note>Um Verwirrung zu vermeiden, möchte ich an dieser Stelle auf die abweichende Klassifikation der Handschrift selbst durch Karo / Lietzmann hinweisen, wobei daran zu erinnern ist, dass ihre Arbeit weit vor der von Marcel Richard liegt, der als erster die Palästinsche Katene als älteste Psalmenkatene identifizierte. Da die im Codex Tauriensis C II 6 erhaltenen Kommentierungen zu Ps 51–100 zwar zur Zeit der Arbeit von Karo / Lietzmann noch vollständig erhalten waren, jedoch nicht in den von ihnen untersuchten Bereich fallen (Prologe, Ps 22 und Ps 115), erscheint die Handschrift folgerichtig bei Karo / Lietzmann unter den codices varii (wie Anm. 17, 64–65). Allerdings vermerken sie am Schluss der Beschreibung ihres Typs XI irreführenderweise, dass der Turiner Codex zu diesem Typ gehört (ebd. 38). Aufgrund dieses kurzen Hinweises wird der Codex in der CPG der Katene C 24 zugerechnet, die Typ XI Karo / Lietzmann entspricht. Dies ist aber die zweibändige Ausgabe der Ersten Palästinischen Katene (Ps 1–75 / 76–150), von der nur Handschriften des zweiten Teils erhalten sind. Wenngleich es sich bei Typ VI und XI um dieselbe Katene handelt (wie es auch in der CPG durch die Einführung einer gemeinsamen Nummer [CPG C 12] deutlich gemacht wird), stehen die beiden Typen doch für verschiedene Ausgaben dieser Katene. Sie unterschieden sich ganz offensichtlich nicht nur im Umfang der Bände (Typ VI = 3 Bände: Ps 1–50, 51–100, 101–150; Typ XI = 2 Bände: Ps 1–75; 76–150), sondern auch im Layout. So ist die dreibändige Ausgabe in ihren ältesten Handschriften in zwei Kolumnen geschrieben, die zweibändige dagegen auch in den ältesten Handschriften in Seitenbreite. Dorival geht davon aus, dass die dreibändige Ausgabe die ältere und die zweibändige sozusagen eine byzantinische Vulgata („comme la vulgate byzantine“) davon ist, vgl. <bibl>Gilles Dorival, Les Chaînes exégétiques grecques sur les Psaumes I (Leuven 1986) 115</bibl>#. Zur Identifikation der Palästinischen Katene vgl. <bibl>Marcel Richard, Les premières chaînes sur le Psautier, in: Bulletin d’information de l’Institut de Recherche et d’Histoire des Textes 5 (1956) 87–98 = ders., Opera minora (Turnhout 1977) Nr. 70</bibl>. Zur Zuordnung der Handschrift Taur. C II 6 zu CPG C 24 vgl. <bibl>Maurice Geerard, Clavis Patrum Graecorum IV: Concilia, Catenae, 2. überarbeitete und aktualisierte Aufl. von Jacques Noret (Turnhout 2018) 275–276</bibl>. Zu den Handschriften der Katene des Typs XI (Milano, Biblioteca Ambrosiana, F 126 sup.; Wien, ÖNB, theol. gr. 59 und Patmos, Μονὴ τοῦ Ἁγίου Ἰωάννου τοῦ Θεολόγου, cod. 215) siehe auch die Praefationes in Band II/2 und III; zu den Handschriften des Typs VI, also den anderen Handschriften der B-Gruppe, siehe die Praefatio in Band I. </note> klassifizierten dreibändigen Ausgabe der Ersten Palästinischen Katene handelte, wurde der Handschrift eine Sigle aus der B-Gruppe zugewiesen, in der ansonsten die Handschriften eben dieser Katene zu Ps 1–50 zusammengefasst sind. </p>
+						<p>Nach dem Brand sind nur 76 Fragmente, meist der inneren Kolumnen, erhalten. Die Fragmente wurden aufwändig restauriert und in einen neuen Pergamentcodex eingepasst, der dieselbe Signatur trägt. Wo sich die Reihenfolge der Fragmente aus den verkohlten Resten nicht mehr rekonstruieren ließ, hat laut einer Notiz in der Innnenseite des vorderen Einbands Dominique Barthélemy die Anordnung festgelegt. Manche dieser Fragmente enthalten nur wenige Buchstaben, auf dem größten (fol. 3rv) lassen sich 32 Zeilen einer Kolumne zählen, wobei weder der obere noch der untere Seitenrand erkennbar sind. </p>
+						<p>Im Mai 2008 hatte ich die Möglichkeit, diesen Codex vor Ort zu sichten und zu fotografieren. Die dabei entstandenen Aufnahmen konnte ich für die textkritische Arbeit am Psalmenkommentar des Eusebius auswerten.</p>
+						<p>Aus den erhaltenen Fragmenten lässt sich schließen, dass es sich, wie für die Erste Palästinische Katene zu erwarten, um eine alternierende Katenenhandschrift handelte, also Lemma und Auslegungen sich abwechselten. Die Lemmata waren durch Diplé am linken Kolumnenrand ausgezeichnet. Die Autoren der Exzerpte waren durch die Kurzform der Namen links neben der Kolumne angegeben, wobei offenbar nur fünf Autoren genannt waren: Apolinaris, Didymus, Origenes, Eusebius und Theodoret.
+							<note>Diese Autoren werden bei <bibl>Pasini / Rivautella / Berta (wie Anm. 17)</bibl> angeführt. Bei meiner Analyse der erhaltenen Fragmente sind mir weder Siglen noch Texte weiterer Autoren begegnet.</note>
+						</p>
+						<p>Die Entzifferung der erhaltenen Fragmente ist mühsam und gelingt auf der helleren Fleischseite meist besser als auf der Haarseite, wo die Schrift oft durch die Einwirkung der Hitze stärker beschädigt ist. Dem eusebianischen Psalmenkommentar lässt sich sogleich auf fol. 2r ein Fragment zu Ps 56 zuweisen und im weiteren, soweit es die im vorliegenden Band enthaltenen Kommentare betrifft, Fragmente zu Ps 56, 58, 59, 60, 67, 68, 70 und 71. Nur selten sind ursprünglicher Anfang oder Ende der Exzerpte erhalten, zudem setzen sie in der Regel mit unvollständigen Zeilen ein. Dennoch hat sich die Auswertung der Handschrift als Gewinn für die Textkritik erwiesen: so lässt sich die Genese von Abweichungen der Katenen vom direkt überlieferten Text nachvollziehen,
+							<note>Z. B. 109,21 (Kommentar zu Ps 59): ὁ δὲ Ἀκύλας ἐπὶ κρίνων E καὶ ὁ Ἀκύλας δὲ ἐπὶ κρίνων ἀντὶ τοῦ εἰς τέλος τοῖς ἀλλοιωθησομένοις ἐπέγραψεν Bt καὶ Ἀκύλας δὲ ἀντὶ τοῦ εἰς τὸ τέλος τοῖς ἀλλοιωθησομένοις ἐπὶ κρίνων ἐπέγραψεν DdCaCb.</note> Varianten anderer Katenen werden unterstützt,
+							<note>Z. B. 101,18 (Kommentar zu Ps 58): τοῦ πάθους BtCaCb &lt; E.</note> und an einer Stelle bietet Bt sogar als einziger Textzeuge den richtigen Text.
+							<note>311,27 (Kommentar zu Ps 71): λαμπροτέραν Bt &lt; E.</note>
+						</p>
+						<p><ref target="#G">(G) Vatikan, Biblioteca Apostolica Vaticana, Reginensis graecus 40 (13. Jh.)</ref></p>
+						<p>Hierbei handelt es sich um eine Bombycin-Handschrift, die auf 344 Folia Kommentierungen zu Ps 1–150 enthält. Die Handschrift ist sehr gut erhalten, wurde jedoch offenbar neu gebunden, denn fol. 144 und fol. 151, die äußeren Blätter eines Quaternions, sind dabei vertauscht worden. Dies ist in der Foliierung der Handschrift mit arabischen Zahlen nachträglich korrigiert worden. </p>
+						<p>G ist die einzige erhaltene Handschrift des Katenentyps IX nach Karo / Lietzmann (<ref target="https://clavis.brepols.net/clacla/OA/link.aspx?clavis=CPG&amp;number=C22">CPG C 22</ref>), einer komplexen, aus verschiedenen früheren Katenen zusammengestellten Katene,
+							<note>Gilles Dorival spricht in einem solchen Fall von einer chaîne complexe. Zur Katene des Vat. Reg. gr. 40 siehe <bibl>Gilles Dorival, Les Chaînes exégétiques grecques sur les Psaumes V (Leuven 2018) 1–36</bibl>. </note> die als Randkatene geschrieben ist. Im Mittelteil erscheint allerdings nicht der Text der kommentierten Psalmen, sondern die Scholien des Hesych zu den Psalmen, kombiniert mit anderen Exzerpten.
+							<note>Zu dieser inneren Sammlung vgl. <bibl>Gilles Dorival, Les Chaînes exégétiques grecques sur les Psaumes II (Leuven 1989) 44–57</bibl>.</note> Im Gegensatz zu anderen Katenen ordnet die Katene von G die Exzerpte nicht zwingend nach den darin kommentierten Psalmenversen, sondern oftmals sind mehrere Exzerpte ein und desselben Autors zu nacheinanderfolgenden Psalmversen aneinandergereiht. Der Name des Autors wird jeweils am Beginn des Fließtextes in roter Tinte angeben. Über den Zeilen sowohl der Randkatene als auch des Mittelteils  erscheinen, ebenfalls in roter Tinte, griechische Zahlen als Verweiszeichen. Die Zählung dieser Zahlen beginnt mit jedem Psalm neu, und in der Regel erscheinen dieselben Verweiszahlen im Mittelteil und am Rand. Da jedoch, wie erwähnt, der Mittelteil nicht den Text der Psalmen enthält, ist davon auszugehen, dass die Verweiszahlen sich auf einen anderen Codex beziehen, in dem die Psalmentexte enthalten und entsprechend nummeriert waren. Während ich die meiste Zeit meiner Editionsarbeit mit dem gut lesbaren Mikrofilm der Handschrift und einem Digitalisat davon arbeitete, ist die Handschrift nunmehr in hervorragenden Farbbildern online zugänglich.
+							<note><ref target="https://digi.vatlib.it/view/MSS_Reg.gr.40">https://digi.vatlib.it/view/MSS_Reg.gr.40</ref>.</note>
+						</p>
+						<p>Obgleich die jüngste, bietet <ref target="#G">G</ref> an vielen Stellen den besten Text aller in die Edition aufgenommenen Katenenhandschriften. In der Regel handelt es sich um wörtliche Auszüge, nur selten wird Text paraphrasiert. An einigen Stellen sind die Varianten von <ref target="#G">G</ref>  sogar der direkten Überlieferung in <ref target="#E">E</ref> vorzuziehen. Zudem überliefert <ref target="#G">G</ref>  große Teile des in <ref target="#E">E</ref> durch den oben beschriebenen Verlust eines Foliums im Kommentar zu Ps 51 ausgefallenen Textes, und oftmals lassen sich kleinere Textausfälle in <ref target="#E">E</ref> zumindest teilweise durch <ref target="#G">G</ref> heilen.
+							<note>Vgl. dazu den kritischen Apparat zu 228,20–24 (Kommentar zu Ps 67), siehe auch 258,18–19 und 260,25–27 (Kommentar zu Ps 68).</note>
+						</p>
+						<p><ref target="#Wa">(Wa) Wien, Österreichische Nationalbibliothek, theol. gr. 8 (11. Jh.)</ref>
+							<note>Der Codex ist detailiert beschrieben bei: <bibl>Herbert Hunger / Otto Kresten, Katalog der griechischen Handschriften der Österreichischen Nationalbibliothek  3,1, Codices theologici 1–100 (Museion N.F. 4, Bd. 1, T. 3,1; Wien 1976) 14–15</bibl>.</note>
+						</p>
+						<p>Die Pergamenthandschrift umfasst 276 Folia und hat einen bemerkenswerten Aufbau: Den Mittelteil bildet der Psalmenkommentar des Diodor; eine erste Randkatene, von Karo / Lietzmann als Typ V (<ref target="https://clavis.brepols.net/clacla/OA/link.aspx?clavis=CPG&amp;number=C18">CPG C 18</ref>) klassifiziert, wird durch eine zweite Randkatene gerahmt, die Scholien des Origenes und Exzerpte aus Theodorets Psalmenkommentar kombiniert.
+							<note>Insbesondere die Scholien des Origenes haben in der Forschung großes Interesse geweckt, vgl. <bibl></bibl>; <bibl>Dorival, Chaînes II (wie Anm. 24) 8–18</bibl>; <bibl>Franz Xaver Risch, Das Handbuch des Origenes zu den Psalmen, in: Adamantius 20 (2014) 36–48</bibl>.</note> Die Handschrift enthält Kommentierungen zu Ps 1–118. Bei einigen Psalmen fehlt die zweite Randkatene, teilweise erscheinen auf dem dadurch vorhandenen freien Platz Zusätze von späterer Hand. Weiterhin ist bei einigen Psalmen die erste Randkatene, die allein für die Edition des eusebianischen Psalmenkommentars von Interesse ist,
+							<note>Für eine Analyse dieser Katene siehe <bibl>Dorival, Chaînes V (wie Anm. 23) 130–173</bibl>.</note> sehr kurz und endet schon weit früher als der Kommentar des Diodor. Dies betrifft von den im vorliegenden Band behandelten Kommentaren Ps 63, 65, 70 und 71; für Ps 62 wird überhaupt keine Katene überliefert. Die Zuordnung der Exzerpte erfolgt durch Kurzzitat des jeweils kommentierten Psalmenverses, die Autorenzuweisung wiederum durch Siglen am äußeren Rand. Die Exzerpte sind meist sehr kurz, zudem arbeitet der Kopist mit zahlreichen Abkürzungen. Bei meiner Arbeit konnte ich auf sehr gute farbige Digitalisate der Handschrift zurückgreifen.</p>
+						<p>In <ref target="#Wa">Wa</ref> sind deutlich weniger Exzerpte aus den Psalmenkommentaren des Eusebius enthalten als in den anderen Katenenhandschriften. Dessenungeachtet ist die Textqualität dieser Exzerpte sehr gut, so dass oftmals wichtige Varianten überliefert werden.</p>
+						<p><ref target="#Dd">(Dd) Athos, Μονή Μεγίστης Λαύρας, B 83 (11.–12. Jh.)</ref>
+							<note>Eine sehr kurze Beschreibung der Handschrift geben <bibl>Spyridon Lauriotis / Sophronius Eustratiades, Catalogue of the Greek Manuscripts in the Library of the Laura on Mount Athos, with Notices from other Libraries (Harvard Theological Studies 12, Cambridge 1925) 23</bibl>. </note>
+						</p>
+						<p>Der Pergamentcodex umfasst 362 Folia und enthält Kommentierungen zu Ps 1–150 und zu den Oden. Auch <ref target="#Dd">Dd</ref> enthält eine Randkatene, die jedoch in diesem Fall die kommentierten Psalmen rahmt. Diese Katene (CPG C 40.25) wurde von Karo / Lietzmann nicht aufgenommen. Es handelt sich erneut um eine komplexe Katene, die unter anderem eine Auswahl von Exzerpten aus der Ersten Palästinischen Katene enthält.
+							<note>Vgl. die Analyse der Katene zu Ps 1–118 bei <bibl>Dorival, Chaînes V (wie Anm. 23) 126–168</bibl>.</note> Der Name des Eusebius (Εὐσεβίου τοῦ Παμφίλου) wird als einziger in der stark verblassten Inhaltsangabe auf fol. 1r erwähnt. Die Katene selbst endet mit Ps 118, danach folgen nur noch Exzerpte, die Johannes Chrysostomus zugeschrieben sind.
+							<note>Vgl. <bibl>Lauriotis / Eustratiades, Catalogue (wie Anm. 30)</bibl>.</note> Für meine Arbeit konnte ich lediglich Digitalisate eines Mikrofilms und Mikrofiches von mäßiger Qualität auswerten. Da zudem einige Folia starke Gebrauchspuren und Flecken aufweisen, lässt sich der Text aus diesen Reproduktionen nicht immer zweifelsfrei entziffern. Soweit dies für textkritische Entscheidungen relevant ist, wurde es im Apparat vermerkt. </p>
+						<p>Im Allgemeinen bestätigt <ref target="#Dd">Dd</ref> den Text von Fragmenten, die auch in <ref target="#G">G</ref> überliefert sind, mitunter ist jedoch auch weiteres Material enthalten. <ref target="#Dd">Dd</ref> bietet in der Regel wörtliche Auszüge, an einigen Stellen finden sich jedoch auch Paraphrasen und offensichtliche Zusätze.
+							<note>Z.B. app. crit. zu 258,19–20 (Kommentar zu Ps 68); siehe auch unten, S. XXII.</note>
+						</p>
+						<p><ref target="#Ca">(Ca) Paris, Bibliothèque nationale de France, gr. 139 (10. Jhdt.)</ref>
+							<note>Für eine detaillierte Beschreibung dieser Handschrift mit weiteren Literaturangaben siehe <bibl>Leontien Vanderschelden, An Unconventional Catena on the Psalms. A Partial Edition of the Type III Catena and an Assessment of its Position in the Exegetical Tradition (Diss. Leuven 2020) 40–43</bibl>.</note>
+						</p>
+						<p>Der als „Pariser Psalter“ vor allem wegen seiner prachtvollen Illustrationen bekannte Pergamentcodex umfasst 449 Folia und enthält Kommentierungen zu Ps 1–150 und den Oden in einer Randkatene, die den Psalmentext rahmt. Die Autorennamen erscheinen in roter Tinte am Rand oder zum Beginn der Exzerpte; der Bezug auf die jeweils kommentierten Halbverse erfolgt durch vielfältige Verweiszeichen im Lemmatext und am Rand der Katene. Bei meiner Arbeit konnte ich zunächst auf einen qualitativ hochwertigen Mikrofilm, später auf die ebenfalls hervorragenden online verfügbaren farbigen Digitalaufnahmen der Handschrift
+							<note><ref target="https://gallica.bnf.fr/ark:/12148/btv1b10515446x">https://gallica.bnf.fr/ark:/12148/btv1b10515446x</ref>.</note> zurückgreifen.</p>
+						<p><ref target="#Cb">(Cb) Venedig, Biblioteca Nazionale Marciana, gr. Z 17 (10. Jhdt.)</ref>
+							<note>Eine detaillierte Beschreibung dieser Handschrift findet sich ebenfalls bei <bibl>Vanderschelden, An Unconventional Catena (wie Anm. 34) 44–48</bibl>.</note>
+						</p>
+						<p>Der ebenfalls sehr großzügig gestaltete, 430 Folia umfassende Pergamentcodex überliefert nicht nur dieselbe Katene wie <ref target="#Ca">Ca</ref> zu Ps 1–150 und zu den Oden, sondern ist auch beinahe identisch aufgebaut. Tatsächlich enthalten die meisten Seiten genau dieselben Psalmverse und kommentierenden Exzerpte. Allerdings verwendet Cb keine Verweiszeichen sondern griechische Zahlen, um die Exzerpte den jeweiligen Halbversen zuzuordnen. Meist stimmen <ref target="#Ca">Ca</ref> und <ref target="#Cb">Cb</ref> wörtlich überein, allerdings neigt <ref target="#Cb">Cb</ref> bei problematischen Stellen zu (mitunter genialen) Schreiberkorrekturen. Auch für diese Handschrift habe ich zunächst einen Mikrofilm und später die online zugänglichen digitalen Aufnahmen
+							<note><ref target="https://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3A193.206.197.121%3A18%3AVE0049%3ACSTOR.240.9608">https://www.internetculturale.it/jmms/iccuviewer/iccu.jsp?id=oai%3A193.206.197.121%3A18%3AVE0049%3ACSTOR.240.9608&amp;mode=all&amp;teca=marciana</ref>.</note> benutzt. </p>
+						<p>Aus den Varianten in <ref target="#Ca">Ca</ref> und <ref target="#Cb">Cb</ref> lässt sich schließen, dass keine der beiden Handschriften direkt von der anderen abhängig ist.
+							<note>Vgl. dazu auch <bibl>Leontien Vanderschelden, The Archetype of the Type III Catena and the Broader Catena Tradition of the Psalms, in: Cordula Bandt / Reinhart Ceulemans (Hrsg.), Research on Psalter Catenae: Future Trends and Recent Developments = TU 197 (Berlin 2024), 45–60</bibl>. Allerdings zieht Vanderschelden aus ihren Untersuchungen den Schluss, dass <ref target="#Ca">Ca</ref> und <ref target="#Cb">Cb</ref> nicht einmal auf dieselbe Vorlage zurückgehen können. Ihre Argumente erscheinen mir nicht zwingend, und angesichts des indentischen Aufbaus beider Handschriften und der großen textlichen Nähe halte ich die Annahme einer gemeinsamen Vorlage sogar für äußerst naheliegend.</note> Die Katene wurde von Karo / Lietzmann als Typ III (<ref target="https://clavis.brepols.net/clacla/OA/link.aspx?clavis=CPG&amp;number=C16">CPG C 16</ref>) klassifiziert. Sie kombiniert diverse Elemente,
+							<note>Zu der Katene siehe <bibl>Dorival, Chaînes I (wie Anm. 18) 232–324</bibl>. Siehe auch <bibl>Ekkehard Mühlenberg, Psalmenkommentare aus der Katenenüberlieferung III = PTS 19 (Berlin 1978) 23–25</bibl>.</note> unter anderem zwei verschiedene Sammlungen von wörtlichen Auszügen aus der Ersten Palästinischen Katene. Bei der Kombination dieser beiden Quellen war der Katenist zwar bemüht, Dopplungen zu vermeiden, dennoch finden sich immer wieder Dubletten, die sich meist in Umfang und Wortlaut unterscheiden. Sofern in der vorliegenden Edition Dubletten ausgewertet wurden, ist dies duch den Zusatz dubl zur Sigle gekennzeichnet. Dabei bezeichnet Ca<hi rend="superscript">dubl</hi>/Cb<hi rend="superscript">dubl</hi> immer das Exzerpt, das als zweites erscheint. Neben wörtlichen Auszügen enthält diese Katene eine große Zahl von Paraphrasen. Diese wurden grundsätzlich nicht in die vorliegende Edition aufgenommen, da die Dokumentation ihrer Varianten sehr aufwändig ist und keinen textkritischen Wert hat. </p>
+						<p>Die Exzerpte der C-Gruppe sind meist wesentlich stärker gekürzt als in den anderen ausgewerteten Katenenhandschriften. Dennoch handelt es sich durchaus um eine wichtige Quelle, weil sie viele Auszüge überliefert, die in keiner anderen Katene enthalten sind.</p>
+						<p>Die Niketaskatene</p>
+						<p>Im Gegensatz zur Bedeutung der Niketaskatene für die Überlieferung von Fragmenten zu Psalm 101–150 im dritten Band unserer Edition des Psalmenkommentars des Eusebius kommt dieser Katene für die in direkter Tradition erhaltenen Kommentare zu Ps 51–71 im vorliegenden Band nur eine untergeordnete Bedeutung zu. Das von Niketas aufgenommene eusebianische Material geht fast nie über das der beschrieben Nebentraditionen der Palästinischen Katene hinaus und ist diesen Traditionen gegenüber erkennbar sekundär. In der Regel handelt es sich um Satzfetzen eher als um ganze Sätze, die zudem noch umgestellt oder umformuliert wurden.
+							<note>Dieser Befund ist allerdings nicht verwunderlich, wenn man den gewissermaßen neuzeitlich-wissenschaftlichen Anspruch des Niketas bedenkt, aus den auf ihn gekommenen exegetischen Werken ein neues, eigenes Werk zu schaffen. Vgl. dazu <bibl>Franz Xaver Risch (†), Zur Arbeitsweise des Niketas: Bemerkungen zu seiner Katene zu Ps 101–150, in: Bandt / Ceulemans (Hrsg.), Research on Psalter Catenae (wie Anm. 38) 61–92</bibl>.</note> Es ist also davon auszugehen, dass Niketas für seine Kommentare zu Ps 51–71 nicht die eusebianischen Kommentare in direkter Tradition, sondern lediglich Katenenmaterial benutzt hat. Aus diesem Grund wurde die Niketaskatene nur an den Stellen aufgenommen, wo sie textkritisch relevant ist. Aus ihrer umfangreichen Überlieferung
+							<note> Vgl. dazu <bibl>Dorival, Les Chaînes exégétiques grecques sur les Psaumes III (Leuven 1992) 492–565</bibl>, eine Übersicht findet sich <bibl>ebd. 513</bibl>.</note> wurden dafür folgende zwei sehr alte Handschriften ausgewertet:</p>
+						<p><ref target="#Na">(Na) Al-Iskandariyya (Alexandria), Βιβλιοθήκη τοῦ Πατριαρχείου, cod. 11</ref> </p>
+						<p>Der Pergamentcodex von 544 Folia aus dem 12. Jh. enthält die Katene zu Ps 1–76.
+							<note>Zu dieser Handschrift vgl. <bibl>Dorival, Chaînes III (wie Anm. 41) 496–497</bibl> und die online zugänglichen Aufzeichnungen von Marcel Richard, die im IRHT verwahrt werden: https://ideal.irht.cnrs.fr/document/818960.</note> Bei meiner Arbeit habe ich das Digitalisat eines Mikrofilms dieser Handschrift benutzt, im dem jedoch einige Folia nicht enthalten sind. </p>
+						<p><ref target="#Nb">(Nb) Vatikan, Biblioteca Apostolica Vaticana, Palat. gr. 247</ref></p>
+						<p>Dieser Pergamentcodex aus dem 12. Jhdt. enthält auf 387 Folia ebenfalls die Niketaskatene zu Ps 1–76.
+							<note>Der Codex ist sehr detailiert beschrieben im Rahmen des Projektes „Biblioteca Palatina – digital“, vgl. https://digi.ub.uni-heidelberg.de/de/bpd/virtuelle_bibliothek/codpalgraec/beschreibungen/bav_pal_gr_247.html. Für eine weitere ausführliche Beschreibung siehe <bibl>Dorival, Chaînes III (wie Anm. 41) 511–512</bibl>.</note> Hier konnte ich einen vollständigen Mikrofilm der Handschrift auswerten. <ref target="#Nb">Nb</ref> enthält mehr Zuschreibungen am Seitenrand, mitunter sind jedoch die enthaltenen Texte gegenüber Na gekürzt. Für meine Arbeit benutzte ich zunächst einen guten und vollständigen Mikrofilm der Handschrift, inzwischen ist aber auch ein sehr gutes Digitalisat online verfügbar.
+							<note><ref target="https://digi.ub.uni-heidelberg.de/diglit/bav_pal_gr_247">https://digi.ub.uni-heidelberg.de/diglit/bav_pal_gr_247</ref>.</note>
+						</p>
+					</div>
+					<div type="subsection" n="3">
+						<head>Zwei strittige Katenenfragmente zu Ps 51</head>
+						<p>Ekkehard Mühlenberg benennt zwei Katenenfragmente zu Ps 51, die nach seiner Einschätzung zumindest teilweise mit dem Kommentar des Eusebius in Zusammenhang stehen könnten.
+							<note>Vgl. <bibl>Ekkehard Mühlenberg, Psalmenkommentare aus der Katenenüberlieferung II = PTS 16 (Berlin 1977) xxii–xxiii</bibl>.</note> Bereits Gilles Dorival widerspricht einer Zuschreibung an Eusebius und plädiert für die Zuschreibung an Didymus.
+							<note>Vgl. <bibl>Gilles Dorival, Chaînes I (wie Anm. 18) 169–170</bibl>.</note> Die beiden Fragmente sollen an dieser Stelle kurz besprochen werden. </p>
+						<p>Fragment 1 (zu Ps 51,9)
+							<note>Ps 51,9: Ἰδοὺ ἄνθρωπος, ὃς οὐκ ἔθετο τὸν θεὸν βοηθὸν αὐτοῦ, ἀλλ’ ἐπήλπισεν ἐπὶ τὸ πλῆθος τοῦ πλούτου αὐτοῦ καὶ ἐδυναμώθη ἐπὶ τῇ ματαιότητι αὐτοῦ.</note>
+						</p>
+						<p>Εἰ γὰρ ἔθετο τὸν θεὸν βοηθὸν αὐτοῦ, οὐκ ἂν διέβαλε τοὺς δούλους καὶ θεραπευτὰς αὐτοῦ. δέον δὲ τὸν θεὸν βοηθὸν ἐπικαλεῖσθαι, ἧττον τούτου φροντίσας ἤλπισεν ἐπὶ τῷ πλήθει οὗ εἶχε προσκαίρου πλούτου· ἦν γὰρ τῶν ἐπιτεταγμένων βασιλικὴν ὑπηρεσίαν. ἐνεδυναμοῦτο γοῦν ἐν τῇ ματαιότητι αὐτοῦ, ᾗ εἶχεν ἀγόνων καὶ στείρων ζῴων τυγχάνων ἡγούμενος.</p>
+						<p>Καὶ τάχα πᾶς πλουτῶν ἐν κακίᾳ ψευδωνύμῳ γνώσει (vgl. I Tim 6,20) ἐν τῷ μεγαλοφρονεῖν ἐπὶ τούτοις ἐπελπίζει ἐπὶ τῷ πλήθει τοῦ τυφλοῦ πλούτου αὐτοῦ· ἀλλὰ καὶ ἐνδυναμοῦσθαι νομίζει ἄρχων ἀγονίας καὶ στείρωσιν πρὸς πᾶν ἀγαθὸν ἐχουσῶν ψυχῶν. </p>
+						<p>Καὶ αἱ τῆς ψυχῆς δὲ αὐτοῦ δυνάμεις στερωθεῖσαι πρὸς τὴν ἀρετὴν καὶ τὴν ἀλήθειαν ἡμίονοι ἂν εἶεν, ὧν ἐφειστήκει τοῦ Σαοὺλ τοῦ πονηροῦ βασιλέως. ὁ γὰρ Σαοὺλ τοῦ πονηροῦ πνεύματος τύπον φέρει, ἄρξαντος τοῦ Ἰσραὴλ τότε εἰπόντος· οὐκ ἔχομεν βασιλέα· καὶ γὰρ ὁ πάλαι λαὸς ἐξουθενώσας τὸν θεὸν βασιλεύοντα αὐτοῦ ᾔτησε τὸν Σαοὺλ ἄρχοντα αὐτῷ δοθῆναι.</p>
+						<p>Dieser Text wird lediglich in <ref target="#Dd">Dd</ref> als geschlossene Einheit überliefert und Eusebius zugeschrieben. In <ref target="#G">G</ref> erscheint 2 δέον – 14 δοθῆναι mit Zuschreibung an Diodor. In <ref target="#Ca">Ca</ref><ref target="#Cb">Cb</ref> wiederum erscheint 1 Εἰ – 5 ἡγούμενος mit Zuschreibung an Eusebius, direkt im Anschluss daran 6 τάχα – 9 ψυχῶν mit Zuschreibung an Didymus. </p>
+						<p>Im Kommentar des Eusebius zu Ps 51, wie er aus den beiden Handschriften der direkten Überlieferung rekonstruiert wurde, findet sich dieses Fragment weder insgesamt noch in Teilen wörtlich oder inhaltlich wieder. Es lässt sich auch keine Stelle finden, an der es sinnvoll eingefügt werden könnte, da die Argumentation des Eusebius bei der Auslegung des Verses Ps 51,9 sehr schnell von Doeg als dem konkret Angesprochenen ins Allgemeine übergeht. Es wäre immerhin möglich, dass es sich bei dem ersten Abschnitt des Fragments, der in <ref target="#Ca">Ca</ref> und <ref target="#Cb">Cb</ref> Eusebius zugeschrieben ist, um eine sehr freie Paraphrase zu 9,13–19 handelt. <ref target="#G">G</ref> hätte dann eine gekürzte Form dieses Paraphrasenfragments fälschlich dem „Diodor“ (auch dies fälschlich für Didymus) zugeschlagen. Selbst wenn diese Annahme zutreffen sollte, wäre die Paraphrase für die Textkritik irrelevant. Inhaltlich interessant ist jedoch die Attributierung des Reichtums aus dem Lemma als blind in Zeile 7.
+							<note>Der Reichtum wird nämlich schon von Origenes und ebenso von Eusebius an mehreren Stellen als blind bezeichnet, vgl. Origenes, Contra Celsum VII 18 (GCS 3; 170,12–17 Koetschau), ebd. VII 21 (172,23–26) und unten, 149,13 (Kommentar zu Ps 61). Diese Parallelstellen sprechen jedoch nicht gegen die von Dorival vorgeschlagene Zuschreibung an Didymus.</note>
+						</p>
+						<p>Fragment 2 (zu Ps 51,10)
+							<note>Ps 51,10: Ἐγὼ δὲ ὡσεὶ ἐλαία κατάκαρπος ἐν τῷ οἴκῳ τοῦ θεοῦ ἤλπισα ἐπὶ τὸ ἔλεος τοῦ θεοῦ εἰς τὸν αἰῶνα καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος.</note>
+						</p>
+						<p>Μετὰ τὸ κατειπεῖν τοῦ ἐν κακίᾳ καυχωμένου περὶ τῆς ἰδίας διαθέσεως ἐρεῖ· ὡς ἐλαία κατάκαρπος ἐν τῷ οἴκῳ τοῦ θεοῦ καρπὸν φέρουσα λυτήριον πόνων, ἀλεξητικὸν νόσων, θρεπτικὸν καὶ αὐξητικὸν φωτός· ὁ γὰρ ἐν τῷ οἴκῳ τῆς ἐκκλησίας τοῦ θεοῦ διὰ πίστεως φυτευθεὶς ἀρετὴν φέρει ἀλέξουσαν τὰς ἐκ παθῶν καὶ ἁμαρτημάτων νόσους καὶ τοὺς ἐπ’ αὐταῖς λύουσαν πόνους καὶ τρεφούσαν τὸ φῶς τῆς γνώσεως. ὁ τοιοῦτος ἐλεημοσύνας καρποφορήσας ἐλπίζει ἐπὶ τὸ ἔλεος τοῦ θεοῦ εἰδώς, ὅτι οἱ ἐλεήμονες ἐλεηθήσονται (Mt 5,7). ἔχει δὲ τὴν ἐλπίδα οὐκ ἐφ’ ἕνα αἰῶνα, ἀλλ’ εἰς τὸν αἰῶνα τοῦ αἰῶνος, παραβαλλόμενος ἀειθαλεῖ καὶ πολυκάρπῳ φυτῷ ἐν οἴκῳ θεοῦ πεφυτευμένῳ. οἶκον δὲ θεοῦ νόει ἐνταῦθα τὸ εὐσεβὲς πολίτευμα.</p>
+						<p>Dieser Auszug wird ebenfalls nur in <ref target="#Dd">Dd</ref> in dieser Form überliefert, dort mit Zuschreibung an Didymus. <ref target="#Ca">Ca</ref> und <ref target="#Cb">Cb</ref> geben nur 3 ὁ γὰρ – 7 αἰῶνος dem Didymus, der anschließende Halbsatz 8 παραβαλλόμενος – πεφυτευμένῳ erscheint in <ref target="#Ca">Ca</ref><ref target="#Cb">Cb</ref> paraphrasiert als Beginn eines Eusebius-Fragments. Eben dieses Eusebius-Fragment überliefert <ref target="#G">G</ref> in derselben Form wie <ref target="#Ca">Ca</ref><ref target="#Cb">Cb</ref>, allerdings ist hier die Zuschreibung verschoben, denn <ref target="#G">G</ref> gibt 1 Μετὰ – 8 πεφυτευμένῳ dem Diodor, und erst der Text, der in <ref target="#Ca">Ca</ref><ref target="#Cb">Cb</ref> nach 8 πεφυτευμένῳ folgt, ist in <ref target="#G">G</ref> Eusebius zugeschrieben. 8 οἶκον – 9 πολίτευμα wird nur von <ref target="#Dd">Dd</ref> überliefert. </p>
+						<p>Aus der beschriebenen Überlieferungssituation ergibt sich also kein Grund, den Abschnitt 1 Μετὰ – 7 αἰῶνος Eusebius zuzuweisen, der sich auch im Kommentar zu Ps 51 nicht wiederfindet. Dieser Abschnitt dürfte tatsächlich Didymus zuzuweisen sein, wie es <ref target="#Dd">Dd</ref><ref target="#Ca">Ca</ref><ref target="#Cb">Cb</ref> und auch <ref target="#G">G</ref> (insofern „Diodor“ erneut eine Verfälschung des Namens Didymus ist) tun. Die Überlieferung des restlichen Textes ist an der entsprechenden Stelle im Kommentar zu Ps 51 (10,3–4) dokumentiert.</p>
+					</div>
+					<div type="subsection" n="4">
+						<head>Die Kommentare zu Ps 61–66 in den Katenen</head>
+						<p>Zu den Psalmen 61–66 finden sich in den Katenen fast keine Fragmente aus den Kommentaren des Eusebius. Die wenigen kurzen Fragmente sind überdies entweder Paraphrasen oder sehr stark gekürzt. Im Detail stellt sich die Situation folgendermaßen dar:</p>
+						<p>Psalm 61 </p>
+						<p>Keine Fragmente in den Katenenhandschriften.</p>
+						<p>Psalm 62 </p>
+						<p>Ein Fragment in den Handschriften der Niketas-Katene zu Ps 62,2:
+							<note>Na fol. 473v–474r, Zuschreibung: ευς´; Nb fol. 320v, Zuschreibung: εὐσε´. </note> Ὀρθρίζει δὲ πρὸς θεὸν ὁ τὰ ἔργα τῆς νυκτὸς ἀποθέμενος ὁ μὴ ἐφ’ ἑτέροις πράγμασι τὴν διάνοιαν ἔχων (expl. Nb), ἀλλ’ ἐπὶ μόνοις τοῖς θεῷ δοκοῦσι φίλοις, ὁ ἀπὸ κοίτης καθαρᾶς ἀνιστάμενος. Niketas greift an dieser Stelle tatsächlich einen Gedanken aus dem eusebianischen Kommentar zu Ps 62 auf,
+							<note>Vgl. 153,31–154,3.</note> wenn auch die Formulierung sehr stark abweicht.</p>
+						<p>Das Fehlen von Exzerpten aus dem Kommentar zu Ps 62 in allen anderen Katenen ist besonders bemerkenswert, weil dieser Kommentar in einigen Passagen wörtliche Übereinstimmungen mit einem der Prologtexte des Eusebius zu den Psalmen aufweist, der in verschiedenen Katenen und sogar Psalterhandschriften ohne Katene überliefert wird, nämlich De ordine psalmorum.
+							<note>Vgl. dazu Cordula Bandt, Eusebius, De ordine psalmorum, in Bandt / Risch / Villani (Hrsg.), Die Prologtexte (wie Anm.  5), 180–217, hier 181–183.</note>
+						</p>
+						<p>Psalm 63 </p>
+						<p>Ein stark gekürztes und leicht umformuliertes Fragment in Dd, das für die Edition ausgewertet wurde.
+							<note>Vgl. 166,28–167,7.</note>
+						</p>
+						<p>Psalm 64 </p>
+						<p>Die Handschriften des Typs XV nach der Klassifikation von Karo / Lietzmann (CPG C 28) wurden für die Edition nicht berücksichtigt, weil sie nur Paraphrasen bieten. Bemerkenswerterweise enthalten sie jedoch zu Ps 64 als einzige Katenenhandschriften eine Paraphrase aus dem Psalmenkommentar des Eusebius:
+							<note>Vgl. 170,10–26. Das Fragment findet sich gleichlautend in den Handschriften Vatikan, BAV, gr. 1422, fol. 116v und Paris, BnF, suppl. gr. 1157, fol. 35v. Mit geringfügigen Abweichungen erscheint es auch in Paris, BnF, gr. 146, fol. 116v. In allen drei Handschriften wird das Fragment auf Ps 64,2ab bezogen und trägt keine Autorenzuweisung.</note> Διδάσκει τοὺς προσίοντας ἐξ ἐθνῶν λέγειν μονῷ τῷ θεῷ· σοὶ πρέπει ὕμνος, ὁ θεός, ἐν Σιών (Ps 64,2a)· Σιὼν δηλαδὴ ἡ ἐκκλησία αὐτοῦ· Σιὼν μὲν γάρ ἐστιν ἀληθινὴ ἡ ἐπουράνιος Ἰερουσαλὴμ καὶ τὸ ἐπουράνιον ὄρος τοῦ θεοῦ, περὶ οὗ ὁ ἀπόστολος ἔλεγεν· προσεληλύθατε Σιὼν ὄρη καὶ τὰ ἑξῆς (Hebr 12,22), εἰκὼν δὲ ἐκείνης ἡ ἐπίγειος ἐκκλησία ὁμωνύμως καὶ αὑτὴ καλουμένη ποτὲ μὲν Σιών, ποτὲ δὲ Ἰερουσαλήμ. </p>
+						<p>Psalm 65 </p>
+						<p>Keine Fragmente in den Katenenhandschriften.</p>
+						<p>Psalm 66 </p>
+						<p>Ein kurzer wörtlicher Auszug in den Handschriften der Niketaskatene, der für die Edition ausgewertet wurde.
+							<note>Vgl. 209,1–3. An diese Deutung schließt Niketas, eingeleitet durch ἤ, zunächst eine kurze ethische Deutung an, die in verschiedenen Katenen unter dem Namen Athanasius überliefert wird (PG 27, 292C5–6), danach eine im TLG nicht auffindbare Deutung κατὰ τὴν ἱστορίαν.</note>
+						</p>
+						<p>Die beinahe vollständige Abwesenheit von Exzerpten des ansonsten doch recht prominenten Autors ist ein rätselhaftes Vorkommnis. Die Auslassung betrifft lediglich Eusebius: die anderen Autoren der Ersten Palästinischen Katene werden regelmäßig angeführt, vor allem Didymus, Theodoret und besonders zu Ps 61 sehr ausführlich Basilius. Fast scheint es, als wären die Kommentare zu Ps 61–66 aus dem Exemplar des eusebianischen Psalmenkommentars, welches der Kompilator bzw. die Kompilatoren der Ersten Palästinischen Katene exzerpiert haben, ausgefallen gewesen. Bemerkenswerterweise beginnt mit Ps 61 in <ref target="#E">E</ref> ein neuer Abschnitt des Gesamtwerkes, angezeigt durch ein Inhaltverzeichnis über die nächsten 11 Psalmen (s.u. S. 138). Möglicherweise lag der Psalmenkommentar des Eusebius also ursprünglich in einer Ausgabe vor, die mehr als drei Bände umfasste und in der ein Teilband mit Ps 61 begann. Dieser Teilband könnte den Verfassern der Ersten Palästinischen Katene in unvollständiger Form vorgelegen haben, also ohne die ersten sechs Kommentare. Doch wenn dem so gewesen sein sollte, wie lassen sich die wenigen dennoch vorhandenen Fragmente erklären? </p>
+						<p>Da die entsprechenden Kommentare bis in unsere Zeit in direkter Tradition überliefert wurden, müssen die Exzerpte bei Niketas und in den anderen beiden Katenen natürlich nicht zwangsläufig auf die Erste Palästinische Katene zurückgehen, aber es scheint doch unwahrscheinlich, dass die Katenisten, wenn sie tatsächlich die originalen Kommentare benutzt hätten, um das ihnen vorliegende Katenenmaterial zu ergänzen, diese Möglichkeit so sparsam genutzt hätten. Eine genauere Analyse aller Katenenfragmente in diesem Bereich und darüberhinaus könnte vermutlich die Lösung dieses Rätsels näher bringen. Sie war jedoch im Rahmen der Arbeit an der vorliegenden Edition nicht zu leisten.
+							<note>Von den gerade vorgestellten Psalmen gehört nur Ps 61 zur Auswahl von Dorival. Auch Dorival hat keine Antwort darauf, warum Eusebius in der Ersten Palästinischen Katene zu diesem Psalm offenbar vollständig abwesend war, und bezeichnet dies als enigmatische offene Frage, vgl. <bibl>Dorival, Chaînes I (wie Anm. 18) 184–185</bibl>.</note>
+						</p>
+					</div>
+				</div>
+				<div type="section" n="2">
+					<head>Hinweise zur Edition</head>
+					<div type="subsection" n="1">
+						<head>Zur Gestaltung des Textes</head>
+						<p>Die formale Gestaltung des Textes lehnt sich strukturell an <ref target="#E">E</ref> als einzigen Textzeugen der direkten Überlieferung an. So wurden die Überschriften aufgenommen und die durch die Lemmata vorgegebene Einteilung in Kapitel umgesetzt.</p>
+						<p>Zitate werden in drei verschiedenen Weisen ausgezeichnet: Der jeweils kommentierte Psalm in rot, Hexapla-Zitate in Anführungszeichen (»«) und andere Zitate, im Allgemeinen aus LXX und NT, kursiviert. Psalmenverse, sowohl im Lemma als auch im Text des Kommentars sind als Dichtung in Versen abgesetzt.</p>
+						<p>Als Marginalien erscheinen am äußeren Seitenrand neben den Versangaben der Lemmata auch die Seitenwechsel der Handschrift <ref target="#E">E</ref> (für den Kommentar zu Ps 51 zusätzlich <ref target="#Xp">Xp</ref>). Zur besseren Orientierung wurden außerdem die Kolumnen des bisher gebräuchlichen Referenztextes, der Edition Montfaucon im Nachdruck der Patrologia Graeca (PG),
+							<note>Jean-Paul Migne (Hrsg.), Patrologiae Cursus Completus, Series Graeca, Patrologiae Graecae Tomus XXIII (Paris 1857).</note> aufgenommen. </p>
+					</div>
+					<div type="subsection" n="2">
+						<head>Die Bezeugungsleiste</head>
+						<p>In der Bezeugungsleiste sind neben der direkten Tradition in <ref target="#E">E</ref> und <ref target="#Xp">Xp</ref> die Anfänge (inc.) und Enden (expl.) der Katenenfragmente genau vermerkt. Dabei ist auf zwei Besonderheiten hinzuweisen:</p>
+						<p>(1) Die Incipits und Explicits sind auch dann dokumentiert, wenn es für den Textbestand eigentlich nicht relevant ist. So kommt es mitunter vor, dass in einer Katene ein Fragment endet und unmittelbar mit dem nächsten Wort des Textes der integralen Überlieferung ein weiteres Fragment in dieser Katene beginnt.
+							<note>Z.B. im Kommentar zu Ps 56: 71,24/25 (Dd); 72,4/5 (Dd); 73,16/17 (CaCb).</note> Zwischen diesen beiden Fragmenten erscheinen meist Auszüge aus den Werken anderer Autoren, zumindest aber die in der jeweiligen Katene üblichen Zeichen für das Ende eines Fragments. Aufgrund der Eigenheit der Katenen werden auch diese Einschnitte in den Textzeugen in der Bezeugungsleiste als Incipits und Explicits vermerkt, obwohl der bezeugte Text ohne Unterbrechung weiterläuft. </p>
+						<p>(2) Auslassungen von Text innerhalb eines durch die jeweilige Katene als Einheit überlieferten Exzerptes sind dagegen im kritischen Apparat vermerkt, auch wenn sie sich über einen Seitenumbruch der Edition hinweg erstrecken, mitunter sogar über mehrere Seitenumbrüche. Dass eine Sigle in der Bezeugungsleiste erscheint, bedeutet also nicht zwingend, dass die entsprechende Katene tatsächlich den Text auf der jeweiligen Seite der Edition überliefert. Für diese Information muss immer auch der kritische Apparat zu Rate gezogen werden. </p>
+					</div>
+					<div type="subsection" n="3">
+						<head>Zum Quellenapparat</head>
+						<p>Im Quellenapparat werden wörtliche Zitate und Anspielungen nachgewiesen. Bei Zitaten aus dem jeweils kommentierten Psalm ist nur der zitierte Vers angegeben. Außerdem erscheinen diese im Text rot und nicht kursiviert. Zitate aus dem Lemma des jeweiligen Kapitels werden nicht nachgewiesen. </p>
+						<p>Bei NT-Stellen, in denen aus den Psalmen und den Prophetenbüchern der LXX zitiert wird, sind beide Stellen angegeben, wobei die Stelle, auf die Eusebius in dem jeweiligen Fall Bezug nimmt, zuerst steht.</p>
+						<p>Bei Zitaten aus der Hexapla ist jeweils die Referenzstelle in der Edition von Frederick Field
+							<note>Frederick Field, Origenis Hexaplorum quae supersunt, Tomus II (Oxford 1875, fotomech. Nachdruck Hildesheim 1964).</note> vermerkt. Allerdings stimmt der Text, den Eusebius zitiert, mitunter nicht mit dem bei Field überein. In solchen Fällen gibt Field oftmals hilfreiche Hinweise. </p>
+						<p>Außer biblischen Quellen wurden – ohne Anspruch auf Vollständigkeit – auch Verweise auf besonders auffällige Parallelstellen in anderen Werken des Eusebius und in einigen Fällen auf Psalmenauslegungen von Origenes wie auch gelegentlich Hinweise auf die Werke anderer Autoren aufgenommen.</p>
+					</div>
+					<div type="subsection" n="4">
+						<head>Zum kritischen Apparat</head>
+						<p>Hier ist insbesondere auf die Dokumentation des Katenenmaterials einzugehen: Es liegt in der Natur der Katenen, dass sie bei der Exzerpierung sehr viel auslassen und oft umformulieren. Dies sind zwar sekundäre Bearbeitungen, und daher sind solche Varianten streng genommen für den kritischen Text nicht relevant. Trotzdem wurden sowohl Auslassungen als auch Umformulierungen (sofern es sich beim jeweiligen Fragment nicht um eine reine Paraphrase handelt) im app. crit. akribisch vermerkt. Diese Genauigkeit erscheint insbesondere im Hinblick auf die Bände I und III des eusebianischen Psalmenkommentars angebracht, da die Editionstexte in beiden Bänden fast ausschließlich aus Katenen gewonnen wurden und – bis auf den Kommentar zu Ps 37 – keine direkte Überlieferung der Kommentare erhalten ist. Durch den Vergleich mit den hier und im Band II/2 enthaltenen Texten erhält man eine gute Vorstellung, mit welchen Veränderungen gegenüber den originalen Kommentaren bei den Katenenexzerpten zu rechnen ist.</p>
+						<p>Zudem ist es durch die ausführliche Dokumentation der Katenenhandschriften möglich, an jeder Stelle festzustellen, auf welcher Bezeugungsbasis textkritische Entscheidungen getroffen wurden. An Stellen, an denen möglicherweise Zweifel darüber aufkommen könnten, da die Überlieferung etwas unübersichtlich ist, wurde ein positiver Apparateintrag gewählt. Ebenso erscheint ein positver Eintrag an allen Stellen, an denen die Entscheidung gegen die direkte Überlieferung in <ref target="#E">E</ref> für die Variante einer, mehrerer oder aller Katenen getroffen wurde. Ansonsten wurde der Übersichtlichkeit halber ein negativer Apparat gewählt. Schlüsse e silentio sind jederzeit möglich.</p>
+					</div>
+					<div type="subsection" n="5">
+						<head>Konjekturen</head>
+						<p>Ausgangspunkt der vorliegenden Edition war die Ausgabe von Bernard de Montfaucon
+							<note><bibl>Bernard de Montfaucon (Hrsg.), Collectio Nova Patrum et Scriptorum Graecorum. Tomus I (Paris 1707)</bibl>.</note> im Nachdruck durch Jean-Paul Migne in der Patrologia Graeca,
+							<note>Vgl. Anm. 57.</note> die denselben codex unicus (<ref target="#E">E</ref>) auswertet wie die vorliegende Edition. Alle im app. crit. erwähnten Konjekturen Montfaucons wurden in seiner Ausgabe von 1707 nachgeprüft. Dabei stellte sich heraus, dass einige Konjekturen nur im Text des Nachdruckes erscheinen. Da der oder die Urheber dieser Konjekturen nicht mehr festgestellt werden können, sind sie im Apparat dem Herausgeber Migne zugeschrieben. Zu den Konjekturen von Henry Savile zu Ps 51 (Savilems und Savileeditio) siehe oben bei der Beschreibung der Handschrift <ref target="#Xp">Xp</ref>.</p>
+						<p>Der eusebianische Psalmenkommentar ist eine, wenn nicht die Hauptquelle für hexaplarische Varianten zum Psalter, weshalb Frederick Field das Werk für seine Sammlung von Bruchstücken der Hexapla ausführlich benutzt hat, und zwar in der Edition von Montfaucon.
+							<note>Vgl. bibl
+                        .</note> Bisweilen macht Field aufgrund seiner breiten Kenntnis der Hexapla-Überlieferung in seinen Anmerkungen Konjekturvorschläge zum Wortlaut der Hexapla-Fragmente bei Eusebius, die dankbar angenommen oder zumindest in den app. crit. aufgenommen wurden. </p>
+						<p>Alle Konjekturen, die ich selbst am Text vorgenommen habe, sind im Sinne der Eindeutigkeit mit meinem Namen bezeichnet. Viele der Texte konnte ich ganz oder auszugsweise in einer vorläufigen Fassung in der wöchentlichen Lektürerunde des Vorhabens „Die alexandrinsiche und antiochenische Bibelexegese in der Spätantike“ an der Berlin-Brandenburgischen Akademie der Wissenschaften mit kundigen Kollegen diskutieren. Dabei habe ich viel hilfreiches Feedback und auch immer wieder Vorschläge für Konjekturen bekommen, deren Urheber ich im Apparat vermerkt habe: Karin Metzler, Franz Xaver Risch, Annette von Stockhausen, Barbara Villani und Dietmar Wyrwa. Weiterhin sind auch Konjekturen aus den Gutachten von Hanns-Christof Brennecke, Jürgen Hammerstaedt und erneut Karin Metzler und Annette von Stockhausen vermerkt. </p>
+					</div>
+            </div>
          </div>
          <div type="edition" xml:lang="grc"
             n="urn:cts:pta:pta0003.pta020.pta-grcBibex2">
@@ -6563,527 +6777,1078 @@
             <div type="textpart" subtype="commentary" n="Ps_55">
                <head>
                   <title>
-                     <num>νε</num> Δικαίου εὐχαριστία ῥυσθέντος ἐξ ἐχθρῶν
-                  </title>
+                     <hi><num>νε</num> </hi>Δικαίου εὐχαριστία ῥυσθέντος ἐξ ἐχθρῶν </title>
                </head>
+               <div type="textpart" subtype="section" n="1">
+                  <quote type="lemma">
+                     <l>Εἰς τὸ τέλος, ὑπὲρ τοῦ λαοῦ τοῦ ἀπὸ τῶν ἁγίων μεμακρυμμένου· </l>
+                     <l>τῷ <persName type="biblical">Δαυὶδ</persName>εἰς στηλογραφίαν· </l>
+                     <l>ὁπότε ἐκράτησαν αὐτὸν οἱ ἀλλόφυλοι ἐν <placeName>Γέθ</placeName>. </l>
+                     <l>Ἐλέησόν με, ὁ θεός, ὅτι κατεπάτησέν με ἄνθρωπος, </l>
+                     <l>ὅλην τὴν ἡμέραν πολεμῶν ἔθλιψέν με. </l>
+                     <l>κατεπάτησάν με οἱ ἐχθροί μου ὅλην τὴν ἡμέραν, </l>
+                     <l>ὅτι πολλοὶ οἱ πολεμοῦντές με ἀπὸ ὕψους. </l>
+                     <l>ἡμέρας φοβηθήσομαι, ἐγὼ δὲ ἐλπιῶ ἐπὶ σέ.</l>
+                     <ref decls="#biblical" cRef="LXX:Ps:55:1-4"/>
+                  </quote>
+                  <p>
+                     <app type="witnesses">
+                        <rdg wit="#G #Dd #Wa #Ca #Cb">
+                           <witStart/></rdg></app><quote type="lemma">
+                              Λαὸς<app type="variants">
+                           <lem wit="#E"/>
+                           <rdg wit="#G #Wa #Ca #Cb" type="addition">ὁ</rdg>
+                        </app> ἀπὸ τῶν ἁγίων μεμακρυμμένος</quote>, ὅσον ἐπὶ <app type="variants">
+                        <lem wit="#G #Dd #Wa #Ca #Cb">τῇ ἱστορίᾳ</lem>
+                        <rdg wit="#E">τῆς ἱστορίας</rdg>
+                     </app>, ἔοικεν εἶναι ὁ σὺν τῷ <persName type="biblical">Δαυὶδ</persName> φεύγων ἀπὸ προσώπου <persName type="biblical">Σαούλ</persName>· <app type="variants">
+                        <lem wit="#E #G #Dd #Wa">ἦσαν δὲ τὸν ἀριθμὸν</lem>
+                        <rdg wit="#Ca #Cb" type="omission"/>
+                     </app>
+                     <seg type="allusion"><app type="variants">
+                        <lem>ἄνδρες ἑξακόσιοι</lem>
+                        <rdg wit="#Ca #Cb" type="transposition">ἑξακόσιοι ἄνδρες</rdg>
+                     </app><ref decls="#biblical"
+                        cRef="LXX:1Sa:30:9"/><note type="commentary" resp="#CB">An den anderen Stellen (I Reg 23,13. 27,2) spricht die LXX (t.r.) nur von vierhundert Männern (vgl. I Reg 22,2).</note></seg>, ὡς <app type="variants">
+                           <lem>ἡ γραφὴ μαρτυρεῖ τῶν <title>Βασιλειῶν</title></lem>
+                        <rdg wit="#Ca #Cb"> ἐν ταῖς βασιλείαις εὕρομεν </rdg>
+                     </app>. <app type="variants">
+                        <lem>ἐπεὶ</lem>
+                        <rdg wit="#Ca #Cb">ἐπειδὴ </rdg>
+                     </app> δὲ δὶς γέγονεν παρὰ τοῖς <quote type="lemma">ἐν 
+                        <placeName>Γὲθ</placeName> ἀλλοφύλοις</quote>, ἅπαξ <app type="variants">
+                        <lem></lem>
+                        <rdg wit="#Dd" type="addition">μὲν</rdg>
+                     </app>, ὅτε <app type="variants">
+                        <lem>μόνος</lem>
+                        <rdg wit="#Ca"> μόνων </rdg>
+                     </app> ἀποληφθεὶς εἴσω πυλῶν μανίαν <app type="variants">
+                        <lem>προσεποιήθη</lem>
+                        <rdg wit="#Ca #Cb"> προσεποιήσατο </rdg>
+                     </app>, ὅτε <app type="variants">
+                        <lem>καὶ</lem>
+                        <rdg wit="#G" type="omission"/>
+                     </app>
+                     <quote>ἐτυμπάνιζεν <app type="variants">
+                           <lem>ἐν ταῖς πύλαις τῆς πόλεως</lem>
+                           <rdg wit="#Wa" type="omission"/>
+                        </app>
+                     </quote>
+                     <app type="variants">
+                        <lem></lem>
+                        <rdg wit="#Dd" type="addition">ὅτε</rdg>
+                     </app> καὶ
+                     <quote>κατέρρει τὰ σίελα αὐτοῦ <app type="variants">
+                           <lem>ἐπὶ τὸν πώγωνα αὐτοῦ</lem>
+                           <rdg wit="#Wa #Ca #Cb" type="omission"/>
+                        </app>
+                        <ref decls="#biblical" cRef="LXX:1Sa:21:14"/>
+                     </quote>, ἄλλοτε δέ, <ref decls="#biblical" cRef="LXX:1Sa:27"/>ὅτε σὺν <app type="variants">
+                        <lem>ἀνδράσιν</lem>
+                        <rdg wit="#Ca #Cb"> τοῖς </rdg>
+                     </app> ἑξακοσίοις προσέφυγεν τῷ βασιλεῖ τῆς <placeName>Γὲθ</placeName>
+                     <app type="variants">
+                        <lem wit="#E #G #Dd #Ca #Cb">
+                     <app type="variants">
+                        <lem wit="#E #G #Dd">ἀφώρισέν</lem>
+                        <rdg wit="#Ca">ἀφορισθὲν </rdg>
+                        <rdg wit="#Cb"> ἀφωρίσθη </rdg>
+                     </app> τε αὐτῷ οἰκητήριον <app type="variants">
+                        <lem wit="#E #G #Dd #Ca">τὴν</lem>
+                        <rdg wit="#Cb"> ἡ </rdg>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E">
+                           <placeName>Σίκελα</placeName>, ταῦτ’</lem>
+                        <rdg wit="#G #Dd #Ca #Cb">σίκελατ </rdg>
+                     </app></lem>
+                        <rdg wit="#Wa" type="omission"/>
+                     </app> 
+                     <app type="variants">
+                        <lem wit="#E #G #Dd #Ca #Cb">ἔοικεν</lem>
+                        <rdg wit="#Wa">ἔοικεν δὲ </rdg>
+                     </app> ἡ προκειμένη <quote type="lemma">στηλογραφία</quote> εἰρῆσθαι <quote type="lemma">τῷ Δαυίδ</quote>, καθ’ ὃν καιρὸν ἅμα τοῖς ἑξακοσίοις τοῖς σὺν αὐτῷ φεύγουσιν ἐπεδήμει τοῖς <quote type="lemma">ἐν 
+                        <placeName>Γέθ</placeName>
+                     </quote>· <app type="variants">
+                        <lem wit="#E">ὑπεδέξαντό τε αὐτὸν καὶ κατέσχον παρ’ ἑαυτοῖς ὡς φίλον,</lem>
+                        <rdg wit="#G #Dd #Wa #Ca #Cb" type="omission"/>
+                     </app>
+                     <pb edRef="#E" n="28v"/> ὅτε καὶ τιμῆς ἀξιοῦται παρὰ τῷ βασιλεῖ <app type="variants">
+                        <lem wit="#G #Dd #Wa #Ca #Cb">τῆς</lem>
+                        <rdg wit="#E" type="omission"/>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E #G #Dd #Wa #Cb"/>
+                        <rdg wit="#Ca" type="addition">ἐν</rdg>
+                     </app>
+                     <placeName>Γέθ</placeName>. διὸ τὰ τῆς προγραφῆς <app type="variants">
+                        <lem>περιέχει</lem>
+                        <rdg wit="#Wa">ἔχει</rdg>
+                     </app>·
+                  <quote type="lemma">
+                     <app type="variants">
+                        <lem wit="#E">
+                           <l>εἰς τὸ τέλος, ὑπὲρ τοῦ λαοῦ τοῦ ἀπὸ τῶν ἁγίων μεμακρυμμένου,
+                           </l>
+                           <l>τῷ <persName type="biblical">Δαυὶδ</persName>
+                              <app type="variants">
+                                 <lem resp="#CB" type="conjecture">
+                                    <supplied>εἰς</supplied>
+                                 </lem>
+                                 <rdg wit="#E" type="omission"/>
+                              </app> στηλογραφίαν, </l>
+                           <l>
+                              <app type="variants">
+                                 <lem wit="#E">ὅτε</lem>
+                                 <witDetail wit="#E" resp="#CB">sic</witDetail>
+                              </app> ἐκράτησαν αὐτὸν οἱ ἀλλόφυλοι ἐν <placeName>Γέθ</placeName>.</l>
+                        </lem>
+                        <rdg wit="#Ca #Cb">εἰς τὸ τέλος, ὑπὲρ τοῦ λαοῦ καὶ τὰ ἑξῆς </rdg>
+                        <rdg wit="#G">εἰς τὸ τέλος, ὑπὲρ τοῦ λαοῦ τοῦ ἀπὸ τῶν ἁγίων μεμακρυμμένου, καὶ τὰ ἑξῆς</rdg>
+                        <rdg wit="#Dd #Wa">εἰς τὸ τέλος, ὑπὲρ τοῦ λαοῦ τοῦ ἀπὸ τῶν ἁγίων μεμακρυμμένου</rdg>
+                     </app></quote> <app type="witnesses">
+                     <rdg wit="#Dd">
+                        <witEnd/>
+                     </rdg>
+                     <rdg wit="#G">
+                        <lacunaStart/>
+                     </rdg>
+                  </app>Κατὰ δὲ τὸν <persName key="PTA_P00044">Ἀκύλαν</persName>
+                     <app type="variants">
+                        <lem>εἴρηται</lem>
+                        <rdg wit="#Wa"> καὶ Σύμμαχον ἐπινίκιον ἢ </rdg>
+                     </app>·
+                  <quote type="hexaplaric">
+                     <l>τῷ νικοποιῷ, ὑπὲρ <app type="variants">
+                           <lem>περιστερᾶς</lem>
+                           <rdg wit="#Wa">τῆς περιστερᾶς</rdg>
+                        </app> ἀλάλου,</l> 
+                        <l>
+                        <app type="variants">
+                           <lem>μακρυσμῶν</lem>
+                           <rdg wit="#Wa">μακρυσμοῦ</rdg>
+                        </app> τοῦ <persName type="biblical">Δαυὶδ</persName> ταπεινοῦ τελείου 
+                  </l>
+                  <l>ἐν τῷ κρατῆσαι <app type="variants">
+                           <lem>αὐτὸν</lem>
+                           <rdg wit="#Wa #Ca #Cb">αὐτοὺς</rdg>
+                           <note resp="#CB">Nobilius hat lt. Field αὐτοῦ</note>
+                        </app>
+                        <orgName>Φυλισταίους</orgName> ἐν <placeName>Γέθ</placeName></l>,<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote> 
+                     <app type="variants">
+                        <lem wit="#E #Ca #Cb">κατὰ δὲ <app type="variants">
+                              <lem wit="#E">τὸν</lem>
+                              <rdg wit="#Ca #Cb" type="omission"/>
+                           </app>
+                           <persName key="PTA_P00045">Σύμμαχον</persName>· 
+									 <quote type="hexaplaric">
+                              <l>
+                                 <app type="variants">
+                                    <lem wit="#E #Ca">ἐπινίκιον</lem>
+                                    <rdg wit="#Cb">ἐπινίκιος
+								</rdg>
+                                 </app> ὑπὲρ τῆς περιστερᾶς, 
+						</l>
+                              <l>
+							ὑπὲρ τοῦ <app type="variants">
+                                    <lem wit="#E">φύλου ἀπωσμένων τοῦ</lem>
+                                    <rdg wit="#Ca #Cb">
+									ἀλλοφύλου ἀπωσμένου τὸν
+								</rdg>
+                                    <note resp="#CB">vgl. dazu die ausführliche Diskussion der Stelle bei Field II 181 Ps 55,1 Σ, wobei folgende Varianten abgewogen werden: ... ὑπὲρ τοῦ φύλου ἀπωσμένου τοῦ Δαυΐδ ... [= Variante Montfaucon bzw. PG]; ...ὑπὸ τοῦ φύλου αὐτοῦ ἀπωσμένου τοῦ Δαυΐδ... [syr., von Field favorisiert]; ... ὑπὲρ τοῦ ἀλλοφύλου ἀπωσμένου τοῦ Δαυΐδ... [Nobil., vgl. CaCb]</note>
+                                 </app>
+                                 <persName type="biblical">Δαυίδ</persName>, τοῦ ταπεινόφρονος καὶ ἀμώμου, 
+						</l>
+                              <l>
+							ὅτε κατέσχον αὐτὸν οἱ <orgName>Φυλισταῖοι</orgName> ἐν <placeName>Γέθ</placeName>,
+						</l>
+                              <ref decls="#biblical"
+                                   cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                           </quote>
+                        </lem>
+                        <rdg wit="#Wa" type="omission"/>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E #Ca #Cb">ἡ δὲ <title>πέμπτη ἔκδοσις</title>
+                        </lem>
+                        <rdg wit="#Wa">κατὰ δὲ τὴν <num>ε</num> ἔκδοσιν </rdg>
+                     </app>· 
+                  <quote type="hexaplaric"><l>τῷ νικοποιῷ, ὑπὲρ τῆς περιστερᾶς <app type="variants">
+                           <lem wit="#E #Ca #Cb">τῆς</lem>
+                           <rdg wit="#Wa" type="omission"/>
+                        </app> μογγιλάλου, </l>
+                        <l><app type="variants">
+                           <lem wit="#E #Wa">κεκρυμμένων</lem>
+                           <rdg wit="#Ca #Cb">κεκρυμμένῳ</rdg>
+                        </app> τῷ Δαυίδ, εἰς στηλογραφίαν, </l>
+                        <l><app type="variants">
+                           <lem wit="#E">ὁπότε ἐκράτησαν αὐτὸν οἱ ἀλλόφυλοι ἐν Γέθ.</lem>
+                           <rdg wit="#Wa #Ca #Cb" type="omission"/>
+                        </app></l>
+                        <ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote>
+                  Καὶ <app type="variants">
+                        <lem wit="#E #Ca #Cb">ὁ</lem>
+                        <rdg wit="#Wa" type="omission"/>
+                     </app>
+                     <persName key="PTA_P00046">Θεοδοτίων</persName> δὲ <app type="variants">
+                        <lem>ἀντὶ τοῦ· <quote type="lemma">ὑπὲρ τοῦ λαοῦ 
+                              <app type="variants">
+                                 <lem resp="#Montfaucon">ἀπὸ</lem>
+                                 <rdg wit="#E">ὑπὲρ</rdg>
+                              </app> τῶν ἁγίων μεμακρυμμένου</quote>,</lem>
+                        <rdg wit="#Wa #Ca #Cb" type="omission"/>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E"><quote type="hexaplaric">ὑπὲρ τῆς περιστερᾶς<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                           </quote> ὁμοίως τοῖς λοιποῖς ἐξέδωκεν</lem>
+                        <rdg wit="#Wa"> ἐπὶ τῆς περιστερᾶς ὁμοίως τοῖς λοιποῖς ἐκδέδωκεν </rdg>
+                        <rdg wit="#Ca #Cb"> ὁμοίως τοῖς λοιποῖς ὡς ἐπὶ τῆς περιστερᾶς ἐξέδωκεν </rdg>
+                     </app>.
+                  </p>
+                  <p>Τάχα δέ <app type="variants">
+                        <lem wit="#E">που</lem>
+                        <rdg wit="#Wa #Ca #Cb" type="omission"/>
+                     </app> αἰνίττονται οἱ <quote type="hexaplaric">περιστερὰν ἄλαλον<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote> ἢ <quote type="hexaplaric">μογγιλάλον<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote> εἰρηκότες αὐτὸν τὸν <persName type="biblical">Δαυὶδ</persName> παρὰ τοῖς <quote type="lemma">ἀλλοφύλοις</quote> ὄντα καὶ μὴ δυνάμενον λαλεῖν συνήθως τὰς ἐν ἁγίῳ πνεύματι προφητείας <app type="variants">
+                        <lem wit="#E #Wa">μηδὲ σὺν παρρησίᾳ τοὺς ὕμνους προσφέρεσθαι</lem>
+                        <rdg wit="#Ca #Cb" type="omission"/>
+                     </app><app type="witnesses">
+                        <rdg wit="#Wa">
+                           <witEnd/>
+                        </rdg>
+                     </app>· διὸ <quote type="hexaplaric">μογγιλάλον περιστερὰν«<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote> ἢ <app type="variants">
+                        <lem wit="#E">καὶ</lem>
+                        <rdg wit="#Ca #Cb" type="omission"/>
+                     </app> <quote type="hexaplaric">ἄλαλον<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote> αὐτὸν ὠνόμαζον. καὶ ἐν τῷ <app type="variants">
+                        <lem wit="#E #Ca">πρὸ τούτου</lem>
+                        <rdg wit="#Cb"> προτέρῳ </rdg>
+                     </app> δὲ ψαλμῷ λέλεκτο· 
+                  <quote type="hexaplaric"><l>τίς δώσει μοι πτέρυγας ὡσεὶ περιστερᾶς,</l>
+                     <l>καὶ πετασθήσομαι ἢ καὶ <app type="variants">
+                           <lem wit="#E #Cb">ἑδρασθήσομαι</lem>
+                           <rdg wit="#Ca">ἑδρασθήμαι</rdg>
+                        </app>;</l>
+                        <l>πόρρω <app type="variants">
+                           <lem wit="#E #Ca">ἂν ἐποίησα</lem>
+                           <rdg wit="#Cb">γὰρ ἂν ποιήσας</rdg>
+                        </app> τὴν ἀναχώρησίν μου,</l>
+                        <l><pb edRef="#E" n="29r"/> ηὐλιζόμην ἂν ἐν τῇ ἐρήμῳ</l><ref decls="#biblical" cRef="Hexapla:Ps:54:7-8" corresp="Field II 178"/>
+                     </quote>, κατὰ τὸν <persName>Σύμμα<pb edRef="#PG" n="493" break="no"/>χον</persName>. ἐπεὶ τοίνυν τὸ πνεῦμα τὸ ἅγιον τὸ ἐν τῷ προφήτῃ ἐνεργοῦν, ὃ καὶ ἐν εἴδει <quote type="lemma">περιστερᾶς<ref decls="#biblical" cRef="NA:Lk:3:22"/>
+                     </quote> ἐπὶ τὸν σωτῆρα κατεληλυθέναι <app type="variants">
+                        <lem wit="#E">μαρτυρεῖται</lem>
+                        <rdg wit="#Ca #Cb"> λέγεται </rdg>
+                     </app>, τρυφερὸν ὂν καὶ ἄκακον ἠλαύνετο ὑπὸ τοῦ Σαοὺλ διωκομένου τοῦ Δαυὶδ ἐλαυνόμενόν τε οὐκ ἠμύνετο, ἀλλ’ ἐῴκει <quote type="hexaplaric">περιστερᾷ ἀλάλῳ <app type="variants">
+                           <lem wit="#E">μακρυνομένῃ</lem>
+                           <rdg wit="#Ca #Cb">μεμακρυμμένῃ </rdg>
+                           <witDetail wit="#Ca #Cb">vgl. LXX t.r.</witDetail>
+                        </app>
+                        <ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote> καὶ <quote type="hexaplaric">ἀπωθουμένῃ<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote> ὑπὸ τῶν διωκόντων, τούτου χάριν κατὰ τοὺς λοιποὺς ἑρμηνευτὰς <quote type="hexaplaric">ὑπὲρ τῆς περιστερᾶς<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote> εἴρηται.<app type="witnesses">
+                        <rdg wit="#G">
+                           <lacunaEnd/>
+                        </rdg>
+                     </app>
+                  </p>
+                  <p>Ἀντὶ δὲ τοῦ· <quote type="lemma">εἰς στηλογραφίαν</quote>, ὁ μὲν <persName key="PTA_P00044">Ἀκύλας</persName> <quote type="hexaplaric">ταπεινοῦ τελείου<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote>, ὁ δὲ <persName key="PTA_P00045">Σύμ­μαχος</persName> <quote type="hexaplaric">τοῦ ταπεινόφρονος καὶ ἀμώμου<ref decls="#biblical" cRef="Hexapla:Ps:55:1" corresp="Field II 181"/>
+                     </quote>
+                     <app type="variants">
+                        <lem wit="#G #Ca #Cb">ἡρμήνευσαν</lem>
+                        <rdg wit="#E"> ἡρμήνευσεν </rdg>
+                     </app> τὸν τρόπον δηλοῦντες, δι’ ὃν <app type="variants">
+                        <lem wit="#G #Ca #Cb">ὡσπερεὶ</lem>
+                        <rdg wit="#E"> ὥσπερ </rdg>
+                     </app> στήλης καὶ αἰωνίας μνήμης ἠξιοῦτο παρὰ τῷ θεῷ ἡ τοῦ προφήτου ἀρετή· τὸ γὰρ μέγιστον τοῦ <persName type="biblical">Δαυὶδ</persName> κατόρθωμα ἡ ταπεινότης ἦν <app type="variants">
+                        <lem wit="#E">καὶ ἡ ταπεινοφροσύνη</lem>
+                        <rdg wit="#G #Ca #Cb" type="omission"/>
+                     </app>, καθ’ ἣν τελείαν ἐπεδείκνυτο ἀρετήν, οὐδένα μῶμον ἐπαγομένη· διὸ τοὺς προκειμένους λόγους ὑπερβαλλούσης καὶ τελείας ταπεινοφροσύνης δείγματα <app type="variants">
+                        <lem wit="#E #G #Cb">περιέχοντας</lem>
+                        <rdg wit="#Ca"> περιέχοντος </rdg>
+                     </app> ἀνέπεμπεν τῷ θεῷ λέγων·<app type="witnesses">
+                        <rdg wit="#G"><witEnd/>
+                        </rdg>
+                     </app>
+                  <quote type="lemma">
+                     <l>ἐλέησόν <app type="variants">
+                           <lem wit="#E">με, ὁ θεός, ὅτι κατεπάτησέν με ἄνθρωπος</lem>
+                           <rdg wit="#Ca #Cb">με, καὶ τὰ ἑξῆς<witEnd/>
+                           </rdg>
+                        </app>, </l>
+                  </quote><app type="witnesses"><rdg wit="#Ca #Cb"><witEnd/></rdg></app> <app type="witnesses"><rdg wit="#G #Dd #Ca #Cb"><witStart/></rdg></app>ὡς
+                     <app type="variants">
+                        <lem wit="#E #G #Dd #Ca #Cb"></lem>
+                        <rdg wit="#Wa" type="addition">μὲν </rdg>
+                     </app> πρὸς τὴν λέξιν τὸν <persName type="biblical">Σαοὺλ</persName> <app type="variants">
+                        <lem wit="#E #G #Ca #Cb"/>
+                        <rdg wit="#Dd" type="addition" cause="dittography">τὸν Σαοὺλ </rdg>
+                        <witDetail target="ID4" wit="#Dd">ditt.</witDetail>
+                     </app> 
+                     <app type="variants">
+                        <lem wit="#E">σημαίνων</lem>
+                        <rdg wit="#G #Dd #Wa #Ca #Cb">σημαίνει </rdg>
+                     </app> ἐπαναβάντα αὐτῷ καὶ οὐ μίαν <app type="variants">
+                        <lem wit="#E #G #Dd #Ca #Cb"></lem>
+                        <rdg wit="#Wa" type="addition">μόνην </rdg>
+                     </app> ἡμέραν, ἀλλὰ <app type="variants">
+                        <lem wit="#E #G #Wa #Ca #Cb">καὶ</lem>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app> πολλὰς ἐπιθέμενον <app type="variants">
+                        <lem wit="#E #Dd">τῷ</lem>
+                        <rdg wit="#G #Wa #Ca #Cb" type="omission"/>
+                     </app> κατ’ αὐτοῦ<app type="witnesses">
+                        <rdg wit="#Wa"><witEnd/>
+                        </rdg>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E">πολέμῳ. διὸ ἐπιλέγει· 
+									 <quote type="lemma">
+                              <l>ὅλην τὴν ἡμέραν πολεμῶν ἔθλιψέν με.</l>
+                           </quote>
+                        </lem>
+                        <rdg wit="#G #Ca #Cb"> ἢ κατὰ τὸν Σύμμαχον πᾶσαν τὴν ἡμέραν </rdg>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E #G #Dd">Εἶτ’</lem>
+                        <rdg wit="#Ca #Cb">εἶτα </rdg>
+                     </app>, ἐπειδήπερ τῷ θείῳ πνεύματι συνεώρα οὐχ οὕτως τὸν <persName type="biblical">Σαοὺλ</persName> αἴτιον ὄντα τῆς <app type="variants">
+                        <lem wit="#E #G #Ca #Cb">τοσαύτης</lem>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app> κατ’ αὐτοῦ σπουδῆς 
+                     <pb edRef="#E" n="29v"/> ὅσον ἀφανεῖς τινας καὶ νοητοὺς ἐχθροὺς ἀοράτους, <app type="variants">
+                        <lem wit="#E #G #Ca #Cb">δηλαδὴ</lem>
+                        <rdg wit="#Dd"> δηλὸν ὅτι </rdg>
+                     </app> δυνάμεις <app type="variants">
+                        <lem wit="#E">καὶ πνεύματα πονηρὰ</lem>
+                        <rdg wit="#G #Dd #Ca #Cb" type="omission"/>
+                     </app> τὸν <persName type="biblical">Σαοὺλ</persName>
+                     <app type="variants">
+                        <lem wit="#E">ἐνεργοῦντα καὶ</lem>
+                        <rdg wit="#G #Dd #Ca #Cb" type="omission"/>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E">διεγείροντα</lem>
+                        <rdg wit="#G #Dd #Ca #Cb"> διεγείροντας </rdg>
+                     </app> ἐπὶ τὸν κατ’ αὐτοῦ πόλεμον,<app type="witnesses">
+                        <rdg wit="#G"><witEnd/>
+                        </rdg>
+                     </app> εἰκότως <app type="variants">
+                        <lem wit="#E #Ca #Cb">ἐπιλέγει· 
+									 <quote type="lemma">
+                              <l>κατεπάτησάν με οἱ ἐχθροί μου ὅλην τὴν ἡμέραν,</l>
+                           </quote>
+                        </lem>
+                        <rdg wit="#Dd"> τὸ κατεπάτησάν με οἱ ἐχθροί μου προσέθηκε</rdg>
+                     </app>
+                     <app type="witnesses">
+                        <rdg wit="#Dd">
+                           <witEnd/>
+                        </rdg>
+                     </app>
+						ἢ <app type="witnesses">
+                        <rdg wit="#G"><witStart/>
+                        </rdg>
+                     </app>κατὰ τὸν <persName key="PTA_P00045">Σύμμαχον</persName>· 
+                  <quote type="hexaplaric"><l>ἐπέτριβον οἱ θλίβοντές με κατὰ πᾶσαν ἡμέραν.</l><ref decls="#biblical" cRef="Hexapla:Ps:55:3" corresp="Field II 181"/>
+                     </quote></p>
+                  <p>Τίνες δὲ <quote type="lemma">οἱ ἐχθροὶ</quote>
+                     <app type="variants">
+                        <lem wit="#E #Ca">καὶ <quote type="hexaplaric">οἱ θλίβοντες<ref decls="#biblical" cRef="Hexapla:Ps:55:3" corresp="Field II 181"/>
+                           </quote> αὐτὸν</lem>
+                        <rdg wit="#G #Cb" type="transposition">οἱ θλίβοντες αὐτὸν καὶ</rdg>
+                     </app> οἱ <app type="variants">
+                        <lem wit="#E"></lem>
+                        <rdg wit="#G #Ca #Cb" type="addition"> εἰς </rdg>
+                     </app> τὸν Σαοὺλ ἐνεργοῦντες, <app type="variants">
+                        <lem wit="#E #G">διασαφεῖ ἑξῆς</lem>
+                        <rdg wit="#Ca #Cb" type="transposition"> ἑξῆς διασαφεῖ</rdg>
+                     </app><app type="witnesses">
+                        <rdg wit="#Ca #Cb">
+                           <witEnd/>
+                        </rdg>
+                     </app>
+                     λέγων·<app type="witnesses">
+                        <rdg wit="#G"><witEnd/>
+                        </rdg>
+                     </app>
+                  <quote type="lemma">
+                     <l>ὅτι πολλοὶ οἱ πολεμοῦντές με ἀπὸ ὕψους.</l>
+                  </quote></p>
+                  <p><app type="witnesses">
+                        <rdg wit="#G #Ca #Cb"><witStart/>
+                        </rdg>
+                     </app><app type="variants">
+                        <lem wit="#E #G #Cb">Οὐ γὰρ</lem>
+                        <rdg wit="#Ca">οὐκ </rdg>
+                     </app> ἠγνόει, ὡς οὐκ ἦν αὐτῷ <quote>ἡ πάλη πρὸς αἷμα καὶ σάρκα, ἀλλὰ πρὸς τὰς ἀρχάς,<app type="variants">
+                           <lem wit="#E #Ca #Cb"></lem>
+                           <rdg wit="#G" type="addition" cause="dittography">πρὸς τὰ ἀρχάς</rdg>
+                        </app>
+                        <app type="variants">
+                           <lem wit="#E #G">πρὸς τὰς ἐξουσίας, πρὸς τοὺς κοσμοκράτορας τοῦ σκότους τούτου, πρὸς τὰ πνευματικὰ τῆς πονηρίας</lem>
+                           <rdg wit="#Ca #Cb">καὶ τὰ ὅμοια </rdg>
+                        </app>
+                        <ref decls="#biblical" cRef="NA:Eph:6:12"/>
+                     </quote>, ὑφ’ ὧν <app type="variants">
+                        <lem wit="#E #Ca"></lem>
+                        <rdg wit="#G #Cb" type="addition">καὶ</rdg>
+                     </app> ὁ
+                     <persName type="biblical">Σαοὺλ</persName>
+                     <app type="variants">
+                        <lem wit="#E #G">ἀκονώμενος</lem>
+                        <rdg wit="#Ca #Cb"> διωκόμενος </rdg>
+                     </app> τὸν μηδὲν <app type="variants">
+                        <lem wit="#E #G">αὐτῷ λελυπηκότα πώποτε</lem>
+                        <rdg wit="#Ca #Cb" type="transposition"><app type="variants">
+                           <lem wit="#Ca">λελυπηκότα</lem>
+                           <rdg wit="#Cb">ἠδικηκότα </rdg>
+                        </app> πώποτε αὐτὸν </rdg>
+                     </app> μάτην ἤλαυνε καὶ ἐπολέμει.<app type="witnesses">
+                        <rdg wit="#G #Ca #Cb"><witEnd/>
+                        </rdg>
+                     </app> εἶθ’ ἑξῆς φησιν· 
+                  <quote type="lemma">
+                     <l>ἡμέρας φοβηθήσομαι, ἐγὼ δὲ ἐλπιῶ ἐπὶ σέ,</l>
+                  </quote>
+                     <app type="witnesses">
+                        <rdg wit="#Ca #Cb"><witStart/>
+                        </rdg>
+                     </app>ὃ δὴ <app type="variants">
+                        <lem wit="#E">διεσάφησεν ὁ <persName key="PTA_P00045">Σύμμαχος</persName> εἰπών</lem>
+                        <rdg wit="#Ca #Cb"> σαφέστερον ὁ Σύμμαχος ἡρμήνευσεν </rdg>
+                     </app>·
+                  <quote type="hexaplaric">ἐν ᾗ ἂν ἡμέρᾳ φοβηθῶ, σοὶ πέποιθα·<ref decls="#biblical" cRef="Hexapla:Ps:55:4" corresp="Field II 182"/>
+                     </quote> 
+                     <app type="witnesses">
+                        <rdg wit="#G"><witStart/>
+                        </rdg>
+                     </app>εἰ γὰρ καὶ τὰ μάλιστα δοκεῖ <quote type="lemma">ἄνθρωπός με καταπεπατηκέναι</quote> πολὺς γενόμενος κατ’ ἐμοῦ ὁ <persName type="biblical">Σαούλ</persName>, ἀλλ’ <quote type="lemma">οἱ ἐχθροί 
+                        <app type="variants">
+                           <lem wit="#E #G">μου</lem>
+                           <rdg wit="#Ca #Cb" type="omission"/>
+                        </app>
+                     </quote> καὶ <quote type="lemma">οἱ πολεμοῦντές με</quote> ἄνωθεν <quote type="lemma">ἀπὸ ὕψους</quote> τὰ ἑαυτῶν βέλη κατὰ τῆς ἐμῆς <app type="variants">
+                        <lem wit="#E #G #Ca">βάλλοντες ψυχῆς πλεῖστοι τυγχάνουσιν</lem>
+                        <rdg wit="#Cb">βάλλουσι ψυχῆς πλεῖστοι τυγχάνοντες </rdg>
+                     </app>. τούτων <app type="variants">
+                        <lem wit="#E #Ca #Cb">δὲ</lem>
+                        <rdg wit="#G" type="omission"/>
+                     </app> πάντων καταφρονεῖν μεμάθηκα διὰ <quote type="lemma">σὲ</quote> τὸν ἐμὸν πρόμαχον καὶ ὑπερασπιστήν· <quote type="hexaplaric">σοὶ <seg type="insertion">γὰρ</seg> πεποιθώς<ref decls="#biblical" cRef="Hexapla:Ps:55:4" corresp="Field II 182"/>
+                     </quote>, εἴποτε <app type="variants">
+                        <lem wit="#E #Ca #Cb">ἐμπέσοι</lem>
+                        <rdg wit="#G"> ἐμπέσει </rdg>
+                     </app> φόβος τῇ ἐμῇ ψυχῇ, διακρούομαι τοῦτον<app type="witnesses">
+                        <rdg wit="#G #Ca #Cb"><witEnd/>
+                        </rdg>
+                     </app> σοὶ τῷ ὑπερασπιστῇ μου θαρρῶν. <pb n="30r" edRef="#E"/>
+                  </p>
+               </div>
                <div type="textpart" subtype="section" n="2">
                   <quote type="lemma">
-                     <l>
-                        <pb edRef="#E" n="30r"/>
-                         . Ἐν τῷ κυρίῳ ἐπαινέσω τοὺς λόγους μου, </l>
-                     <l>ἐπὶ τῷ θεῷ ἤλπισα, οὐ φοβηθήσομαι, τί ποιήσει μοι σάρξ. </l>
+                     <l>Ἐν τῷ κυρίῳ ἐπαινέσω τοὺς λόγους μου, </l>
+                     <l>ἐπὶ τῷ θεῷ ἤλπισα, οὐ φοβηθήσομαι· τί ποιήσει μοι σάρξ; </l>
                      <l>ὅλην τὴν ἡμέραν τοὺς λόγους μου ἐβδελύττοντο, </l>
                      <l>κατ᾿ ἐμοῦ πάντες οἱ διαλογισμοὶ αὐτῶν εἰς κακόν.</l>
                      <ref decls="#biblical" cRef="LXX:Ps:55:5-6"/>
                   </quote>
-                  <p>Ἀντὶ τοῦ· </p>
+                  <p>
+                     <app type="witnesses">
+                        <rdg wit="#Wa #Ca #Cb"><witStart/>
+                        </rdg>
+                     </app>Ἀντὶ τοῦ· 
                   <quote type="lemma">
                      <l>ἐν τῷ θεῷ ἐπαινέσω τοὺς λόγους μου,</l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:5"/>
                   </quote>
-                  <p>ὁ μὲν <persName key="PTA_P00045">Σύμμαχος</persName>· </p>
-                  <l>
-                     <quote type="hexaplaric">διὰ τοῦ θεοῦ ὑμνήσω τὸν λόγον
-                           αὐτοῦ,<ref decls="#biblical" cRef="Hexapla:Ps:55:5"
-                           corresp="Field II 182"/>
-                        <note type="commentary">Σ</note>
+                  ὁ μὲν <persName key="PTA_P00045">Σύμμαχος</persName>
+                  <quote type="hexaplaric">διὰ <app type="variants">
+                           <lem wit="#E #Wa">τοῦ θεοῦ</lem>
+                           <rdg wit="#Ca #Cb">τὸν θεὸν</rdg>
+                        </app> ὑμνήσω τὸν λόγον αὐτοῦ,<ref decls="#biblical" cRef="Hexapla:Ps:55:5" corresp="Field II 182"/>
+                     </quote> ὁ δὲ <persName key="PTA_P00044">Ἀκύλας</persName> 
+                     <quote type="hexaplaric">ἐν τῷ θεῷ ὑμνήσω <app type="variants">
+                           <lem wit="#Wa #Ca #Cb">τὰ</lem>
+                           <rdg wit="#E" type="omission"/>
+                        </app> ῥήματα αὐτοῦ,<ref decls="#biblical" cRef="Hexapla:Ps:55:5" corresp="Field II 182"/>
                      </quote>
-                  </l>
-                  <p>ὁ δὲ <persName key="PTA_P00044">Ἀκύλας</persName>· </p>
-                  <l>
-                     <quote type="hexaplaric">ἐν τῷ θεῷ ὑμνήσω τὰ ῥήματα
-                           αὐτοῦ,<ref decls="#biblical" cRef="Hexapla:Ps:55:5"
-                           corresp="Field II 182"/>
-                        <note type="commentary">Ἀ</note>
-                     </quote>
-                  </l>
-                  <p>καὶ ἡ <title><num>ε</num> ἔκδοσις</title>· </p>
-                  <l>
-                     <quote type="hexaplaric">ἐν τῷ θεῷ ἐπαινέσω τὸν λόγον
-                           μου,<ref decls="#biblical" cRef="Hexapla:Ps:55:5"
-                           corresp="Field II 182"/>
-                        <note type="commentary"><num>ε</num></note>
-                     </quote>
-                  </l>
-                  <p>ἐκδεδώκασιν. εἴ ποτε, φησί, φόβος ἐκ τῆς τῶν πολεμούντων με
-                     ταραχῆς ἐνέπιπτέν μοι, διεκρουόμην αὐτὸν <quote
-                        type="lemma">ἐλπίζων ἐπὶ σέ<ref decls="#biblical"
-                           cRef="LXX:Ps:55:4"/>
-                     </quote>· καὶ ἀντὶ ἐπῳδῆς καὶ φυλακτηρίων
-                     <pb edRef="#PG" n="23,496"/>
-                      ὕμνους διεξῄειν· <quote type="hexaplaric">ὑμνῶν</quote>
-                     γὰρ <quote type="hexaplaric">τὸν λόγον<ref
-                           decls="#biblical" cRef="Hexapla:Ps:55:5"
-                           corresp="Field II 182"/>
-                        <note type="commentary">Ἀ Σ</note>
-                     </quote> σου ἐβοηθούμην ὡς μηδένα τῶν διωκόντων
-                     ἐπιστρέφεσθαι. </p>
-                  <p>Οὕτως <quote type="lemma">ἐπὶ τῷ θεῷ ἐλπίζων</quote> καὶ
-                     τοὺς λόγους αὐτοῦ φέρων ἐν τῷ στόματί μου πάσης τῆς ἐξ
-                     ἀνθρώπων ἐπιβουλῆς κατεφρόνουν <quote type="lemma">οὐ
-                        φοβούμενος, τί ποιήσει μοι σάρξ·</quote> τί γὰρ ἂν καὶ
-                     δύναιτο <quote>σὰρξ καὶ αἷμα<ref decls="#biblical"
-                           cRef="NA:1Cor:15:50"/>
-                     </quote> πρὸς θεὸν βοηθόν; <quote>εἰ γὰρ ὁ θεὸς ὑπὲρ ἡμῶν,
-                        τίς καθ’ ἡμῶν;<ref decls="#biblical" cRef="NA:Rom:8:31"
-                        />
-                     </quote> φησὶν ὁ ἀπόστολος. <quote type="lemma"
-                        >σὰρξ</quote> δὲ ἦν ὁ Σαοὺλ <quote>τὰ τῆς σαρκὸς
-                           φρονῶν<ref decls="#biblical" cRef="NA:Rom:8:5"/>
-                     </quote>· ὃ δὴ παρίστησιν ὁ ἀπόστολος γράφων <orgName
-                        instant="false" full="yes">Κορινθίοις</orgName>·
-                        <quote>ὅπου γὰρ ἐν ὑμῖν ζῆλος καὶ ἔρις, οὐχὶ σάρκινοί
-                        ἐστε καὶ κατὰ ἄνθρωπον περιπατεῖτε;<ref
-                           decls="#biblical" cRef="NA:1Cor:3:3"/>
-                     </quote> ὁ δὴ καὶ τὸν <persName type="biblical"
-                        >Σαοὺλ</persName> ζήλου πεπληρωμένον καὶ ἔριδος καὶ διὰ
-                     ταῦτα τὸν <persName type="biblical">Δαυὶδ</persName>
-                     ἐλαύνοντα <quote type="lemma">σάρκα</quote> ὠνόμασεν εἰπών·
-                        <quote type="lemma">οὐ φοβηθήσομαι, τί ποιήσει μοι
-                        σάρξ;</quote> εἶτά φησιν· </p>
+                     <app type="variants">
+                        <lem wit="#E #Ca #Cb">καὶ ἡ <title><num>ε</num> ἔκδοσις</title> <quote type="hexaplaric">ἐν τῷ θεῷ ἐπαινέσω τὸν λόγον μου,<ref decls="#biblical" cRef="Hexapla:Ps:55:5" corresp="Field II 182"/>
+                              </quote>	ἐκδεδώκασιν.</lem>
+                        <rdg wit="#Wa" type="omission"/>
+                     </app>
+                     <app type="witnesses">
+                        <rdg wit="#G">
+                           <witStart/>
+                        </rdg>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E #G #Wa #Cb">εἴ ποτε,
+									<app type="variants">
+                              <lem wit="#E #G #Wa"/>
+                              <rdg wit="#Cb" type="addition">δὲ</rdg>
+                           </app> φησί, φόβος ἐκ τῆς τῶν πολεμούντων με ταραχῆς ἐνέπιπτέν μοι, <app xml:id="v_w936_1" next="#v_w936_2" type="variants">
+                              <lem wit="#E #G #Cb">διεκρουόμην αὐτὸν <quote type="lemma">ἐλπίζων ἐπὶ σέ<ref decls="#biblical" cRef="LXX:Ps:55:4"/>
+                                 </quote>·</lem>
+                              <rdg wit="#Wa" type="omission"/>
+                           </app>
+                        </lem>
+                        <rdg wit="#Ca" type="omission"/>
+                     </app>
+                     <app xml:id="v_w936_2" prev="#v_w936_1" type="variants">
+                        <lem wit="#E #G #Ca #Cb">καὶ <app type="variants">
+                              <lem wit="#E #G #Cb">ἀντὶ</lem>
+                              <rdg wit="#Ca"> ἀντ’ </rdg>
+                           </app> ἐπῳδῆς καὶ φυλακτηρίων 
+                           <pb edRef="#PG" n="496"/> ὕμνους διεξῄειν· <quote type="hexaplaric">ὑμνῶν <seg type="insertion">γὰρ</seg> τὸν λόγον<ref decls="#biblical" cRef="Hexapla:Ps:55:5" corresp="Field II 182"/>
+                           </quote> σου ἐβοηθούμην <app type="variants">
+                              <lem wit="#E #G">ὡς</lem>
+                              <rdg wit="#Ca #Cb"> ὥστε </rdg>
+                           </app> μηδένα τῶν διωκόντων ἐπιστρέφεσθαι. 
+									Οὕτως</lem>
+                        <rdg wit="#Wa" type="omission"/>
+                     </app>
+                     <quote type="lemma">ἐπὶ τῷ θεῷ ἐλπίζων</quote> καὶ τοὺς λόγους αὐτοῦ φέρων ἐν τῷ στόματί μου πάσης τῆς ἐξ ἀνθρώπων ἐπιβουλῆς κατεφρόνουν <quote type="lemma">οὐ φοβούμενος, τί ποιήσει μοι σάρξ·</quote>
+                     <app type="variants">
+                        <lem wit="#E #G #Wa #Cb">τί</lem>
+                        <rdg wit="#Ca"> τίς </rdg>
+                     </app> γὰρ ἂν καὶ <app type="variants">
+                        <lem wit="#E #Wa #Cb">δύναιτο</lem>
+                        <rdg wit="#G #Ca"> δύναται </rdg>
+                     </app>
+                     <quote>σὰρξ καὶ αἷμα<ref decls="#biblical" cRef="NA:1Cor:15:50"/>
+                     </quote> πρὸς θεὸν βοηθόν;<app type="witnesses">
+                        <rdg wit="#G"><witEnd/>
+                        </rdg>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E">
+                           <quote>εἰ γὰρ ὁ θεὸς ὑπὲρ ἡμῶν, τίς καθ’ ἡμῶν;<ref decls="#biblical" cRef="NA:Rom:8:31"/>
+                           </quote> φησὶν ὁ ἀπόστολος.</lem>
+                        <rdg wit="#Wa #Ca #Cb" type="omission"/>
+                     </app>
+                     <app type="witnesses">
+                        <rdg wit="#Dd">
+                           <witStart/>
+                        </rdg>
+                     </app>
+                     <quote type="lemma">σὰρξ</quote> 
+                     <app type="variants">
+                        <lem wit="#E #Wa #Ca #Cb">δὲ</lem>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app> ἦν ὁ Σαοὺλ <quote>τὰ <app type="variants">
+                           <lem wit="#E #Wa #Ca #Cb">τῆς σαρκὸς</lem>
+                           <rdg wit="#Dd">σαρκικὰ</rdg>
+                        </app>
+                        φρονῶν<ref decls="#biblical" cRef="NA:Rom:8:5"/></quote>·<app type="witnesses">
+                        <rdg wit="#Wa"><witEnd/>
+                        </rdg>
+                     </app> ὃ δὴ παρίστησιν ὁ ἀπόστολος γράφων 
+                     <orgName><app type="variants">
+                        <lem wit="#E">Κορινθίοις</lem>
+                        <rdg wit="#Dd #Ca #Cb" type="omission"/>
+                     </app></orgName>· <quote>ὅπου γὰρ ἐν ὑμῖν ζῆλος καὶ <app type="variants">
+                           <lem wit="#Dd #Ca #Cb">ἔρις</lem>
+                           <rdg wit="#E">ἔρεις</rdg>
+                        </app>, οὐχὶ <app type="variants">
+                           <lem wit="#E #Ca #Cb">σάρκινοί</lem>
+                           <rdg wit="#Dd">σαρκικοὶ</rdg>
+                        </app>
+                        <app type="variants">
+                           <lem wit="#E #Dd #Cb">ἐστε</lem>
+                           <rdg wit="#Ca">ἔσται</rdg>
+                        </app> καὶ κατὰ ἄνθρωπον περιπατεῖτε;
+                        <ref decls="#biblical" cRef="NA:1Cor:3:3"/>
+                     </quote><app type="witnesses">
+                        <rdg wit="#Dd #Ca #Cb"><witEnd/>
+                        </rdg>
+                     </app> ὁ δὴ καὶ τὸν <persName type="biblical">Σαοὺλ</persName> ζήλου <app type="variants">
+                        <lem resp="#Montfaucon" type="conjecture">πεπληρωμένον</lem>
+                        <rdg wit="#E"> πεπληρωμένου </rdg>
+                     </app> καὶ ἔριδος καὶ διὰ ταῦτα τὸν <persName type="biblical">Δαυὶδ</persName> ἐλαύνοντα <quote type="lemma">σάρκα</quote> ὠνόμασεν εἰπών· <quote type="lemma">οὐ φοβηθήσομαι· τί ποιήσει μοι σάρξ;</quote> εἶτά φησιν· 
                   <quote type="lemma">
                      <l>ὅλην τὴν ἡμέραν τοὺς λόγους μου ἐβδελύσσοντο, </l>
-                     <l>κατ’ ἐμοῦ πάντες οἱ διαλογισμοὶ αὐτῶν εἰς κακόν,
-                        <pb edRef="#E" n="30v"/>
-                     </l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:6"/>
+                     <l>κατ’ ἐμοῦ πάντες οἱ διαλογισμοὶ αὐτῶν εἰς κακόν,</l>
                   </quote>
-                  <p>ὃ δὴ σαφέστερον ἡρμήνευσεν ὁ <persName key="PTA_P00045"
-                        >Σύμμαχος</persName> εἰπών· </p>
-                  <l>
-                     <quote type="hexaplaric">διὰ πάσης ἡμέρας λόγους περὶ ἐμοῦ
-                        ἐφρόντιζον, </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">κατ’ ἐμοῦ πᾶς διαλογισμὸς αὐτῶν
-                        εἰς κακόν·<ref decls="#biblical" cRef="Hexapla:Ps:55:6"
-                           corresp="Field II 182"/>
-                        <note type="commentary">Σ</note>
-                     </quote>
-                  </l>
-                  <p>ὡς γὰρ μηδὲν ἔχοντες ἕτερον πράττειν μηδὲ περὶ ἑτέρων
-                     λόγους κινεῖν τὴν πᾶσαν ἑαυτῶν σχολὴν τοῖς περὶ ἐμοῦ λόγοις
-                     καὶ τοῖς κατ’ ἐμοῦ λογισμοῖς ἀνετίθεσαν οὐδὲν ἀγαθὸν περὶ
-                     ἐμοῦ βουλευόμενοι, ἀλλ’ εἰς κακὸν καὶ ἐπὶ κακῷ τὴν ἑαυτῶν
-                     ἀναλίσκοντες σπουδήν. </p>
+                     <app type="witnesses">
+                        <rdg wit="#Ca #Cb"><witStart/>
+                        </rdg>
+                     </app>
+                     <pb edRef="#E" n="30v"/>ὃ δὴ σαφέστερον ἡρμήνευσεν ὁ <persName key="PTA_P00045">Σύμμαχος</persName> εἰπών· 
+                     <app type="witnesses">
+                        <rdg wit="#G"><witStart/>
+                        </rdg>
+                     </app>
+                     <quote type="hexaplaric"><l>διὰ πάσης ἡμέρας λόγους περὶ ἐμοῦ ἐφρόντιζον, </l>
+                     <l>κατ’ ἐμοῦ πᾶς διαλογισμὸς αὐτῶν εἰς κακόν·</l><ref decls="#biblical" cRef="Hexapla:Ps:55:6" corresp="Field II 182"/>
+                     </quote></p>
+                  <p>ὡς γὰρ μηδὲν ἔχοντες ἕτερον πράττειν <app type="variants">
+                        <lem wit="#E #G">μηδὲ</lem>
+                        <rdg wit="#Ca #Cb"> μήτε </rdg>
+                     </app> περὶ ἑτέρων λόγους κινεῖν τὴν πᾶσαν <app type="variants">
+                        <lem wit="#E">ἑαυτῶν</lem>
+                        <rdg wit="#G #Ca #Cb"> αὐτῶν </rdg>
+                     </app> σχολὴν τοῖς περὶ ἐμοῦ λόγοις καὶ τοῖς <app type="variants">
+                        <lem wit="#E #G #Cb">κατ’</lem>
+                        <rdg wit="#Ca"> μετ’ </rdg>
+                     </app> ἐμοῦ λογισμοῖς ἀνετίθεσαν οὐδὲν ἀγαθὸν περὶ ἐμοῦ βουλευόμενοι, ἀλλ’ εἰς κακὸν καὶ ἐπὶ κακῷ τὴν ἑαυτῶν ἀναλίσκοντες σπουδήν.<app type="witnesses">
+                        <rdg wit="#G #Ca #Cb"><witEnd/>
+                        </rdg>
+                     </app>
+                  </p>
                </div>
                <div type="textpart" subtype="section" n="3">
                   <quote type="lemma">
-                     <l>. Παροικήσουσι καὶ κατακρύψουσιν· </l>
+                     <l>Παροικήσουσι καὶ κατακρύψουσιν· </l>
                      <l>αὐτοὶ τὴν πτέρναν μου φυλάξουσιν· </l>
                      <l>καθάπερ ὑπέμειναν τὴν ψυχήν μου. </l>
                      <l>ὑπὲρ τοῦ μηδενὸς σώσεις αὐτούς, </l>
                      <l>ἐν ὀργῇ λαοὺς κατάξεις, ὁ θεός.</l>
                      <ref decls="#biblical" cRef="LXX:Ps:55:7-8"/>
                   </quote>
-                  <p>Καὶ ταῦτα ἀσαφῶς εἰρημένα παρὰ τοῖς Ἑβδομήκοντα λευκότερον
-                     διηρμήνευσεν ὁ <persName key="PTA_P00045"
-                        >Σύμμαχος</persName> εἰπών· </p>
-                  <l>
-                     <quote type="hexaplaric">συνήγοντο λάθρα </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">καὶ τὰ ἴχνη μου παρετήρουν
+                  <p>Καὶ ταῦτα ἀσαφῶς εἰρημένα παρὰ τοῖς Ἑβδομήκοντα λευκότερον διηρμήνευσεν ὁ <persName key="PTA_P00045">Σύμμαχος</persName> εἰπών· 
+                     <quote type="hexaplaric"><l>συνήγοντο λάθρα </l>
+                        <l>καὶ τὰ ἴχνη μου παρετήρουν </l>
+                        <l>προσδοκῶντες τὴν ψυχήν μου.</l> 
+                        <l>διὰ τὴν ἀδικίαν ῥῦσαι ἀπ’ αὐτῶν,</l> 
+                        <l>ἐν ὀργῇ λαοὺς κατάγαγε, ὁ θεός.</l><ref decls="#biblical" cRef="Hexapla:Ps:55:7–8" corresp="Field II 182"/>
                      </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">προσδοκῶντες τὴν ψυχήν μου.
-                     </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">διὰ τὴν ἀδικίαν ῥῦσαι ἀπ’ αὐτῶν,
-                     </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">ἐν ὀργῇ λαοὺς κατάγαγε, ὁ
-                           θεός.<ref decls="#biblical" cRef="Hexapla:Ps:55:7-8"
-                           corresp="Field II 182"/>
-                        <note type="commentary">Σ</note>
-                     </quote>
-                  </l>
-                  <p>Οὕτως γάρ, φησί, διὰ πάσης ἡμέρας ἐμοὶ ἐσχόλαζον τοὺς περὶ
-                     ἐμοῦ λόγους κινοῦντες, καὶ πᾶς διαλογισμὸς αὐτῶν κατ’ ἐμοῦ
-                     ἐγίγνετο ὡς σπουδάζειν συνάγεσθαι αὐτοὺς ὁμοῦ καὶ λαθραίας
-                     ποιεῖσθαι τὰς κατ᾿ ἐμοῦ συσκευάς καὶ μὴ μέχρι τούτου χωρεῖν
-                     ἀλλὰ καὶ περιεργάζεσθαί μου τὴν <quote type="lemma"
-                        >πτέρναν</quote>, τουτέστι τὴν τοῦ βίου πορείαν, εἴ πως
-                     σκελίσαντες δυνηθεῖεν καταβαλεῖν με· <quote
-                        type="hexaplaric">καὶ τὰ ἴχνη</quote> δέ <quote
-                        type="hexaplaric">μου παρετήρουν<ref decls="#biblical"
-                           cRef="Hexapla:Ps:55:7" corresp="Field II 182"/>
-                        <note type="commentary">Σ</note>
-                     </quote>, ὅποι ἂν βαδίζοιμι, καὶ ἵν’ ὅπως ἐπιλάβοιντό μου. </p>
-                  <p>Ταῦτα μὲν οὖν
-                     <pb edRef="#E" n="31r"/>
-                      οἱ μάτην διώκοντες κατ’ ἐμοῦ ἔπραττον· σὺ δέ, κύριε, ἡ ἐμὴ
-                     ἐλπίς, ἐμὲ μὲν τῆς ἀδίκου αὐτῶν συσκευῆς ῥῦσαι, αὐτοὺς δὲ
-                     μετελθὼν τῇ σεαυτοῦ ὀργῇ κατάβαλε τῆς μεγαλαυχίας καὶ τῆς
-                     ὑψηλοφροσύνης. τοῦτο γὰρ αὐτοῖς συνοίσει· ὑψούμενοι γὰρ καὶ
-                     ἐπαιρόμενοι ἐπ’ ὀλέθρῳ τῷ ἑαυτῶν ταῦτ’ ἔπραττον· <quote>ὁ
-                        γὰρ θεὸς ὑπερηφάνοις ἀντιτάσσεται, ταπεινοῖς δὲ δίδωσι
-                           χάριν<ref decls="#biblical" cRef="NA:Jak:4:6"/>
-                        <ref decls="#biblical" cRef="NA:1P:5:5"/>
-                        <ref decls="#biblical" cRef="LXX:Prov:3:34"/>
-                     </quote>. διὸ ἱκετεύω· πάντας τοὺς ἐπανισταμένους μοι
-                        <quote type="lemma">κατάγαγε</quote>, ἢ κατὰ τὸν
-                        <persName key="PTA_P00044">Ἀκύλαν</persName>· <quote
-                        type="hexaplaric">καταβίβασον<ref decls="#biblical"
-                           cRef="Hexapla:Ps:55:8" corresp="Field II 181"/>
-                        <note type="commentary">Ἀ</note>
-                     </quote>, ὡς ἂν μέτριον φρόνημα λαβόντες καὶ ταπεινὰ
-                     φρονοῦντες τὰ μεγάλα ὠφεληθεῖεν. </p>
+                     <app type="witnesses">
+                        <rdg wit="#G"><witStart/>
+                        </rdg>
+                     </app>Οὕτως γάρ, φησί, διὰ πάσης ἡμέρας ἐμοὶ ἐσχόλαζον τοὺς περὶ ἐμοῦ λόγους κι­νοῦντες, καὶ πᾶς διαλογισμὸς αὐτῶν κατ’ ἐμοῦ ἐγίγνετο ὡς σπουδάζειν συνάγεσθαι αὐτοὺς ὁμοῦ καὶ <app type="variants">
+                        <lem wit="#E">λαθραίας</lem>
+                        <rdg wit="#G"> λαθραίως </rdg>
+                     </app> ποιεῖσθαι τὰς κατ᾿ ἐμοῦ συσκευάς καὶ μὴ μέχρι τούτου χωρεῖν, ἀλλὰ καὶ περιεργάζεσθαί μου τὴν <quote type="lemma">πτέρναν</quote>, τουτέστι <app type="variants">
+                        <lem wit="#E">τὴν</lem>
+                        <rdg wit="#G" type="omission"/>
+                     </app> τοῦ βίου πορείαν, εἴ πως σκελίσαντες δυνηθεῖεν καταβαλεῖν με· <quote type="hexaplaric">καὶ τὰ ἴχνη <seg type="insertion">δέ <app type="variants">
+                        <lem wit="#E">μου</lem>
+                        <rdg wit="#G"> μοι
+								</rdg>
+                     </app></seg> παρετήρουν<ref decls="#biblical" cRef="Hexapla:Ps:55:7" corresp="Field II 182"/>
+                     </quote>, <app type="variants">
+                        <lem wit="#E">ὅποι ἂν</lem>
+                        <rdg wit="#G"> ὁποῖα </rdg>
+                     </app> βαδίζοιμι, <app type="variants">
+                        <lem wit="#E">καὶ ἵν’ </lem>
+                        <rdg wit="#G" type="omission"/>
+                     </app> ὅπως ἐπιλάβοιντό μου. </p>
+                  <p>
+                     <app type="variants">
+                        <lem>Ταῦτα μὲν οὖν <pb n="31r" edRef="#E"/> οἱ μάτην διώκοντες κατ’ ἐμοῦ ἔπραττον·</lem>
+                        <rdg wit="#G" type="omission"/>
+                     </app> σὺ δέ, κύριε, ἡ ἐμὴ ἐλπίς, ἐμὲ μὲν τῆς ἀδίκου αὐτῶν συσκευῆς ῥῦσαι, αὐτοὺς δὲ μετελθὼν τῇ σεαυτοῦ ὀργῇ κατάβαλε τῆς μεγαλαυχίας<app type="witnesses">
+                        <rdg wit="#G"><witEnd/>
+                        </rdg>
+                     </app> καὶ τῆς ὑψηλοφροσύνης. τοῦτο γὰρ αὐτοῖς συν­οίσει· ὑψούμενοι γὰρ καὶ ἐπαιρόμενοι ἐπ’ ὀλέθρῳ τῷ ἑαυτῶν ταῦτ’ ἔπραττον· <quote>ὁ γὰρ θεὸς ὑπερηφάνοις ἀντιτάσσεται, ταπεινοῖς δὲ δίδωσι χάριν<ref decls="#biblical" cRef="LXX:Prov:3:34"/><ref decls="#biblical" cRef="NA:Jak:4:6"/><ref decls="#biblical" cRef="NA:1P:5:5"/>
+                     </quote>. διὸ ἱκετεύω· πάντας τοὺς ἐπανισταμένους μοι <quote type="lemma">κατάγαγε</quote>, ἢ κατὰ τὸν <persName key="PTA_P00044">Ἀκύλαν</persName> <quote type="hexaplaric">καταβίβασον<ref decls="#biblical" cRef="Hexapla:Ps:55:8" corresp="Field II 181"/>
+                     </quote>, ὡς ἂν μέτριον φρόνημα λαβόντες καὶ ταπεινὰ φρονοῦντες τὰ μεγάλα ὠφεληθεῖεν. </p>
                </div>
                <div type="textpart" subtype="section" n="4">
                   <quote type="lemma">
-                     <l>. Τὴν ζωήν μου ἐξήγγειλά σοι, </l>
+                     <l>Τὴν ζωήν μου ἐξήγγειλά σοι, </l>
                      <l>ἔθου τὰ δάκρυά μου ἐνώπιόν σου </l>
                      <l>ὡς καὶ ἐν τῇ ἐπαγγελίᾳ σου. </l>
                      <l>ἐπιστρέψουσιν οἱ ἐχθροί μου εἰς τὰ ὀπίσω, </l>
                      <l>ἐν ᾗ ἂν ἡμέρᾳ ἐπικαλέσωμαί σε.</l>
                      <ref decls="#biblical" cRef="LXX:Ps:55:9-10"/>
                   </quote>
-                  <p>Καὶ ταῦτα ὁ <persName key="PTA_P00045">Σύμμαχος</persName>
-                     <pb edRef="#PG" n="23,497"/>
-                      σαφέστερον ἡρμήνευσεν, οὕτως εἰπών· </p>
-                  <l>
-                     <quote type="hexaplaric">τὰ ἔνδον μου ἐξηρίθμησας σύ,
-                     </quote>
+                  <p>Καὶ ταῦτα <app type="witnesses">
+                        <rdg wit="#Dd"><witStart/>
+                        </rdg>
+                     </app>ὁ 
+                     <persName key="PTA_P00045">Σύμμαχος</persName>
+                     <pb edRef="#PG" n="497"/>
+                     <app type="variants">
+                        <lem wit="#E">σαφέστερον ἡρμήνευσεν,</lem>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app> οὕτως <app type="variants">
+                        <lem wit="#E">εἰπών·</lem>
+                        <rdg wit="#Dd"> εἶπεν </rdg>
+                     </app>
+                  <quote type="hexaplaric">
+                     <l><app type="variants">
+                        <lem wit="#E">τὰ ἔνδον μου ἐξηρίθμησας σύ,
+                        </lem>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app>
+                  </l>
+                  <l>ἔθου <app type="variants">
+                           <lem wit="#E">τὰ δάκρυά</lem>
+                           <rdg wit="#Dd">τὸ δάκρυόν</rdg>
+                        </app> μου <app type="variants">
+                           <lem wit="#E">ἐνώπιόν</lem>
+                           <rdg wit="#Dd">ἔνδον</rdg>
+                        </app> σου· 
                   </l>
                   <l>
-                     <quote type="hexaplaric">ἔθου τὰ δάκρυά μου ἐνώπιόν σου·
-                     </quote>
+                        <app type="witnesses">
+                           <rdg wit="#Dd">
+                              <lacunaStart/>
+                           </rdg>
+                        </app>μὴ οὐχὶ ὅταν ἐξαριθμῇς,
                   </l>
-                  <l>
-                     <quote type="hexaplaric">μὴ οὐχὶ ὅταν ἐξαριθμῇς,</quote>
+                  <l>τότε ἀποστραφήσονται οἱ ἐχθροί μου ὀπίσω,
                   </l>
-                  <l>
-                     <quote type="hexaplaric">τότε ἀποστραφήσονται οἱ ἐχθροί μου
-                        ὀπίσω, </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">ᾗ ἂν ἡμέρᾳ ἐπικαλέσωμαί σε.<ref
-                           decls="#biblical" cRef="Hexapla:Ps:55:9-10"
-                           corresp="Field II 182"/>
-                        <note type="commentary">Σ</note>
-                     </quote>
-                  </l>
+                  <l>ᾗ ἂν ἡμέρᾳ ἐπικαλέσωμαί σε;
+                  </l><ref decls="#biblical" cRef="Hexapla:Ps:55:9-10" corresp="Field II 182-183"/></quote></p>
                   <p>
-                     <quote type="lemma">Οἱ</quote> μὲν <quote type="lemma"
-                        >ἐχθροί μου<ref decls="#biblical" cRef="LXX:Ps:55:3"/>
-                     </quote>, φησίν, διὰ πάσης ἡμέρας λόγους περὶ ἐμοῦ
-                     ἀνεκίνουν, καὶ <quote type="lemma">κατ’ ἐμοῦ πάντες οἱ
-                        διαλογισμοὶ αὐτῶν<ref decls="#biblical"
-                           cRef="LXX:Ps:55:6"/>
-                     </quote> ἦσαν· ἐγὼ δὲ ὁποίους ἐν ἐμαυτῷ συνῆγον λογισμοὺς
-                     καὶ ὁποίας ἐνθυμήσεις εἶχον, σὺ αὐτὸς ὡς <ref
-                        decls="#biblical" type="cf" cRef="NA:Act:1:24"/>
-                     <ref decls="#biblical" type="cf" cRef="NA:Act:15:8"
-                     />καρδιογνώστης θεὸς οἶδας. </p>
-                  <l>
-                     <quote type="hexaplaric">τὰ</quote> γὰρ <quote
-                        type="hexaplaric">ἔνδον μου ἐξηρίθμησας<ref
-                           decls="#biblical" cRef="Hexapla:Ps:55:9"/>
+                     <quote type="lemma">Οἱ <seg type="insertion">μὲν</seg> ἐχθροί μου<ref decls="#biblical" cRef="LXX:Ps:55:3"/>
+                     </quote>, φησίν, διὰ πάσης ἡμέρας λόγους περὶ ἐμοῦ ἀνεκίνουν, καὶ <quote type="lemma">κατ’ ἐμοῦ πάντες οἱ διαλογισμοὶ αὐτῶν<ref decls="#biblical" cRef="LXX:Ps:55:6"/>
+                     </quote> ἦσαν· ἐγὼ δὲ ὁποίους ἐν ἐμαυτῷ συνῆγον λογισμοὺς καὶ ὁποίας ἐνθυμήσεις εἶχον, σὺ αὐτὸς ὡς <quote>καρδιογνώστης θεὸς<ref decls="#biblical" cRef="NA:Act:15:8"/></quote> οἶδας· <quote type="hexaplaric">τὰ <seg type="insertion">γὰρ</seg> ἔνδον μου ἐξηρίθμησας<ref decls="#biblical" cRef="Hexapla:Ps:55:9" corresp="Field II 182"/>
+                     </quote> πάντα καὶ τὰ <seg type="allusion">κρύφιά μου καὶ τὰς ἐνθυμήσεις τῆς ψυχῆς μου γινώσκεις<ref decls="#biblical" cRef="LXX:Ps:43:22"/></seg>· <pb n="31v" edRef="#E"/> διόπερ <quote type="hexaplaric">ἔθου τὰ δάκρυά μου ἐνώπιόν σου<ref decls="#biblical" cRef="Hexapla:Ps:55:9" corresp="Field II 182"/></quote> καὶ οὐκ ἀπεστράφης αὐτά, ἀλλ’ <quote type="lemma">ὥσπερ ἐν τῇ ἐπαγγελίᾳ σου</quote> ὑπισχνοῦ λέγων· <quote>ἔτι λαλοῦντός σου ἐρῶ· ἰδοὺ πάρειμι<ref decls="#biblical" cRef="LXX:Is:58:9"/>
+                     </quote>· οὕτως ἀκόλουθα πράττων ταῖς σαῖς <quote type="lemma">ἐπαγγελίαις</quote> <quote type="hexaplaric">ἔθου τὰ δάκρυά μου ἐνώπιόν σου.<ref decls="#biblical" cRef="Hexapla:Ps:55:9" corresp="Field II 182"/>
                      </quote>
-                  </l>
-                  <p>πάντα καὶ τὰ <ref decls="#biblical" type="cf"
-                        cRef="LXX:Ps:43:22"/>κρύφιά μου καὶ τὰς ἐνθυμήσεις τῆς
-                     ψυχῆς μου γινώσκεις·
-                     <pb edRef="#E" n="31v"/>
-                      διόπερ </p>
-                  <l>
-                     <quote type="hexaplaric">ἔθου τὰ δάκρυά μου ἐνώπιόν
-                           σου,<ref decls="#biblical" cRef="Hexapla:Ps:55:9"/>
-                     </quote>
-                  </l>
-                  <p>καὶ οὐκ ἀπεστράφης αὐτά, ἀλλ’ <quote type="lemma">ὥσπερ ἐν
-                        τῇ ἐπαγγελίᾳ σου</quote> ὑπισχνοῦ λέγων· <quote>ἔτι
-                        λαλοῦντός σου ἐρῶ· ἰδοὺ πάρειμι<ref decls="#biblical"
-                           cRef="LXX:Is:58:9"/>
-                     </quote>· οὕτως ἀκόλουθα πράττων ταῖς σαῖς <quote
-                        type="lemma">ἐπαγγελίαις</quote>
                   </p>
-                  <l>
-                     <quote type="hexaplaric">ἔθου τὰ δάκρυά μου ἐνώπιόν
-                           σου.<ref decls="#biblical" cRef="Hexapla:Ps:55:9"/>
-                     </quote>
-                  </l>
-                  <p>Καὶ κατὰ τὴν τῶν <num>ο</num> δὲ ἑρμηνείαν <quote
-                        type="lemma">τὴν ζωήν μου</quote>, φησίν, <quote
-                        type="lemma">ἐξήγγειλά σοι</quote>, ὡς ἂν παρρησίαν ἄγων
-                     καὶ μὴ ἐπαισχυνόμενος ἐπὶ τῇ ἐμαυτοῦ ζωῇ· σύ τε
-                     ἀποδεχόμενός <quote type="lemma">μου τὴν ζωὴν τὰ δάκρυά
-                        μου</quote> οὐκ ἀπεσείσω, ἀλλὰ πρὸ τῶν σῶν ὀφθαλμῶν
-                        <quote type="lemma">ἔθου</quote> αὐτὰ πιστούμενος τὰς
-                     σὰς ἐπαγγελίας. διὸ συνέβαινεν ἐμοῦ εἰσακουομένου <quote
-                        type="lemma">τοὺς ἐχθρούς μου εἰς τὰ ὀπίσω</quote>
-                     χωρεῖν, ὅθεν φημί· </p>
+                  <p>Καὶ κατὰ τὴν τῶν <num>ο</num> δὲ ἑρμηνείαν <quote type="lemma">τὴν ζωήν μου<seg type="insertion">, φησίν,</seg> ἐξήγγειλά σοι</quote>, ὡς ἂν παρρησίαν ἄγων καὶ μὴ ἐπαισχυνόμενος ἐπὶ τῇ ἐμαυτοῦ ζωῇ· σύ τε ἀποδεχόμενός <quote type="lemma">μου τὴν ζωὴν τὰ δάκρυά μου</quote> οὐκ ἀπεσείσω, ἀλλὰ πρὸ τῶν σῶν ὀφθαλμῶν <quote type="lemma">ἔθου</quote> αὐτὰ πιστούμενος τὰς σὰς ἐπαγγελίας. διὸ συνέβαινεν ἐμοῦ εἰσακουομένου <quote type="lemma">τοὺς ἐχθρούς μου εἰς τὰ ὀπίσω</quote> χωρεῖν, ὅθεν φημί· 
                   <quote type="lemma">
                      <l>ἐν ᾗ ἂν ἡμέρᾳ ἐπικαλέσωμαί σε, </l>
-                     <l>ἐπιστρέψουσιν οἱ ἐχθροί μου εἰς τὰ ὀπίσω.</l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:10.a"/>
+                     <l>ἐπιστρέψουσιν οἱ ἐχθροί μου εἰς τὰ ὀπίσω,</l>
                   </quote>
-                  <p>κατὰ δὲ τὸν <persName key="PTA_P00045">Σύμμαχον</persName>· </p>
-                  <l>
-                     <quote type="hexaplaric">μὴ οὐχὶ ὅταν</quote>, φησίν,
-                        <quote type="hexaplaric">ἐξαριθμῇς, </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">τότε ἀποστραφήσονται οἱ ἐχθροί μου
-                        εἰς τὰ ὀπίσω.<ref decls="#biblical"
-                           cRef="Hexapla:Ps:55:9-10"/>
-                     </quote>
-                  </l>
-                  <p>Ἐπειδὰν γὰρ φυλοκρινῶν διακαθάρῃς ἀφορίζων τοὺς ἑαυτοῦ
-                     ἀξίους, καὶ ἐξαρίθμησιν ποιούμενος τῶν μελλόντων εἰς τὰ
-                     δεξιὰ ἵστασθαι καὶ τῶν εἰς τὰ ἀριστερὰ χωρούντων, <quote
-                        type="hexaplaric">τότε</quote> (ἐν τῷ σὲ τὴν ἐξαρίθμησιν
-                     ταύτην ποιεῖσθαι) <quote type="hexaplaric">ἀποστραφήσονται
-                        οἱ ἐχθροί μου εἰς τὰ ὀπίσω<ref decls="#biblical"
-                           cRef="Hexapla:Ps:55:10"/>
-                     </quote>.</p>
+                     <app type="witnesses">
+                        <rdg wit="#Ca #Cb"><witStart/>
+                        </rdg>
+                     </app>κατὰ 
+                     <app type="variants">
+                        <lem wit="#E">δὲ</lem>
+                        <rdg wit="#Ca #Cb" type="omission"/>
+                     </app> τὸν <persName key="PTA_P00045">Σύμμαχον</persName>
+                     <app type="witnesses">
+                        <rdg wit="#Dd">
+                           <lacunaEnd/>
+                        </rdg>
+                     </app> 
+                  <quote type="hexaplaric"><l>μὴ οὐχὶ ὅταν<seg type="insertion">, <app type="variants">
+                        <lem wit="#E">φησίν</lem>
+                        <rdg wit="#Dd #Ca #Cb" type="omission"/>
+                     </app>,</seg>
+                     <app type="variants">
+                        <lem wit="#E #Dd">ἐξαριθμῇς</lem>
+                        <rdg wit="#Ca #Cb"> ἐξαριθμήσῃ</rdg>
+                     </app>,
+						</l>
+                  <l>τότε <app type="variants">
+                           <lem wit="#E #Ca #Cb">ἀποστραφήσονται</lem>
+                           <rdg wit="#Dd">ἐπιστρέ(φονται)</rdg>
+                        </app> οἱ ἐχθροί μου <app type="variants">
+                           <lem wit="#E">ὀπίσω</lem>
+                           <rdg wit="#Dd #Ca #Cb">εἰς τὰ ὀπίσω </rdg>
+                        </app>·</l>
+                        <ref decls="#biblical" cRef="Hexapla:Ps:55:9-10" corresp="Field II 183"/>
+                     </quote></p>
+                  <p>ἐπειδὰν <app type="variants">
+                        <lem wit="#E #Ca #Cb">γὰρ</lem>
+                        <rdg wit="#Dd"> φησὶ </rdg>
+                     </app> φυλοκρινῶν <app type="variants">
+                        <lem wit="#E #Cb">διακαθάρῃς</lem>
+                        <rdg wit="#Ca"> διακαθάρεις </rdg>
+                        <rdg wit="#Dd"> διακαθαρίσης </rdg>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E #Dd #Ca">ἀφορίζων</lem>
+                        <rdg wit="#Cb" type="omission"/>
+                     </app> τοὺς <app type="variants">
+                        <lem wit="#E #Ca #Cb">ἑαυτοῦ</lem>
+                        <rdg wit="#Dd" type="omission"/>
+                        <rdg wit="#Montfaucon">σεαυτοῦ </rdg>
+                     </app> ἀξίους
+                     <app type="variants">
+                        <lem wit="#E #Ca #Cb"></lem>
+                        <rdg wit="#Dd" type="addition">ἀπὸ τῶν ἀναξίων </rdg>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E #Dd #Ca">καὶ</lem>
+                        <rdg wit="#Cb" type="omission"/>
+                     </app> ἐξαρίθμη­σιν ποιούμενος τῶν μελλόντων εἰς τὰ δεξιὰ ἵστασθαι καὶ <app type="variants">
+                        <lem wit="#E #Ca #Cb">τῶν</lem>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app> εἰς <app type="variants">
+                        <lem wit="#Dd #Ca #Cb">τὰ</lem>
+                        <rdg wit="#E" type="omission"/>
+                     </app> ἀριστερὰ <app type="variants">
+                        <lem wit="#E #Ca #Cb">χωρούντων</lem>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app>, <quote type="hexaplaric">τότε <app type="variants">
+                           <lem wit="#E #Ca #Cb"/>
+                           <rdg wit="#Dd" type="addition">εἰς τὰ δεξία </rdg>
+                        </app> <seg type="insertion">(ἐν τῷ <app type="variants">
+                        <lem>σὲ</lem>
+                        <rdg wit="#Dd #Ca #Cb" type="omission"/>
+                     </app> τὴν ἐξαρίθμησιν <app type="variants">
+                        <lem>ταύτην</lem>
+                        <rdg wit="#Dd"> ταῦτας </rdg>
+                     </app> ποιεῖσθαι)</seg><app type="witnesses">
+                        <rdg wit="#Dd"><witEnd/>
+                        </rdg>
+                     </app> 
+                        <app type="variants">
+                           <lem wit="#E #Ca">ἀποστραφήσονται</lem>
+                           <rdg wit="#Cb"> ἀποστραφείησαν</rdg>
+                        </app> 
+                     <quote type="lemma">οἱ ἐχθροί μου εἰς τὰ ὀπίσω</quote>.<ref decls="#biblical" cRef="Hexapla:Ps:55:10" corresp="Field II 183"/></quote>
+                        <app type="witnesses">
+                           <rdg wit="#Ca #Cb"><witEnd/>
+                           </rdg>
+                        </app>
+                  </p>
                </div>
                <div type="textpart" subtype="section" n="5">
                   <quote type="lemma">
-                     <l>. Ἰδοὺ ἔγνων, ὅτι θεός μοί ἐστιν. </l>
+                     <l>Ἰδοὺ ἔγνων, ὅτι θεός μοί ἐστιν. </l>
                      <l>ἐπὶ τῷ θεῷ αἰνέσω ῥῆμα, </l>
-                     <l>ἐπὶ τῷ κυρίῳ αἰνέσω λόγον. </l>
-                     <l>ἐπὶ τῷ κυρίῳ ἤλπισα· οὐ φοβηθήσομαι, τί ποιήσει μοι
-                        ἄνθρωπος.</l>
+                     <l>ἐπὶ τῷ κυρίῳ αἰνέσω λόγον· </l>
+                     <l>ἐπὶ τῷ κυρίῳ ἤλπισα, οὐ φοβηθήσομαι· τί ποιήσει μοι ἄνθρωπος;</l>
                      <ref decls="#biblical" cRef="LXX:Ps:55:10-12"/>
-                  </quote>
-                  <p>Kατὰ δὲ τὸν <persName key="PTA_P00045">Σύμμαχον</persName>
-                     τοῦτό φησιν·
-                     <pb edRef="#E" n="32r"/>
-                  </p>
-                  <l>
-                     <quote type="hexaplaric">οἶδα, ὅτι ἔστιν θεός μοι. </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">τὸν θεὸν ὑμνολογήσω, </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">διὰ τοῦ θεοῦ ὑμνοποιήσομαι λόγον.
-                     </quote>
-                  </l>
-                  <l>
-                     <quote type="hexaplaric">τῷ θεῷ πέποιθα· οὐ φοβηθήσομαι, τί
-                        ποιήσει μοι ἄνθρωπος.<ref decls="#biblical"
-                           cRef="Hexapla:Ps:55:10-12" corresp="Field II 183"/>
-                        <note type="commentary">Σ</note>
-                     </quote>
-                  </l>
-                  <p>Αὐτοῖς ἔργοις, φησί, παρείληφα καὶ ἔγνων ἀληθῶς, ὅτι οὐκ
-                     ἐπὶ ματαίῳ <quote type="lemma">ἤλπισα</quote>, ἀλλὰ θεὸν
-                     βοηθὸν ἐκτησάμην· τούτου δὲ ἔλεγχος, ἐπεὶ <quote
-                        type="lemma">ἔθου τὰ δάκρυά μου ἐνώπιόν σου.<ref
-                           decls="#biblical" cRef="LXX:Ps:55:9"/>
-                     </quote> εἶτα ἐμοῦ μὲν ἐπήκοος ἐγίνου, <quote type="lemma"
-                        >οἱ </quote> δὲ <quote type="lemma">ἐχθροί μου</quote>
-                     ἐχώρουν <quote type="lemma">εἰς τὰ ὀπίσω<ref
-                           decls="#biblical" cRef="LXX:Ps:55:10"/>
-                     </quote>· διὸ </p>
+                  </quote> <p>Kατὰ δὲ τὸν <persName key="PTA_P00045">Σύμμαχον</persName> τοῦτό φησιν· <pb edRef="#E" n="32r"/>
+                  <quote type="hexaplaric"><l>οἶδα, ὅτι ἔστιν θεός μοι.</l> 
+                     <l>τὸν θεὸν ὑμνολογήσω, </l>
+                     <l>διὰ τοῦ θεοῦ ὑμνοποιήσομαι λόγον· </l>
+                     <l>τῷ θεῷ πέποιθα, οὐ φοβηθήσομαι· τί ποιήσει μοι ἄνθρωπος;</l><ref decls="#biblical" cRef="Hexapla:Ps:55:10-12" corresp="Field II 183"/>
+                     </quote> Αὐτοῖς ἔργοις, φησί, παρείληφα καὶ ἔγνων ἀληθῶς, ὅτι οὐκ ἐπὶ ματαίῳ <quote type="lemma">ἤλπισα</quote>, ἀλλὰ θεὸν βοηθὸν ἐκτησάμην· τούτου δὲ ἔλεγχος, ἐπεὶ <quote type="lemma">ἔθου τὰ δάκρυά μου ἐνώπιόν σου<ref decls="#biblical" cRef="LXX:Ps:55:9"/>
+                     </quote>. εἶτα ἐμοῦ μὲν ἐπήκοος ἐγίγνου, <quote type="lemma">οἱ <seg type="insertion">δὲ</seg> ἐχθροί μου <seg type="insertion">ἐχώρουν</seg> εἰς τὰ ὀπίσω<ref decls="#biblical" cRef="LXX:Ps:55:10"/>
+                     </quote>· διὸ 
                   <quote type="lemma">
                      <l>ἐπὶ τῷ θεῷ αἰνέσω ῥῆμα,</l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:11"/>
-                  </quote>
-                  <p>ἢ κατὰ τὸν <persName key="PTA_P00044">Ἀκύλαν</persName>· </p>
-                  <l>
-                     <quote type="hexaplaric">ἐν θεῷ καυχήσομαι ῥῆμα,<ref
-                           decls="#biblical" cRef="Hexapla:Ps:55:11"
-                           corresp="Field II 183"/>
-                        <note type="commentary">Ἀ</note>
-                     </quote>
-                  </l>
-                  <p>κατὰ δὲ τὸν <persName key="PTA_P00045">Σύμμαχον</persName>· </p>
-                  <l>
-                     <quote type="hexaplaric">τὸν θεὸν ὑμνολογήσω.<ref
-                           decls="#biblical" cRef="Hexapla:Ps:55:11"
-                           corresp="Field II 183"/>
-                        <note type="commentary">Σ</note>
-                     </quote>
-                  </l>
-                  <p>Ἀλλὰ καὶ </p>
+                  </quote> ἢ κατὰ τὸν <persName key="PTA_P00044">Ἀκύλαν</persName>
+                  <quote type="hexaplaric"><l>ἐν θεῷ καυχήσομαι ῥῆμα,</l><ref decls="#biblical" cRef="Hexapla:Ps:55:11" corresp="Field II 183"/>
+                     </quote> κατὰ δὲ τὸν <persName key="PTA_P00045">Σύμμαχον</persName> 
+                     <quote type="hexaplaric"><l>τὸν θεὸν ὑμνολογήσω.</l><ref decls="#biblical" cRef="Hexapla:Ps:55:11" corresp="Field II 183"/>
+                     </quote> Ἀλλὰ καὶ 
                   <quote type="lemma">
-                     <l>ἐπὶ τῷ κυρίῳ αἰνέσω λόγον,</l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:11"/>
+                     <l>ἐπὶ <app type="variants">
+                           <lem wit="#E">τῷ κυρίῳ</lem>
+                           <rdg wit="#Montfaucon">τὸν κύριον</rdg>
+                        </app> αἰνέσω λόγον,</l>
                   </quote>
-                  <p>ἢ κατὰ τὸν <persName key="PTA_P00044">Ἀκύλαν</persName>· </p>
-                  <l>
-                     <quote type="hexaplaric">ἐν κυρίῳ ὑμνήσω λόγον,<ref
-                           decls="#biblical" cRef="Hexapla:Ps:55:11"
-                           corresp="Field II 183"/>
-                        <note type="commentary">Ἀ</note>
-                     </quote>
-                  </l>
-                  <p>ἢ κατὰ τὸν <persName key="PTA_P00045">Σύμμαχον</persName>· </p>
-                  <l>
-                     <quote type="hexaplaric">διὰ τοῦ κυρίου ὑμνοποιήσομαι
-                           λόγον.<ref decls="#biblical" cRef="Hexapla:Ps:55:11"
-                           corresp="Field II 183"/>
-                        <note type="commentary">Σ</note>
-                     </quote>
-                  </l>
-                  <p>Καὶ πάλιν, ὡς ἀνωτέρω μοι εἴρηται· </p>
+                  ἢ κατὰ τὸν <persName key="PTA_P00044">Ἀκύλαν</persName>
+                  <quote type="hexaplaric"><l>ἐν κυρίῳ ὑμνήσω λόγον,</l><ref decls="#biblical" cRef="Hexapla:Ps:55:11" corresp="Field II 183"/>
+                     </quote> ἢ κατὰ τὸν <persName key="PTA_P00045">Σύμμαχον</persName>
+                  <quote type="hexaplaric"><l>διὰ τοῦ κυρίου ὑμνοποιήσομαι λόγον.</l><ref decls="#biblical" cRef="Hexapla:Ps:55:11" corresp="Field II 183"/>
+                     </quote> Καὶ πάλιν, ὡς ἀνωτέρω μοι εἴρηται· 
                   <quote type="lemma">
-                     <l>ἐπὶ τῷ κυρίῳ ἤλπισα, οὐ φοβηθήσομαι, τί ποιήσει μοι
-                        σάρξ,</l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:5"/>
-                  </quote>
-                  <p>καὶ νῦν φημι· </p>
+                     <l>ἐπὶ τῷ <app type="variants">
+                           <lem wit="#E">κυρίῳ</lem>
+                           <rdg resp="#Montfaucon" type="conjecture">θεῷ</rdg>
+                           <witDetail wit="#Montfaucon" resp="#CB">= t.r.</witDetail>
+                        </app> ἤλπισα, οὐ φοβηθήσομαι· τί ποιήσει μοι σάρξ;<ref decls="#biblical" cRef="LXX:Ps:55:5"/>
+                     </l>
+                  </quote> καὶ νῦν φημι· 
                   <quote type="lemma">
-                     <l>ἐπὶ τῷ κυρίῳ ἤλπισα, οὐ φοβηθήσομαι τί ποιήσει μοι
-                        ἄνθρωπος·</l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:12"/>
+                     <l>ἐπὶ τῷ <app type="variants">
+                           <lem wit="#E">κυρίῳ</lem>
+                           <rdg resp="#Montfaucon" type="conjecture">θεῷ</rdg>
+                           <witDetail wit="#Montfaucon" resp="#CB">= t.r.</witDetail>
+                        </app> ἤλπισα, οὐ φοβηθήσομαι· τί ποιήσει μοι ἄνθρωπος;</l>
                   </quote>
-                  <p>
-                     <quote type="lemma">σὰρξ<ref decls="#biblical"
-                           cRef="LXX:Ps:55:5"/>
-                     </quote> γὰρ καὶ <quote type="lemma">ἄνθρωπος</quote> ἓν
-                     καὶ ταυτόν ἐστιν, ἐπειδὴ λέλεκται· </p>
-                  <l>
-                     <quote>ὑμεῖς δὲ ὡς ἄνθρωποι ἀποθνήσκετε,<ref
-                           decls="#biblical" cRef="LXX:Ps:81:7"/>
-                     </quote>
-                  </l>
-                  <p>καί· <quote>ὅταν γὰρ ᾖ ἐν ὑμῖν ζῆλος καὶ ἔρεις,</quote>
-                     <pb edRef="#PG" n="23,500"/>
-                     <quote>οὐχὶ σαρκικοί ἐστε καὶ κατὰ ἄνθρωπον
-                           περιπατεῖτε;<ref decls="#biblical" type="cf"
-                           cRef="NA:1Cor:3:3"/>
+                     <quote type="lemma">σὰρξ<ref decls="#biblical" cRef="LXX:Ps:55:5"/>
+                     </quote> γὰρ καὶ <quote type="lemma">ἄνθρωπος</quote> ἓν καὶ ταὐτόν ἐστιν, ἐπειδὴ λέλεκται· <quote>ὑμεῖς δὲ ὡς ἄνθρωποι ἀποθνῄσκετε,<ref decls="#biblical" cRef="LXX:Ps:81:7"/>
+                     </quote> καί· <quote>ὅταν γὰρ ᾖ ἐν ὑμῖν ζῆλος καὶ <app type="variants">
+                           <lem resp="#Montfaucon" type="correction">ἔρις</lem>
+                           <rdg wit="#E">ἔρεις</rdg>
+                        </app>,
+                     <pb edRef="#PG" n="500"/> οὐχὶ σαρκικοί ἐστε καὶ κατὰ ἄνθρωπον περιπατεῖτε;<ref decls="#biblical" cRef="NA:1Cor:3:3"/>
                      </quote>
                   </p>
                </div>
                <div type="textpart" subtype="section" n="6">
                   <quote type="lemma">
-                     <l>. Ἐν ἐμοί, ὁ θεός, εὐχαί, ἃς ἀποδώσω αἰνέσεώς σοι,</l>
+                     <l>Ἐν ἐμοί, ὁ θεός, εὐχαί, ἃς ἀποδώσω αἰνέσεώς σοι,</l>
                      <l>ὅτι ἐρρύσω τὴν ψυχήν μου ἐκ θανάτου, </l>
                      <l>καὶ τοὺς πόδας μου ἐξ ὀλισθήματος, </l>
                      <l>τοῦ εὐαρεστῆσαι ἐνώπιον τοῦ θεοῦ ἐν φωτὶ ζώντων.</l>
                      <ref decls="#biblical" cRef="LXX:Ps:55:13-14"/>
                   </quote>
-                  <p>Ἀντὶ τοῦ· </p>
+                  <p>Ἀντὶ τοῦ· 
                   <quote type="lemma">
                      <l>ἐν ἐμοί, ὁ θεός, αἱ εὐχαί, ἃς ἀποδώσω αἰνέσεώς σοι,</l>
                      <ref decls="#biblical" cRef="LXX:Ps:55:13"/>
-                  </quote>
-                  <p>σαφέστερον ἡρμήνευσεν ὁ <persName key="PTA_P00045"
-                        >Σύμμαχος</persName> εἰπών· </p>
-                  <l>
-                     <quote type="hexaplaric">ἀναδέχομαι, θεέ, ἃ ηὐξάμην·
-                        ἀποδώσω αἰνέσεις σοι<ref decls="#biblical"
-                           cRef="Hexapla:Ps:55:13" corresp="Field II 183"/>
-                        <note type="commentary">Σ</note>
-                     </quote>.</l>
-                  <p>Οὐ γὰρ ἐπιλέλησμαι, φησίν, ὧν ηὐξάμην, ἀλλ’ <quote
-                        type="lemma">ἐν ἐμοί</quote> εἰσι, καὶ κατέχω τῇ μνήμῃ
-                     <pb edRef="#E" n="32v"/>
-                      πάντα, ὅσα ἐπηγγειλάμην εὐξάμενος· ἃ καὶ ὥσπερ τι χρέος
-                        <quote type="lemma">ἀποδώσω</quote> θυσίας ἀναφέρων τὰς
-                     δι’ <quote type="lemma">αἰνέσεως</quote> καὶ κατὰ τὸ φάσκον
-                     λόγιον· </p>
-                  <l>
-                     <quote>θῦσον τῷ θεῷ θυσίαν αἰνέσεως </quote>
-                  </l>
-                  <l>
-                     <quote>καὶ ἀπόδος τῷ κυρίῳ τὰς εὐχάς σου,<ref
-                           decls="#biblical" cRef="LXX:Ps:49:14"/>
-                     </quote>
-                  </l>
-                  <p>καὶ πάλιν·</p>
-                  <l>
-                     <quote>ἀποδώσω τὰς εὐχάς μου,</quote>
-                  </l>
-                  <l>
-                     <quote>ἃς διέστειλε τὰ χείλη μου.<ref decls="#biblical"
-                           cRef="LXX:Ps:65:13-14"/>
-                     </quote>
-                  </l>
-                  <p>
-                     <quote type="lemma">Ἀποδώσω</quote> τοίνυν <quote
-                        type="lemma">αἰνέσεώς σοι</quote>, ἐπειδὴ πολλὰ σύνοιδα
-                     ἐμαυτῷ ὀφείλοντι ὑπὲρ τῆς ἐμαυτοῦ σωτηρίας. αὐτὴν γοῦν
-                        <quote type="lemma">τὴν ψυχήν μου ἐρρύσω ἐκ
-                        θανάτου</quote>· οἱ μὲν γὰρ ἐχθροί μου τὸ ὅσον ἐπ’
-                     αὐτοῖς ἤλαυνον αὐτὴν καὶ ἐξεβιάζοντο εἰς θάνατον ἐκπεσεῖν·
-                     ἐλαύνοντές με γὰρ καὶ μέσον <quote type="lemma"
-                           >ἀλλοφύλων<ref decls="#biblical" cRef="LXX:Ps:55:1"/>
-                     </quote> καὶ ἀλλογενῶν ἐθνῶν οἰκεῖν καταναγκάζοντες τὸ ἐπ’
-                     αὐτοῖς τὴν ψυχήν μου ἐθανάτουν, ἥγουν ἤμελλον συνάπτεσθαι
-                     τῇ τῶν ἀλλοφύλων εἰδωλολατρείᾳ μέσος αὐτῶν οἰκῶν· καθ’ οὓς
-                     χρόνους <ref decls="#biblical" type="cf" cRef="LXX:1Sa:27"
-                     />παρὰ τῷ <persName type="biblical">Ἀχοῦς</persName> καὶ ἐν
-                        <placeName>Γὲθ</placeName> παρὰ τοῖς ἀλλοφύλοις
-                     ἐποιούμην τὰς διατριβάς, πάλαι ἂν τὴν ψυχήν μου τεθνήκειν,
-                     τῆς παρὰ σοὶ ζωῆς ἐκπεσών, ἀλλ’ ἡ σὴ χάρις καὶ τὸ σὸν ἔλεος
-                     οὐ συνεχώρησε τοῦτο γενέσθαι, ἐπεὶ καὶ παρὰ τοῖς ἀλλοφύλοις
-                     με ὄντα περιέφραττες ὡς μηδὲν καταβλάπτεσθαι ἐκ τῆς τούτων
-                     συνουσίας. διό φημι· </p>
+                  </quote> σαφέστερον ἡρμήνευσεν ὁ <persName key="PTA_P00045">Σύμμαχος</persName> εἰπών· 
+                  <quote type="hexaplaric"><l>ἀναδέχομαι, θεέ, ἃ ηὐξάμην· ἀποδώσω <app type="variants">
+                           <lem>αἰνέσεις</lem>
+                           <rdg wit="#E">αἰνεσείας</rdg>
+                        </app> σοι·</l><ref decls="#biblical" cRef="Hexapla:Ps:55:13" corresp="Field II 183"/>
+                     </quote> 
+                     <app type="witnesses">
+                        <rdg wit="#G #Dd #Ca #Cb"><witStart/>
+                        </rdg>
+                     </app>
+                     <app type="variants">
+                        <lem wit="#E #G">οὐ γὰρ</lem>
+                        <rdg wit="#Dd #Ca #Cb #Na">οὐκ </rdg><!-- #Na hier? -->
+                     </app> ἐπιλέλησμαι, φησίν, <app type="variants">
+                        <lem wit="#E #G #Ca #Cb">ὧν <quote type="hexaplaric">ηὐξάμην<ref decls="#biblical" cRef="Hexapla:Ps:55:13" corresp="Field II 183"/></quote>, ἀλλ’</lem>
+                        <rdg wit="#Dd"> τοῦτο γὰρ τὸ ἐν ἐμοί· </rdg>
+                     </app>
+                     <quote type="lemma">ἐν ἐμοί</quote> εἰσι, <app type="variants">
+                        <lem wit="#E #G #Ca #Cb">καὶ</lem>
+                        <rdg wit="#Dd" type="omission"/>
+                     </app> κατέχω τῇ μνήμῃ <pb edRef="#E" n="32v"/>
+                     <app type="variants" xml:id="v_w1988-1" next="v_w1988-2">
+                        <lem wit="#E #G #Ca #Cb">πάντα, ὅσα ἐπηγγειλάμην εὐξάμενος· ἃ καὶ ὥσπερ τι χρέος <quote type="lemma">ἀποδώσω</quote> θυσίας ἀναφέρων τὰς δι’ <quote type="lemma">αἰνέσεως</quote>
+                           <app type="variants">
+                              <lem wit="#E">καὶ</lem>
+                              <rdg wit="#G #Ca #Cb" type="omission"/>
+                           </app> κατὰ τὸ <app type="variants">
+                              <lem wit="#E #G">φάσκον λόγιον·</lem>
+                              <rdg wit="#Ca #Cb" type="omission"/>
+                           </app>
+                        </lem>
+                        <rdg wit="#Dd">ἃ πολλάκις ηὐξάμην ἢ ὑπεσχόμην, ἅπερ ἀποδώσω ὥς τι χρέος, ὃ δηλοῖ ἡ τοῦ ἀποδώσω λέξις· οὐκ εἶπε γὰρ δώσω ὡς καὶ ἀλλαχοῦ</rdg>
+                     </app>
+                  <quote>
+                     <l>
+                        <app type="variants" xml:id="v_w1988-2" prev="#v_w936_1">
+                           <lem wit="#E #G #Ca #Cb">
+                              <app type="variants">
+                                 <lem wit="#E #G #Ca"/>
+                                 <rdg wit="#Cb" type="addition"><quote>θυσία τῷ θεῷ πνεῦμα συντετριμμένον<ref decls="#biblical" cRef="LXX:Ps:50:19"/></quote> καὶ</rdg>
+                              </app> θῦσον τῷ θεῷ θυσίαν αἰνέσεως</lem>
+                           <rdg wit="#Dd" type="omission"/>
+                        </app>
+                     </l>
+                     <l>
+							καὶ ἀπόδος τῷ <app type="variants">
+                           <lem wit="#E #G">κυρίῳ</lem>
+                           <rdg wit="#Dd #Ca #Cb">ὐψίστῳ</rdg>
+                        </app> τὰς εὐχάς σου,
+                     </l>
+                     <ref decls="#biblical" cRef="LXX:Ps:49:14"/>
+                  </quote><app type="witnesses">
+                     <rdg wit="#G #Ca #Cb"><witEnd/>
+                     </rdg>
+                  </app> <app type="variants">
+                        <lem wit="#Dd">καὶ πάλιν·
+									 <quote>
+                              <l>
+										ἀποδώσω τὰς εὐχάς <app type="variants">
+                                    <lem resp="#CB" type="conjecture">μου</lem>
+                                    <rdg wit="#Dd">σου</rdg>
+                                    <note resp="#CB">= t.r.; Dd so vermutlich wegen Zitat aus Ps 49 oben.
+                                    </note>
+                                 </app>,
+                              </l>
+                              <l>
+											ἃς διέστειλε τὰ χείλη μου.
+											<ref decls="#biblical" cRef="LXX:Ps:65:13-14"/>
+                              </l>
+                           </quote>
+                        </lem>
+                        <rdg wit="#E" type="omission"/>
+                     </app>
+                     <app type="witnesses">
+                        <rdg wit="#Dd">
+                           <witEnd/>
+                        </rdg>
+                     </app>
+                     <quote type="lemma">Ἀποδώσω <seg type="insertion">τοίνυν</seg> αἰνέσεώς σοι</quote>, ἐπειδὴ πολλὰ σύνοιδα ἐμαυτῷ ὀφείλοντι ὑπὲρ τῆς ἐμαυτοῦ σωτηρίας. αὐτὴν γοῦν <quote type="lemma">τὴν ψυχήν μου ἐρρύσω ἐκ θανάτου</quote>· <app type="witnesses">
+                        <rdg wit="#G #Ca #Cb"><witStart/>
+                        </rdg>
+                     </app>οἱ μὲν γὰρ ἐχθροί <app type="variants">
+                        <lem wit="#E">μου</lem>
+                        <rdg wit="#G #Ca #Cb" type="omission"/>
+                     </app> τὸ ὅσον ἐπ’ <app type="variants">
+                        <lem wit="#E #G #Ca">αὐτοῖς</lem>
+                        <rdg wit="#Cb"> αὐτοὺς </rdg>
+                     </app> ἤλαυνον <app type="variants">
+                        <lem wit="#E">αὐτὴν</lem>
+                        <rdg wit="#G #Ca #Cb" type="omission"/>
+                     </app> καὶ ἐξεβιάζοντο εἰς θάνατον <app type="variants">
+                        <lem wit="#E #Ca #Cb">ἐκπεσεῖν</lem>
+                        <rdg wit="#G"> ἐνπεσεῖν </rdg>
+                     </app>· ἐλαύνοντές <app type="variants">
+                        <lem wit="#E">με γὰρ</lem>
+                        <rdg wit="#G #Ca #Cb" type="transposition">γάρ με</rdg>
+                     </app> καὶ μέσον <quote type="lemma">ἀλλοφύλων<ref decls="#biblical" cRef="LXX:Ps:55:1"/>
+                     </quote> καὶ ἀλλογενῶν ἐθνῶν <app type="variants">
+                        <lem wit="#E #Ca #Cb">οἰκεῖν</lem>
+                        <rdg wit="#G"> οὐκ ἦν </rdg>
+                     </app> καταναγκάζοντες <app type="variants">
+                        <lem wit="#E">τὸ ἐπ’ αὐτοῖς τὴν ψυχήν</lem>
+                        <rdg wit="#G #Ca #Cb"> τὴν ψυχήν μου τὸ ἐπ᾿ αὐτοῖς </rdg>
+                     </app> μου ἐθανάτουν· <app type="variants">
+                        <rdgGrp><lem wit="#E">ἤγουν ἤμελλον</lem>
+                        <rdg wit="#G"> εἴτουν ἤμελλον </rdg></rdgGrp>
+                        <rdg wit="#Ca #Cb"> ἀναγκάζοντες </rdg>
+                     </app> συν­άπτεσθαι τῇ τῶν ἀλλοφύλων εἰδωλολατρείᾳ <app type="variants">
+                        <lem wit="#E #G">μέσος αὐτῶν οἰκῶν; καθ’ οὓς χρόνους <seg type="allusion">παρὰ τῷ 
+                           <persName type="biblical">Ἀχοῦς</persName> καὶ ἐν <placeName>Γὲθ</placeName> παρὰ τοῖς ἀλλοφύλοις ἐποιούμην τὰς διατριβάς<ref decls="#biblical" cRef="LXX:1Sa:27"/></seg>, πάλαι ἂν τὴν ψυχήν <app type="variants">
+                              <lem wit="#E #Ca #Cb">μου</lem>
+                              <rdg wit="#G" type="omission"/>
+                           </app> τεθνήκειν, τῆς παρὰ σοὶ ζωῆς ἐκπεσών</lem>
+                        <rdg wit="#Ca #Cb" type="omission"/>
+                     </app>, ἀλλ’ ἡ σὴ χάρις καὶ τὸ <app type="variants">
+                        <lem wit="#E #G">σὸν</lem>
+                        <rdg wit="#Ca #Cb" type="omission"/>
+                     </app> ἔλεος οὐ συνεχώρησε <app type="variants">
+                        <lem wit="#E #Ca #Cb">τοῦτο</lem>
+                        <rdg wit="#G"> τούτῳ </rdg>
+                     </app> γενέσθαι, <app type="variants">
+                        <lem wit="#E #G">ἐπεὶ</lem>
+                        <rdg wit="#Ca #Cb"> ἀλλὰ </rdg>
+                     </app> καὶ παρὰ τοῖς ἀλλοφύλοις με ὄντα περιέφραττες ὡς μηδὲν καταβλάπτεσθαι <app type="variants">
+                        <lem wit="#E #Ca #Cb"></lem>
+                        <rdg wit="#G" type="addition">με </rdg>
+                     </app> ἐκ τῆς τούτων συνουσίας. διό <app type="variants">
+                        <lem wit="#E">φημι· 
+									 <quote type="lemma">
+                              <l>ἐρρύσω τὴν ψυχήν μου ἐκ θανάτου.</l>
+                           </quote> 
+									Ἀλλὰ <quote type="lemma">καὶ τοὺς πόδας μου ἐρρύσω ἐξ ὀλισθήματος·</quote>
+                        </lem>
+                        <rdg wit="#G #Ca #Cb"><app type="variants"><lem wit="#G">ἐξομολογούμενος</lem><rdg wit="#Ca #Cb" type="omission"></rdg></app> εὐχαριστῶ, ὅτι <quote type="lemma">ἐρρύσω τοὺς πόδας μου τῆς ψυχῆς <app type="variants"><lem wit="#Ca #Cb"/><rdg wit="#G" type="addition">μου</rdg></app> <app type="variants"><lem wit="#G">ἐξ</lem><rdg wit="#Ca #Cb">ἀπὸ</rdg></app> ὀλισθήματος</quote>. </rdg>
+                     </app>
+                     <app type="witnesses">
+                        <rdg wit="#G #Ca #Cb">
+                           <witEnd/>
+                        </rdg>
+                     </app> τίς γὰρ οὐκ ἂν διετράπη ὥσπερ εἰς πηλὸν ἐμβὰς καὶ ὀλισθηροῖς περιπεσὼν χωρίοις μέσος τοσούτων ἀποληφθεὶς ἀθέων καὶ εἰδωλολατρῶν ἀνδρῶν; ἀλλ’ ἦν ἄρα καὶ ἐν τούτῳ τὸ σὸν ἔλεος καὶ ἡ σὴ χάρις ῥυομένη μου <quote type="lemma">τοὺς <pb edRef="#E" n="33r"/> πόδας ἐξ ὀλισθήματος
+                     </quote>· οὐ γὰρ ἐμαυτοῦ δυνάμει ἐπιγράφω ταῦτα, ἐπεὶ μηδ’ οὕτως ἤμην στερρὸς τὴν ψυχὴν ὡς ἀδιάτρεπος μένειν ἐν τῷ μεταξὺ τοσούτων <app type="variants">
+                        <lem resp="#Montfaucon" type="correction">εἱλῆσθαι</lem>
+                        <rdg wit="#E" cause="orthographic"> εἱλίσθαι </rdg>
+                     </app>, εἰ μὴ σὺ ἦσθα βοηθός. διὸ ἐξομολογούμενος εὐχα­ριστῶ, ὅτι <quote type="lemma">ἐρρύσω τοὺς πόδας μου ἐξ ὀλισθήματος</quote>. καὶ ταῦτά μοι τὸ σὸν ἔλεος ἐδωρεῖτο, ὑπὲρ 
                   <quote type="lemma">
-                     <l>ἐρρύσω τὴν ψυχήν μου ἐκ θανάτου.</l>
-                     <l>Ἀλλὰ καὶ τοὺς πόδας μου ἐρρύσω ἐξ ὀλισθήματος·</l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:14"/>
+                     <l>τοῦ εὐαρεστῆσαι ἐνώπιόν σου ἐν φωτὶ ζώντων,</l>
                   </quote>
-                  <p>τίς γὰρ οὐκ ἂν διετράπη ὥσπερ εἰς πηλὸν ἐμβὰς καὶ
-                     ὀλισθηροῖς περιπεσὼν χωρίοις μέσος τοσούτων ἀποληφθεὶς
-                     ἀθέων καὶ εἰδωλολατρῶν ἀνδρῶν; ἀλλ’ ἦν ἄρα καὶ ἐν τούτῳ τὸ
-                     σὸν ἔλεος καὶ ἡ σὴ χάρις ῥυομένη μου <quote type="lemma"
-                        >τοὺς </quote>
-                     <pb edRef="#E" n="33r"/>
-                     <quote type="lemma">πόδας ἐξ ὀλισθήματος</quote>· οὐ γὰρ
-                     ἐμαυτοῦ δυνάμει ἐπιγράφω ταῦτα, ἐπεὶ μηδ’ οὕτως ἤμην
-                     στερρὸς τὴν ψυχὴν ὡς ἀδιάτρεπος μένειν ἐν τῷ μεταξὺ
-                     τοσούτων εἱλίσθαι, εἰ μὴ σὺ ἦσθα βοηθός. διὸ
-                     ἐξομολογούμενος εὐχαριστῶ, ὅτι <quote type="lemma">ἐρρύσω
-                        τοὺς πόδας μου ἐξ ὀλισθήματος</quote>. καὶ ταῦτά μοι τὸ
-                     σὸν ἔλεος ἐδωρεῖτο, ὑπὲρ </p>
+                  ἢ κατὰ τὸν <persName key="PTA_P00045">Σύμμαχον</persName> 
+                  <quote type="hexaplaric"><l>ὡς τὸ ὁδεύειν ἔμπροσθεν τοῦ θεοῦ διὰ φωτὸς τῆς ζωῆς</l><ref decls="#biblical" cRef="Hexapla:Ps:55:14" corresp="Field II 183"/>
+                     </quote>.
+                  Διατρίβων γοῦν καὶ παρὰ τοῖς <quote type="lemma">ἀλλοφύλοις<ref decls="#biblical" cRef="LXX:Ps:55:1"/>
+                     </quote> τῆς ὀρθῆς καὶ βασιλικῆς ὁδοῦ οὐ παρέξεισιν· ἀλλὰ σοὶ <quote type="lemma">εὐαρέστως</quote> ὥδευον ὑπὸ σοῦ ποδηγούμενος καὶ φωτιζόμενος <quote type="lemma">φωτός</quote> τε μεταλαγχάνων οὐ τοῦ κοινοῦ καὶ πᾶσιν ἐγκειμένου, λογικοῖς τε καὶ ἀλόγοις, θηρίοις τε καὶ ἑρπετοῖς, νεκροῖς τε καὶ ἀψύχοις, ἀλλὰ τοῦ μόνοις τοῖς παρὰ σοῦ <quote type="lemma">ζῶσιν</quote> ἀφωρισμένου. </p>
+                  <p>Νοήσεις δὲ τὸ <quote type="lemma">φῶς τῶν ζώντων</quote>, ἐν ᾧ καὶ Δαυὶδ καὶ πάντες οἱ θεοφιλεῖς προφῆ­ται καὶ δίκαιοι ἐφωτίσθησαν, ἐπιστήσας τῷ εὐαγγελιστῇ λέγοντι· <quote>ὅ γέγονεν ἐν αὐτῷ</quote>, δηλαδὴ τῷ λόγῳ τοῦ θεοῦ τῷ ἐν ἀρχῇ πρὸς τὸν θεὸν ὄντι, <quote>ζωὴ ἦν, καὶ ἡ <pb n="501" edRef="#PG"/> ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων<ref decls="#biblical" cRef="NA:Jn:1:3-4"/>
+                     </quote>, <app type="witnesses">
+                        <rdg wit="#G"><witStart/>
+                        </rdg>
+                     </app>καὶ πάλιν· <quote>ἦν τὸ φῶς τὸ ἀληθινὸν τὸ φωτίζον πάντα ἄνθρωπον ἐρχόμενον εἰς τὸν κόσμον· ἐν τῷ κόσμῳ ἦν, καὶ ὁ κόσμος δι’ αὐτοῦ ἐγένετο, καὶ ὁ κόσμος αὐτὸν οὐκ ἔγνω<ref decls="#biblical" cRef="NA:Jn:1:9-10"/></quote>. <app type="variants">
+                        <lem wit="#E">οὐκοῦν <quote>ἦν ἐν τῷ κόσμῳ<ref decls="#biblical" cRef="NA:Jn:1:10"/>
+                           </quote>, κἀκείνῳ τῷ φωτὶ οἱ τῆς παρὰ τῷ θεῷ ζωῆς καταξιούμενοι ἐφωτίζοντο· ὕστερον δὲ καὶ <quote xml:id="q_w2418_1" next="#q_w2418_2">εἰς τὰ ἴδια ἦλθεν·</quote>
+                        </lem>
+                        <rdg wit="#G" type="omission"/>
+                     </app>
+                     <quote xml:id="q_w2418_2" prev="#q_w2418_1">ὅσοι <app type="variants">
+                           <lem wit="#E">τε</lem>
+                           <rdg wit="#G">δὲ</rdg>
+                        </app> ἐδέξαντο αὐτόν, <pb edRef="#E" n="33v"/>
+							ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι<ref decls="#biblical" cRef="NA:Jn:1:11-12"/>
+                     </quote>. <app type="variants">
+                        <lem wit="#E">τοσαύτη δύναμις παρῆν <quote type="lemma">τῷ φωτὶ τῶν ζώντων</quote> ὡς τέκνα θεοῦ ἀπεργάζεσθαι τοὺς καταδεχο­μένους αὐτό·</lem>
+                        <rdg wit="#G" type="omission"/>
+                     </app> ὅπερ εἰδὼς <app type="variants">
+                        <lem wit="#E">καὶ</lem>
+                        <rdg wit="#G" type="omission"/>
+                     </app> ὁ Δαυὶδ δι’ εὐχῆς εἶχε 
                   <quote type="lemma">
-                     <l>τοῦ εὐαρεστῆσαι ἐνώπιόν σου ἐν φωτὶ ζώντων, </l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:14"/>
-                  </quote>
-                  <p>ἢ κατὰ τὸν <persName key="PTA_P00045">Σύμμαχον</persName>· </p>
-                  <l>
-                     <quote type="hexaplaric">ὡς τὸ ὁδεύειν ἔμπροσθεν τοῦ θεοῦ
-                        διὰ φωτὸς τῆς ζωῆς<ref decls="#biblical"
-                           cRef="Hexapla:Ps:55:14" corresp="Field II 183"/>
-                        <note type="commentary">Σ</note>
-                     </quote>.</l>
-                  <p>Διατρίβων γοῦν καὶ παρὰ τοῖς <quote type="lemma"
-                           >ἀλλοφύλοις<ref decls="#biblical" cRef="LXX:Ps:55:1"
-                        />
-                     </quote> τῆς ὀρθῆς καὶ βασιλικῆς ὁδοῦ οὐ παρέξεισιν· ἀλλὰ
-                     σοὶ <quote type="lemma">εὐαρέστως</quote> ὥδευον ὑπὸ σοῦ
-                     ποδηγούμενος καὶ φωτιζόμενος <quote type="lemma"
-                        >φωτός</quote> τε μεταλαγχάνων οὐ τοῦ κοινοῦ καὶ πᾶσιν
-                     ἐγκειμένου, λογικοῖς τε καὶ ἀλόγοις, θηρίοις τε καὶ
-                     ἑρπετοῖς, νεκροῖς τε καὶ ἀψύχοις, ἀλλὰ τοῦ μόνοις τοῖς παρὰ
-                     σοῦ <quote type="lemma">ζῶσιν</quote> ἀφωρισμένου. </p>
-                  <p>Νοήσεις δὲ τὸ <quote type="lemma">φῶς τῶν ζώντων</quote>,
-                     ἐν ᾧ καὶ Δαυὶδ καὶ πάντες οἱ θεοφιλεῖς προφῆται καὶ δίκαιοι
-                     ἐφωτίσθησαν, ἐπιστήσας τῷ εὐαγγελιστῇ λέγοντι· <quote>ὅ
-                        γέγονεν ἐν αὐτῷ</quote>, δηλαδὴ τῷ λόγῳ τοῦ θεοῦ τῷ ἐν
-                     ἀρχῇ πρὸς τὸν θεὸν ὄντι, <quote>ζωὴ ἦν, καὶ ἡ</quote>
-                     <pb edRef="#PG" n="23,501"/>
-                     <quote>ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων<ref decls="#biblical"
-                           cRef="NA:Jn:1:3-4"/>
-                     </quote>, καὶ πάλιν· <quote>ἦν τὸ φῶς τὸ ἀληθινὸν τὸ
-                        φωτίζον πάντα ἄνθρωπον ἐρχόμενον εἰς τὸν κόσμον· <ref
-                           decls="#biblical" cRef="NA:Jn:1:9-10"/>ἐν τῷ κόσμῳ
-                        ἦν, καὶ ὁ κόσμος δι’ αὐτοῦ ἐγένετο, καὶ ὁ κόσμος αὐτὸν
-                        οὐκ ἔγνω</quote>. οὐκοῦν <quote>ἦν ἐν τῷ κόσμῳ<ref
-                           decls="#biblical" cRef="NA:Jn:1:10"/>
-                     </quote>, κἀκείνῳ τῷ φωτὶ οἱ τῆς παρὰ τῷ θεῷ ζωῆς
-                     καταξιούμενοι ἐφωτίζοντο. ὕστερον δὲ καὶ <quote>εἰς τὰ ἴδια
-                        ἦλθεν· ὅσοι τε ἐδέξαντο αὐτὸν</quote>
-                     <pb edRef="#E" n="33v"/>
-                     <quote>ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι<ref
-                           decls="#biblical" cRef="NA:Jn:1:11-12"/>
-                     </quote>. τοσαύτη δύναμις παρῆν <quote type="lemma">τῷ φωτὶ
-                        τῶν ζώντων</quote> ὡς τέκνα θεοῦ ἀπεργάζεσθαι τοὺς
-                     καταδεχομένους αὐτό· ὅπερ εἰδὼς καὶ ὁ Δαυὶδ δι’ εὐχῆς εἶχε </p>
-                  <quote type="lemma">
-                     <l>τοῦ εὐαρεστῆσαι ἐνώπιον τοῦ θεοῦ ἐν φωτὶ ζώντων. </l>
-                     <ref decls="#biblical" cRef="LXX:Ps:55:14"/>
-                  </quote>
+                     <l>τοῦ εὐαρεστῆσαι ἐνώπιον τοῦ θεοῦ ἐν φωτὶ ζώντων.
+                     </l>
+                     <ref decls="#biblical" cRef="LXX:Ps:55:14"/></quote><app type="witnesses">
+                     <rdg wit="#G"><witEnd/>
+                     </rdg>
+                  </app></p>
                </div>
             </div>
             <div type="textpart" subtype="commentary" n="Ps_56">
