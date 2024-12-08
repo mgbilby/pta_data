@@ -1,0 +1,42 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         groupUrn="urn:cts:pta:pta0001"
+         xml:lang="grc"
+         urn="urn:cts:pta:pta0001.pta072">
+   <ti:title xml:lang="lat">Fragmenta in epistulas Pauli</ti:title>
+   <cpt:structured-metadata>
+      <dct:created>0401–0404</dct:created>
+      <dct:spatial>https://pleiades.stoa.org/places/77402394</dct:spatial>
+      <dct:type>Scholarly</dct:type>
+      <dct:type>Commentary</dct:type>
+      <dc:identifier>PTA:pta0001.pta072</dc:identifier>
+      <dc:identifier>CPG:4219</dc:identifier>
+      <dc:identifier>Pinakes-Oeuvre:6601</dc:identifier>
+   </cpt:structured-metadata>
+   <ti:edition urn="urn:cts:pta:pta0001.pta072.pta-grc1"
+               workUrn="urn:cts:pta:pta0001.pta072">
+      <ti:label xml:lang="eng">Severianus Gabalensis: Fragmenta in epistulas Pauli</ti:label>
+      <ti:description xml:lang="eng">Karl Staab, Pauluskommentare aus der Griechischen Kirche aus
+        Katenenhandschriften gesammelt und herausgegeben. Neutestamentliche Abhandlungen 15. Münster i. W., 1933</ti:description>
+      <cpt:structured-metadata xml:lang="deu">
+         <dc:title>Severianus Gabalensis: Fragmenta in epistulas Pauli</dc:title>
+         <dc:creator>Severianus Gabalensis</dc:creator>
+         <dct:source>Karl Staab, Pauluskommentare aus der Griechischen Kirche aus
+        Katenenhandschriften gesammelt und herausgegeben. Neutestamentliche Abhandlungen 15. Münster i. W., 1933</dct:source>
+         <dc:contributor/>
+         <dc:publisher xml:lang="eng">Patristic Text Archive (BBAW)</dc:publisher>
+         <dc:publisher xml:lang="deu">Patristisches Textarchiv (BBAW)</dc:publisher>
+         <dc:format>application/tei+xml</dc:format>
+         <dc:rights>https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+         <dct:isVersionOf>https://github.com/PatristicTextArchive/pta_data/blob/public/data/pta0001/pta072/pta0001.pta072.pta-grc1.xml</dct:isVersionOf>
+         <dct:hasVersion>https://github.com/PatristicTextArchive/pta_data/blob/284a4693e222362ad249d7336cf3cce39c9f435b/data/pta0001/pta072/pta0001.pta072.pta-grc1.xml</dct:hasVersion>
+         <dc:date>2024-12-08</dc:date>
+         <dct:dateCopyrighted>1933</dct:dateCopyrighted>
+         <dct:bibliographicCitation>Severianus Gabalensis: Fragmenta in epistulas Pauli, edited according to Karl Staab, Pauluskommentare aus der Griechischen Kirche aus
+        Katenenhandschriften gesammelt und herausgegeben. Neutestamentliche Abhandlungen 15. Münster i. W., 1933. Patristic Text Archive 2024. Version: 284a4693, committed on 2024-12-08, https://pta.bbaw.de/text/urn:cts:pta:pta0001.pta072.pta-grc1.</dct:bibliographicCitation>
+         <dct:isPartOf/>
+      </cpt:structured-metadata>
+   </ti:edition>
+</ti:work>
