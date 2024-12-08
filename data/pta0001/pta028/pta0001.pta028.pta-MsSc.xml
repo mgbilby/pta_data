@@ -52,31 +52,32 @@
             <cRefPattern n="section"
                          matchPattern="(.+)"
                          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
-         </refsDecl>         <editorialDecl>
+         </refsDecl>         
+         <editorialDecl>
             <interpretation>
                <p>
-                  This file is encoded according to the guidelines of the Patristic Text Archive (PTA). See <ref target="https://pta.bbaw.de/project/encoding-guidelines">https://pta.bbaw.de/project/encoding-guidelines</ref> and <ref target="https://doi.org/10.5281/zenodo.3737666">https://doi.org/10.5281/zenodo.3737666</ref>.
-               </p>
+            This file is encoded according to the guidelines of the Patristic Text Archive (PTA). See <ref target="https://pta.bbaw.de/project/encoding-guidelines">https://pta.bbaw.de/project/encoding-guidelines</ref> and <ref target="https://doi.org/10.5281/zenodo.3737666">https://doi.org/10.5281/zenodo.3737666</ref>.
+          </p>
                <p xml:id="biblical-quotations"
-                  ana="fully/partially/not-annotated fully/partially/not-identified">
-                  Biblical quotations are fully/partially/not annotated and/but not fully/partially referenced. References follow the scheme declared <ref target="#biblical">above</ref>.
-               </p>
+                  ana="not-annotated not-identified">
+            Biblical quotations are not annotated and not referenced. References follow the scheme declared <ref target="#biblical">above</ref>.
+          </p>
                <p xml:id="other-references"
-                  ana="fully/partially/not-annotated fully/partially/not-identified">
-                  Other references are fully/partially/not annotated and/but not fully/partially referenced. References to texts in the PTA follow the scheme declared <ref target="#pta">above (pta)</ref>, references to texts available in the <ref target="https://scaife.perseus.org/">Perseus Digital Library</ref> follow the scheme declared <ref target="#perseus">above (perseus)</ref>. If the referenced text is not available in either repository, the reference for the referenced text is given in the attribute @source in the form “Authorabbrev_Workabbrev_Location”; ancient Greek authors should be referenced according to the lists of H. G. Liddell/R. Scott/H. S. Jones, A Greek - English Lexicon, Oxford 1968 (9th edition) and G. W. H. Lampe, A Patristic Greek Lexicon, Oxford 1987 (3rd edition), for Latin ones the abbreviations of the Thesaurus Linguae Latinae (cf. Index librorum scriptorum inscriptionum ex quibus exempla afferuntur) should be used, with dots in the abbreviations deleted without replacement.
-               </p>
+                  ana="not-annotated not-identified">
+            Other references are not annotated and not referenced. References to texts in the PTA follow the scheme declared <ref target="#pta">above (pta)</ref>, references to texts available in the <ref target="https://scaife.perseus.org/">Perseus Digital Library</ref> follow the scheme declared <ref target="#perseus">above (perseus)</ref>. If the referenced text is not available in either repository, the reference for the referenced text is given in the attribute @source in the form “Authorabbrev_Workabbrev_Location”; ancient Greek authors should be referenced according to the lists of H. G. Liddell/R. Scott/H. S. Jones, A Greek - English Lexicon, Oxford 1968 (9th edition) and G. W. H. Lampe, A Patristic Greek Lexicon, Oxford 1987 (3rd edition), for Latin ones the abbreviations of the Thesaurus Linguae Latinae (cf. Index librorum scriptorum inscriptionum ex quibus exempla afferuntur) should be used, with dots in the abbreviations deleted without replacement.
+          </p>
                <p xml:id="persons"
-                  ana="fully/partially/not-annotated fully/partially/not-identified">
-                  Persons are fully/partially/not annotated and/but not fully/partially referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
-               </p>
+                  ana="not-annotated not-identified">
+            Persons are not annotated and not referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
+          </p>
                <p xml:id="groups"
-                  ana="fully/partially/not-annotated fully/partially/not-identified">
-                  Groups of persons and organisations are fully/partially/not annotated and/but not fully/partially referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
-               </p>
+                  ana="not-annotated not-identified">
+            Groups of persons and organisations are not annotated and not referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
+          </p>
                <p xml:id="places"
-                  ana="fully/partially/not-annotated fully/partially/not-identified">
-                  Places are fully/partially/not annotated and/but not fully/partially referenced with <ref target="https://pleiades.stoa.org/">Pleiades Gazetteer</ref> IDs.
-               </p>
+                  ana="not-annotated not-identified">
+            Places are not annotated and not referenced with <ref target="https://pleiades.stoa.org/">Pleiades Gazetteer</ref> IDs.
+          </p>
             </interpretation>
             <normalization>
                <p><!--Usage of capitalisation, ν-ephelkystikon, σ: οὕτως, Iota subscriptum/adscriptum, Trema, Enclitics, apostroph/elisions, number signs, splitting of words, nomina sacra, ...--></p>
@@ -184,34 +185,34 @@
          <div type="edition"
               xml:lang="grc"
               n="urn:cts:pta:pta0001.pta028.pta-MsSc">
-            <pb n="152v"/>
+            <pb n="152v" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-159.jpg/343,250,1762,2594/full/0/default.jpg"/>
             <head>
                <title>τοῦ ἐν ἁγίοις <choice>
                      <expan>πατρὸς</expan>
                      <abbr type="nomSac">
                         <hi rend="overline">πρς</hi>
                      </abbr>
-                  </choice> ἡμῶν ϊωάννου τοῦ χρυ<lb break="no"/>σοστόμου λόγος εἰς τὰ ἅγια
-                        θεοφανια·</title>
+                  </choice> ἡμῶν ϊωάννου τοῦ χρυ<lb break="no"/>σοστόμου. λόγος εἰς τὰ ἅγια
+                        θεοφάνια·</title>
             </head>
             <div type="textpart" subtype="section" n="1">
                <p>
                   <hi rend="initial">ἀ</hi>νυγέσθω σήμερον πᾶν στόμα <lb/> πρὸς θεολογίαν καὶ
-                        ἀνυμνείτο <lb/> πᾶς λογος τὸν ἐξ οὐρανῶν ἐπιλαμ<lb break="no"/>ψαντα τὸν τοῦ <choice>
+                        ἀνυμνεῖτο <lb/> πᾶς λογος τὸν ἐξ ουρανῶν ἐπιλαμ<lb break="no"/>ψαντα τὸν τοῦ <choice>
                      <expan>θεοῦ</expan>
                      <abbr type="nomSac">
                         <hi rend="overline">θυ</hi>
                      </abbr>
                   </choice> λογον· πᾶν <lb/> στόμα λαλείτω· πᾶσα γλῶσσα γλῶσ<lb break="no"/>
-                        σα φθεγγέσθω· πᾶσα ψυχὴ χορευ<lb break="no"/>ετω· πᾶσα ἡ γῆ ψαλλετω· σήμε<lb break="no"/>ρον γὰρ λόγοι φωτὸς ἐν ἡμέρα φω<lb break="no"/>τὸς
-                        καταλάμπουσιν· συμφω<lb break="no"/>νειτω τοῖς ἐπουρανίοις τὰ ἐπί <lb break="no"/> γεια· ὑμνείτω μετὰ τῶν ὑπερ<lb break="no"/>κοσμίων
+                        σα φθεγγέσθω· πᾶσα ψυχὴ χορευ<lb break="no"/>ετω· πᾶσα ἡ γῆ ψαλατω· σήμε<lb break="no"/>ρον γὰρ λόγοι φωτὸς ἐν ἡμέρα φω<lb break="no"/>τὸς
+                        καταλάμπουσιν· συμφω<lb break="no"/>νειτω τοῖς ἐπουρανίοις τὰ ἐπί <lb break="no"/> γεια: ὑμνείτω μετὰ τῶν ὑπερ<lb break="no"/>κοσμίων
                         δυνάμεων· τα ἐν κό <lb break="no"/>σμω φαινόμενα· ἀληθειας γαρ <lb/>
                         ἐπιφανείσης· καὶ βασιλεως <choice>
                      <expan>ἐ<lb break="no"/>πουρανίου</expan>
                      <abbr type="nomSac">
                         <hi rend="overline">ἐ<lb break="no"/>πουνιου</hi>
                      </abbr>
-                  </choice>. πάντα δὴ συνδραμεῖν <lb/> εἰς κοινην τοῦ δεσπότου τῶν <lb/>
+                  </choice>. πάντα δὴ συνεδραμεν <lb/> εἰς κοινην τοῦ δεσπότου τῶν <lb/>
                         ἁπαντων ὁμολογίαν· <choice>
                      <expan>χριστοῦ</expan>
                      <abbr type="nomSac">
@@ -233,7 +234,7 @@
                      <abbr type="nomSac">
                         <hi rend="overline">χς</hi>
                      </abbr>
-                  </choice> κα<lb break="no"/>τάγγελλεται. και πᾶσα ψυχὴ <pb n="153r"/> τὸν ἐπ<choice>
+                  </choice> κα<lb break="no"/>τάγγελλεται. και πᾶσα ψυχὴ <pb n="153r" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-159.jpg/2115,261,1762,2594/full/0/default.jpg"/> τὸν ἐπ<choice>
                      <expan>ουράνιον</expan>
                      <abbr type="nomSac">
                         <hi rend="overline">ουνιον</hi>
@@ -252,7 +253,7 @@
                      <abbr type="nomSac">
                         <hi rend="overline">οὐνοις</hi>
                      </abbr>
-                  </choice> συναμήλλονται· <lb/> κόσμος ἠρνήσαντο τοῦ σώματος <lb/> την φύσιν.
+                  </choice> συναμήλλονται· <lb/> κόσμος ἠρνήσατο τοῦ σώματος <lb/> την φύσιν.
                         καὶ ἐξελέξατο τῶν <lb/> ἀγγελων τὴν λειτουργίαν· <lb/> τοιαυτη γὰρ ἡ
                         ἐκκλησία τοῦ <choice>
                      <expan>θεοῦ</expan>
@@ -293,7 +294,7 @@
                         <hi rend="overline">θς</hi>
                      </abbr>
                   </choice> τῶν δυνάμεων ἐπίστρεψον <lb/> ἡμᾶς· καὶ ἐπίφανον τὸ πρόσωπον <lb/>
-                        σου καὶ σωθησόμεθα· ὄυπω ἀ<lb break="no"/>πηντησεν ὁ βασιλευς τῆς δόξης <pb n="153v"/>καὶ οἱ πρόδρομοι τῆς βασιλείας ἐ<lb break="no"/>
+                        σου καὶ σωθησόμεθα· ὄυπω ἀ<lb break="no"/>πηντησεν ὁ βασιλευς τῆς δόξης <pb n="153v" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-160.jpg/343,250,1762,2594/full/0/default.jpg"/>καὶ οἱ πρόδρομοι τῆς βασιλείας ἐ<lb break="no"/>
                   <g type="diple"/>κήρυττον; ὁ ποιμαίνων τόν <lb/>
                   <g type="diple"/>
                   <choice>
@@ -330,7 +331,7 @@
                         οὖν φησιν· οὐδέπω ἐνόησας <lb/> τὴν ἀξίαν. σαφηνίζω σοι τὴν <lb/> ἀλήθειαν·
                         ὁ καθήμενος ἐπὶ τῶν <lb/> χερουβὶμ ἐμφάνηθι· ἐξέγει<lb break="no"/>ρον τὴν
                         δυναστείαν σου. καὶ <lb/> ἐλθὲ εἰς τὸ σῶσαι ἡμᾶς· ὁρᾶς ὅπως <lb/> ἅπασαν
-                        ἐγύμνωσεν τοῦ προ<lb break="no"/>φητευομένου την ἀξίαν; <pb n="154r"/>ὁρας
+                        ἐγύμνωσεν τοῦ προ<lb break="no"/>φητευομένου την ἀξίαν; <pb n="154r" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-160.jpg/2115,261,1762,2594/full/0/default.jpg"/>ὁρας
                         ὅπως τῶ βασιλικῶ καὶ ὑπερ<lb break="no"/>κοσμίω θρόνω· τον βασιλέα τῆς <lb/>
                         δόξης ἀπήγγειλεν; ὅθεν καὶ ὁ <lb/>
                   <choice>
@@ -389,7 +390,7 @@
                      <abbr type="nomSac">
                         <hi rend="overline">θς</hi>
                      </abbr>
-                  </choice> ἐκ τῶν ἀδελφῶν ὑμῶν <lb/> ὡς ἐμέ· γινεται καὶ ἀπόστολος <pb n="154v"/>κατὰ τὸ εἰρημένον· κατανοήσα<lb break="no"/>τε γὰρ τὸν
+                  </choice> ἐκ τῶν ἀδελφῶν ὑμῶν <lb/> ὡς ἐμέ· γινεται καὶ ἀπόστολος <pb n="154v" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-161.jpg/343,250,1762,2594/full/0/default.jpg"/>κατὰ τὸ εἰρημένον· κατανοήσα<lb break="no"/>τε γὰρ τὸν
                         ἀπόστολον και ἀρχϊε<lb break="no"/>ρέα τῆς ὁμολογίας ἡμῶν· γίνε<lb break="no"/> ται καὶ ϊερεὺς καθ ὣς γέγραπται· <lb/> σὺ ϊερεὺς εἰς τὸν
                         αἰῶνα κατὰ τὴν <lb/> τάξιν μελχισεδέκ· γίνεται ἀ<lb break="no"/>δελφὸς καὶ
                         διάκονος· ὡς φησιν <lb/> ὁ γενναῖος παῦλος λέγων· <choice>
@@ -457,7 +458,7 @@
                      <abbr type="nomSac">
                         <hi rend="overline">φιλανος</hi>
                      </abbr>
-                  </choice>· <lb/> εἰ δὲ βούλει αὐτὸν καὶ λαϊκοῦ <pb n="155r"/>τάξιν
+                  </choice>· <lb/> εἰ δὲ βούλει αὐτὸν καὶ λαϊκοῦ <pb n="155r" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-161.jpg/2115,261,1762,2594/full/0/default.jpg"/>τάξιν
                         ὑπερχόμενον διὰ σὲ ἰδεῖν. <lb/> ἀνάκρινον παρὰ σαυτῶ καὶ σκό <lb break="no"/> πησον τὸ ῥηθησόμενον ὁμολο<lb break="no"/>γούμενος· ὁ βαπτίζων ἐν χώρα
                         <lb/> ἔστη τοῦ ϊερεως· και βαπτιζό <lb break="no"/>μενον <choice>
                      <expan>χριστὸν</expan>
@@ -495,7 +496,7 @@
                         <hi rend="overline">θω</hi>
                      </abbr>
                   </choice> τῶ <lb/> ἀληθεινῶ χρεῖα ἦν. τῆς αὐγῆς <lb/> τοῦ λύχνου προσθήκης·
-                        ἥλιος <pb n="155v"/> γὰρ ἦν δικαιοσύνης· ἀλλ ἐπειδη <lb/> τὸν ἐν σαρκὶ
+                        ἥλιος <pb n="155v" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-162.jpg/343,250,1762,2594/full/0/default.jpg"/> γὰρ ἦν δικαιοσύνης· ἀλλ ἐπειδη <lb/> τὸν ἐν σαρκὶ
                         κρυπτόμενον <choice>
                      <expan>χριστὸν</expan>
                      <abbr type="nomSac">
@@ -569,7 +570,7 @@
                      <abbr type="nomSac">
                         <hi rend="overline">υς</hi>
                      </abbr>
-                  </choice> κάτω<lb break="no"/>θεν πληρῶν τὴν ἔνθεον οἰκονομίαν· <pb n="156r"/> τὸ <choice>
+                  </choice> κάτω<lb break="no"/>θεν πληρῶν τὴν ἔνθεον οἰκονομίαν· <pb n="156r" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-162.jpg/2115,261,1762,2594/full/0/default.jpg"/> τὸ <choice>
                      <expan>πνεῦμα</expan>
                      <abbr type="nomSac">
                         <hi rend="overline">πνα</hi>
@@ -636,7 +637,7 @@
                      <abbr type="nomSac">
                         <hi rend="overline">χς</hi>
                      </abbr>
-                  </choice>· καὶ <lb/> θελης ἐκ πραγματος ἐναργοῦς σοι <pb n="156v"/>
+                  </choice>· καὶ <lb/> θελης ἐκ πραγματος ἐναργοῦς σοι <pb n="156v" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-163.jpg/343,250,1762,2594/full/0/default.jpg"/>
                         παραστήσω τὴν ἀλήθειαν ἐγγυ<lb break="no"/>ὸν τῶν εἰρημένων. προσεχε με<lb break="no"/> τὰ ἀκριβείας· κελεύει μωϋσῆς ὁ νο<lb break="no"/>μοθέτης,
                         μερισθῆναι τας δωδε<lb break="no"/>κα φυλὰς τοῦ <choice>
                      <expan>ἰσραήλ</expan>
@@ -670,7 +671,7 @@
                         ἐπισφράγισμα· αἱ δὲ εὐλογίαι οὐ <lb/> δέχονται τὴν σφραγίδα; τί οὖν <lb/>
                         βούλεται τὸ σύνθημα; τί ἑρμη<lb break="no"/>νεύει τὸ ὡς ἂν οἷος τε ὧ
                             πειρασο<lb break="no"/>μαι διελθεῖν τῶ ὑμετερω πό <lb break="no"/>θω
-                        πτερουμενος. τῶν ἀποφά <pb n="157r" break="no"/>σεων ἦν πληρωτῆς ὁ νόμος·
+                        πτερουμενος. τῶν ἀποφά <pb n="157r" break="no" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-163.jpg/2115,261,1762,2594/full/0/default.jpg"/>σεων ἦν πληρωτῆς ὁ νόμος·
                         τῶν <lb/> δὲ εὐλογιῶν βεβαιωτῆς ὁ <choice>
                      <expan>ἰησοῦς</expan>
                      <abbr type="nomSac">
@@ -720,7 +721,7 @@
                   <g type="diple"/> χειρόγραφον· ἐπειδὴ πᾶν χει<lb break="no"/> ρογραφον βεβαιοῦται· καὶ <lb/>τῆ ὑπαγορία τοῦ χειρογραφου·
                         <lb/>καὶ τῆ ὑπογραφὴ τοῦ δανη<lb break="no"/>σαμενου· ἀναγκη ἐπιζη<lb break="no"/> τησαι την ὑπογραφὴν· και πο<lb break="no"/>τε καὶ πῶς και
                         ποῦ ἐγενετο· ἔ<lb break="no"/>χεις τοινυν αὐτὴν <add place="above">την</add>
-                        προειρημενην <pb n="157v"/> ὑποόθεσιν· ὅτε γὰρ ὁ νόμος ὑπαγο<lb break="no"/>ρευεν τὰς κατάρας, τὸ ἀμὴν τοῦ <lb/> λαοῦ ὑπογραφὴ ἦν τῶν ἀκουόν<lb break="no"/> των· <choice>
+                        προειρημενην <pb n="157v" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-164.jpg/343,250,1762,2594/full/0/default.jpg"/> ὑποόθεσιν· ὅτε γὰρ ὁ νόμος ὑπαγο<lb break="no"/>ρευεν τὰς κατάρας, τὸ ἀμὴν τοῦ <lb/> λαοῦ ὑπογραφὴ ἦν τῶν ἀκουόν<lb break="no"/> των· <choice>
                      <expan>ἰησοῦς</expan>
                      <abbr type="nomSac">
                         <hi rend="overline">ις</hi>
@@ -750,7 +751,7 @@
                         ἐπειδὴ σεδε<lb break="no"/> κιαν δήσας τὸν βασιλέα ἀπή <lb break="no"/>γαγεν
                         καὶ ϊωακεὶμ καὶ τοὺς <lb/> ἀρχϊερεῖς· ταῦτα γὰρ ἦν τὰ <lb/> ἐκλεκτὰ τοῦ
                         λιβάνου. ἃ ἀπή <lb break="no"/>γαγεν εἰς βαβυλῶνα· τί οὖν ἐ<lb break="no"/>στι τὸ ἡ δόξα τοῦ λιβάνου ἐδό <lb break="no"/>θη αὐτῆ· ἐπειδὴ ἡ ϊερωσύνη
-                        ἦν <pb n="158r"/> τῶν ϊερουσαλύμων. καὶ ἡ προφητεί <lb break="no"/>α πᾶσα
+                        ἦν <pb n="158r" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-164.jpg/2115,261,1762,2594/full/0/default.jpg"/> τῶν ϊερουσαλύμων. καὶ ἡ προφητεί <lb break="no"/>α πᾶσα
                         μετέβη εἰς τὸν ϊωάννην· <lb/> πᾶσα ἡ ϊεροσόλυμα καταλειποῦσα <lb/> τὸ
                         θυσιαστήριον, ἤρχετο ἐπὶ τὸ <lb/> λαβεῖν τὸ βάπτισμα ϊωάννου· <lb/> προλαβὼν
                         ὁ προφήτης λέγει περὶ <lb/> τῆς τιμῆς τοῦ ϊορδάνου· ἡ δόξα <lb/> τοῦ λιβάνου
@@ -781,7 +782,7 @@
                      </abbr>
                   </choice>· καὶ ὕμνοις τὸν ὕμνον <lb/> ἐνίκησαν· καὶ ἡ χάρις ἐδείκνυτο· <lb/>
                         καὶ ἡ φύσις οὐκ ἠλέγχετο· καὶ μά <lb break="no"/>λα εἰκότως· ὥσπερ γὰρ
-                        σίδηρος <pb n="158v"/>πυρὶ προσομηλίσας· ὃ μὲν ἦν οὐ<lb break="no"/>κ
+                        σίδηρος <pb n="158v" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-165.jpg/343,250,1762,2594/full/0/default.jpg"/>πυρὶ προσομηλίσας· ὃ μὲν ἦν οὐ<lb break="no"/>κ
                         ἐμφαίνεται· ὃ δὲ οὐκ ἦν ἐπεν<lb break="no"/>δύεται· οὐ τὴν φύσιν ἀποθέμε<lb break="no"/> νος· ἀλλ ἐν τῆ φύσει τὴν λαμπρ<gap reason="damage" quantity="1" unit="character"/>
                   <lb break="no"/>τητα δεξάμενος. οὕτως καὶ <lb/> ἡμεῖς καταξιωθέντες τοῦ
                             ἁγ<gap reason="damage" quantity="1" unit="character"/>
@@ -821,7 +822,7 @@
                   <g type="diple"/> τὸ θεῖον ἐπαληθεύει λόγιον· τ<gap reason="damage" quantity="1" unit="character"/>
                   <lb/>
                   <g type="diple"/> ἀδελφὸς ὑπο ἀδελφοῦ βοηθούμ<gap reason="damage" unit="character" quantity="1"/>
-                  <lb break="no"/>νος <pb n="159r"/> ὡς
+                  <lb break="no"/>νος <pb n="159r" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-165.jpg/2115,261,1762,2594/full/0/default.jpg"/> ὡς
                         πόλις ὡχυρᾶ και ὡς μεμοχλευ<lb break="no"/> μένη βασιλεία· οὑτοι εἰσὶν οἱ
                         δυο <lb/> υἱοὶ τῆς πιότητος· οἳ παρεστη<lb break="no"/>κασιν τῶ <choice>
                      <expan>κυρίω</expan>
@@ -859,7 +860,7 @@
                      <abbr type="nomSac">
                         <hi rend="overline">ἀνοις</hi>
                      </abbr>
-                  </choice>, τὰ μικρὰ ζητεῖ πα<lb break="no"/>ρ ἡμῶν; ἔδωκεν τὸ μάννα <pb n="159v"/>ἐν τῆ ἐρήμω· καὶ ζητεῖ παρα τῶν <lb/> ϊερέων ἄρτους λέγων· θες
+                  </choice>, τὰ μικρὰ ζητεῖ πα<lb break="no"/>ρ ἡμῶν; ἔδωκεν τὸ μάννα <pb n="159v" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-166.jpg/343,250,1762,2594/full/0/default.jpg"/>ἐν τῆ ἐρήμω· καὶ ζητεῖ παρα τῶν <lb/> ϊερέων ἄρτους λέγων· θες
                         μοι ἐ<lb break="no"/>πι τραπεζης ἄρτους ἐνώπιον μου· <lb/> ἐδωκεν στύλον
                         πυρὸς και φησίν· <lb/> θὲς τὸν λύχνον ἐνώπιον μου· <lb/> τοσαυτην πηγὴν
                         φωτὸς χαρί <lb break="no"/>ζει· και λύχνον δανίζει; ναὶ· ἵνα <lb/> δι' ὧν
@@ -889,7 +890,7 @@
                      <abbr type="nomSac">
                         <hi rend="overline">ἀνους</hi>
                      </abbr>
-                  </choice>· καὶ οἱἂν εἶ τῆς βαφῆς <lb/> τὸ κάλλος· τοιαύτην καὶ τοῦ ἀ<lb break="no"/> ερος εὐχροιαν ἀπεργάζεται· ἥτοι<pb n="160r"/> χρυσίζουσαν.
+                  </choice>· καὶ οἱἂν εἶ τῆς βαφῆς <lb/> τὸ κάλλος· τοιαύτην καὶ τοῦ ἀ<lb break="no"/> ερος εὐχροιαν ἀπεργάζεται· ἥτοι<pb n="160r" facs="https://imagenes.patrimonionacional.es/iiif/2/Phi-III-20%2FPhi-III-20-166.jpg/2115,261,1762,2594/full/0/default.jpg"/> χρυσίζουσαν.
                         ἠ πράσινον· ἠ πορ<lb break="no"/>φυροειδῆ· ἠ πρός τι ἕτερον ὁρα<lb break="no"/> ϊζεται τοῖς ἀνθοβάφοις ἡ τεχνι. <lb/> οὕτως ἡ ἐκκλησία·
                         ποτὲ μὲν δέ <lb break="no"/>χεται ἀκτίνα προφητειας· πο<lb break="no"/>τὲ δὲ
                         ἀποστολικῆς· ποτὲ δὲ τῆς <lb/> εὐαγγελικῆς χαριτος την ἐνέρ<lb break="no"/>

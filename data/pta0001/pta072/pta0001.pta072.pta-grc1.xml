@@ -83,7 +83,6 @@
   </fileDesc>
   <encodingDesc>
    <refsDecl n="CTS">
-    <cRefPattern n="recension" matchPattern="(.+).(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3']/tei:div[@n='$4'])"/>
     <cRefPattern n="fragment" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"/>
     <cRefPattern n="commentary" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
     <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
@@ -237,7 +236,7 @@
   <body>
    <div type="edition" xml:lang="grc" n="urn:cts:pta:pta0001.pta072.pta-grc1">
     <div type="textpart" subtype="book" n="Rom">
-     <div type="textpart" subtype="commentary" n="Rom_1:1">
+     <div type="textpart" subtype="commentary" n="1_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <pb n="213"/>
@@ -257,7 +256,7 @@
        <p>Καὶ ὅτι γνώμῃ τοῦ πατρὸς τὸ εὐαγγέλιον κηρύττεται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_1:2">
+     <div type="textpart" subtype="commentary" n="1_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Προφητῶν</quote> δὲ <quote>αὐτοῦ</quote> εἶπεν, ἐπειδὴ εἰσὶ καὶ τῶν εἰδώλων προφῆται, τῇ <quote>αὐτοῦ</quote> φωνῇ διαστέλλων καὶ προφήτας προφητῶν καὶ
@@ -268,7 +267,7 @@
       </div>
      </div>
 
-     <div type="textpart" subtype="commentary" n="Rom_1:7">
+     <div type="textpart" subtype="commentary" n="1_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Καὶ τὸ <quote>ἁγίοις</quote> δὲ οὐχ ἁπλῶς εἴρηται,
         ἀλλ’ – ἐπειδὴ <quote>πολλοὶ κλητοί, ὀλίγοι δὲ
@@ -292,7 +291,7 @@
         κύριος ἡμῶν ἐστιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_1:13">
+     <div type="textpart" subtype="commentary" n="1_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Καὶ πάλιν, ἐπειδὴ πολλοὶ διά τινα ἀνθρώπινα ἔσπευδον εἰς τὴν Ῥώμην,
         καὶ τὸν πόθον δείκνυσιν, καὶ ὅτι εὐσεβὴς οὗτος τῇ προσθήκῃ. παρίσταται
@@ -300,20 +299,20 @@
         προτροπὴ γινομένη πᾶσι τοῖς ὑπ’ αὐτοῖς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_1:25">
+     <div type="textpart" subtype="commentary" n="1_25">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὅτι ὁ μὲν θεὸς ἀληθῶς ἐστι θεός, τὰ δὲ εἴδωλα οἷς προσεκύνησαν, ψευδῶς
         προσαγορεύονται θεοί. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_1:27">
+     <div type="textpart" subtype="commentary" n="1_27">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ἁπλῶς δὲ τῆς τοιαύτης ἀσχημοσύνης μέμνηται, ἀλλ’ ὅτι ἤκουσεν ἐν
         <placeName ref="https://pleiades.stoa.org/places/423025">Ῥώμῃ</placeName> καὶ ἀρσένων ἑταιρίαν εἶναι. </p>
       </div>
      </div>
      <pb n="215"/>
-     <div type="textpart" subtype="commentary" n="Rom_1:32-2:1">
+     <div type="textpart" subtype="commentary" n="1_32ad2_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Δικαίωμα</quote> δὲ λέγει <quote>θεοῦ</quote> τὴν δικαίαν αὐτοῦ ἀνταπόδωσιν ἣν ἀνταποδίδωσιν ἑκάστῳ
@@ -329,7 +328,7 @@
          κρίνων.</quote></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_2:5">
+     <div type="textpart" subtype="commentary" n="2_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐδήλωσε διὰ τοῦ <quote>θησαυρίζειν</quote> τὰς κατὰ μέρος
         συναγομένας ἁμαρτίας προσθήκην κολάσεως γίνεσθαι διὰ τῆς τοῦ κριτοῦ
@@ -347,7 +346,7 @@
         δικαιοκρισίας θεοῦ καιρός. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_2:8–9">
+     <div type="textpart" subtype="commentary" n="2_8ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὥσπερ δὲ ἀσύγγνωστον τὸ <quote>ἐξ ἐριθείας,</quote> οὕτως
         καὶ τὸ τοῦ <quote>κατεργαζομένου</quote> παρὰ τὸν
@@ -355,7 +354,7 @@
         κατεργάζεσθαι τῆς μετ’ ἐπιμελείας ἐργασίας ἐστὶ τοῦ κακοῦ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_2:10">
+     <div type="textpart" subtype="commentary" n="2_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπὶ μὲν τοῦ κακοῦ τὴν κατάκρισιν ὥρισεν, οὐχ ἁπλῶς ἀλλ’ ἐπὶ τῶν <quote>κατεργαζομένων,</quote> ἐπὶ δὲ τοῦ ἀγαθοῦ τὴν δόξαν, οὐ
         μόνον <pb n="216"/> ἐπὶ τῶν κατεργαζομένων, ἵνα δι’ ἑκατέρων τοῦ θεοῦ τὸ ἀγαθὸν δειχθῇ·
@@ -370,7 +369,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_3:9">
+     <div type="textpart" subtype="commentary" n="3_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τί οὖν κατέχομεν περισσόν; προῃτιασάμεθα γὰρ
@@ -391,7 +390,7 @@
         ἀπεργαστικήν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_3:23">
+     <div type="textpart" subtype="commentary" n="3_23">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐδαμοῦ δέ φησιν ὅτι πάντες ἠσέβησαν, ἀλλ’ ἥμαρτον τὸ τῆς ἁμαρτίας
         κοινόν, οὐ τὸ τῆς ἀσεβείας. ὁ δὲ ὑστερούμενος, ἔχων τι τὸ 
@@ -399,7 +398,7 @@
         αὐτοῖς ἡ τῆς χάριτος τελείωσις. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_3:25">
+     <div type="textpart" subtype="commentary" n="3_25">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἠνέσχετο γὰρ ὁ θεός, ἵνα <quote>δείξῃ τὴν</quote> ἑαυτοῦ
          <quote>δικαιοσύνην.</quote> εἰ γὰρ ἐπεξεληλύθει, πάντως ἂν
@@ -412,7 +411,7 @@
         δικαιοῦντος χάριτος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_4:11">
+     <div type="textpart" subtype="commentary" n="4_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ <quote>περιτομὴ</quote> ἐδόθη διὰ τρεῖς αἰτίας ταύτας,
         ὥστε σημεῖον εἷναι πίστεως καὶ τοῦ <orgName>Ἀβραμιαίου</orgName> γένους δηλωτικὸν καὶ
@@ -421,7 +420,7 @@
          τῆς ἐκ πίστεως δικαιοσύνης</quote> τοῦ <persName type="biblical" key="Abraham_Gen.11.26">Ἀβραάμ</persName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_4:13">
+     <div type="textpart" subtype="commentary" n="4_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Κληρονόμους τοῦ κόσμου</quote> τοὺς δικαίους ἔσεσθαί
@@ -430,7 +429,7 @@
         ἀνακαινισθέντα, καὶ αὐτῶν ἔσται τὰ οὐράνια ἀγαθὰ καὶ τὰ ἐπίγεια. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_4:17">
+     <div type="textpart" subtype="commentary" n="4_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Κατέναντι οὗ ἐπίστευσεν·</quote> ἀντὶ τοῦ ἐνώπιον
@@ -439,7 +438,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_4:18">
+     <div type="textpart" subtype="commentary" n="4_18">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Παρ’ ἐλπίδα</quote> τῆς οἰκείας φύσεως, <quote>ἐπ’ ἐλπίδι</quote> τῆς τοῦ ἐπαγγειλαμένου δυνάμεως. τὸ δὲ
@@ -447,7 +446,7 @@
         πλήθει, ἀλλὰ καὶ τῇ λαμπρότητι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_4:20">
+     <div type="textpart" subtype="commentary" n="4_20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰπὼν <quote>ἐνεδυναμώθη</quote> δείκνυσι πολλῷ καμάτῳ
         καὶ δυνάμει ψυχῆς καὶ πόνῳ κατορθουμένην τὴν πίστιν. πῶς δὲ ἐνεδυναμώθη;
@@ -457,7 +456,7 @@
         δεδωκότα ὃ ἐπηγγείλατο. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_5:19">
+     <div type="textpart" subtype="commentary" n="5_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἶδες πῶς διορίζει κἀνταῦθα, ἐπὶ μὲν τῆς ἁμαρτίας καὶ τῆς δικαιοσύνης
         τὸ <quote>πολλοὶ</quote> τιθείς – οὐ γὰρ πάντες ἥμαρτον οἱ
@@ -466,13 +465,13 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_6:3">
+     <div type="textpart" subtype="commentary" n="6_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ <quote>βαπτιζόμενοι</quote> ὁμολογοῦμεν
         ἀποτεθνηκέναι τῷ κόσμῳ καὶ ἀποτάττεσθαι τῇ ἁμαρτίᾳ καὶ τῷ διαβόλῳ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_6:4">
+     <div type="textpart" subtype="commentary" n="6_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ ἐν <quote>καινότητι ζῆν</quote> ἐστι τὸ καινῆς τινος
         καὶ νέας ἐνάρξασθαι ζωῆς, τὴν παλαιὰν τὴν ἐν ἁμαρτίαις ἀποθεμένους· καὶ
@@ -480,7 +479,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_6:6–7">
+     <div type="textpart" subtype="commentary" n="6_6ad7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οἱ κατὰ <quote>τὸν παλαιὸν ἄνθρωπον ζῶντες σῶμα</quote>
         ἔχουσιν <quote>ἁμαρτίας,</quote> προκείμενον τῷ διαβόλῳ εἰς
@@ -494,7 +493,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_7:5">
+     <div type="textpart" subtype="commentary" n="7_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ τὸ πταίειν παρεῖχεν ὁ νόμος ὁ προστάττων μὴ ἁμαρτάνειν, διὰ δὲ τοῦ
         συγχωρεῖν τὴν τρυφὴν τοῖς παθήμασιν. τὸ οὖν παρέχειν τοῖς παθήμασι
@@ -506,7 +505,7 @@
         ἐβούλετο οὐ κατώρθου, ὃ δὲ μὴ ἤθελεν προεξένει. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_7:7–8">
+     <div type="textpart" subtype="commentary" n="7_7ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ κακός, φησίν, ὁ νόμος, οὐδὲ ἁμαρτία, ἀλλὰ γνωρίσαι μὲν τὴν
         ἁμαρτίαν, ἀποστῆσαι δὲ αὐτὴν οὐ δεδυνημένος, ἐπιδόσεως ἀφορμὴν αὐτῇ
@@ -526,7 +525,7 @@
         οὕτω καὶ φυλαττομένου τοῦ νόμου ἡ ἁμαρτία νεκρά. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_7:12">
+     <div type="textpart" subtype="commentary" n="7_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Νόμον</quote> μὲν τὸν <orgName>Μωϋσαϊκὸν</orgName> λέγει, <quote>ἐντολὴν</quote> δὲ τὴν ἐν τῷ παραδείσῳ τῷ Ἀδὰμ δεδομένην,
@@ -534,7 +533,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_7:24–25">
+     <div type="textpart" subtype="commentary" n="7_24ad25">
       <div type="textpart" subtype="fragment" n="1">
        <p>Θεωρήσας τοίνυν τῷ νῷ τὸν διὰ τοῦ σώματος κατὰ τῆς ψυχῆς γενόμενον
         πόλεμον καὶ δι’ αὐτοῦ τὸν ἄνθρωπον αἰχμαλωτιζόμενον, καταφυγὴν σωτηρίας
@@ -548,14 +547,14 @@
         τοῦ θανάτου· θέλει γὰρ τὸ σῶμα ἑαυτοῦ ζωῆς εἶναι σῶμα, οὐ <quote>σῶμα θανάτου</quote> οὐδὲ σῶμα ἁμαρτίας. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_8:9">
+     <div type="textpart" subtype="commentary" n="8_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Πνεῦμα <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName></quote> εἶπεν τὰ χαρίσματα τῆς καινῆς
         διαθήκης. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_8:15">
+     <div type="textpart" subtype="commentary" n="8_15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔνιοι δὲ <quote>πνεῦμα δουλείας</quote> τοῦ πονηροῦ
         φασιν, ἀλλ’ οὐκ ἔστιν· τὸν γὰρ νόμον ὧδε <quote>πνεῦμα
@@ -568,7 +567,7 @@
         ἀμφοτέρων ἀξίαν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_8:19">
+     <div type="textpart" subtype="commentary" n="8_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Καραδοκία</quote> μέντοι ἡ ἐπιτεταμένη τῶν
@@ -579,7 +578,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_8:29">
+     <div type="textpart" subtype="commentary" n="8_29">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἢ τῆς εἰκόνος τοῦ υἱοῦ,</quote> ἀντὶ τοῦ ἁγίου
@@ -590,7 +589,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_8:34">
+     <div type="textpart" subtype="commentary" n="8_34">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διὰ τούτων τὴν ἄμετρον τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> δείκνυσιν ἀγάπην ἣν ἔχει περὶ ἡμᾶς·
         οὐκ ἠρκέσθη γὰρ τῷ ἀποθανεῖν ὑπὲρ ἡμῶν, ἀλλὰ καὶ πρεσβεύει τὸν πατέρα
@@ -614,7 +613,7 @@
         εὐσυνοπτότερος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_8:37">
+     <div type="textpart" subtype="commentary" n="8_37">
       <div type="textpart" subtype="fragment" n="1">
        <p>Λαμπρῶς δείξας τὴν τοῦ θεοῦ περὶ ἡμᾶς διάθεσιν καὶ τὴν τοῦ υἱοῦ αὐτοῦ
         ἀγάπην, ἀκολούθως διδάσκει, οἵους λοιπὸν εἶναι δεῖ περὶ τὸν εὐεργέτην
@@ -624,7 +623,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_9:20–21">
+     <div type="textpart" subtype="commentary" n="9_20ad21">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τινὲς νομίζουσι λύσιν εἶναι τοῦτο, μάλιστα <persName key="PTA_P00021">Ἀστέριος</persName> ὁ <orgName>Καππαδόκης</orgName> οὕτω
         νοῶν· σὺ ὁ ἀντιλέγων μοι, πῶς ἀντιλέγεις; οὐχὶ ἀπ’ ἐξουσίας τῆς κατὰ τὴν
@@ -642,7 +641,7 @@
         λοιπὸν ποιεῖται τὴν λύσιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_9:22">
+     <div type="textpart" subtype="commentary" n="9_22">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἔνδειξιν ὀργῆς</quote> λέγει, ἣν μακροθυμῶν τοῖς
@@ -657,7 +656,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_10:4">
+     <div type="textpart" subtype="commentary" n="10_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὡς μέρος νόμου <persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>, ἀλλ’ ὡς ἑτέρας ζωῆς ἀρχή. <quote>τέλος</quote> οὖν <quote>νόμου</quote>
         εἴρηται, ὡς τέλος γεγονὼς τοῦ νόμου, τοῦτ’ ἔστι παύσας αὐτόν. διὰ δύο
@@ -668,7 +667,7 @@
        <pb n="223"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_11:24">
+     <div type="textpart" subtype="commentary" n="11_24">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Καλλιελαίου</quote> καὶ <quote>ἀγριελαίου</quote> μνησθεὶς παρέστησεν ὅτι μία μὲν φύσις πάντων ὥσπερ
@@ -678,7 +677,7 @@
         ἐγκεντρισθῆναι ἐν τῇ πίστει τοῦ Ἀβραὰμ ὃν <quote>ῥίζαν</quote> ὀνομάζει· τὸν δὲ ἐγκεντρισμόν φησι παρέχειν ζωήν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_11:28–29">
+     <div type="textpart" subtype="commentary" n="11_28ad29">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πλὴν ἐλλειπῶς εἴρηται, διὸ καὶ ἀσύνδετόν ἐστιν. οὕτως οὖν θέλει, ὥστε
         ἐκ τῆς πρὸς ὑμᾶς συγκρίσεως ἐχθροὶ τοῦ θεοῦ ἐλέγχονται εἶναι οἱ
@@ -689,7 +688,7 @@
         πολιτείαν ἐνδειξαμένους δυναμένην σῶσαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_12:2">
+     <div type="textpart" subtype="commentary" n="12_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ παροῦσα τοῦ κόσμου κατάστασις εἰς τρυφὰς καὶ ἡδονὰς προτρέπεται τὸν
         ἄνθρωπον, ὅπερ ἐάν τις ἀρνήσηται σχῆμα, καὶ εἰς παρηλλαγμένην ἑαυτὸν καὶ
@@ -697,7 +696,7 @@
          ἄνθρωπος</quote> γεγονὼς ἐξ ἄλλου εἰς ἄλλον μεταμορφοῦται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_12:4–8">
+     <div type="textpart" subtype="commentary" n="12_4ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Προειρηκὼς ὅτι ὁ θεὸς <quote>μετρεῖ τὸ μέτρον</quote> τῆς
          <quote>πίστεως,</quote> τῷ ἑπομένῳ ὑποδείγματι καὶ
@@ -714,7 +713,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_13:1">
+     <div type="textpart" subtype="commentary" n="13_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἄξιον τοῖς βασιλεῦσιν ὑποτάσσεσθαι προσκαρτεροῦσι τῇ λειτουργίᾳ τῆς
         βουλήσεως τοῦ θεοῦ, εἰ μήπου ὑπόθεσίς ἐστι διωγμῶν ἐν μέσῳ· περὶ γὰρ τοῦ
@@ -735,7 +734,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_13:9">
+     <div type="textpart" subtype="commentary" n="13_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοιαύτη τοίνυν οὖσα τις ἡ ἀγάπη, εἰκότως πολλὰ φέρει ἐν ἑαυτῇ τὰ
         πλεονεκτήματα· ὁ γὰρ ἀγαπῶν οὐ μοιχεύει, οὐ φονεύει, οὐχ ἕτερόν τι τῶν
@@ -743,7 +742,7 @@
         νόμον ἐπλήρωσεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_13:11">
+     <div type="textpart" subtype="commentary" n="13_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πληροῦτε, φησί, τὸ τῆς ἀγάπης ἔργον, <quote>εἰδότες τὸν
          καιρὸν</quote> κατεπείγοντα καὶ ἀρετὴν ἀπαιτοῦντα. <quote>νῦν ἐγγύτερον ἡμῶν ἡ σωτηρία ἢ ὅτε ἐπιστεύσαμεν,</quote> τοῦτ’ ἔστι
@@ -753,7 +752,7 @@
         ἀκριβῶς ἔγνωμεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_14:4">
+     <div type="textpart" subtype="commentary" n="14_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁ οἰκέτης <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> ὃν προσελάβετο ὁ <persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>, ἀλλότριός ἐστι τοῦ νόμου.
          <quote>τίς οὖν εἶ κρίνων</quote> ἀπὸ τοῦ νόμου τὸν τοῦ
@@ -762,20 +761,20 @@
        <pb n="225"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_14:14">
+     <div type="textpart" subtype="commentary" n="14_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Δι’ αὐτοῦ,</quote> τοῦτ’ ἔστι τοῦ θεοῦ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_15:20">
+     <div type="textpart" subtype="commentary" n="15_20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὡς ἀπευχόμενος τῶν λοιπῶν ἀποστόλων τὴν κοινωνίαν, ἀλλ’ ὡς
         πλεονεκτικὸν καὶ ἄδικον κρίνων τὴν τῶν ἀλλοτρίων ἔργων δόξαν ὑφαρπάζειν.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Rom_16:19">
+     <div type="textpart" subtype="commentary" n="16_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτ’ ἔστι φρονήσει μὲν κεχρῆσθαι εἰς τὸ μὴ ὑφ’ ἑτέρων ἀδικεῖσθαι,
         ἀκεραιότητι δὲ εἰς τὸ μὴ ἑτέροις ἐπιβουλεύειν. </p>
@@ -783,7 +782,7 @@
      </div>
     </div>
     <div type="textpart" subtype="book" n="1Cor">
-     <div type="textpart" subtype="commentary" n="1Cor_1:1-2">
+     <div type="textpart" subtype="commentary" n="1_1ad2">
       <div type="textpart" subtype="fragment" n="1">
        <pb n="225"/>
        <p>Τοῦτο οὐχ ἁπλῶς προέθηκεν, ἀλλ’ ἵνα δείξῃ ὅτι θεοῦ <quote>θέλημα</quote> τὸ πάντας ἀπὸ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> λέγεσθαι καὶ τὸ ἀποστόλους εἶναι. </p>
@@ -815,7 +814,7 @@
         ὑμεῖς οἱ τῶν γραμμάτων ἀπολαύοντες, ἕνα <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> ἔχομεν Ἰησοῦν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:3–6">
+     <div type="textpart" subtype="commentary" n="1_3ad6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Παρ’ οὗ τὴν <quote>χάριν</quote> καὶ τὴν <quote>εἰρήνην</quote> ἔχετε, ἀπὸ τούτου ὀμομάζεσθε· αἱ γὰρ
         τούτων θέσεις παραλαμβάνουσαι καὶ πρὸ τῆς κατασκευῆς καὶ τῆς τῶν ἀγώνων
@@ -837,7 +836,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:8–9">
+     <div type="textpart" subtype="commentary" n="1_8ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οἱ δεόμενοι βεβαιώσεως, ἀτελεῖς ἤδη. τοίνυν ἔδειξεν ὅτι δέονται
         διορθώσεως, εὐχαριστῶν μὲν ἐφ’ οἷς ἔλαβον, διορθούμενος δὲ ἐφ’ οἷς οὐκ
@@ -861,7 +860,7 @@
         μέμφεται αὐτοῖς, ἀλλὰ περὶ οὗ προείπομεν καὶ τὰ ἑξῆς δείκνυσιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:13.17a">
+     <div type="textpart" subtype="commentary" n="1_13_17a">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μὴ συγκληρονόμους, φησίν, ἔχει <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸς</persName> μεθ’ ὧν ἐμερίσατο ὑμᾶς
         πιστεύοντας; οὐ γὰρ εἶπεν <quote>ἐμερίσθη <persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>;</quote> ἀλλὰ <quote>μὴ ἐμερίσατο <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸς</persName> μεθ’ ὑμῶν;</quote> καὶ τοῦτο ἡ
@@ -891,7 +890,7 @@
        <pb n="228"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:17">
+     <div type="textpart" subtype="commentary" n="1_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μεταβαίνων ἐφ’ ἕτερον ἔγκλημα καὶ ἐπ’ ἄλλην διόρθωσιν ἐρχόμενος, οὐκ
         ἀποθέμενος τέλεον τὸ πρῶτον, προοιμίῳ κέχρηται τῷ δευτέρῳ· τὸ μὲν γὰρ
@@ -903,7 +902,7 @@
         δύναμις τοῦ σταυροῦ οὐ δείκνυται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:18–20">
+     <div type="textpart" subtype="commentary" n="1_18ad20">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ὁ λόγος ὁ τοῦ σταυροῦ.</quote> οὐ τὸ ῥῆμα λέγει οὐδὲ
@@ -920,7 +919,7 @@
         γραμματεὺς δὲ τῶν <orgName key="PTA_O00008">Ἰουδαίων</orgName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:21">
+     <div type="textpart" subtype="commentary" n="1_21">
       <div type="textpart" subtype="fragment" n="1">
        <p>Δύο σοφιῶν μέμνηται· μίας τῆς ἐν τοῖς δημιουργήμασι θεωρουμένης
         ἁρμονίας, ἑτέρας δὲ σοφίας καθ’ ἣν λογικοὶ ὄντες οἱ ἄνθρωποι συνετοὶ
@@ -937,7 +936,7 @@
         ὁμολογουμένης ἀσθενείας τοῦ σταυροῦ κόσμον ἐφώτισεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:22–25">
+     <div type="textpart" subtype="commentary" n="1_22ad25">
       <div type="textpart" subtype="fragment" n="1">
        <p>Δεικνὺς γὰρ τὴν ἀτοπίαν τῶν ἐν λογιότητι τεθαρσηκότων καὶ κοσμεῖν
         οἰομένων διὰ τῆς εὐγλωττίας τὴν εὐσέβειαν, φησὶν ὅτι οὐ μόνον <quote>σοφίαν τοῖς <orgName key="PTA_O00011">Ἕλλησι</orgName> ζητοῦσιν</quote> οὐ χρὴ ἀποκρίνεσθαι,
@@ -985,13 +984,13 @@
        <pb n="230"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:26">
+     <div type="textpart" subtype="commentary" n="1_26">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ <quote>κατὰ σάρκα</quote> προσέθηκεν ἀντιδιαστέλλων τῷ
         πνεύματι, καὶ τὰ ἑξῆς ὁμοίως κατὰ κοινοῦ ἀποδιδούς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:29">
+     <div type="textpart" subtype="commentary" n="1_29">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ὅπως μὴ καυχήσηται πᾶσα σὰρξ ἐνώπιον αὐτοῦ,</quote>
@@ -1008,7 +1007,7 @@
         λόγον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_1:30">
+     <div type="textpart" subtype="commentary" n="1_30">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἐξ αὐτοῦ δὲ ὑμεῖς ἐστε.</quote> πάντες ὁμοίως κατὰ
@@ -1022,7 +1021,7 @@
         τοῦ σώσαντος γενέσθω, μὴ ἀπὸ τῶν σωθέντων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:3–4">
+     <div type="textpart" subtype="commentary" n="2_3ad4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐφοβούμην ἀεί, μὴ τῇ ἔξωθεν παιδεύσει ἐπαρθῆτε, αὐτίκα οὐκ ἐχρησάμην
         τῇ πειθούσῃ σοφίᾳ. <quote>ἐν ἀσθενείᾳ</quote> δέ, λέγει, τῇ
@@ -1041,7 +1040,7 @@
        <pb n="232"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:5">
+     <div type="textpart" subtype="commentary" n="2_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ γὰρ μόνον λέγων οὐδὲν διήλαττε τῶν σοφίᾳ χρωμένων καὶ
         θαρσούντων ἑαυτῶν τῷ λόγῳ, δυνάμεις δὲ ποιῶν ἔδ<supplied>ειξε</supplied>
@@ -1050,7 +1049,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:6">
+     <div type="textpart" subtype="commentary" n="2_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτ’ ἔστιν οὐκ ἐν τοῖς ἐλλογίμοις, ἀλλ’ ἐν τοῖς κατ’ εὐσέβειαν <quote>τελείοις. ἐν τοῖς τελείοις</quote> δὲ εἶπεν, οὐ μὴν πρὸς
         τοὺς τελείους, ὅτι ὁ μὲν πρὸς τοὺς τυχόντας λαλῶν καὶ ἀντίρρησιν
@@ -1059,7 +1058,7 @@
         ἀποθησαυρίζων αὐτῶν ταῖς ψυχαῖς τοὺς λόγους <surplus>οὐ</surplus> λαλεῖ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:7–8">
+     <div type="textpart" subtype="commentary" n="2_7ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ <quote>ἀπεκέκρυπτο,</quote> δῆλον ὅτι οὐ λογισμῶν ἦν
         τὸ ἐξευρεῖν αὐτήν, ἀλλ’ ἀληθῶς θεοῦ ἦν τὸ ἀποκαλύπτειν. ἡ δὲ ἀπόδειξις
@@ -1068,7 +1067,7 @@
         <persName>Πιλάτον</persName> καὶ <persName type="biblical" key="Herod_Mat.14.1">Ἡρῴδην</persName>, <quote>κύριον</quote> δὲ <quote>τῆς δόξης</quote> τὸν σαρκωθέντα θεόν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:9">
+     <div type="textpart" subtype="commentary" n="2_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ χρῆσις αὕτη τοῖς μὲν ῥητοῖς τούτοις ἐν τῇ παλαιᾷ οὐ φέρεται, ἑτέραις
         δὲ λέξεσι τὸ αὐτὸ σημαινούσαις· <persName type="biblical" key="Isaiah_2Ki.19.2">Ἡσαΐας</persName> γάρ φησιν· <quote>κύριε, τίς ἐπίστευσεν τῇ ἀκοῇ ἡμῶν; καὶ ὁ βραχίων κυρίου τίνι
@@ -1084,7 +1083,7 @@
        <pb n="233"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:10">
+     <div type="textpart" subtype="commentary" n="2_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Βάθη τοῦ θεοῦ</quote> εἶπεν τὰς βαθυτάτας αὐτοῦ καὶ
@@ -1109,7 +1108,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:11–13">
+     <div type="textpart" subtype="commentary" n="2_11ad13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ἵνα δείξῃ, ὡς ἐν ἡμῖν τὸ πνεῦμα ἡμῶν κρεῖττον ἡμῶν, οὕτως καὶ ἐν
         τῷ θεῷ τὸ πνεῦμα κρεῖττον αὐτοῦ, αὐτίκα εἰπών· <quote>τίς
@@ -1158,7 +1157,7 @@
        <pb n="234"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:14–15">
+     <div type="textpart" subtype="commentary" n="2_14ad15">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ψυχικὸς δὲ ἄνθρωπος οὐ δέχεται τὰ τοῦ πνεύματος.
@@ -1195,7 +1194,7 @@
        <pb n="235"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_2:16">
+     <div type="textpart" subtype="commentary" n="2_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Συμβιβάσει·</quote> διορθώσει. <quote>ἡμεῖς νοῦν ἔχομεν <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName></quote> τοῦ θεοῦ ἡμῶν. εἰ δὲ τὸν νοῦν τοῦ
@@ -1203,7 +1202,7 @@
         ἐχόντων νοῦν καὶ σοφίαν θεοῦ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_3:1–3">
+     <div type="textpart" subtype="commentary" n="3_1ad3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οἱ ἄπιστοι ταῖς θαυματουργίαις μᾶλλον ἕπονται· διὸ ὑμῖν λόγον εἶπον,
         οὐ μὴν τὴν τελείαν <quote>σοφίαν τὴν
@@ -1215,12 +1214,12 @@
         τὰ τοῦ θεοῦ ζητεῖτε. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_3:5">
+     <div type="textpart" subtype="commentary" n="3_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀντὶ τοῦ ἴσοι κατὰ τὴν διακονίαν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_3:6–10">
+     <div type="textpart" subtype="commentary" n="3_6ad10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὰ μὲν ὡς ἐπὶ γεωργίας εἴρηται αὐτῷ, τὰ δὲ ὡς ἐπὶ οἰκοδομῆς. αὐτὸς δὲ
         ἔφη <quote>πεφυτευκέναι</quote> καὶ τὴν ἀρχὴν δεδωκέναι καὶ
@@ -1230,7 +1229,7 @@
         πίστιν καὶ τὸ κήρυγμα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_3:11–15">
+     <div type="textpart" subtype="commentary" n="3_11ad15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ τῆς κτίσεως λέγεται <quote>θεμέλιος</quote> ὁ <persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>,
         ὡς ψευδόμενοι οἱ <orgName key="PTA_O00003">Ἀρειανοὶ</orgName> διϊσχυρίζονται, ἀλλὰ τῆς πίστεως· ἐκηρύχθη γὰρ
@@ -1260,7 +1259,7 @@
         τῶν ἁμαρτανόντων κατὰ τὸν <persName type="biblical" key="Ezekiel_Ezk.1.3">Ἰεζεκιήλ</persName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_3:16–18">
+     <div type="textpart" subtype="commentary" n="3_16ad18">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πάλιν μεταβαίνει ἐπὶ τοὺς θαρσοῦντας τῇ ἑαυτῶν σοφίᾳ. ὅτι δὲ <quote>ναοὺς</quote> μὲν <quote>τοῦ θεοῦ</quote>
         λέγει τοὺς πιστεύοντας, <quote>φθείρειν</quote> δὲ <quote>τὸν ναὸν τοῦ θεοῦ</quote> λέγει. τοὺς λόγοις θαρσοῦντας,
@@ -1289,7 +1288,7 @@
         ἐλέγχῳ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_3:21–23">
+     <div type="textpart" subtype="commentary" n="3_21ad23">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <pb n="238"/>Παραγγείλας μὴ προσδέχεσθαι τὴν ἔξω σοφίαν, διδάσκει μήτε ἐπὶ σοφοῖς
@@ -1311,13 +1310,13 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:1">
+     <div type="textpart" subtype="commentary" n="4_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀρκεῖ μὲν ἡμῖν τὸ ὡς <quote>ὑπηρέτας <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName></quote>
         τιμᾶσθαι, τὸ δὲ ἀφ’ ἡμῶν τινας ὀνομάζεσθαι φορτικόν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:2">
+     <div type="textpart" subtype="commentary" n="4_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὑμεῖς μὲν ὡς <quote>ὑπηρέτας</quote> θεοῦ ὁρᾶτε ἡμᾶς, τίς
         δὲ ὑπηρέτης <quote>πιστός,</quote> μὴ ὑμεῖς ζητεῖτε – τοῦτο
@@ -1328,7 +1327,7 @@
         σπεύδων καταστεῖλαι τὸ πάθος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:3">
+     <div type="textpart" subtype="commentary" n="4_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἵνα δὲ μὴ δόξῃ ὡς καταφρονηθεὶς ὑπερόπτως ταῦτα λέγειν, μονονουχὶ
         τοῦτο λέγει· μὴ νομίσητε ταῦτά με ὑπὲρ ἐμαυτοῦ ἀποστέλλειν· οὐ γὰρ οὕτω
@@ -1343,7 +1342,7 @@
         ἀναμένετε τὸν κριτήν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:5">
+     <div type="textpart" subtype="commentary" n="4_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Δι’ ὅλου ἔχεται τοῦ σκοποῦ σωφρονίζων τοὺς βουλομένους ἀπὸ μὲν τοῦ
         δεῖνος ὀνομάζεσθαι, ἀπὸ δὲ τοῦ δεῖνος μὴ ὀνομάζεσθαι· τοῦτο γὰρ
@@ -1358,7 +1357,7 @@
         ἀρετήν, παρεωρῶντο δὲ οἱ φύσει καλοί· οὐ γὰρ ἂν ταῦτα εἶπεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:6">
+     <div type="textpart" subtype="commentary" n="4_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἑαυτὸν καὶ Ἀπολλῶ</quote> παράγει σιωπήσας τὰ
@@ -1373,7 +1372,7 @@
         ἐκείνου δὲ εἶχεν τὴν φυσίωσιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:7">
+     <div type="textpart" subtype="commentary" n="4_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Σὲ τὸν βουλόμενον ἀπὸ τοῦδε καλεῖσθαι ἢ τόνδε καταλιμπάνειν, <quote>τίς διακρίνει;</quote> οὐχὶ ἀναμένεις τὸν κριτήν; σὺ ὁ
         ὑπακούων ἀνα<pb n="240" break="no"/>μένεις τὸν κριτήν, καὶ τὸν διδάσκαλον τῇ σῇ κρίσει ὑποβάλλεις; </p>
@@ -1393,7 +1392,7 @@
         προβαλλόμενον πλεονέκτημα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:8">
+     <div type="textpart" subtype="commentary" n="4_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὅτι οὕτως εἶχε τὰ κατ’ αὐτούς, ἀλλὰ δείκνυσιν ὅτι οὕτω διέκειντο
         ψευδῆ περὶ ἑαυτῶν δοξάζοντες, καὶ ᾤοντο πάσης πεπληρῶσθαι γνώσεως ὡς
@@ -1407,7 +1406,7 @@
          κεκορασμένοι</quote> ἐστέ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:9">
+     <div type="textpart" subtype="commentary" n="4_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὡς ὁρῶ γάρ, ἐὰν ὑμεῖς <quote>ἐπλουτήσατε</quote> καὶ
          <quote>ἐβασιλεύσατε χωρὶς ἡμῶν, ἡμεῖς ἔσχατοι καὶ
@@ -1419,7 +1418,7 @@
         ἡμετέρας ἐνστάσεις. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:10">
+     <div type="textpart" subtype="commentary" n="4_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὅμοια καὶ ταῦτα. οἱ διδάσκοντες ὑμᾶς ἐν καταφρονήσει καὶ εὐτελείᾳ ὡς
         καὶ <quote>μωροὶ</quote> νομίζεσθαι τῷ κόσμῳ, ὑμεῖς δὲ οἱ
@@ -1429,7 +1428,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:11–13">
+     <div type="textpart" subtype="commentary" n="4_11ad13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡμεῖς πάντα <quote>διὰ τὸν <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName></quote> ὑπομένομεν καὶ
         μέχρι νῦν ταπεινοῦμεν ἑαυτούς. καὶ πῶς δυνατὸν ὑμᾶς <quote>ἐν σαρκὶ</quote> ζῶντας προτιμᾶσθαι παρὰ θεῷ τῶν καμνόντων, τῶν <quote>διωκομένων,</quote> τῶν <quote>λοιδορουμένων,</quote> τῶν <quote>κολαφιζομένων;</quote>
@@ -1444,27 +1443,27 @@
         ἐπικειμένην. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:14">
+     <div type="textpart" subtype="commentary" n="4_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἰσχυρῶς διὰ τῶν πρώτων καθαψάμενος διὰ τούτων παραμυθεῖται, ἵνα διὰ
         τῶν στυπτικῶν καὶ γλυκέων κεράσῃ τῆς σωτηρίας τὴν δύναμιν. <quote>ἐντρέπων,</quote> διατρέπων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:15">
+     <div type="textpart" subtype="commentary" n="4_15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰπὼν ἑαυτὸν <quote>πατέρα,</quote> ἐκείνους δὲ <quote>παιδαγωγοὺς</quote> ἀφ’ ὧν ἐκαλοῦντο, δείκνυσιν ὅτι
         γνησιωτέραν ἔχει τῶν ἄλλων περὶ αὐτοὺς διάθεσιν, καὶ ὡς ὑπὸ <quote>πατρὸς</quote> νουθετούμενοι ἀγανακτεῖν οὐκ ὀφείλουσιν.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:16">
+     <div type="textpart" subtype="commentary" n="4_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐν τῷ μὴ ὑπερφρονεῖν τινων καὶ ἐπαίρεσθαι <quote>μιμηταί
          μου γίνεσθε,</quote> καὶ ἐν τῷ μὴ ἀπό τινος καλεῖσθαι ἀλλ’ ἀπὸ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:18–20">
+     <div type="textpart" subtype="commentary" n="4_18ad20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁρᾷς ὅτι ἐκεῖνα τὰ λεγόμενα αὐτῷ, τὸ <quote>ἡμεῖς
          ἀσθενεῖς, ὑμεῖς δυνατοί,</quote> καὶ τὰ ἄλλα πάντα, πρὸς τὸ πεφυσιῶσθαί
@@ -1493,7 +1492,7 @@
        <pb n="242"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_4:21">
+     <div type="textpart" subtype="commentary" n="4_21">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ διττή ἐστιν ἡ ἐπανόρθωσις, πῆ μὲν διὰ νουθεσίας τοῖς
         πειθηνίοις, πῆ δὲ διὰ βίας καὶ ἀνάγκης τοῖς σκληροτραχήλοις, φιλανθρώπως
@@ -1503,7 +1502,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_5:1–5">
+     <div type="textpart" subtype="commentary" n="5_1ad5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἐπειδὴ γυναῖκα τὸν εἰρημένον τρόπον εἶχεν ἐκεῖνος, ἀλλ’ <pb n="243"/>
        ὅτι ἐλλόγιμος ἦν, καὶ οὐχὶ ἐπένθουν ὅτι γυναῖκα τοῦ πατρὸς εἶχεν, ἀλλ’
@@ -1550,7 +1549,7 @@
         ἀνισταμένης, τῆς δὲ ψυχῆς μόνης σωζομένης. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_5:6">
+     <div type="textpart" subtype="commentary" n="5_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁρᾷς ὅτι ἐκαυχῶντο ἐπ’ ἐκείνῳ, οὐ τῇ ἀτοπίᾳ τοῦ πταίσματος
         προσέχοντες, ἀλλ’ ὑπὸ τῆς ἐλλογιμότητος αὐτοῦ φυσιούμενοι. </p>
@@ -1563,7 +1562,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_5:7">
+     <div type="textpart" subtype="commentary" n="5_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Παλαιὰν ζύμην</quote> τὴν ἁμαρτίαν καλεῖ, ᾗ ὁ <quote>παλαιὸς</quote> συνεζυμώθη <quote>ἄνθρωπος.</quote>
@@ -1578,7 +1577,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_5:8">
+     <div type="textpart" subtype="commentary" n="5_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τῇ τροπῇ ἐνέμεινεν ὡσανεὶ ἔλεγεν· μὴ ἐν πονηρῷ βίῳ καὶ κακῷ, ἀλλ’ ἐν
         βίῳ μὴ ἔχοντι ἐπιμιξίαν <quote>τῆς παλαιᾶς ἐκείνης
@@ -1588,7 +1587,7 @@
        <pb n="245"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_5:9–10">
+     <div type="textpart" subtype="commentary" n="5_9ad10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἐν ἄλλῃ, ἀλλ’ ἐν ταύτῃ <quote>ἔγραψεν.</quote> διὰ δὲ
         τοῦτο οὐ κωλύει τοῖς ἔξωθεν συνεῖναι, ἐπειδὴ εἰ πάντας ἐξετρέποντο τοὺς
@@ -1598,7 +1597,7 @@
         δὲ πεπλανημένους παρακαλεῖν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_5:9.13">
+     <div type="textpart" subtype="commentary" n="5_9_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τὸ ἔγραψα</quote> οὐχ ἑτέρας ἐστὶν ἐπιστολῆς ἀλλὰ
@@ -1612,20 +1611,20 @@
         ἐκτέμνεσθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_5:12">
+     <div type="textpart" subtype="commentary" n="5_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰκότως τοῦτο εἶπεν· τῶν γὰρ οἰκείων γίνεται κριτής, οὐ τῶν ἀλλοτρίων.
         ὁ θεὸς δὲ πάντων κριτής, ἐπεὶ πάντων δεσπότης. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:1">
+     <div type="textpart" subtype="commentary" n="6_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐγκαλεῖ αὐτοῖς ὅτι ὄντων <quote>ἁγίων</quote> τῶν
         δυναμένων δικάζειν αὐτοῖς ὑπ’ <quote>ἀπίστων</quote>
         ἐκρίνοντο. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:2">
+     <div type="textpart" subtype="commentary" n="6_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἄνω εἰπών· <quote>τοὺς ἔσω ὑμεῖς κρίνετε, τοὺς δὲ ἔξω ὁ
          θεὸς κρινεῖ,</quote> νῦν τὸν πάντα <quote>κόσμον</quote>
@@ -1644,7 +1643,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:3">
+     <div type="textpart" subtype="commentary" n="6_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ εἶπεν· <quote>καὶ ὑφ’ ὑμῶν κρίνεται ὁ κόσμος;</quote>
         νῦν δὲ ἀγγέλους οὐ τοὺς κατὰ φύσιν ἀγγέλους λέγει, ἀλλὰ τοὺς ὑπηρέτας
@@ -1660,26 +1659,26 @@
         καὶ παρατρέψαντας τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> τὴν διδασκαλίαν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:4">
+     <div type="textpart" subtype="commentary" n="6_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Αἱρετώτερος τοῦ ἀπίστου ὁ τῆς ἐκκλησίας ἐλάχιστος. ὅμως δοκεῖ τοῦτο
         παραλελοιπέναι ὁ ἀπόστολος, ὅπερ ἐστιν σαφές, ὅτι τὰ μείζονα τῶν
         ἐγκλημάτων δεῖ τοῖς τελείοις φυλάττεσθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:7">
+     <div type="textpart" subtype="commentary" n="6_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Φαίνεσθε ἡττηθέντες τῷ διαβόλῳ οὐ μόνον τῷ κρίνεσθαι ἐπ’ ἀπίστων, ἀλλὰ
         καὶ αὐτῷ τῷ κρίματα ἔχειν μετ’ ἀλλήλων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:11">
+     <div type="textpart" subtype="commentary" n="6_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μίαν τὴν ἐνέργειαν τῆς τοῦ πατρὸς καὶ τοῦ υἱοῦ καὶ τοῦ ἁγίου πνεύματος
         εἶπεν ἐν τοῖς δικαίοις, τὸ ἓν τῆς οὐσίας διδάσκων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:12–13">
+     <div type="textpart" subtype="commentary" n="6_12ad13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ προσώπου λέγει, ἀλλὰ πράγματος ἀπὸ τοῦ <supplied>ὑπό
          τινος</supplied>· περὶ τούτων γὰρ ὁ λόγος· τὰ <pb n="247"/> 
@@ -1701,19 +1700,19 @@
         ἡδοναὶ ἄτοποι; </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:14">
+     <div type="textpart" subtype="commentary" n="6_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὅτι τὰ βρώματα καὶ τὸ ἐσθίειν πρόσκαιρον δῆλον. τὸ μέντοι <quote>σῶμα οὐ τῇ πορνείᾳ ἀλλὰ τῷ κυρίῳ</quote> ἀφώρισται, <quote>καὶ ὁ κύριος τῷ σώματι·</quote> καὶ οὐκ ἂν εἴη τὸ σῶμα
         πρόσκαιρον, ἀλλ’ ἐγερθήσεται εἰς ἀειδιότητα κατὰ τὸν τύπον τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:15">
+     <div type="textpart" subtype="commentary" n="6_15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Σῶμα καὶ <quote>μέλη</quote> λέγει <quote><persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>,</quote> τὸ σῶμα τῶν πιστευσάντων καὶ βαπτισθέντων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:16–19">
+     <div type="textpart" subtype="commentary" n="6_16ad19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὅπερ ἄν τις ἁμάρτῃ πρὸς τὸ τρέφειν ἢ ἀμφιεννύναι τὸ σῶμα, ποιεῖ καὶ
         κατακοσμεῖν καὶ τὴν χρείαν αὐτῷ πληροῦν καὶ πρὸς τιμὴν τοῦ σώματος· ὁ
@@ -1764,7 +1763,7 @@
          πορνεία</quote> καὶ τὰ ἑξῆς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_6:20">
+     <div type="textpart" subtype="commentary" n="6_20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁ πορνεύσας καὶ ἀσεβείας ἐστιν ὑπεύθυνος· τὸ γὰρ ἑαυτοῦ σῶμα ἐνυβρίσας
          <quote>τὸν ναὸν τοῦ ἁγίου πνεύματος</quote> ἐμόλυνεν.
@@ -1784,7 +1783,7 @@
         ἐξειλήφασιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:1">
+     <div type="textpart" subtype="commentary" n="7_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ταῦτα τῷ κλήρῳ ἀντέγραψεν· παρ’ αὐτοῦ γὰρ καὶ ἐγράφετο τῷ ἀποστόλῳ.
         τὴν μὲν οὖν πορνείαν ἐκώλυσεν ὡς παράνομον, τὴν δὲ κοινωνίαν τοῦ γάμου
@@ -1792,7 +1791,7 @@
         τελειοτέραν ἐπῄνεσεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:2–4">
+     <div type="textpart" subtype="commentary" n="7_2ad4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διδάσκει ὅτι οἱ συνεζευγμένοι γάμῳ μᾶλλον ἀλλήλων ἢ ἑαυτῶν
         δεσπόζουσιν. καλὸν ὀφείλημα τοῖς συνοικοῦσιν, ὅταν πρὸς τῇ ἄλλῃ συμφωνίᾳ
@@ -1802,7 +1801,7 @@
         δεσπόζουσιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:5">
+     <div type="textpart" subtype="commentary" n="7_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ ἀλλήλων εἶπεν εἶναι δούλους, ἀκολούθως λέγει ὅτι οὐ χρὴ <quote>ἀλλήλους ἀποστερεῖν</quote> ἑαυτῶν, εἰ μὴ ἄρα κατὰ
         συμφωνίαν εὐσεβῆ, ἵνα μήτε πορνείας ἀλλήλων αἴτιοι γένωνται, μηδὲ τὴν
@@ -1810,7 +1809,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:6–7">
+     <div type="textpart" subtype="commentary" n="7_6ad7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Συγγινώσκων τῇ φύσει τοῦ σώματος λέγω ὡς χρὴ ὑμᾶς πάλιν συνελθεῖν,
         ἐπεὶ οὐ πάντως τοῦτο λέγω ἀποκλείων ὑμῶν τὴν ἐγκράτειαν· <quote>θέλω</quote> γὰρ <quote>πάντας</quote> ἐν
@@ -1818,7 +1817,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:8–9">
+     <div type="textpart" subtype="commentary" n="7_8ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ταῖς χήραις καὶ τοῖς ἀγάμοις</quote> ἀνδράσι τοῖς μὴ
@@ -1828,7 +1827,7 @@
        <pb n="250"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:10–11">
+     <div type="textpart" subtype="commentary" n="7_10ad11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ <quote>γυναῖκα ἀπὸ ἀνδρὸς μὴ χωρισθῆναι</quote> οὐκ ἂν
         εἶπεν περὶ τῶν διὰ τὸ ἀποτάσσεσθαι καὶ ἀνακεῖσθαι τῷ Χριστῷ χωριζομένων.
@@ -1846,7 +1845,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:12">
+     <div type="textpart" subtype="commentary" n="7_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὡς ἀντινομοθετῶν λέγει· <quote>ἐγώ, οὐχ ὁ
          κύριος,</quote> ἀλλ’ ὅτι τινὰ μὲν δι’ ἑαυτοῦ εἶπεν ὁ κύριος, τινὰ δὲ
@@ -1855,12 +1854,12 @@
         συνόντος ἁγιάζει καὶ τὸν ἄπιστον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:13">
+     <div type="textpart" subtype="commentary" n="7_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ τὸ λαμβάνειν ἄπιστόν φησιν, ἀλλὰ τὸ ἀνέχεσθαι ἀπίστου. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:14">
+     <div type="textpart" subtype="commentary" n="7_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἅγιά</quote> ἐστι τὰ τέκνα καθαρὰ καὶ οὐ μεμολυσμένα
@@ -1868,14 +1867,14 @@
         ἀπιστία. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:17">
+     <div type="textpart" subtype="commentary" n="7_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τῷ μὲν ἐμέρισεν ὁ θεὸς τὸ σῶσαι, τῷ δὲ σωθῆναι, ἑκάστῳ ἀπονείμας τὸ
         ἐπάξιον αὐτοῦ. τὸ δὲ <quote>ἑκάστῳ ὡς ἐμέρισεν ὁ
          θεὸς</quote> οὐ τὸ ἔχειν ἄπιστόν φησιν, ἀλλὰ τὸ ἀνέχεσθαι ἀπίστου. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:18–24">
+     <div type="textpart" subtype="commentary" n="7_18ad24">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <pb n="251,col2"/>Οὐ δι’ ἑαυτὴν ἡ περιτομὴ καλή, ἀλλ’ ὅτι ἐντολὴ θεοῦ, καὶ ἡ ἀκροβυστία
@@ -1908,7 +1907,7 @@
         αἵματι ἠγοράσθητε. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:25–26">
+     <div type="textpart" subtype="commentary" n="7_25ad26">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πῶς ἐν ἑτέροις λέγων· <quote>εἰ δοκιμὴν ζητεῖτε τοῦ ἐν
          ἐμοὶ λαλοῦντος <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>,</quote> νῦν λέγει· <quote>ἐπιταγὴν
@@ -1927,7 +1926,7 @@
         λέγει ὅτι καλὸν ἡ παρθενία, ἀλλ’ ἀσφαλιζόμενος μὴ ἐπίταγμα νομισθῇ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:28">
+     <div type="textpart" subtype="commentary" n="7_28">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔδειξεν ὅτι τὴν παρθενίαν εἰσάγει οὐ κατηγορίαν γάμου, ἀλλ’ ὅτι διὰ
         φειδῶ τῶν ἁγίων εἰσηγεῖται τὴν παρθενίαν, ὡς τὴν σάρκα ὠδίνων καὶ
@@ -1939,7 +1938,7 @@
         κατηγορίαν γάμου. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:29–31">
+     <div type="textpart" subtype="commentary" n="7_29ad31">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἄλλην αἰτίαν λέγει δι’ ἣν προτιμᾷ τὴν παρθενίαν, πανταχοῦ δεικνὺς ὅτι
         κατηγορεῖ γάμου τὴν ἁγιωσύνην προτιμῶν· ὅτι πρὸς τῷ τέλει ὁ κόσμος, καὶ
@@ -1970,7 +1969,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:32">
+     <div type="textpart" subtype="commentary" n="7_32">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔδειξε διὰ τί εἶπε τὸ <quote>ἐγὼ δὲ ὑμῶν
          φείδομαι·</quote> ἵνα μὴ ἐν τοῖς μὴ μένουσι κενώσητε τὰς φροντίδας. καὶ
@@ -1986,7 +1985,7 @@
         ἀλλ’ ὅτι ἀπασχολεῖ τῆς εὐσεβείας τὸν νοῦν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:36–38">
+     <div type="textpart" subtype="commentary" n="7_36ad38">
       <div type="textpart" subtype="fragment" n="1">
        <p>Νομίζουσί τινες ὅτι αὐτόν τινα περὶ ἑαυτοῦ <quote>ἀσχημονεῖν</quote> λέγει, ἀντὶ τοῦ ἐπὶ τῇ ἑαυτοῦ παρθενίᾳ εἴ τις
         ἀσχημονεῖν νομίζοι. οὐκ ἔστι δὲ οὕτως. καὶ τὰ ἑξῆς δείκνυσιν· λέγει γάρ·
@@ -1995,7 +1994,7 @@
         δίδοται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_7:40">
+     <div type="textpart" subtype="commentary" n="7_40">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ τοῦ μακαρίου τούτου κρεῖττον τὸ <quote>οὕτω
          μεῖναι·</quote> τὸ μὲν γὰρ σωματικῆς ἐστιν ἀναπαύσεως, τὸ δὲ
@@ -2006,7 +2005,7 @@
         γαμῆται, ἀλλ’ ἀπασχολήσῃ ἑαυτὴν τῷ θεῷ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_8:1–3">
+     <div type="textpart" subtype="commentary" n="8_1ad3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ οἱ <orgName>Κορίνθιοι</orgName> τὰ εἰδωλόθυτα ἤσθιον, λέγοντες ὅτι ἡμῖν οὐκ ἔστιν
         εἰδωλόθυτον – ἁγιάζω <pb n="254"/>
@@ -2044,7 +2043,7 @@
         γὰρ ἀγνοεῖ, ἀλλὰ τοὺς ἀσεβεῖς λέγεται ἀγνοεῖν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_8:6">
+     <div type="textpart" subtype="commentary" n="8_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Προειπὼν <quote>οὐδεὶς θεὸς εἰ μὴ εἷς,</quote> ἵνα μὴ
         δόξῃ ἐκβάλλειν τῆς θεότητος τὸν υἱόν, ἐπήγαγεν ὁ <quote>πατήρ·</quote> καὶ γὰρ ἀληθῶς <quote>πατὴρ</quote> ἄλλος
@@ -2063,7 +2062,7 @@
          <quote>πάντα</quote> λέγει τὰ γενόμενα, <quote>ἡμεῖς</quote> δὲ τὰ οἰκονομηθέντα καὶ σωζόμενα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_8:10–12">
+     <div type="textpart" subtype="commentary" n="8_10ad12">
       <div type="textpart" subtype="fragment" n="1">
         <p>Τὸ μὲν κατορθούμενον ὑμῖν οὐδέν, τὸ δὲ βλάπτον τοὺς ἀσθενεστέρους
          μέγα. </p>
@@ -2076,7 +2075,7 @@
         ἐσθίειν οὐ μέγα, τὸ δὲ βλάπτον τοὺς ἀσθενεστέρους βαρύ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_8:13–9,1">
+     <div type="textpart" subtype="commentary" n="8_13ad9_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ λέγω ἵνα μὴ φάγω εἰδωλόθυτον, ἀλλ’ οὐδὲ <quote>κρέας,</quote> ἐὰν ἐπὶ τούτῳ σκανδαλίζηται ὁ ἀδελφός, ὅτι οὔτε ἐν οἷς
         ἔσχεν ἐξουσίαν, οἷον ἐν τῷ γραφῆναι παρ’ αὐτῶν, ἠνέσχετό τινα βαρῆσαι.
@@ -2089,7 +2088,7 @@
         ἐστέρημαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:2">
+     <div type="textpart" subtype="commentary" n="9_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πρὸς τοὺς διερωτῶντάς με εἰ εἰμὶ ἀπόστολος, αὕτη μοί ἐστιν ἀπολογία, ἡ
         ὑμετέρα <quote>σφραγὶς</quote> καὶ διδασκαλία. </p>
@@ -2099,18 +2098,18 @@
        <pb n="256"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:3">
+     <div type="textpart" subtype="commentary" n="9_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ βεβαίωσις καὶ ἡ ἀπόδειξις. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:4">
+     <div type="textpart" subtype="commentary" n="9_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Δείκνυσιν ὅτι τοῖς ὑπηρετουμένοις εἴτε θυσιαστηρίοις εἴτε εὐαγγελίοις
         ἐκ τούτων διαζῆν νενομοθέτηται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:5">
+     <div type="textpart" subtype="commentary" n="9_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Γυναῖκα</quote> εἰπὼν καὶ προσθεὶς <quote>ἀδελφήν,</quote> τὸ πρέπον καὶ σῶφρον καὶ καθαρὸν τῆς
@@ -2121,32 +2120,32 @@
         ἀπαραφυλάκτως ζῆν, ἵνα μὴ ἑτέροις γίνωνται σκάνδαλον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:6">
+     <div type="textpart" subtype="commentary" n="9_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἢ μόνοις ἡμῖν ἀπηγόρευται πράττειν ταῦτα ἅπερ καὶ ἑτέροις; ἐνέθηκε δὲ
         ὡς συνεργὸν τὸν <quote><persName type="biblical" key="Barnabas_Act.4.36">Βαρνάβαν</persName>,</quote> ἵνα μὴ δόξῃ
         μεγαφρονεῖν ὡς μόνος κατορθῶν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:8">
+     <div type="textpart" subtype="commentary" n="9_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μὴ ἐμὰ ῥήματα λέγω. οὐχὶ καὶ <quote>ὁ νόμος</quote> δὲ
         ταῦτα λέγει; </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:15">
+     <div type="textpart" subtype="commentary" n="9_15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ διὰ ταῦτο δὲ ἔγραψα, φησίν, ἵνα τι παρ’ ὑμῶν ἀπενέγκωμαι, μὴ
         γένοιτο. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:19">
+     <div type="textpart" subtype="commentary" n="9_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐδὲν μέγα, εἰ εἰδωλόθυτον ἀπόσχῃ διὰ τὸν ἀδελφόν σου· κἀγὼ γὰρ <quote>ἐδούλωσα ἐμαυτὸν</quote> οἷς οὐχ ὑπόκειμαι, ἵνα ὠφελήσω
         πολλούς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:20">
+     <div type="textpart" subtype="commentary" n="9_20">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote><orgName key="PTA_O00008">Ἰουδαίους</orgName></quote> λέγει τοὺς φύσει ὄντας ἐκ τοῦ
@@ -2156,7 +2155,7 @@
        <pb n="257"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:21">
+     <div type="textpart" subtype="commentary" n="9_21">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἀνόμους</quote> λέγει τοὺς <orgName key="PTA_O00011">Ἕλληνας</orgName> τοὺς μὴ ὄντας ὑπὸ
@@ -2164,7 +2163,7 @@
         οὔτε ὑποκρίνεσθαι τὸν Ἑλληνισμὸν ἠνέχετο. <quote>ἀνόμους</quote> οὖν λέγει τοὺς ἀπ’ ἐθνῶν ἐπιστέψαντας. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:22">
+     <div type="textpart" subtype="commentary" n="9_22">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔδοξα τοῖς ἀπὸ <orgName key="PTA_O00011">Ἑλλήνων</orgName> μὴ εἶναι <quote>ὑπὸ νόμον</quote>
         καὶ ἔφερον τὴν ὑπόληψιν, ἵνα ῥύσωμαι αὐτοὺς τῶν <orgName key="PTA_O00008">Ἰουδαϊκῶν</orgName>. πᾶσιν οὖν
@@ -2174,7 +2173,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:23">
+     <div type="textpart" subtype="commentary" n="9_23">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ καὶ τῷ εὐαγγελίῳ δοκεῖ μὴ κεχρῆσθαι νόμῳ, ἐμιμησάμην αὐτοῦ τὴν
         οἰκονομίαν, ὅπερ ἐκεῖνο βούλεται οἰκονομῶν, ἵνα κατ’ αὐτὸ τοῦτο αὐτῷ
@@ -2184,7 +2183,7 @@
         οἰκονομίαν· ὅπερ γὰρ ἐκεῖνο εἶπεν, τοῦτο οἰκονομῶ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:24">
+     <div type="textpart" subtype="commentary" n="9_24">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ τοῦτο λέγει ὅτι εἷς ἐξ ἡμῶν πάντων προκρίνεται – ἢ γὰρ ἂν καὶ
         ἀπέγνωσαν ἑαυτῶν οἱ ἄνθρωποι εἰς τὸ δυσκατόρθωτον ἀποβλέποντες – ἀλλὰ
@@ -2196,7 +2195,7 @@
         τοῖς ἄλλοις ἀπολειφθῆτε. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_9:25">
+     <div type="textpart" subtype="commentary" n="9_25">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τί μέγα, φησίν, ἐὰν ἐγκρατεύσησθε σαρκὶ διὰ τὸν ἀδελφόν; <quote>πάντα</quote> δεῖ ἐγκρατεύεσθαι τὸν ἀγωνιζόμενον, ἀπὸ
         θυμοῦ, ἀπὸ δόξης καὶ ἀπὸ πάντων τῶν λοιπῶν· <quote>ἐκεῖνοι
@@ -2210,7 +2209,7 @@
        γαστρίζεσθαι ἀδιαφόρως ἐσθίειν τὰ ἱερόθυτα ἐν πίστει προσποιουμένους. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:1–8">
+     <div type="textpart" subtype="commentary" n="10_1ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοὺς ἐκ τῆς παλαιᾶς <quote>τύπους</quote> καὶ τὰς ἐκεῖθεν
          <quote>σκιὰς</quote> προεικονιζούσας τὴν μέλλουσαν
@@ -2224,7 +2223,7 @@
         ὕβρισαν, τί οὐκ ἂν πάθοιεν οἱ εἰς αὐτὴν τὴν ἀλήθειαν ἁμαρτάνοντες; </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:9">
+     <div type="textpart" subtype="commentary" n="10_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ ἔλεγον· ἐμοὶ εἴδωλον οὐκ ἔστιν· εὐχαριστῶ γὰρ καὶ ἐσθίω, τοῦτο,
         φησίν, <quote>ἐκπειράσαι</quote> ἐστίν. ὃ γὰρ μὴ προσέταξεν
@@ -2236,7 +2235,7 @@
         πιστεύεις. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:11">
+     <div type="textpart" subtype="commentary" n="10_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰς ὑμᾶς, φησί, κατήντησεν ἡ τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> ἐπιδημία, μεθ’ ἣν οὐκέτι
         ἔσται οὐκ ἐντολὴ οὐ νόμος οὐ προφῆται· <quote>τέλη</quote>
@@ -2244,7 +2243,7 @@
         ἀλλὰ τὴν τελευταίαν πολιτείαν τὴν ἐν Χριστῷ ἐφ’ ᾗ <quote>τῶν αἰώνων</quote> ἡ συμπλήρωσις ἀπαντήσει. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:13">
+     <div type="textpart" subtype="commentary" n="10_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ηὔξατο μὴ πειρασθῆναι, ἐπειδὴ ἀνὴρ ἀπείραστος ἀδόκιμος, ἀλλ’ οὕτως
         πειράζεσθαι ὡς φέρειν. </p>
@@ -2255,7 +2254,7 @@
        <pb n="259"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:14">
+     <div type="textpart" subtype="commentary" n="10_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁρᾷς ὅτι πάντα τὰ προειρημένα αὐτῷ τούτου ἕνεκα κατεσκευάζετο. </p>
        <pb n="259,col2"/>
@@ -2264,7 +2263,7 @@
        <pb n="259"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:20">
+     <div type="textpart" subtype="commentary" n="10_20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μὴ πρὸς τὰ <quote>εἴδωλα</quote> αὐτῶν ἀποβλέπετε οὐδὲν
         ὄντα, ἀλλὰ πρὸς τὴν διάνοιαν καθ’ ἣν <quote>θύουσι
@@ -2272,7 +2271,7 @@
         γίνεται τοῦ θεοῦ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:22">
+     <div type="textpart" subtype="commentary" n="10_22">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ γέγραπται ὁ θεὸς λέγων διὰ <persName type="biblical" key="Moses_Exo.2.10">Μωϋσέως</persName> αὐτοῖς· <quote>παρεζήλωσάν με ἐπ’ οὐ θεοῖς, παρώργισάν με ἐν τοῖς εἰδώλοις
          αὐτῶν,</quote> οἱ δὲ <orgName>Κορίνθιοι</orgName> εἰδωλόθυτα ἤσθιον, διὰ τοῦτό φησιν· ἢ
@@ -2288,7 +2287,7 @@
         <orgName>Κορίνθιοι</orgName> ἤσθιον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:25">
+     <div type="textpart" subtype="commentary" n="10_25">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ εἰκὸς ἦν αὐτοὺς ἀκριβολογουμένους μηκέτι τολμᾶν μήτε ὀψωνεῖν
         φόβῳ τοῦ μὴ ἀκοῦσαι <quote>εἰδωλόθυτον ἠγόρασας</quote>, παραμυθεῖται
@@ -2297,20 +2296,20 @@
         εἰδωλόθυτον καὶ νομίζοντος ὅτι ἔστι τι εἰδωλόθυτον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:26">
+     <div type="textpart" subtype="commentary" n="10_26">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἃ ἐσθίετε <quote>τοῦ κυρίου</quote> ἐστίν, ἐπεὶ καὶ ἡ γῆ
         καὶ πάντα ὅσων πεπλήρωται. </p>
        <pb n="260"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:31">
+     <div type="textpart" subtype="commentary" n="10_31">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πάντα πεφυλαγμένως ποιεῖτε, ἵνα δοξάζωσι δι’ ὑμᾶς τὸν θεὸν καὶ μὴ
         σκανδαλίζωνται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_10:32">
+     <div type="textpart" subtype="commentary" n="10_32">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μὴ αἴτιοι προσκόμματος γίνεσθε <quote><orgName key="PTA_O00008">Ἰουδαίοις</orgName></quote>
         καὶ <quote><orgName key="PTA_O00011">Ἕλλησιν</orgName></quote> ἐν τῷ μὴ προφάσει τῆς κακῆς ὑμῶν
@@ -2319,14 +2318,14 @@
         μὴ σκανδαλίζεσθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_11:2">
+     <div type="textpart" subtype="commentary" n="11_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἐπαινεῖ</quote> νῦν καίπερ διεσφαλμένους, ἵνα κἂν
         τοῦ λοιποῦ πεισθῶσιν οἷς λέγει. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_11:3">
+     <div type="textpart" subtype="commentary" n="11_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Προτρεπόμενος μᾶλλον ἢ ἀποδεχόμενος λέγει, ἵνα ἑξῆς τὴν παραίνεσιν
         βεβαιώσῃ ἐν αὐτοῖς· <quote>θέλω δὲ ὑμᾶς εἰδέναι ὅτι παντὸς
@@ -2353,7 +2352,7 @@
        <pb n="261"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_11:4">
+     <div type="textpart" subtype="commentary" n="11_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Προφητεύειν</quote> λέγει τὸ τοὺς προφήτας
@@ -2363,7 +2362,7 @@
         <persName>Ἀνανίου</persName> ὁ <persName type="biblical" key="Peter_Mat.4.18">Πέτρος</persName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_11:7">
+     <div type="textpart" subtype="commentary" n="11_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐκ τούτων φαίνεται ὅτι οὔτε κατὰ τὴν ψυχὴν <quote>εἰκὼν
          θεοῦ</quote> ἄνθρωπος, οὔτε κατὰ τὸ σῶμα. εἰ γὰρ ἦν καθ’ ἕν τι τούτων,
@@ -2386,7 +2385,7 @@
        <pb n="261"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_11:10">
+     <div type="textpart" subtype="commentary" n="11_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ τραχὺ καὶ δύσεικτον τῶν γυναικῶν συνεωρακὼς ὁ ἀπόστολός φησιν,
         ὑπομιμνήσκων ὅτι καὶ <quote>ἀγγέλους</quote> ἐπέστησεν ἡμῖν
@@ -2398,7 +2397,7 @@
         καὶ δεῖ διὰ τοῦτο κατακαλύπτεσθαι τὴν γυναῖκα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_11:14–15">
+     <div type="textpart" subtype="commentary" n="11_14ad15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἀπὸ τοῦ παλαιοῦ ἔθους ἀλλ’ ἀπὸ τοῦ κατ’ αὐτοὺς ἐδοκίμασε τοῦτο.
         καὶ οἱ <quote>κομῶντες</quote> τὸ παλαιὸν ἐκ μέρους
@@ -2406,14 +2405,14 @@
         ἀπεδοκιμάσθη. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_11:19">
+     <div type="textpart" subtype="commentary" n="11_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Αἱρέσεις</quote> λέγει οὐ τὰς ἐν τοῖς δόγμασιν ἀλλὰ
         τὰς ἐν ἔθεσι καὶ τύποις. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_11:20–21">
+     <div type="textpart" subtype="commentary" n="11_20ad21">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐγκαλεῖ ὅτι συνερχόμενοι ὡς ἐπὶ κοινωνίᾳ τοῦ ἁγίου σώματος οὐκ
         ἀνέμενον ἀλλήλους, ἀλλά τινων διαπενίαν ἀσχολουμένων καὶ ὑστερούντων
@@ -2424,7 +2423,7 @@
         αὐτοὶ ἐμέθυον· φθάνοντες γὰρ τὴν κοινωνίαν ἀπήλαυον τῶν ἰδίων ὄψων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_12:1–2">
+     <div type="textpart" subtype="commentary" n="12_1ad2">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Πνευματικὰ</quote> λέγει νῦν τὰς τοῦ ἁγίου πνεύματος
@@ -2442,7 +2441,7 @@
        <pb n="263"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_12:3">
+     <div type="textpart" subtype="commentary" n="12_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πάντων γὰρ τὰ βλάσφημα εἰς <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> ὑπὸ τοῦ πονηροῦ ἐνεργεῖται τοῦ
         θολοῦντος τὴν ψυχήν. τοῦτο οὖν λέγει ἀσφαλιζόμενος τοὺς προσποιουμένους
@@ -2455,7 +2454,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_12:8–10">
+     <div type="textpart" subtype="commentary" n="12_8ad10">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Λόγος σοφίας</quote> τὸ καὶ νοῆσαι τὰ ἐν σοφίᾳ θεοῦ
@@ -2469,7 +2468,7 @@
         ἅγιον, καὶ τούτων τὴν διάκρισιν δέδωκεν διὰ τὸ μὴ πλανᾶσθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_12:12">
+     <div type="textpart" subtype="commentary" n="12_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τῷ ὅλῳ <quote>σώματι ἐκ πολλῶν</quote> συγκειμένῳ μελῶν
         ἀπεικονίζει τὸν <persName type="biblical" key="Jesus_Mat.1.1">Χριστόν</persName>, διὰ τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> τὴν ἐκκλησίαν δηλῶν· ἐπεὶ γὰρ ὁ
@@ -2478,13 +2477,13 @@
         τὸ ἔλαττον δηλῶν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_12:14">
+     <div type="textpart" subtype="commentary" n="12_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτο λέγει, ἵνα μὴ τοὺς ταπεινοτέρους ἐν τῇ ἐκκλησίᾳ περιορῶσιν· κἂν
         γὰρ τῇ φύσει ἐλάττω τις ᾖ, ἀλλὰ τῷ κοινῷ τῆς ἐκκλησίας συμβάλλεται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_12:27">
+     <div type="textpart" subtype="commentary" n="12_27">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ εἶπεν μέλη ἐκ μελῶν, ἀλλὰ μέλη πολλὰ <quote>ἐκ
          μέλους</quote> ἑνός· μέλος γὰρ ἡ <quote>κεφαλὴ</quote> τοῦ
@@ -2494,7 +2493,7 @@
         ἐστιν μέλος ἡ <quote>κεφαλή,</quote> ὅς ἐστι <quote type="lemma"/><persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>, ἡ κεφαλὴ τῆς ἐκκλησίας. </p>
        </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_12:28">
+     <div type="textpart" subtype="commentary" n="12_28">
       <div type="textpart" subtype="fragment" n="1">
        <pb n="264"/>
        <p>Ἐπειδὴ <quote>μελῶν</quote> μέμνηται καὶ <quote>σώματος</quote>, ἄρχεται ἀπὸ τοῦ τιμιωτέρου τῶν ἄλλων
@@ -2511,7 +2510,7 @@
        <p>Οὐ τοὺς ἐν τῷ νόμῳ λέγει, ἀλλὰ τοὺς τῆς ἐκκλησίας. </p>
         </div>
       </div>
-      <div type="textpart" subtype="commentary" n="1Cor_12:29–31">
+      <div type="textpart" subtype="commentary" n="12_29ad31">
         <div type="textpart" subtype="fragment" n="1">
        <p>Διὰ τοῦτο δείκνυσιν ὅτι μέγα ἐφρόνουν ἐπὶ τῷ χαρίσματι τῶν γλωσσῶν,
         ἀλλὰ καὶ ἐν τοῖς ἄλλοις χαρίσμασιν. δείκνυσιν οὖν ὅτι τὸ μέγιστον ἡ
@@ -2532,7 +2531,7 @@
        </p>
       </div>
     </div>
-    <div type="textpart" subtype="commentary" n="1Cor_13:1">
+    <div type="textpart" subtype="commentary" n="13_1">
       <div type="textpart" subtype="fragment" n="1">
        <pb n="265"/>
        <p>Καὶ τίς <quote>γλῶσσα ἀγγέλων,</quote> παρ’ οἷς οὐ
@@ -2576,7 +2575,7 @@
        <pb n="266"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_13:2">
+     <div type="textpart" subtype="commentary" n="13_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Μυστήριον</quote> λέγει πᾶν τὸ ἀγνοούμενον μέν,
@@ -2585,7 +2584,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_13:4">
+     <div type="textpart" subtype="commentary" n="13_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μετ’ ὀλίγα διδάσκει τί ἐστιν <quote>ἀγάπη,</quote> ὅπου
         λέγει· ἡ <quote>ἀγάπη μακροθυμεῖ</quote> καὶ τὰ ἑξῆς. διὸ
@@ -2597,21 +2596,21 @@
         κύριον ἀγάπην, τοῦτο ἡμῖν ὑπομενετέον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_13:8">
+     <div type="textpart" subtype="commentary" n="13_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἡ ἀγάπη οὐδέποτε ἐκπίπτει,</quote> τοῦτ’ ἔστιν
         οὐδέποτε ἐξολισθαίνει εἰς ἁμάρτημα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_13:10">
+     <div type="textpart" subtype="commentary" n="13_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἡ ἐκ μέρους καταργεῖται</quote> τῆς ὁλοκλήρου
         γνώσεως δοθείσης· ὀλίγα γὰρ οἴδαμεν τῶν πλειόνων ἔτι λανθανόντων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_13:11–12">
+     <div type="textpart" subtype="commentary" n="13_11ad12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὥσπερ, φησίν, ὅτε ἤμην παῖς, <quote>νηπίου</quote> εἶχον
         τοὺς λογισμούς, παρελθὼν δὲ εἰς ἄνδρα τέλειον ἔσχον τὸν νοῦν, οὐκέτι
@@ -2623,7 +2622,7 @@
         καὶ οἰκειωθεὶς αὐτῷ, οὗτος καὶ τῆς αὐτοψίας τῶν μυστηρίων τυγχάνει. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_13:13">
+     <div type="textpart" subtype="commentary" n="13_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μήπω ἀποκαλυφθείσης ἡμῖν πάσης γνώσεως, μένει ἡμῖν τὸ πιστεύειν ὅτι
         ἀποκαλυφθήσεται ἡμῖν πᾶσα γνῶσις. καὶ πιστεύουσι μὲν <pb n="267"/>
@@ -2632,7 +2631,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:1–5">
+     <div type="textpart" subtype="commentary" n="14_1ad5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐὰν γὰρ μὴ διερμηνεύῃ, μόνον δὲ λαλῇ γλώσσῃ καὶ τὴν δύναμιν μὴ
         σαφανίζῃ ὡς οὐκ ἔχων τοῦτο τὸ τῆς διερμηνείας χάρισμα, <quote>μυστήρια</quote> μὲν <quote>λαλεῖ</quote> – τὸ
@@ -2655,7 +2654,7 @@
        <p>Ὥσπερ ὁ γλώσσαις λαλῶν καὶ διερμηνεύει, οὐκ ἔλαττόν ἐστι τοῦ προφήτου. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:6">
+     <div type="textpart" subtype="commentary" n="14_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τί ὑμᾶς ὠφελήσω,</quote> φησίν, ἐὰν μὴ δύνωμαι ὑμῖν
@@ -2667,7 +2666,7 @@
        <pb n="268"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:7">
+     <div type="textpart" subtype="commentary" n="14_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Σκοπεῖτε γάρ, φησίν, ὅτι καὶ ἐν τοῖς <quote>ἀψύχοις αὐλῷ
          καὶ κιθάρᾳ</quote> ἐὰν μὴ <quote>διαστέλλωνται οἱ
@@ -2676,20 +2675,20 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:10">
+     <div type="textpart" subtype="commentary" n="14_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Οὐδὲν ἄφωνον,</quote> δηλονότι γένος ἀνθρώπων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:12">
+     <div type="textpart" subtype="commentary" n="14_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Πνευματικὰ</quote> λαλεῖ τὰ διάφορα χαρίσματα τοῦ
         ἁγίου πνεύματος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:13–14">
+     <div type="textpart" subtype="commentary" n="14_13ad14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐάν, φησί, λαλήσω γλώσσῃ τινὶ ἣν οὐκ οἶδα, μηδὲ εἰδὼς αὐτῆς τὴν
         δύναμιν, πέπεισμαι μὲν ὅτι <quote>νοῦν ἄκαρπον</quote> ἔχω
@@ -2705,20 +2704,20 @@
         τῶν ῥημάτων τὴν δύναμιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:16">
+     <div type="textpart" subtype="commentary" n="14_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διὰ τὸ μηδένα δύνασθαι ὠφελεῖσθαι ἢ συνιέναι τὰ λεγόμενα, ἐὰν
         εὐχαριστῶ γλώττῃ, οὐκ ἀποδίδωσί σοι ὁ ἀκροατὴς τὸ <quote>ἀμήν. ἰδιώτην</quote> δὲ λέγει ὥσπερ τὸν ἀστράτευτον τὸν μηδέπω
         βαπτισθέντα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:19">
+     <div type="textpart" subtype="commentary" n="14_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τῇ σαφηνείᾳ τοῦ <quote>νοῦ</quote> καὶ τῇ συνήθει γλώττῃ.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:20">
+     <div type="textpart" subtype="commentary" n="14_20">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τέλειοι</quote> γίνεσθαι σπουδάζετε, νοεῖν τὰς
@@ -2726,7 +2725,7 @@
        <pb n="269"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:21–23">
+     <div type="textpart" subtype="commentary" n="14_21ad23">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπισημήνασθαι χρὴ ὅτι ἀπαιτούμενοι <orgName key="PTA_O00008">Ἰουδαῖοι</orgName>, ὅπου ὁ θεὸς ἐν πολλαῖς
         αὐταῖς ἐλάλησε γλώσσαις κἀκεῖνοι ἠπείθησαν, οὐκ ἔχουσι δεῖξαι· ἡμεῖς δὲ
@@ -2764,7 +2763,7 @@
         ὅπου καὶ ὁ ὀλιγόπιστος καλεῖται ἄπιστος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:26">
+     <div type="textpart" subtype="commentary" n="14_26">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἕκαστος</quote> δι’ ἧς ἔχει χάριτος παρὰ θεοῦ, διὰ
@@ -2772,7 +2771,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:28">
+     <div type="textpart" subtype="commentary" n="14_28">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰπὼν <quote>σιγάτω</quote> ἐδίδαξεν ὅτι πνεύματι ἁγίῳ
         λαλῶν ὅτε θέλει λαλεῖ καὶ σιωπᾷ ὡς καὶ οἱ προφῆται, οὐ μὴν οἱ
@@ -2780,7 +2779,7 @@
         καὶ ἃ οὐκ ἴσασιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_14:29–32">
+     <div type="textpart" subtype="commentary" n="14_29ad32">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διὰ τούτων δείκνυσιν ὅτι ταῖς ψυχαῖς τὸ πνεῦμα τὸ ἅγιον ἀπεκάλυπτε τὰ
         μυστήρια, κἀκεῖναι φωτισθεῖσαι ἀπεκάλυπτον ἀνθρώποις, οὐχ ὡς ἐν ταῖς
@@ -2801,7 +2800,7 @@
        <pb n="271"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:1–2">
+     <div type="textpart" subtype="commentary" n="15_1ad2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ ξένον, φησί, λέγω, ἀλλ’ ὅπερ ἐκήρυξα. καὶ οὐχὶ ἐγὼ μὲν ἐκήρυξα,
         ὑμεῖς δὲ οὐκ ἐδέξασθε, ἀλλ’ ὃ <quote>καὶ
@@ -2822,7 +2821,7 @@
        <pb n="271"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:3">
+     <div type="textpart" subtype="commentary" n="15_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ <quote>ἐν πρώτοις</quote> εἶπεν ἀντὶ τοῦ πρὸ πάντων
         τοῦτο ὑμῖν παρέδωκα. </p>
@@ -2834,19 +2833,19 @@
         αὐτὸν ἐξ οὐρανῶν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:4">
+     <div type="textpart" subtype="commentary" n="15_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πῶς <quote>ἐτάφη,</quote> εἰ σάρκα οὐκ εἶχεν κατὰ τοὺς
         <orgName key="PTA_O00042">αἱρετικούς</orgName>; </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:6">
+     <div type="textpart" subtype="commentary" n="15_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀντὶ τοῦ πλέον ἢ πεντακοσίοις. </p>
        <pb n="272"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:8">
+     <div type="textpart" subtype="commentary" n="15_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἔκτρωμα</quote> δέ ἐστι τὸ πρὸ τοῦ διαμορφωθῆναι καὶ
@@ -2865,7 +2864,7 @@
          <quote>ἔκτρωμα</quote> ὀνομάζει. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:9–10a">
+     <div type="textpart" subtype="commentary" n="15_9ad10a">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἐλάχιστος ἐν τοῖς ἀποστόλοις,</quote> ἐπειδὴ ἐκείνων
@@ -2876,7 +2875,7 @@
         τοσαύτης χάριτος, διὸ καὶ πλείω τῶν ἄλλων ἐκοπίασεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:10b">
+     <div type="textpart" subtype="commentary" n="15_10b">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ μάτην ἔλαβον πολλὴν χάριν, ἀλλ’ ἐχρησάμην αὐτῇ ὑπὲρ τοῦ κηρύγματος,
          <quote>περισσοτέρον αὐτῶν πάντων κοπιάσας.</quote>
@@ -2885,14 +2884,14 @@
        <p>Ἀντὶ τοῦ οὐ μάτην τὴν χάριν ἔλαβον· κεκοπίακα γάρ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:12–13">
+     <div type="textpart" subtype="commentary" n="15_12ad13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἐγχωρεῖ <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> μὲν ἀναστῆναι, τοὺς δὲ λοιποὺς μηκέτι· ἀλλ’
         ὁμολογουμένως δι’ οὐδὲν <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸς</persName> ἀπέθανε καὶ ἀνέστη, εἰ μὴ διὰ τὴν
         ἡμετέραν ἀνάστασιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:14–18">
+     <div type="textpart" subtype="commentary" n="15_14ad18">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Εἰ μὴ ἐγήγερται,</quote> φησίν, ὁ <quote><persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>,</quote> μάτην ἐπιστεύσατε ὅτι ἀφίενται ὑμῶν αἱ
@@ -2902,7 +2901,7 @@
         ἔσται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:19">
+     <div type="textpart" subtype="commentary" n="15_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διὰ τοῦτο <quote>ἐλεεινοί,</quote> ὅτι τῆς ζωῆς ταύτης οὐ
         μετερχόμεθα τὰ ἀγαθά· εἰ γὰρ τῶν τῆς παρούσης ζωῆς ἀγαθῶν καταφρονοῦμεν
@@ -2912,7 +2911,7 @@
         τὴν εὐσέβειαν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:12–20">
+     <div type="textpart" subtype="commentary" n="15_12ad20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ζητοῦμεν ποῖον θάνατον λέγουσιν ὑπομεμενηκέναι τὸν σωτῆρα, ἢ ποίαν
         ἀνάστασιν. εἰ μὲν γὰρ δοκήσει ἑκάτερα, εἰς δόκησιν ἡ πίστις τῶν
@@ -2948,7 +2947,7 @@
        <pb n="274"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:21–22">
+     <div type="textpart" subtype="commentary" n="15_21ad22">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οἱ δεχόμενοι ταῦτα τὰ ῥήματα λεγέτωσαν διὰ ποίου ἀνθρώπου ὁ θάνατος ἢ
         ποῖος θάνατος. ἆρα διὰ τοῦ <persName type="biblical" key="Adam_Gen.2.19">Ἀδάμ</persName>; ἀλλ’ ἥμαρτεν μὲν ἡ ψυχή, κατεκρίθη δὲ
@@ -2969,7 +2968,7 @@
         τῆς οἰκονομίας; </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:23–25">
+     <div type="textpart" subtype="commentary" n="15_23ad25">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τάγμα</quote> λέγει δικαίων καὶ ἀδίκων, οὐκ ἰδικῶς
@@ -2997,20 +2996,20 @@
        <pb n="275"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:29">
+     <div type="textpart" subtype="commentary" n="15_29">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ τὰ σώματα, φησί, νεκρὰ μένει καὶ οὐκ ἀνίσταται, τί ὑπὲρ τούτων τῶν
         νεκρῶν ὡς ἀνισταμένων καὶ κριθησομένων βαπτιζόμεθα, ἄφεσιν λαμβάνοντες
         ἁμαρτημάτων ὑπὲρ τοῦ μὴ κριθῆναι; </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:32">
+     <div type="textpart" subtype="commentary" n="15_32">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὅσον, φησίν, ἐπ’ ἀνθρώπῳ <quote>ἐθηριομάχησα,</quote> ὁ
         δὲ θεὸς ἔσωσέν με. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:35–38">
+     <div type="textpart" subtype="commentary" n="15_35ad38">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οἱ <orgName key="PTA_O00011">Ἕλληνες</orgName> ἀντιλέγουσιν ὅτι <quote>σπέρμα</quote>
         διχασθὲν οὐκέτι βλαστάνει. ἄρα οὖν καὶ ἄνθρωπος ἀποκοπεὶς τὸν πόδα ἢ
@@ -3025,7 +3024,7 @@
         τὴν δημιουργικὴν δύναμιν παραστήσω. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:40–42">
+     <div type="textpart" subtype="commentary" n="15_40ad42">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὡς ἀνισταμένων τῶν ἄλλων σαρκῶν· ὑποδείγματι γὰρ κέχρηται. καὶ
          <quote>σώματα ἐπουράνια</quote> τὸν ἥλιον λέγει καὶ τὴν
@@ -3037,7 +3036,7 @@
         <quote>Σώματα</quote> δὲ <quote>οὐράνια</quote> ἥλιος καὶ σελήνη. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:44">
+     <div type="textpart" subtype="commentary" n="15_44">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Σῶμα ψυχικὸν</quote> λέγει τὸ τῇ ἁμαρτίᾳ τῆς ψυχῆς
@@ -3048,7 +3047,7 @@
        <pb n="276"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:45">
+     <div type="textpart" subtype="commentary" n="15_45">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτο <persName type="biblical" key="Moses_Exo.2.10">Μωϋσῆς</persName> φησι τὸ <quote>καὶ ἐγένετο ὁ ἄνθρωπος εἰς
          ψυχὴν ζῶσαν. Ὁ δεύτερος ἄνθρωπος εἰς πνεῦμα ζωοποιοῦν.</quote> τοῦτο τὸ
@@ -3057,14 +3056,14 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:47">
+     <div type="textpart" subtype="commentary" n="15_47">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἐκ γῆς</quote> ὁ ἄνθρωπος κατὰ φύσιν, <quote>χοϊκὸς</quote> δὲ κατὰ τὴν προαίρεσιν. <quote>ἐξ οὐρανοῦ</quote> δὲ τὸν <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> λέγει· οὐ καθ’ ὁμοιότητα ἢ ἐξ
         ἀναστάσεως ἀϊδιότης γίνεται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:47–49">
+     <div type="textpart" subtype="commentary" n="15_47ad49">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπιτρέχουσι τούτῳ καὶ οἱ περὶ <persName>Οὐαλεντῖνον</persName> καὶ <persName>Μαρκίωνα</persName> καὶ οἱ ἀπὸ
         <persName>Φωτεινοῦ</persName> καὶ οἱ <persName>Ἀπολιναρίου</persName>, πάντας δὲ ἐλέγχει τὸ ῥητόν. ἐρωτῶ γάρ·
@@ -3090,7 +3089,7 @@
        <pb n="277"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:50">
+     <div type="textpart" subtype="commentary" n="15_50">
       <div type="textpart" subtype="fragment" n="1">
        <p>Κατὰ τῆς ἀναστάσεως τοῦτο ἕλκουσι πολλοὶ τῶν <orgName key="PTA_O00042">αἱρετικῶν</orgName> ὑπὸ πολλῆς
         ἀνοίας· οὐ γὰρ εἶπεν ὅτι σὰρξ καὶ αἷμα οὐκ ἀνίσταται, ἀλλὰ <quote>βασιλείαν θεοῦ οὐ κληρονομήσει.</quote> τῆς βασιλείας τοῦ
@@ -3105,7 +3104,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_15:52">
+     <div type="textpart" subtype="commentary" n="15_52">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐδήλωσεν ὅτι πολλαί εἰσι σάλπιγγες· <quote>ἐσχάτης</quote> γὰρ μνημονεύσας καὶ τὰς πρώτας συνέθηκεν. <quote>Καὶ οἱ νεκροὶ ἐγερθήσονται ἄφθαρτοι, καὶ ἡμεῖς
          ἀλλαγησόμεθα.</quote> εἰ <quote>ἄφθαρτοι</quote> οἱ
@@ -3126,7 +3125,7 @@
          ζῶντες,</quote> τοὺς περὶ αὐτὸν ἁγίους ἐσήμανεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1Cor_16:1">
+     <div type="textpart" subtype="commentary" n="16_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Λογία</quote> λέγεται ἡ κατὰ συλλογὴν γενομένη
@@ -3135,7 +3134,7 @@
      </div>
     </div>
     <div type="textpart" subtype="book" n="2Cor">
-     <div type="textpart" subtype="commentary" n="2Cor_1:1–2">
+     <div type="textpart" subtype="commentary" n="1_1ad2">
       <div type="textpart" subtype="fragment" n="1">
        <pb n="278"/>
        <p>Καὶ τὸ πρότερον αὐτοῖς ἐγκαλῶν οὐ μόνος ἐγκαλεῖ, καὶ νῦν
@@ -3151,7 +3150,7 @@
          θεὸς ὑμῶν</quote> ἐν σαρκὶ ὢν ὁ <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸς</persName> ἔλεγεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:3">
+     <div type="textpart" subtype="commentary" n="1_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Αὕτη ἡ δόξα ἣν δοξάζει καὶ ἐπονομασίαις ἐπονομάζει τὸν θεόν, ἤδη τὸ
         τῆς καταλλαγῆς προμηνύου<quote>σιν. πατὴρ τῶν οἰκτιρμῶν καὶ
@@ -3166,7 +3165,7 @@
        <pb n="278"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:4">
+     <div type="textpart" subtype="commentary" n="1_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Παρακαλῶν</quote> ὁ θεὸς καὶ παραμυθούμενος οὐκ ἐπὶ
@@ -3175,7 +3174,7 @@
         ἀνακαλεῖσθαι διὰ τῆς παρακλήσεως. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:6">
+     <div type="textpart" subtype="commentary" n="1_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ ἡμετέρα <quote>θλίψις</quote> ὑμῖν παραμυθία γίνεται·
         εἰ γὰρ οἱ ἀπόστολοι θλίβονται, πολλῷ μᾶλλον οἱ λοιποί. ἢ καὶ τοῦτό
@@ -3187,13 +3186,13 @@
        <pb n="279"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:7">
+     <div type="textpart" subtype="commentary" n="1_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐλπίζω <surplus>ὅτι</surplus> τὰ αὐτά μοι ὑπομένοντας ὁμοίως παρὰ θεοῦ καὶ τῆς
         παρακλήσεως τεύξασθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:8">
+     <div type="textpart" subtype="commentary" n="1_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἐπιδεικνύμενος διηγεῖται τὰς συμβάσας αὐτῷ <quote>ἐν
          τῇ <placeName>Ἀσίᾳ</placeName> θλίψεις,</quote> ἀλλὰ πρὸς ὑπομονὴν τῶν παθημάτων αὐτοὺς
@@ -3201,7 +3200,7 @@
        <p>Ἀντὶ τοῦ ὥστε ἀπαγορεῦσαι ἡμᾶς καὶ τοῦ ζῆν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:9">
+     <div type="textpart" subtype="commentary" n="1_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἀπόκριμα</quote> λέγεται ἡ ἀπὸ τοῦ κρίματος
@@ -3209,7 +3208,7 @@
         ἀπόφασιν τοῦ θανάτου ἐσχήκαμεν, δι’ οὗ σωφρονιζόμεθα <quote>μὴ πεποιθέναι ἐφ’ ἑαυτοῖς ἀλλ’ ἐπὶ τῷ</quote> σώζοντι <quote>θεῷ</quote> καὶ τοὺς ἑαυτοὺς ἀπαγορεύοντας. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:11">
+     <div type="textpart" subtype="commentary" n="1_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὡς φιλοσωματῶν διαφεύγειν εὔχεται τοὺς ἐπιβουλεύοντας, ἀλλ’ ἵνα
         ὑπηρετῇ τοῖς δοθεῖσιν αὐτῷ χαρίσμασιν, ὅπως <quote>ἐκ
@@ -3220,13 +3219,13 @@
         τετυχήκαμεν δωρεᾶς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:12a">
+     <div type="textpart" subtype="commentary" n="1_12a">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτο ἡμῶν τὸ <quote>καύχημά</quote> ἐστιν ὅτι <quote>μαρτυρεῖ</quote> ἡμῖν ἡ <quote>συνείδησις
          ἡμῶν</quote> ὅτι ὀρθῶς κηρύττομεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:12b">
+     <div type="textpart" subtype="commentary" n="1_12b">
       <div type="textpart" subtype="fragment" n="1">
        <p>Καὶ μὴν τὴν σοφίαν τῶν ἔξωθεν ψυχικὴν εἶναι βούλεται, ἀλλὰ νῦν
         αἰνίττεται ὅτι οὐκ ἐχρήσατο λόγῳ κατὰ τοὺς ἔξω· ἐφ’ ᾧ τε λαβεῖν τι παρ’
@@ -3234,7 +3233,7 @@
         αἰτίαν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:13–14">
+     <div type="textpart" subtype="commentary" n="1_13ad14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἄλλα ἐδιδάξαμεν ὑμᾶς συνόντες ὑμῖν παρ’ ἃ νῦν ἐπιστέλλομεν, ἀλλὰ
         ταῦτα ἃ καὶ <quote>ἀναγινώσκετε</quote> ἀκαλλώπιστα ὄντα·
@@ -3254,7 +3253,7 @@
         φιλοτιμοῦνται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:17">
+     <div type="textpart" subtype="commentary" n="1_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ διά τι σαρκικὸν ἐλθεῖν ἐβουλευόμην ἀλλὰ διὰ τὸν θεόν· τὸ δὲ διὰ τὸν
         θεὸν βουλεύεσθαι παραγενέσθαι <quote>οὐκ ἐλαφρίας.</quote>
@@ -3268,7 +3267,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:18">
+     <div type="textpart" subtype="commentary" n="1_18">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ μὲν ἐλθεῖν ἢ μὴ οὐκ ἐν ἐμοί, τὸ δὲ προθέσθαι ἐν ἐμοί. εἰ μὲν οὖν
          <quote>ναὶ</quote> καὶ <quote>οὒ</quote> εἶχε
@@ -3278,13 +3277,13 @@
        <p>Πιστεύω τῷ θεῷ ὅτι οὐδὲν ὧν ἐκηρύξαμεν ψεῦδός ἐστιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:19">
+     <div type="textpart" subtype="commentary" n="1_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐδὲ γὰρ ὁ <quote>τοῦ θεοῦ υἱὸς</quote> ὁ κύριος ἡμῶν
         Ἰησοῦς ἐγένετο ψεύστης. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:20–22">
+     <div type="textpart" subtype="commentary" n="1_20ad22">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Διὰ τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> τῷ θεῷ</quote> καὶ πατρὶ τὸ ἀμὴν
@@ -3299,7 +3298,7 @@
         μέρος ἐξ ὅλου. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_1:23–24">
+     <div type="textpart" subtype="commentary" n="1_23ad24">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ πολλὰ ἦν τὰ κατ’ αὐτῶν ἐγκλήματα, οὐκ ἠβούλετο ἀπελθὼν
         κατακρῖναι αὐτούς. </p>
@@ -3319,13 +3318,13 @@
          <quote>συνεργὸν</quote> αὐτοῖς εἶναί φησιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:1">
+     <div type="textpart" subtype="commentary" n="2_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διὰ τοῦτο οὐκ ἦλθον, οὐχ ἵνα μὴ λυπήσω ὑμᾶς ἀλλ’ ἐμαυτόν, καὶ ἵνα μή
         τινας κατακρίνω ἐφ’ οἷς πράττουσιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:2">
+     <div type="textpart" subtype="commentary" n="2_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἐκ τῶν ὁμοίων ὑμεῖς λυπεῖτέ με κἀγὼ ὑμᾶς· ὑμεῖς μὲν γὰρ ἐξ ὧν
         ἁμαρτάνετε λυπεῖτέ με, ἐγὼ δὲ ἐξ ὧν ἐπιπλήττω <quote>λυπῶ
@@ -3336,7 +3335,7 @@
         τῇ ὑμετέρᾳ ὠφελείᾳ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:3">
+     <div type="textpart" subtype="commentary" n="2_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τοῦτο ἔγραψα τὸ ὅτι φειδόμενος ὑμῶν οὐκ
@@ -3349,7 +3348,7 @@
         πταίσματα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:4">
+     <div type="textpart" subtype="commentary" n="2_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Δείξας ὅτι τὰ αὐτὰ πταίσματα ἴδια ποιεῖται, πένθη καὶ δάκρυα ἐνέφηνεν
         ἣν ἔχει πρὸς αὐτοὺς ἀγάπην. εἰπὼν <quote>ἔγραψα
@@ -3357,7 +3356,7 @@
         κατὰ θεὸν χαρά. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:5">
+     <div type="textpart" subtype="commentary" n="2_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Εἴ τις</quote> ἐμὲ καὶ ἀγαπῶντα <quote>λελύπηκεν, οὐκ ἐμὲ</quote> μόνον <quote>λελύπηκεν</quote>
@@ -3366,34 +3365,34 @@
          <persName type="biblical" key="Jesus_Mat.1.1">Χριστόν</persName></quote>, ἵνα μὴ καὶ εἰπὼν βαρήσῃ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:6">
+     <div type="textpart" subtype="commentary" n="2_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἐπιτιμίαν</quote> λέγει τὴν κατάγνωσιν τὴν ἐκ τῶν
         πλειόνων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:7">
+     <div type="textpart" subtype="commentary" n="2_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>
          <space/>Χαρίσασθαι</quote> αὐτῷ τοῦτο. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:8–9">
+     <div type="textpart" subtype="commentary" n="2_8ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὑπηκούσατέ μοι εἰς τὸ κατακρῖναι, ὑπακούσατέ μοι καὶ εἰς τὸ
         ἀνακαλέσασθαι αὐτὸν κατακριθέντα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:10">
+     <div type="textpart" subtype="commentary" n="2_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Χαρίσασθε αὐτῷ, φησί, τοῦτο· γινώσκετε γὰρ ὅτι ὧν ὑμεῖς <quote>χαρίζεσθε</quote> τούτῳ <quote>κἀγὼ</quote>
         βούλομαι χαρίζεσθαι. διὰ δὲ τούτου δείκνυσιν ὅτι ἐκ διαθέσεως τῆς περὶ
         αὐτοὺς τὰ αὐτὰ αὐτοῖς φρονεῖν βούλεται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:12–13">
+     <div type="textpart" subtype="commentary" n="2_12ad13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Φαίνεται λυπηθεὶς πρὸς τοὺς ἐν <quote><placeName>Τρῳάδι</placeName>,</quote> ὅτι
         μὴ περὶ πολλοῦ ἐποίησαν τὸν <quote><persName type="biblical" key="Titus_2Co.2.13">Τίτον</persName></quote> μηδὲ
@@ -3405,7 +3404,7 @@
         ἐπιδημῶν ὡς οὐδενὸς ὄντος τοῦ παρεμποδίζοντος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:14">
+     <div type="textpart" subtype="commentary" n="2_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτ’ ἔστι τῷ δημοσιεύοντι ἡμῶν τὰς ὕβρεις καὶ τὰς περιστάσεις τὰς διὰ
         <persName type="biblical" key="Jesus_Mat.1.1">Χριστόν</persName>. μείζονα δὲ χάριν ὁμολογεῖ ἐφ’ οἷς <quote>θριαμβεύεσθαι</quote> καταξιοῦται διὰ <persName type="biblical" key="Jesus_Mat.1.1">Χριστόν</persName>. ταῦτα δὲ λέγει καὶ διὰ
@@ -3413,7 +3412,7 @@
         καὶ ἐκπέσωσι τῆς σωτηρίας. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:15–16">
+     <div type="textpart" subtype="commentary" n="2_15ad16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οἱ εἰδωλολάτραι ἐν θανάτῳ ὄντες τῷ νοητῷ διὰ τὴν οὖσαν ἐν αὐτοῖς
         ἀγνωσίαν καὶ πώρωσιν, καὶ δευτέρῳ περιπίπτουσι θανάτῳ μὴ παραδεχόμενοι
@@ -3431,7 +3430,7 @@
         ἐπέδειξεν ἑαυτόν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_2:17">
+     <div type="textpart" subtype="commentary" n="2_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Καπηλεύεσθαι</quote> λέγει <quote>τὸν
@@ -3453,14 +3452,14 @@
        <pb n="284"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:1">
+     <div type="textpart" subtype="commentary" n="3_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐντεῦθεν θέλει δεῖξαι ὅσον ὁ νόμος τῆς χάριτος ἀπολιμπάνεται, ἵνα μή
         τινες τῶν ἐκ περιτομῆς τῷ ἀξιώματι <persName type="biblical" key="Moses_Exo.2.10">Μωϋσέως</persName> καὶ τῶν προφητῶν δυσωποῦντες
         τοὺς ἀπὸ τῶν ἐθνῶν εἰς τὴν τοῦ νόμου μετενέγκωσι τήρησιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:2–3">
+     <div type="textpart" subtype="commentary" n="3_2ad3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτ’ ἔστιν αὕτη ὑμῶν ἡ πίστις καὶ ὁ βίος <quote>ἐπιστολὴ</quote> πᾶσι γίνεται καὶ γνώρισμα τοῦ ἡμετέρου κηρύγματος.
          <quote>ἐγγεγραμμένη</quote> δὲ <quote>πνεύματι,</quote> λέγει, τῇ ἐνεργείᾳ τοῦ πνεύματος τοῦ ἁγίου. διὰ δὲ
@@ -3470,13 +3469,13 @@
         προφητῶν τὸ κήρυγμα τῶν ἀποστόλων ἀνώτερον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:5">
+     <div type="textpart" subtype="commentary" n="3_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἀφ’ ἑαυτῶν</quote> ἀντὶ τοῦ ἀπ’ ἀλλήλων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:6">
+     <div type="textpart" subtype="commentary" n="3_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Γράμμα</quote> λέγει τὸν νόμον, <quote>πνεῦμα</quote> δὲ τὴν χάριν· ὁ γὰρ νόμος προστάσσων μέν, οὐ βοηθῶν δέ,
@@ -3485,7 +3484,7 @@
         πρὸς ζωὴν ὁδηγεῖ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:7–9">
+     <div type="textpart" subtype="commentary" n="3_7ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Καὶ μὴν οὐκ ἐν πλαξὶν ἐγένετο ἡ δόξα ἀλλ’ ἐν <quote>προσώπῳ <persName type="biblical" key="Moses_Exo.2.10">Μωϋσέως</persName></quote> ὡς ἑξῆς αὐτός φησιν· <quote>διὰ
          τὴν δόξαν τοῦ προσώπου αὐτοῦ τὴν καταργουμένην.</quote> ἀλλ’ οὐ
@@ -3517,7 +3516,7 @@
         τῷ κόσμῳ διεκόμισαν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:10">
+     <div type="textpart" subtype="commentary" n="3_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τὸ δεδοξασμένον</quote> τοῦ νόμου γράμμα
@@ -3527,13 +3526,13 @@
         συγκρίσεως τῆς πρὸς τὸ ὑπερέχον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:11">
+     <div type="textpart" subtype="commentary" n="3_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔδειξεν ὅτι δεῖ παύσασθαι καὶ ἀργῆσαι τὸν νόμον, ἀντεισαχθεῖσαν δὲ τοῦ
         πνεύματος τὴν χάριν διαμεῖναι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:12–14">
+     <div type="textpart" subtype="commentary" n="3_12ad14">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἔχοντες οὖν τοιαύτην ἐλπίδα. ἡ ἐλπὶς ἡ βλεπομένη οὐκ
@@ -3558,7 +3557,7 @@
         <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> ἐλθόντος καταργεῖται ὁ νόμος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:15–16">
+     <div type="textpart" subtype="commentary" n="3_15ad16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὥσπερ <persName type="biblical" key="Moses_Exo.2.10">Μωϋσῆς</persName> λαλῶν μὲν <orgName key="PTA_O00008">Ἰουδαίοις</orgName> εἶχε τὸ <quote>κάλυμμα,
          ὑποστρέφων δὲ πρὸς κύριον περιαιρεῖται</quote> αὐτό, καὶ νῦν <orgName key="PTA_O00008">Ἰουδαῖοι</orgName>
@@ -3568,14 +3567,14 @@
         πρὸς κύριον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:17">
+     <div type="textpart" subtype="commentary" n="3_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁ καταξιωθεὶς <quote>πνεύματος κυρίου</quote> οὗτος
         ἠλευθηρώθη τῆς κατακρίσεως τοῦ νόμου· διὰ γὰρ τοῦ πνεύματος ἐνεργεῖται
         τὰ χαρίσματα. καὶ ἡ δωρεὰ πρὸς τοὺς ἀξίους. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_3:18">
+     <div type="textpart" subtype="commentary" n="3_18">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἡμεῖς,</quote> φησίν, οἱ ἀπόστολοι <quote>ἀνακεκαλυμμένῳ προσώπῳ</quote> ὁρώμεθα ὑπὸ τῶν ἀνθρώπων·
@@ -3603,13 +3602,13 @@
         ἐρχόμεθα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:1">
+     <div type="textpart" subtype="commentary" n="4_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὴν τῆς χάριτος λέγει, οὐ τὴν τοῦ νόμου· διὰ γὰρ τὴν ὑπερβολὴν τῆς
         χάριτος τὰς θλίψεις πατοῦμεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:2">
+     <div type="textpart" subtype="commentary" n="4_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Κρυπτά</quote> ἐστι <quote>τῆς
@@ -3618,14 +3617,14 @@
         σκότει διαλανθάνει. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:3">
+     <div type="textpart" subtype="commentary" n="4_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Κἂν ᾖ <quote>κεκαλυμμένον τὸ εὐαγγέλιον,</quote> τοῖς
         ἀπίστοις κεκάλυπται, οὐχ ὡς ἐν τῷ νόμῳ ἀπὸ παντὸς Ἰσραὴλ ἐκεκάλυπτο ἡ
         δόξα τοῦ προσώπου <persName type="biblical" key="Moses_Exo.2.10">Μωϋσέως</persName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:4">
+     <div type="textpart" subtype="commentary" n="4_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐὰν μὲν ὁ <quote>θεὸς τοῦ αἰῶνος τούτου</quote> λέγηται
         συναπτομένης τῆς ἀναγνώσεως, καὶ τὸ <quote>ἐτύφλωσεν</quote> ἀκολουθίαν ἔχει. ἐὰν δὲ ὁ <quote>θεὸς
@@ -3643,7 +3642,7 @@
         καλεῖται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:5">
+     <div type="textpart" subtype="commentary" n="4_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ <quote>ἑαυτοὺς</quote> ἐκηρύξαμεν, φησίν, ἐνῆν
         ὑποπτεῦσαι ὅτι <quote>δολοῦμεν τὸν λόγον·</quote> εἰ δὲ
@@ -3658,7 +3657,7 @@
         δόλος ἐν τῷ κηρύγματι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:6">
+     <div type="textpart" subtype="commentary" n="4_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἐν προσώπῳ <persName type="biblical" key="Jesus_Mat.1.1">Ἰησοῦ Χριστοῦ</persName>,</quote> ἀντὶ τοῦ διὰ
@@ -3672,7 +3671,7 @@
         ἠδυνήθη ἄνθρωπος σαρκίον περιβεβλημένος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:7–9">
+     <div type="textpart" subtype="commentary" n="4_7ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Δείκνυσι διὰ τούτων καὶ τῶν ἑξῆς, ὅτι οὐ συγχωρεῖ ὁ θεὸς πειρασθῆναι
         ὑπὲρ ὃ δυνάμεθα. εἰ γὰρ καὶ <quote>θλιβόμεθα</quote> ὑπὸ
@@ -3683,7 +3682,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:10">
+     <div type="textpart" subtype="commentary" n="4_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τὴν νέκρωσιν</quote> ἀεὶ <quote>περιφέρομεν</quote> τῷ κινδυνεύειν ἀεὶ διὰ <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> κοινωνοὶ τῶν
@@ -3691,14 +3690,14 @@
        <pb n="289"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:11">
+     <div type="textpart" subtype="commentary" n="4_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁ κύριος δι’ ἡμᾶς εἰς θάνατον <quote>παρεδόθη,</quote>
         ἡμεῖς δὲ ὑπὲρ ἑαυτῶν <quote>διὰ Ἰησοῦν,</quote> ἵνα
         κοινωνοὶ τῆς αὐτοῦ ζωῆς γενώμεθα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:12">
+     <div type="textpart" subtype="commentary" n="4_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διὰ τὸ κήρυγμα οἱ ἀπόστολοι ἐκινδύνευον, ἐκήρυττον δὲ ἵνα ζήσωσιν οἱ
         πιστεύοντες, καὶ τοῦτό ἐστιν τὸ <quote>ἡ δὲ ζωὴ ἐν
@@ -3706,7 +3705,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:13">
+     <div type="textpart" subtype="commentary" n="4_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδή, φησί, <quote>πνεῦμα δουλείας</quote> ἐν τῷ νόμῳ,
          <quote>πνεῦμα δὲ υἱοθεσίας</quote> ἐν τῇ χάριτι. εἶπε δὲ
@@ -3723,7 +3722,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_4:17–18">
+     <div type="textpart" subtype="commentary" n="4_17ad18">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ θάνατοι καὶ κίνδυνοι καὶ πειρασμοὶ παρηκολούθουν, πῶς <quote>ἐλαφροτέρα</quote> ἡ θλίψις; πῶς <quote>παραυτίκα;</quote> καὶ γὰρ παρέμειναν αὐτῷ οἱ πειρασμοὶ καὶ εἰς γῆρας
         ἐλαύνοντο. πῶς οὖν <quote>ἐλαφρά</quote> ἐστιν ἡ θλίψις τῶν
@@ -3736,7 +3735,7 @@
         κἂν γὰρ μακρὰν ᾖ τὸ θλίβον καὶ λυποῦν, ἀλλὰ <quote>πρόσκαιρον</quote> φαίνεται ὡς πρὸς τὸ τῆς δόξης ἀπέραντον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:1–2">
+     <div type="textpart" subtype="commentary" n="5_1ad2">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Οἰκία σκήνους</quote> οὐ τὸ σκῆνος ἀλλ’ ἡ οἰκία· ἡ
@@ -3763,35 +3762,35 @@
         ἀφθαρσίαν, καθὸ οὐκ ἔστι χειροποιητὴ ἀλλὰ θεοῦ δωρεά. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:3">
+     <div type="textpart" subtype="commentary" n="5_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πάντες μὲν δίκαιοι καὶ ἄδικοι ἐνδύονται τὴν ἀφθαρσίαν. ἐὰν μέντοι τις
         παραδοθῇ τῇ κολάσει, οὐδὲν διαφέρει <quote>γυμνοῦ.</quote>
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:4">
+     <div type="textpart" subtype="commentary" n="5_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ ἀκόλουθον θέλει· ἐφ’ ὃ <quote>ἐπενδύσασθαι</quote>
         θέλομεν τὴν ἀφθαρσίαν, ἀλλ’ οὐκ αὐτὸ τὸ σῶμα <quote>ἐκδύσασθαι</quote> εἰς φθοράν. διὸ καὶ ἐπήγαγεν· <quote>ἵνα καταποθῇ τὸ θνητὸν ὑπὸ τῆς ζωῆς.</quote>
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:5">
+     <div type="textpart" subtype="commentary" n="5_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Εἰς αὐτὸ τοῦτο,</quote> δηλονότι εἰς τὸ ἀφθάρτους
         γενέσθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:6">
+     <div type="textpart" subtype="commentary" n="5_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀντὶ τοῦ πεπεισμένοι ὅτι <quote>ἐπιδημοῦντες ἐν τῷ
          σώματι,</quote> τοῦτ’ ἔστιν ἐν σαρκὶ ἔτι διάγοντες ἐν τῷ κόσμῳ τούτῳ. </p>
        <pb n="291"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:7">
+     <div type="textpart" subtype="commentary" n="5_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Διὰ πίστεως</quote> ἐλπίζομεν εἰς θεόν· οὐ γὰρ τὸ
@@ -3803,7 +3802,7 @@
         τοῦ θεοῦ ἀπολιμπάνεται ὄψεως. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:7–9">
+     <div type="textpart" subtype="commentary" n="5_7ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐὰν ὧδε ᾖς <quote>εὐάρεστος,</quote> ἀναντιρρήτως ἐκεῖ
         εὐαρεστότερος εἶ, οὐκέτι ἀγωνιζόμενος ἀλλ’ ἔχων τὸ ἀσφαλὲς τῆς
@@ -3813,13 +3812,13 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:12">
+     <div type="textpart" subtype="commentary" n="5_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οἱ ἀρέσκοντες ἀνθρώποις καὶ μὴ δι’ αὐτὴν τὴν εὐλάβειαν καυχώμενοι
         δηλονότι διὰ <quote>πρόσωπον</quote> ἀνθρώπων <quote>καυχῶνται·</quote> ἡ γὰρ <quote>καρδία</quote> ὑπὸ θεοῦ κατοπτεύεται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:13">
+     <div type="textpart" subtype="commentary" n="5_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἔκστασιν</quote> καλεῖ τὸ καύχημα. καυχώμεθα ἵνα
@@ -3837,7 +3836,7 @@
        <pb n="292"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:14–15">
+     <div type="textpart" subtype="commentary" n="5_14ad15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Βουλόμενοι σιωπῆσαι ἀναγκαζόμεθα καυχᾶσθαι, <quote>συνεχόμενοι ὑπὸ τῆς <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> ἀγάπης,</quote> ἵνα ἐκεῖνος δοξάζηται.
          <quote>Οἱ πάντες ἀπέθανον·</quote> τοὺς πιστοὺς λέγει καὶ
@@ -3853,7 +3852,7 @@
         ἀποδούς, ἑαυτῷ ὀφειλέτην τὸν κόσμον κατέστησεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:16">
+     <div type="textpart" subtype="commentary" n="5_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ὥστε ἡμεῖς ἀπὸ τοῦ νῦν οὐδένα οἴδαμεν κατὰ
@@ -3876,7 +3875,7 @@
         μιμούμενοι συνάπτουσιν ἑαυτοὺς κατὰ τὴν καρδίαν θεῷ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:17">
+     <div type="textpart" subtype="commentary" n="5_17">
       <div type="textpart" subtype="fragment" n="1">
        <p><pb n="293"/>
         <quote>Εἴ τις ἐν Χριστῷ</quote> ζῇ καὶ βαπτίζεται, οὗτος
@@ -3885,13 +3884,13 @@
         ἐκ θεοῦ εἶναι τὸν νόμον, εἰ καὶ ἔλαβε τέλος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:18">
+     <div type="textpart" subtype="commentary" n="5_18">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ κήρυγμα εἶναί φησι <quote>διακονίαν
          καταλλαγῆς,</quote> δι’ οὗ πιστεύοντες καταλλαγησόμεθα τῷ θεῷ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:19">
+     <div type="textpart" subtype="commentary" n="5_19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὕτω νοητέον· <quote>ὅτι θεὸς ἦν κόσμον ἑαυτῷ καταλλάσσων
          ἐν Χριστῷ.</quote> οὕτως οὖν στικτέον· <quote>ὅτι θεὸς ἦν
@@ -3899,7 +3898,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:20">
+     <div type="textpart" subtype="commentary" n="5_20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Νῦν ἡμεῖς ἀντὶ τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> <quote>πρεσβεύομεν
          παρακαλοῦντος</quote> ὑμᾶς <quote>τοῦ θεοῦ δι’
@@ -3911,7 +3910,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_5:21">
+     <div type="textpart" subtype="commentary" n="5_21">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔδειξεν ἐντεῦθεν ὅπως λυπεῖται διὰ τοὺς τηρεῖν τὸν νόμον
         φιλονεικοῦντας· τηροῦντες γὰρ νόμον, φησίν, ἁμαρτωλοὶ γεγόναμεν. <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸς</persName>
@@ -3920,7 +3919,7 @@
         τὰ νόμιμα τηρεῖν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_6:1">
+     <div type="textpart" subtype="commentary" n="6_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ μόνον <quote>παρακαλεῖν</quote> ἐπέτρεπε τοῖς
         ἀποστόλοις ἀλλὰ καὶ <quote>συνεργεῖν</quote> καὶ συμπονεῖν
@@ -3930,13 +3929,13 @@
        <pb n="294"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_6:4">
+     <div type="textpart" subtype="commentary" n="6_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὡς θεμέλιον ἀρραγῆ προκαταβάλλεται τὴν <quote>ὑπομονήν,</quote> ἧς ὑπούσης εὐχερές ἐστι πᾶσαν ἐπιθεῖναι ἐντολήν.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_6:7">
+     <div type="textpart" subtype="commentary" n="6_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ὅπλα δικαιοσύνης δεξιὰ</quote> τὸ ἔργων ἔχεσθαι
@@ -3945,7 +3944,7 @@
         κατορθοῦται· δῆλον γὰρ ὅτι ἐνὸς ἀπόντος τὸ ἕτερον ἀργὸν καθίσταται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_6:8">
+     <div type="textpart" subtype="commentary" n="6_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Διὰ δόξης</quote> μὲν τῶν δεχομένων τὸν λόγον καὶ
@@ -3953,7 +3952,7 @@
         τοὺς πιστεύοντας· ὁ αὐτὸς δὲ λόγος καὶ ἐπὶ τῶν ἑξῆς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_6:11–13">
+     <div type="textpart" subtype="commentary" n="6_11ad13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰπὼν <quote>οὐ στενοχωρεῖσθε ἐν ἡμῖν</quote> διδάσκει
         τοῦτο ἀντὶ τοῦ οὐ στενοχωροῦμεν ὑμᾶς τῇ σωτηρίῳ διδασκαλίᾳ οὐδὲ ἐλλείψει
@@ -3965,7 +3964,7 @@
         ὄντες πλειόνων παραγγελμάτων δεκτικοί. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_7:9">
+     <div type="textpart" subtype="commentary" n="7_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Δέξασθε λέγοντας ἡμᾶς· <quote>ἵνα ἐν μηδενὶ ζημιωθῆτε ἐξ
          ἡμῶν.</quote> εἰ γὰρ σεσιωπήκειν, φησί, καὶ μὴ ἐπέπληξα, οὐκ ἐλυπεῖσθε·
@@ -3976,7 +3975,7 @@
         συμβάντων αὐτῷ ἐν τῇ <placeName>Ἀσίᾳ</placeName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_7:12">
+     <div type="textpart" subtype="commentary" n="7_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Καὶ μὴν διὰ τοῦτο ἔγραψεν. ἀλλ’ ὡς ἔοικεν καὶ ὡς ἡ ἔκβασις ἔδειξεν, οὐ
         διὰ τοῦτο ἔγραφον, ἀλλὰ διὰ τὸ δειχθῆναι <quote>τὴν σπουδὴν
@@ -3984,13 +3983,13 @@
        <pb n="295"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_7:13">
+     <div type="textpart" subtype="commentary" n="7_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐν τούτῳ <quote>ἀναπέπαυται,</quote> ὅτι ὑπήκουον αὐτοῦ
         τῇ διδασκαλίᾳ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_8:2">
+     <div type="textpart" subtype="commentary" n="8_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐν ᾧ, φησί, πάνυ θλίβονται διωκόμενοι, ἐν τούτῳ πλέον χαίρουσιν,
          <quote>καὶ ἡ κατὰ βάθους πτωχεία αὐτῶν ἐπερίσσευσεν εἰς
@@ -3999,20 +3998,20 @@
         οἱ <orgName>Κορίνθιοι</orgName> πρὸς καρποφορίαν διεγερθῶσιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_8:6">
+     <div type="textpart" subtype="commentary" n="8_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ προθυμία <orgName>Μακεδόνων</orgName> ἡ εἰς τὴν εὐποιΐαν προετρέψατο ἡμᾶς <quote>εἰς τὸ παρακαλέσαι Τίτον</quote> ἐλθεῖν πρὸς ὑμᾶς, ἵνα καὶ
         ὑμᾶς εἰς καρποφορίαν προτρέψηται. διὰ δὲ τοῦτο εἶπε <quote>καὶ ταύτην,</quote> ἐπειδὴ εἶχον παρ’ αὐτοῦ τὴν χάριν τῆς διδασκαλίας.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_8:8">
+     <div type="textpart" subtype="commentary" n="8_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Διὰ τῆς ἑτέρων</quote> λέγει τῶν <orgName>Μακεδόνων</orgName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_8:18–20">
+     <div type="textpart" subtype="commentary" n="8_18ad20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτο συναπτέον πρὸς τὸ <quote>συνεπέμψαμεν τὸν ἀδελφὸν
          οὗ ὁ ἔπαινος ἐν τῷ εὐαγγελίῳ,</quote> ἵνα πολλῇ καὶ ἁδρᾷ τῇ παρὰ τῶν ἐξ
@@ -4022,7 +4021,7 @@
         τὸ <quote>μὴ μωμηθῆναι</quote> καὶ διαβληθῆναι <quote>ἐν τῇ ἁδρότητι</quote> τῆς διακονίας. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_10:2–6">
+     <div type="textpart" subtype="commentary" n="10_2ad6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὡς οἱ στρατιῶται τοῦ κόσμου ὀψώνια λαμβάνουσιν, οὕτως καὶ ἡμεῖς
         ἐπὶ τῷ λαμβάνειν ὀψώνια κηρύττομεν. <quote>Καὶ ἐν ἑτοίμῳ
@@ -4040,7 +4039,7 @@
         παιδευόμενοι καὶ τίνες οἱ ἐπιστροφίας δεόμενοι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_10:7">
+     <div type="textpart" subtype="commentary" n="10_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἕκαστον ἀκριβῶς δοκιμάζετε τὸ κατ’ ἀξίαν τῆς ἀναστροφῆς <quote>τοῦ προσώπου.</quote> τοῦτο δὲ ὁρᾷ εἰς τοὺς ἀποστόλους·
         ἐπειδὴ γὰρ ἔμελλεν ἐλέγχειν τοὺς ἐκ περιτομῆς, ἐκεῖνοι δὲ προεβάλλοντο
@@ -4048,20 +4047,20 @@
         προσώπων μὴ ἐάσῃ ὑμᾶς τὸ ἀληθὲς συνιδεῖν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_10:12">
+     <div type="textpart" subtype="commentary" n="10_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ταῦτα γράφομεν οὐ μιμούμενοι τοὺς <quote>συνιστῶντας</quote> ἑαυτούς –  οὐ γὰρ καλὸν τοῦτο –· οὐ γὰρ νοοῦσιν ὅτι
          <quote>αὐτοὶ ἐν ἑαυτοῖς αὐτοὺς μετροῦσιν</quote> καὶ οὐκ
         ἄλλῳ δύνανται παρατίθεσθαι· ἄλλοις γὰρ συγκρινόμενοι οὐδέν εἰσιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_10:14">
+     <div type="textpart" subtype="commentary" n="10_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὡς εὐτελεῖς ἐπὶ μείζοσι καυχώμεθα ὑπὲρ τὸ ἑαυτῶν μέτρον· καὶ γὰρ
         ἕως ὑμῶν ἤλθομεν καὶ ἐκηρύξαμεν τὸν λόγον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_10:15–16">
+     <div type="textpart" subtype="commentary" n="10_15ad16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐκεῖνοι τοῖς ἡμετέροις καυχῶνται καμάτοις, ἡμεῖς δὲ οὔ, ἀλλὰ κατὰ
         νόμον τὸν <quote>κανόνα</quote> καὶ τὸ μερισθὲν ἡμῖν μέτρον
@@ -4069,13 +4068,13 @@
         μέχρις αὐτῶν τέως ἀφικέσθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_10:17">
+     <div type="textpart" subtype="commentary" n="10_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ καὶ καυχώμεθα, ἀλλ’ οὐχ ὡς συνέσει οἰκείᾳ κατορθοῦντες ἀλλὰ τῇ
         χάριτι τοῦ πνεύματος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_11:2">
+     <div type="textpart" subtype="commentary" n="11_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀπεθάνετε, φησί, τῷ νόμῳ, ἑτέρῳ ἀνδρὶ γεγόνατε, τῷ ἐκ νεκρῶν
         ἀναστάντι. πῶς οὖν <quote>παρθένος ἁγνὴ</quote> πρότερον
@@ -4085,14 +4084,14 @@
          ἁγνὴ</quote> δικαίως ὠνόμασται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_11:4">
+     <div type="textpart" subtype="commentary" n="11_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸν <orgName>Χριστιανισμὸν</orgName> βεβαιοῖ ἡ εἰς <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> πίστις καὶ ἡ τοῦ πνεύματος
         ἔλλαμψις. εἰ τοίνυν ταῦτα παρ’ ὑμῶν μὴ ἐλάβετε, καλῶς ἐζητεῖτε τοὺς ἔτι
         κατὰ νόμον ζῆν βουλομένους. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_11:10–12">
+     <div type="textpart" subtype="commentary" n="11_10ad12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ <orgName key="PTA_O00025">Κορινθίους</orgName> ὀνειδίζων τοῦτό φησιν, ἀλλὰ τοὺς ὡς ἐμπορίᾳ χρωμένους τῷ
         κηρύγματι ἐλέγχει. διό φησιν ὅτι οὐ παύομαι καυχώμενος, ὅτι οὐ πεποίηκα
@@ -4103,7 +4102,7 @@
         ἡμεῖς πεφανερώμεθα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_12:2–5">
+     <div type="textpart" subtype="commentary" n="12_2ad5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτο ἰσχυρὸν δεῖξαι ψυχὴν ἀθάνατον· εἰ γὰρ ᾔδει ὅτι θνητὴ ἦν, οὐκ ἂν
         ἀμφέβαλλεν, πότερον τὴν ὀπτασίαν <quote>ἐκτὸς
@@ -4115,7 +4114,7 @@
         τινες. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_12:7">
+     <div type="textpart" subtype="commentary" n="12_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὑποπτεύεται παρὰ πολλῶν ὡς ἄλγημα ἔχων περὶ τὴν κεφαλήν, τὸ δὲ ἀληθὲς
         τοὺς διωγμοὺς λέγει, ἐπειδὴ ἀπὸ διαβολικῆς ἐνεργείας ἐγίνοντο οἱ
@@ -4125,14 +4124,14 @@
        <pb n="298"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_12:9">
+     <div type="textpart" subtype="commentary" n="12_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔχεις <quote>χάριν</quote> ἀποστολικήν, μὴ ζήτει ταύτην
         καὶ ἄνευ πειρασμῶν κατορθοῦν· ἡ γὰρ <quote>δύναμίς</quote>
         μου τελειοῦται ἐν διωγμοῖς καὶ θλίψεσιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_12:13">
+     <div type="textpart" subtype="commentary" n="12_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ μὴ ἄρα μοι τοῦτο ἔχετε ἐγκαλεῖν, ὅτι οὐκ ἔλαβόν τι παρ’ ὑμῶν εἰς
         διατροφὴν ἀποναρκήσας πρὸς τὴν ἔνδειαν, ἐν ᾧ εἰ καὶ ἡμαρτηκέναι με
@@ -4140,12 +4139,12 @@
          ταύτην</quote> ἣν ἠδικεῖσθαι παρ’ ἐμοῦ νομίζετε. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_12:14">
+     <div type="textpart" subtype="commentary" n="12_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτο μαρτύρεται αὐτοὺς πρὸς τὸ δεύτερον καὶ <quote>τρίτον</quote> γενέσθαι πρὸς αὐτοὺς διὰ τὸ κήρυγμα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2Cor_13:4">
+     <div type="textpart" subtype="commentary" n="13_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὥσπερ ὁ <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸς</persName> εἴρηται <quote>ἁμαρτία</quote> καὶ <quote>κατάρα</quote> γεγονέναι, οὔτε ἁμαρτία ὢν οὔτε κατάρα,
         ἀλλὰ τὰ ἡμέτερα κακὰ ἰδιοποιήσατο, ἵνα ἡμᾶς ἀπ’ αὐτῶν ἐξέληται· οὕτω καὶ
@@ -4170,14 +4169,14 @@
        <pb n="299"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_1:4">
+     <div type="textpart" subtype="commentary" n="1_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Δείκνυσιν ὅτι οὐ <persName type="biblical" key="Moses_Exo.2.10">Μωϋσῆς</persName> ἀπέθανεν ὑπὲρ τοῦ κόσμου οὐδέ τις τῶν προφητῶν
         ἄλλος. οὐ δεῖ τοίνυν ἡττᾶσθαι τοῦ μὴ σώσαντος, ἀλλὰ τοῦ ὑπὲρ ἡμῶν
         ἀποθανόντος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_1:6–7">
+     <div type="textpart" subtype="commentary" n="1_6ad7">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Εἰς ἕτερον εὐαγγέλιον ὃ οὐκ ἔστιν ἕτερον,</quote>
@@ -4185,7 +4184,7 @@
         βούλεται νόμου. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_1:8–10">
+     <div type="textpart" subtype="commentary" n="1_8ad10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔστω <quote>ἄγγελος,</quote> διὰ τί δὲ καὶ ἡ <quote>μεῖς;</quote> ὅτε ἐκηρύττομεν, πνεύματος ἁγίου δυνάμει
         ἐκηρύξαμεν· τὸ δὲ πνεῦμα τὸ ἅγιον οὐ μετανοεῖ. ἐὰν οὖν ἄλλα εἴπωμεν,
@@ -4205,7 +4204,7 @@
         τοῖς <orgName key="PTA_O00008">Ἰουδαίοις</orgName>, οὐκ ἂν ἐπίστευσα τῷ Χριστῷ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_1:13">
+     <div type="textpart" subtype="commentary" n="1_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τίς χρεία τῆς <quote>ἐν τῷ <orgName key="PTA_O00008">Ἰουδαϊσμῷ</orgName> ἀναστροφῆς</quote>
         ἀλλ’ ἵνα δείξῃ, ὅτι οὐ προλήψει δουλεύει ἀλλ’ ἀληθείᾳ· οὐ γὰρ μισήσας
@@ -4220,13 +4219,13 @@
         χάριτι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_1:16">
+     <div type="textpart" subtype="commentary" n="1_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ διαβάλλων δὲ τοὺς ἀποστόλους τοῦτό φησιν, ἀλλ’ ὅτι οὐκ ἐστοίχησα
         θνητῇ σαρκί. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_2:16">
+     <div type="textpart" subtype="commentary" n="2_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ γὰρ <quote>ἐξ ἔργων</quote> οὐδεὶς δικαιοῦται τῶν
         πόνον φερόντων, ἐκ δὲ πίστεως ὅπου τὸ τῆς εὐκολίας καὶ τὸ τῆς
@@ -4236,7 +4235,7 @@
         δυσκατόρθωτον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_2:18">
+     <div type="textpart" subtype="commentary" n="2_18">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πρὸς τὸν <persName type="biblical" key="Peter_Mat.4.18">Πέτρον</persName> ὁ λόγος· σὺ <quote>κατέλυσας</quote> αὐτὰ
         δόγματι ὅπερ ἀπεστάλη παρ’ ὑμῶν τοῖς <orgName>Ἀντιοχεῦσι</orgName> καὶ πάσῃ τῇ οἰκουμένῃ.
@@ -4244,7 +4243,7 @@
         κατέλυσας δόγματι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_2:19–20">
+     <div type="textpart" subtype="commentary" n="2_19ad20">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁ νόμος τῶν σωματικῶν ἔχει τὴν ἐργασίαν καὶ τὴν ἀπόλαυσιν, τόδε φάγε
         καὶ τόδε μὴ φάγῃς, σάββατον τήρησον, περιτομήν. ἡ χάρις οὐ βούλεταί σε
@@ -4262,7 +4261,7 @@
        <pb n="301"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_3:19–22">
+     <div type="textpart" subtype="commentary" n="3_19ad22">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐβάρει πλέον ὁ νόμος, καὶ <quote>διακονία θανάτου</quote>
         διὰ τοῦτο ὠνόμασται. πῶς οὖν <quote>τῶν παραβάσεων χάριν
@@ -4278,14 +4277,14 @@
         παντὸς κρατεῖν ἐδύνατο. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_3:23">
+     <div type="textpart" subtype="commentary" n="3_23">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ καὶ μηδὲν ἕτερον κατώρθου ὁ νόμος, ἀλλὰ τὸ τὸν θεὸν εἰδέναι
         παρεῖχεν. τὸ δὲ τὸν θεὸν εἰδέναι ἕτοιμον ἐποίει πρὸς τὴν τῆς χάριτος
         ὑποδοχήν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_3:27–28">
+     <div type="textpart" subtype="commentary" n="3_27ad28">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ἡ τοῦ νόμου τήρησις, φησί, βελτίονας ποιεῖ τοὺς πιστεύσαντας τῶν
         ἀπὸ τῶν ἐθνῶν τοὺς <orgName key="PTA_O00008">Ἰουδαίους</orgName>, ἀλλ’ ἡ δύναμις τοῦ βαπτίσματος τὸ <quote><persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> ἐνδύσασθαι</quote> παρέχουσα, κοινὴν ποιεῖ τὴν
@@ -4295,7 +4294,7 @@
         <orgName>Ἕλληνα</orgName> καὶ <orgName key="PTA_O00008">Ἰουδαῖον</orgName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_4:8–10">
+     <div type="textpart" subtype="commentary" n="4_8ad10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Νῦν βούλεται δεῖξαι ὅτι μετὰ τὸ τὴν χάριν ἐλθεῖν, κἂν δοκῇ τις κατὰ
         νόμον σάββατον τηρεῖν καὶ νεομηνίας καὶ ἑορτάς, ὥσπερ εἰδωλολατρεῖ τοῖς
@@ -4306,7 +4305,7 @@
        <pb n="302"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_4:12">
+     <div type="textpart" subtype="commentary" n="4_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Μὴ νομίσητε, φησίν, ὅτι ἄλλην τινὰ λύπην εἶχον πρὸς ὑμᾶς καὶ διὰ τοῦτο
         ἐπιπλήττω· τῆς γὰρ ὀδύνης τὸ πάθος συνεχῶς αὐτὸν μεταβάλλειν ἀναγκάζει
@@ -4316,7 +4315,7 @@
         θεραπείαν, ὅτι μάλιστα πλείστης ἠξίωμαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_4:15–18">
+     <div type="textpart" subtype="commentary" n="4_15ad18">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τίς οὖν ὁ μακαρισμός;</quote> ἀντὶ τοῦ οὐδείς. ἢ
@@ -4330,7 +4329,7 @@
         παρόντος ἑαυτοὺς διορθοῦσθε. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_4:23–24">
+     <div type="textpart" subtype="commentary" n="4_23ad24">
       <div type="textpart" subtype="fragment" n="1">
        <p>Νῦν τῷ ὀνόματι κατεχρήσατο, οὐ τῇ δυνάμει τῆς <quote>ἀλληγορίας.</quote> ἡ γὰρ ἀλληγορία οὐ στοιχεῖ τοῖς ῥητοῖς, ἄλλα δέ
         τινα ἐμφαινόμενα ἀπὸ τῆς κατὰ τὴν ὑφὴν τῶν νοημάτων ἀκολουθίας εἰσάγει,
@@ -4354,7 +4353,7 @@
         ὠνόμασεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_4:25">
+     <div type="textpart" subtype="commentary" n="4_25">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ἁπλῶς ἐμνημόνευσε τοῦ <placeName ref="https://pleiades.stoa.org/places/746815">Σινᾶ ὄρους</placeName>, ἀλλ’ ἐπειδὴ οἱ <orgName>Ἀγαρηνοὶ</orgName> οἱ ἀπὸ
         τοῦ <persName type="biblical" key="Ishmael_Gen.16.11">Ἰσμαὴλ</persName> τὴν ἔρημον ἔχουσι τὴν παρατείνουσαν ἕως τοῦ <placeName ref="https://pleiades.stoa.org/places/746815">Σινᾶ ὄρους</placeName>. ἐν δὲ
@@ -4368,7 +4367,7 @@
          πολιτεία,</quote> ἐξ αὐτῆς τῆς πολιτείας ἡ ἐλευθερία. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_5:17">
+     <div type="textpart" subtype="commentary" n="5_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ζητεῖται διὰ τί νόμου ἀποσπῶν μέμνηται τῆς ἁμαρτίας. ἐπειδὴ τρυφᾶν
         ἐκέλευεν ὁ νόμος, διὰ δὲ τούτου διερεθίζεται ἡ ἐπιθυμία καὶ ἀκατάσχετος
@@ -4385,7 +4384,7 @@
          περιπατεῖν,</quote> ὡς λέγει ὁ <persName type="biblical" key="Paul_Act.7.58">Παῦλος</persName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_6:7–8">
+     <div type="textpart" subtype="commentary" n="6_7ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐδήλωσεν ἐκ τούτου ὅτι πολλοὶ ἀκαίρως μὲν ἀνήλισκον, παρέχοντες τοῖς
         τηρεῖν νόμον παρακελευομένοις, τοῖς δὲ τὴν <persName type="biblical" key="Paul_Act.7.58">Παύλου</persName> διδασκαλίαν
@@ -4395,7 +4394,7 @@
          σπείρει</quote> μόνον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Gal_6:14–15">
+     <div type="textpart" subtype="commentary" n="6_14ad15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἵνα μὴ νομισθῇ ἀκροβυστίας ἀντιποιεῖσθαι, καὶ οὐχὶ περιτομῆς καὶ
         διαβολῆς πρόφασιν δῷ τοῖς ἀντιλέγουσιν, κάλλιστα ἐπήγαγε τὸ τελευταῖον,
@@ -4424,7 +4423,7 @@
         τὸ φαινόμενον ταπεινὸν ἀξίως διηγήσασθαι δυνάμεως ἦν πνευματικῆς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:1">
+     <div type="textpart" subtype="commentary" n="1_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Κἀνταῦθα τὸ <quote>διὰ</quote> καὶ τῷ θεῷ προσήκει κατὰ
         τὸν <persName type="biblical" key="Paul_Act.7.58">Παῦλον</persName>, καὶ οὐκ ἠλάττωται πατήρ. εἰκότως δὲ λέγει τὸ <quote>διὰ θελήματος θεοῦ,</quote> ἵνα δείξῃ ὅτι ὡς ἠθέλησεν ὁ
@@ -4432,7 +4431,7 @@
         ᾖ τὰ ὑπ’ αὐτοῦ λεγόμενα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:2">
+     <div type="textpart" subtype="commentary" n="1_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ ἑκάτερον καταχρηστικῶς εἴρηται, καὶ τὸ <quote>πατὴρ</quote> καὶ τὸ <quote>κύριος,</quote>
         ὁμολογηθήσεται μείζων τοῦ πατρὸς ὁ υἱός, εἰ ὁ μὲν πατρὸς ἔχει ὄνομα, ὁ
@@ -4446,13 +4445,13 @@
         εἴπερ καταχρηστικὸν ἦν τὸ τῆς προσηγορίας ἐφ’ ἑκατέρων; </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:4">
+     <div type="textpart" subtype="commentary" n="1_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ τοίνυν <quote>ἐν Χριστῷ</quote> εἰς υἱοθεσίαν
         ὡρίσθησαν οἱ ἅγιοι, οὐ θετὸς ὁ υἱός, ἀλλὰ φύσει υἱός. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:5–6">
+     <div type="textpart" subtype="commentary" n="1_5ad6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ κατὰ τὸν νόμον ἡ θέλησις ἐνέργειά ἐστιν, τίς ἡ <quote>εὐδοκία</quote> ἡ ταύτης τῆς θελήσεως; οὐ γὰρ ἂν εἶπε <quote>θέλησιν
          θελήματος</quote>. </p>
@@ -4463,7 +4462,7 @@
        <pb n="306"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:10">
+     <div type="textpart" subtype="commentary" n="1_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ ἔπεσεν ὁ πλασθεὶς διὰ τῆς παρακοῆς, καὶ ἀσεβησάντων τῶν
         ἀνθρώπων ἀπηλλοτριώθη τὰ ἐπουράνια τῶν ἐπιγείων, ἐλθὼν ὁ <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸς</persName> πάντα
@@ -4474,7 +4473,7 @@
         <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> πίστεως. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:11">
+     <div type="textpart" subtype="commentary" n="1_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Φανερῶς ἐνταῦθα ἄλλο <quote>ἐνέργειαν</quote> λέγει καὶ
         ἄλλο <quote>βούλησιν.</quote> εἰπὼν <quote>τοῦ
@@ -4483,7 +4482,7 @@
         φωναῖς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:13">
+     <div type="textpart" subtype="commentary" n="1_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τῶν προεγνωσμένων, φησίν, ἐστὲ καὶ ὑμεῖς, οἰκειούμενοι Χριστῷ δι’
         ὑπακοῆς καὶ τῆς ἐπὶ τῇ ἀκοῇ πίστεως καὶ τοῦ ἐπὶ τῇ πίστει σφραγισμοῦ, ὅς
@@ -4493,7 +4492,7 @@
         ἐκείνου διδασκαλίας κατηρτισμένοις. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:14.17–21">
+     <div type="textpart" subtype="commentary" n="1_14_17ad21">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἡ ἀπολύτρωσις τῆς περιποιήσεώς</quote> ἐστιν· ἵνα
@@ -4524,7 +4523,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_1:22–23">
+     <div type="textpart" subtype="commentary" n="1_22ad23">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Καὶ αὐτὸν ἔδωκε κεφαλὴν ὑπὲρ πάντων τῇ ἐκκλησίᾳ,
@@ -4543,7 +4542,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_2:2–3">
+     <div type="textpart" subtype="commentary" n="2_2ad3">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Κόσμος</quote> διττῶς λέγεται, καὶ ἡ σύστασις ἡ
@@ -4577,21 +4576,21 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_2:10">
+     <div type="textpart" subtype="commentary" n="2_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ εἶπεν <quote>κτισθέντες,</quote> λέγει· ἡ κτίσις
         οἰκείωσίς ἐστιν. τὸ δὲ <quote>ἐπὶ ἔργοις ἀγαθοῖς</quote>
         ἐπήγαγεν, ἵνα λοιπὸν σαυτὸν οἰκοδομῇς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_2:13">
+     <div type="textpart" subtype="commentary" n="2_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ εἶπεν <quote>ἐγγύτερον</quote> τῶν πιστευσάντων ἀπὸ περιτομῆς,
         ἀλλ’ <quote>ἐγγύς.</quote>
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_2:14–15a">
+     <div type="textpart" subtype="commentary" n="2_14ad15a">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τὸ μεσότοιχον τοῦ φραγμοῦ λύσας,</quote> οὐ τὸν
@@ -4621,7 +4620,7 @@
         ἔβλαπτε μετὰ τὴν χάριν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_2:15b–17">
+     <div type="textpart" subtype="commentary" n="2_15bad17">
       <div type="textpart" subtype="fragment" n="1">
        <p><orgName key="PTA_O00011">Ἕλληνες</orgName> μὲν γὰρ τῆς εἰδωλολατρείας ὡς ἀσεβείας, <orgName key="PTA_O00008">Ἰουδαῖοι</orgName> δὲ τοῦ νόμου
         ὡς οὐκέτι χρησιμεύοντος ἀφιστάμενοι, εἰς ἑτέραν τινὰ καινότητα εὐσεβείας
@@ -4650,7 +4649,7 @@
         ἀλλ’ ἐν αὐτῷ. εἰ δὲ πάλιν ἦσαν ἐναντίοι, οὐκ ἦσαν <quote>ἐγγύς,</quote> ἀλλὰ πόρρωθεν μετὰ τῶν <orgName key="PTA_O00011">Ἑλλήνων</orgName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_3:2–3">
+     <div type="textpart" subtype="commentary" n="3_2ad3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐνταῦθα βούλεται δεῖξαι, ὅτι οὐκ ἐπέρριψεν ὡς ἀλλοτρίοις καὶ ὑπ’ ἄλλων
         δεδιδαγμένοις, ἀλλ’ ὅτι ἐθνῶν κῆρυξ αἱρεθεὶς ἐχρεώστει καὶ τούτοις τὸ
@@ -4659,7 +4658,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_3:10">
+     <div type="textpart" subtype="commentary" n="3_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἵνα γνωρισθῇ νῦν ταῖς ἀρχαῖς.</quote> εἰκότως· εἰ
@@ -4667,7 +4666,7 @@
         προφῆται ἤρξαντο ἀποκαλύπτειν τὰ ἐσόμενα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_3:15">
+     <div type="textpart" subtype="commentary" n="3_15">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἐν οὐρανοῖς,</quote> φησίν, ἡ τῶν δικαίων διαγωγή,
@@ -4683,7 +4682,7 @@
        <pb n="311"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_3:18–19">
+     <div type="textpart" subtype="commentary" n="3_18ad19">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐσχημάτισεν ὥσπερ τυπικώτερον εἰς σταυροῦ τύπον· <quote>βάθος</quote> γὰρ <quote>καὶ ὕψος καὶ πλάτος καὶ
          μῆκος</quote> τί ἕτερον ἂν εἴη ἢ τοῦ σταυροῦ φύσις; διπλοῦν δέ που
@@ -4702,7 +4701,7 @@
         ἐκκλησίαν λέγει. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_5:14">
+     <div type="textpart" subtype="commentary" n="5_14">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τὸ ἔγειρε, ὁ καθεύδων,</quote> καὶ τὰ ἑξῆς οὐδαμοῦ
@@ -4715,14 +4714,14 @@
         ἐμνημόνευσεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_5:16">
+     <div type="textpart" subtype="commentary" n="5_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁ ἐξαγοραζόμενος τὸν ἀλλότριον δοῦλον ἐξαγοράζεται καὶ κτᾶται αὐτόν.
         ἐπεὶ οὖν ὁ καιρὸς ὁ παρὼν δουλεύει τοῖς πονηροῖς, <quote>ἐξαγοράσασθε αὐτόν,</quote> ὥστε καταχρήσασθαι αὐτῷ πρὸς εὐσέβειαν.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_5:29">
+     <div type="textpart" subtype="commentary" n="5_29">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ προσήχθη ὁ ἀμνός, καὶ τὸ σῶμα αὐτοῦ ἐσθίομεν. φιλεῖ δὲ
         ἀναδίδοσθαι ἡ τροφὴ εἰς τὸ σῶμα τοῦ ἐσθίοντος – δηλονότι 
@@ -4732,7 +4731,7 @@
          ὀστέων</quote> αὐτοῦ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_5:32–33">
+     <div type="textpart" subtype="commentary" n="5_32ad33">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ τὸ <quote>μυστήριον,</quote> ἀλλ’ ὁ θεός. τί οὖν ἐστιν
         ὃ λέγει; ὅτι αὕτη ἡ πλάσις τοῦ Ἀδὰμ καὶ τῆς Εὔας τῆς ἐξ αὐτοῦ καὶ ἡ
@@ -4752,7 +4751,7 @@
         ἑαυτοῦ γυναῖκα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_6:17">
+     <div type="textpart" subtype="commentary" n="6_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Εἰ ἡ μάχαιρα ῥῆμα θεοῦ, πνεύματος</quote> δὲ ἡ
@@ -4762,7 +4761,7 @@
         πνεύματος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_6:18">
+     <div type="textpart" subtype="commentary" n="6_18">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Προσευχόμενοι πνεύματι</quote> οὐχ ἁπλῶς εἶπεν, ἀλλ’
@@ -4772,7 +4771,7 @@
        <pb n="313"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Eph_6:24">
+     <div type="textpart" subtype="commentary" n="6_24">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τῆς φθορᾶς τις, φησίν, ἀπαλλαττόμενος τῆς ἀπὸ τοῦ διαβόλου, <quote>ἐν ἀφθαρσίᾳ</quote> δέχεται τὴν χάριν τοῦ πνεύματος. </p>
       </div>
@@ -4790,7 +4789,7 @@
         ὑπ’ αὐτοῦ τούτου ὡς τὰ πολλὰ ἐπαιρομένων. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Phil_1:7">
+     <div type="textpart" subtype="commentary" n="1_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πανταχοῦ καὶ διὰ πάντων δείκνυται οὐκ ἀνόνητά μου τὰ παθήματα οὐδὲ αἱ
          <quote>ἀπολογίαι.</quote> ἀπὸ τῆς ὑμετέρας πίστεως
@@ -4801,7 +4800,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Phil_2:7">
+     <div type="textpart" subtype="commentary" n="2_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Καὶ σχήματι εὑρεθεὶς</quote> ὡς <quote>ἄνθρωπος.</quote> τὸ <quote>ὡς</quote> οὐχ ὁμοιώσεώς
@@ -4810,13 +4809,13 @@
          κύριε,</quote> ἀντὶ τοῦ πάνυ ἠγάπησα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Phil_2:16">
+     <div type="textpart" subtype="commentary" n="2_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀντὶ τοῦ προσέχοντες τῷ λόγῳ τῆς ζωῆς. καὶ τῷ <persName type="biblical" key="Timothy_Act.16.1">Τιμοθέῳ</persName> δὲ γράφει·
          <quote>ἔπεχε σεαυτῷ,</quote> ἀντὶ τοῦ πρόσεχε σεαυτῷ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Phil_3:8a">
+     <div type="textpart" subtype="commentary" n="3_8a">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ διὰ τὸν <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName> <quote>ζημίαν</quote> ἡγεῖται, οὐκ ἦν
         κακά· ἦν γὰρ κέρδη. καὶ <quote>ἥγημαι</quote> εἶπεν· οὐ γὰρ
@@ -4825,7 +4824,7 @@
        <pb n="314"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Phil_3:8b">
+     <div type="textpart" subtype="commentary" n="3_8b">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ <quote>σκύβαλον</quote> μέρος ἐστι καλάμης, ἡ δὲ
         καλάμη καὶ ὁ στάχυς ποτὲ ἀπὸ τοῦ σπόρου. τοῦτο οὖν τὰ <quote>σκύβαλον</quote> ποτὲ χρησιμώτατον εἰς τὸ τεχθῆναι τὸν
@@ -4842,7 +4841,7 @@
         τέλειον τῆς χάριτος κατορθωθῆναι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Phil_3:13">
+     <div type="textpart" subtype="commentary" n="3_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Τὰ μὲν ὀπίσω ἐπιλανθανόμενος</quote>, οὐχ ὡς κακά,
@@ -4851,7 +4850,7 @@
         ἑξῆς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Phil_4:2">
+     <div type="textpart" subtype="commentary" n="4_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τινὲς δὲ <quote>Εὐοδίαν</quote> εἶναί φασι τὴν γυναῖκα
         τοῦ δεσμοφύλακος, <quote>Συντύχην</quote> δὲ τὸν ἄνδρα.
@@ -4911,14 +4910,14 @@
         καὶ ἀρχόμενός φησίν·<app type="witnesses"><rdg wit="#P #Pi"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:2">
+     <div type="textpart" subtype="commentary" n="1_2">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#P #Pi"><witStart/></rdg></app>Ἐπισημήνασθαι χρὴ διότι ἐν ὀλίγοις στίχοις πολλάκις τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>
         μέμνηται· τοῦ γὰρ ἀθετουμένου συνεχῶς ποιεῖται τὴν μνήμην ἐντυπῶν ταῖς
         ψυχαῖς τὸν εἰς αὐτὸν πόθον.<app type="witnesses"><rdg wit="#P #Pi"><witEnd/></rdg></app> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:5–6">
+     <div type="textpart" subtype="commentary" n="1_5ad6">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Ἤδη αὐτοὺς ὑποδείκνυσιν, ὅτι <quote type="lemma">τὴν ἐλπίδα τὴν
          ἀποκειμένην<ref decls="#biblical" cRef="NA:Col:1:5"/></quote> τῆς ἀναστάσεως καὶ τῆς βασιλείας οὐκ ἀγγέλων
@@ -4945,13 +4944,13 @@
        <pb n="317"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:7">
+     <div type="textpart" subtype="commentary" n="1_7">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #L"><witStart/></rdg></app>Συνίστησι τὸν <persName type="biblical" key="Epaphras_Col.1.7">Ἐπαφρᾶν</persName> ἕνα ὄντα τῶν ἁγίων καὶ κατηχήσοντα αὐτούς, ἵνα
         μᾶλλον αὐτοῦ τῇ διδασκαλίᾳ προσέχωσιν.<app type="witnesses"><rdg wit="#D #L"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:9">
+     <div type="textpart" subtype="commentary" n="1_9">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Τί δὲ ἦν τὸ <quote type="lemma">θέλημα<ref decls="#biblical" cRef="NA:Col:1:9"/></quote> τοῦ θεοῦ; τὸ ἐπιγνῶναι
         ὑμᾶς καὶ εἰδέναι ὅτι οὐ δι’ ἀγγέλων σωθῆναι ὑμᾶς δυνατὸν ἀλλὰ διὰ <persName type="biblical" key="Jesus_Mat.1.1">Ἰησοῦ
@@ -4959,7 +4958,7 @@
          πνευματικῇ,<ref decls="#biblical" cRef="NA:Col:1:9"/></quote> οὐ κοσμικῇ.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:11">
+     <div type="textpart" subtype="commentary" n="1_11">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Μάλιστα ἐπήγαγεν <quote type="lemma">τῇ ὑπομονῇ τὴν
          μακροθυμίαν<ref decls="#biblical" cRef="NA:Col:1:11"/></quote>· ὑπομονὴ γὰρ ἄνευ μακροθυμίας οὐχ ἵσταται καὶ ἄνευ
@@ -4970,7 +4969,7 @@
         διαγωγή.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:13–14">
+     <div type="textpart" subtype="commentary" n="1_13ad14">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Καὶ πρὸ τοῦ κατακλυσμοῦ καὶ μετὰ τὸν κατακλυσμόν, καὶ πρὸ τοῦ νόμου
         καὶ ἐν τῷ νόμῳ διηκόνουν οἱ ἄγγελοι τῷ θεῷ πρὸς τὴν ὑμετέραν σωτηρίαν.
@@ -5010,7 +5009,7 @@
        <pb n="319"/><!-- bis hier -->
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:15–17">
+     <div type="textpart" subtype="commentary" n="1_15ad17">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Βούλεται εἰπεῖν ὅτι προῆν· εἰ γὰρ μὴ προῆν πάντων, πῶς <quote type="lemma">τὰ πάντα ἐν αὐτῷ<ref decls="#biblical" cRef="NA:Col:1:16"/></quote> κτίζεται; <quote type="lemma">ἐν
          αὐτῷ<ref decls="#biblical" cRef="NA:Col:1:16"/></quote> δὲ εἶπε κτίζεσθαι τὰ πάντα, ἵνα ἀποστάντες τοῦ ἐλπίζειν
@@ -5039,7 +5038,7 @@
         λέγεται.<app type="witnesses"><rdg wit="#P"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:18">
+     <div type="textpart" subtype="commentary" n="1_18">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Ὥσπερ <quote type="lemma">πρωτότοκον πάσης κτίσεως<ref decls="#biblical" cRef="NA:Col:1:15"/></quote> ἔλεγεν
         αὐτὸν πρὸ τῆς κτίσεως ὄντα, οὕτως <quote type="lemma">πρωτότοκον ἐκ
@@ -5065,7 +5064,7 @@
         ἐν πᾶσιν αὐτὸς πρωτεύει κατὰ τὴν οἰκονομίαν.<app type="witnesses"><rdg wit="#P"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:19–20">
+     <div type="textpart" subtype="commentary" n="1_19ad20">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Τοῦτο τὴν ἀκολουθίαν ἔχει πρὸς τὸ <quote type="lemma">αὐτός ἐστι
          κεφαλὴ τῆς ἐκκλησίας.<ref decls="#biblical" cRef="NA:Col:1:18"/></quote> <quote type="lemma">πλήρωμα<ref decls="#biblical" cRef="NA:Col:1:19"/></quote> δὲ εἶπε τὴν ἐκκλησίαν, καλῶς καὶ
@@ -5084,7 +5083,7 @@
         τοῦ κόσμου κατορθώματα διὰ τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>.<app type="witnesses"><rdg wit="#P #Pi"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:21–22">
+     <div type="textpart" subtype="commentary" n="1_21ad22">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#F #L"><witStart/></rdg></app>Καὶ διὰ τοιούτου αὐτοὺς διδάσκει ὅτι οὐκ ἄγγελοι αὐτοὺς καταλλάξουσι
         τῷ θεῷ ἀλλ’ ὁ υἱός· φησὶ γάρ· <quote type="lemma">ἀποκατήλλαξεν ἡμᾶς ἐν
@@ -5093,14 +5092,14 @@
        <pb n="321"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:23">
+     <div type="textpart" subtype="commentary" n="1_23">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Οὐ μέχρις ὑμῶν μόνον ἔφθασε τὸ εὐαγγέλιον ἀλλὰ καὶ εἰς πᾶσαν τὴν
         οἰκουμένην· ἀλλ’ οὐδεὶς οὐδαμοῦ μετακεκίνηται, ἀλλὰ μένουσι πάντες
          <quote type="lemma">ἑδραῖοι<ref decls="#biblical" cRef="NA:Col:1:23"/></quote>. διὸ καὶ τὰ νῦν ἀσφαλίζεσθε.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:24">
+     <div type="textpart" subtype="commentary" n="1_24">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Εἴ τι, φησίν, <quote type="lemma">ὑστέρημα<ref decls="#biblical" cRef="NA:Col:1:24"/></quote> πρὸς τὸ παθεῖν,
         ἀλλ’ <quote type="lemma">ἀναπληρῶ τὰ ὑπολειπόμενα τῶν θλίψεων
@@ -5114,7 +5113,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_1:26–27">
+     <div type="textpart" subtype="commentary" n="1_26ad27">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>
         <quote type="lemma">Μυστήριον<ref decls="#biblical" cRef="NA:Col:1:26"/></quote> μέν ἐστιν ἡ οἰκονομία καὶ ἡ
@@ -5128,14 +5127,14 @@
        <pb n="321"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:3">
+     <div type="textpart" subtype="commentary" n="2_3">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Εἰ <quote type="lemma">ἐν τῷ Χριστῷ εἰσιν ἀπόκρυφοι τῆς γνώσεως
          θησαυροί,<ref decls="#biblical" cRef="NA:Col:2:3"/></quote> δῆλον ὡς οὐ δι’ ἀγγέλων μετασχεῖν αὐτῶν, ἀλλὰ δι’
         αὐτοῦ τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:6–7">
+     <div type="textpart" subtype="commentary" n="2_6ad7">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Εἰ καὶ τὸ <quote type="lemma">περιπατῆσαι<ref decls="#biblical" cRef="NA:Col:2:6"/></quote> τῷ <quote type="lemma">ἐρριζῶσθαι<ref decls="#biblical" cRef="NA:Col:2:7"/></quote> ἐναντίον εἶναι δοκεῖ, ἀλλ’ ἐν τῷ
         προκειμένῳ οὐκ ἐναντίον ἐστίν· δηλοῖ γὰρ ἡμῖν πᾶσι τὸ <pb n="322"/>
@@ -5144,7 +5143,7 @@
          <supplied>τῇ</supplied> αὐτῇ πολιτείᾳ κατ’ ἴχνος βαδίζειν <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:9–10">
+     <div type="textpart" subtype="commentary" n="2_9ad10">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Τὴν ἐκκλησίαν λέγει ἅτε δὴ πεπληρωμένην τῆς θεότητος τοῦ πατρός. ὁ δὲ
         νοῦς ἐστι τοιοῦτος· ἡ ἐκκλησία πλήρης ἐστίν, ἐν τῷ Χριστῷ δὲ <quote type="lemma">κατοικεῖ σωματικῶς<ref decls="#biblical" cRef="NA:Col:2:9"/></quote>, τοῦτ’ ἔστιν ὡς σῶμα ἡνωμένον
@@ -5162,14 +5161,14 @@
         οὖν οὐκ ἐπήγαγεν· ἥτις ἐστὶν ἡ ἐκκλησία;<app type="witnesses"><rdg wit="#P #Pi"><witStart/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:11">
+     <div type="textpart" subtype="commentary" n="2_11">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Τοῦτ’ ἔστι περιτεμὼν ἡμᾶς ἐκ τῆς ἁμαρτίας τῆς σαρκὸς διὰ τοῦ
         βαπτίσματος ἐζωοποίησεν ἑαυτῷ. ὥστε τὸ ἐν Χριστῷ βάπτισμα περιτομὴ
         πνευματική· περικόπτει γὰρ τῶν πιστευόντων τὰς ἁμαρτίας.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:12–13">
+     <div type="textpart" subtype="commentary" n="2_12ad13">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Διὰ γὰρ τοῦ βαπτίσματος ἡ περιαίρεσις καὶ ἡ περιτομὴ τῶν ἁμαρτιῶν.
          <quote type="lemma">συνταφέντες αὐτῷ ἐν τῷ βαπτίσματι, ἐν ᾧ καὶ
@@ -5195,7 +5194,7 @@
         τῇ τροπῇ παρέμεινεν. <quote type="lemma">ἀκροβυστίαν <seg type="insertion">δὲ</seg> σαρκὸς<ref decls="#biblical" cRef="NA:Col:2:13"/></quote> τὴν ἁμαρτίαν λέγει.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:14–15">
+     <div type="textpart" subtype="commentary" n="2_14ad15">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Ὅτε ἐδόθη ὁ νόμος ὁ καταρώμενος τοὺς παραβαίνοντας, πᾶς ὁ λαὸς Ἰσραὴλ
         ἑστὼς ἐβόα, καὶ συγκατετίθετο τοῖς λεγομένοις καταδεχόμενος αὐτά, καὶ ἡ
@@ -5245,7 +5244,7 @@
         ἐκείνας <quote type="lemma">ἐθριάμβευσεν<ref decls="#biblical" cRef="NA:Col:2:15"/></quote> δι’ ὧν ἔπαθεν καὶ κατώρθωσεν.<app type="witnesses"><rdg wit="#P #Pi"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:16–18a">
+     <div type="textpart" subtype="commentary" n="2_16ad18a">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>
         <quote type="lemma">Μὴ οὖν τις ὑμᾶς κρινέτω.<ref decls="#biblical" cRef="NA:Col:2:16"/></quote> διδάσκει ὅτι ὁ
@@ -5274,7 +5273,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:18b">
+     <div type="textpart" subtype="commentary" n="2_18b">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Ποία <quote type="lemma">ταπεινοφροσύνη<ref decls="#biblical" cRef="NA:Col:2:18"/></quote>; ἐν τῷ λέγειν ὅτι
         ἡμεῖς μὲν ταπεινοί ἐσμεν, ὁ δὲ θεὸς μέγας καὶ ὑπερβαίνων τὸ ὑφ’ ἡμῶν
@@ -5288,7 +5287,7 @@
         τῶν ἀγγέλων προσαγόμεθα. καὶ ταύτην <quote type="lemma">ταπεινοφροσύνην<ref decls="#biblical" cRef="NA:Col:2:18"/></quote> φησίν.<app type="witnesses"><rdg wit="#P #Pi"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:19">
+     <div type="textpart" subtype="commentary" n="2_19">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#P #Pi"><witStart/></rdg></app>Ἐντεῦθεν ἔδειξε τὸν σκοπὸν ὃν λέγομεν, ὅτι διὰ τὸ τινὰς παραινεῖν δι’
         ἀγγέλων προσάγεσθαι, διὰ τοῦτο ἐκινήθη. δεῖ, φησί, τῆς <quote type="lemma">κεφαλῆς<ref decls="#biblical" cRef="NA:Col:2:19"/></quote> ἔχεσθαι· <quote type="lemma">κεφαλὴ<ref decls="#biblical" cRef="NA:Col:2:19"/></quote> γάρ ἐστι τοῦ παντὸς ὁ θεὸς λόγος. τί οὖν ἀφεὶς τὴν
@@ -5304,7 +5303,7 @@
         ὅλον ἔρχεται τὸ σῶμα, ἐπιχορηγουμένη δηλονότι ἀπὸ τῆς κεφαλῆς.<app type="witnesses"><rdg wit="#P #Pi"><witStart/></rdg></app> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:20–22">
+     <div type="textpart" subtype="commentary" n="2_20ad22">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Εἰ διὰ τοῦτο, φησίν, <quote type="lemma">ἀποθνῄσκετε σὺν Χριστῷ<ref decls="#biblical" cRef="NA:Col:2:20"/></quote>, ὥστε μὴ τοῖς <quote type="lemma">στοιχείοις τοῦ κόσμου<ref decls="#biblical" cRef="NA:Col:2:20"/></quote> τούτου προσκυνεῖν μήτε
         ἐμπολιτεύεσθαι, τί ἀνέχεσθε τῶν δογματιζόντων ὑμῖν κατὰ τὴν τοῦ κόσμου
@@ -5319,7 +5318,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_2:23">
+     <div type="textpart" subtype="commentary" n="2_23">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Ἀντὶ τοῦ ταῦτα φοβοῦ – λέγω δὴ τὸ <quote type="lemma">μὴ ἅψῃ, μὴ γεύσῃ,
          μηδὲ θίγῃς<ref decls="#biblical" cRef="NA:Col:2:21"/></quote> – λόγον τινὰ ἔχειν δοκοῦντα, ἐπειδὴ ταπεινοφρονούντων
@@ -5331,7 +5330,7 @@
        <pb n="327"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_3:3">
+     <div type="textpart" subtype="commentary" n="3_3">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>
         <quote type="lemma">Ἡ ζωὴ ἡμῶν κέκρυπται<ref decls="#biblical" cRef="NA:Col:3:3"/></quote>, ἀντὶ τοῦ ἡ μακαριότης
@@ -5339,14 +5338,14 @@
          <quote type="lemma">φανερωθῇ<ref decls="#biblical" cRef="NA:Col:3:4"/></quote> ἐν τῇ δευτέρᾳ αὐτοῦ παρουσίᾳ.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app></p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_3:5">
+     <div type="textpart" subtype="commentary" n="3_5">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Ὥσπερ πολλάκις <quote>σάρκα<ref decls="#biblical" cRef="NA:Rom:8:6"/></quote> καλεῖ τὴν ἁμαρτίαν,
         οὕτω καὶ <quote type="lemma">μέλη<ref decls="#biblical" cRef="NA:Col:3:5"/></quote> τῆς σαρκὸς νῦν καταριθμῶν
          <quote type="lemma">πορνείαν<ref decls="#biblical" cRef="NA:Col:3:5"/></quote> λέγει καὶ <quote type="lemma">ἀκαθαρσίαν<ref decls="#biblical" cRef="NA:Col:3:5"/></quote> καὶ τὰ ἑξῆς· ταῦτα γὰρ μέλη τῆς ἁμαρτίας.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_3:9–10">
+     <div type="textpart" subtype="commentary" n="3_9ad10">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>
         <quote type="lemma">Παλαιὸν <seg type="insertion">μὲν</seg> ἄνθρωπον<ref decls="#biblical" cRef="NA:Col:3:9"/></quote> λέγει τὸ φρόνημα τῆς ἁμαρτίας, <quote type="lemma">μέλη<ref decls="#biblical" cRef="NA:Col:3:5"/></quote> δὲ τὰς πονηρὰς πράξεις· <quote type="lemma">νέον δὲ
@@ -5364,7 +5363,7 @@
        <pb n="327"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_3,11">
+     <div type="textpart" subtype="commentary" n="3_11">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Τοῦτο ὅμοιόν ἐστι τῷ <quote>ἵνα ᾖ τὰ πάντα ἐν
          πᾶσιν.<ref decls="#biblical" cRef="NA:Eph:1:23"/><ref decls="#biblical" cRef="NA:1Cor:12:6"/><ref decls="#biblical" cRef="NA:1Cor:15:28"/></quote> ὃ δέ φησιν τοιοῦτόν ἐστιν· ἵνα ἐν πᾶσι τοῖς φρονοῦσι τὰ
@@ -5378,7 +5377,7 @@
        <pb n="328"/>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_3:14">
+     <div type="textpart" subtype="commentary" n="3_14">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>
         <quote type="lemma">Ἀγάπης<ref decls="#biblical" cRef="NA:Col:3:14"/></quote> μὴ προηγουμένης οὐδὲν τῶν δεόντων
@@ -5386,7 +5385,7 @@
         ποιεῖν φροντίζομεν, ὅταν ἀλλήλους ἀγαπῶμεν.<app type="witnesses"><rdg wit="#D #F #L"><witEnd/></rdg></app> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_3:15">
+     <div type="textpart" subtype="commentary" n="3_15">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Μὴ οἱ πλανῶντες ὑμᾶς, φησί, καταβραβευέτωσαν, ἀλλ’ ἡ <quote type="lemma">εἰρήνη τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> βραβευέτω ἐν ὑμῖν<ref decls="#biblical" cRef="NA:Col:3:15"/></quote> εἰς τὸ
         ἡνῶσθαι Χριστῷ· <quote type="lemma">καὶ εὐχάριστοι γίνεσθε.<ref decls="#biblical" cRef="NA:Col:3:15"/></quote>
@@ -5398,7 +5397,7 @@
         ἡνῶσθαι Χριστῷ καὶ τὰ αὐτοῦ φρονεῖν. εἶτα πάλιν προτροπή.<app type="witnesses"><rdg wit="#P"><witEnd/></rdg></app> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Col_4:1">
+     <div type="textpart" subtype="commentary" n="4_1">
       <div type="textpart" subtype="fragment" n="1">
        <p><app type="witnesses"><rdg wit="#D #F #L"><witStart/></rdg></app>Τῶν δούλων ὑμῖν, φησί, μετ’ εὐνοίας ὑπηρετούντων, καὶ ὑμεῖς οἱ
         δεσπόται κατὰ <quote type="lemma">τὸ δίκαιον<ref decls="#biblical" cRef="NA:Col:4:1"/></quote> καὶ <quote type="lemma">τὸ ἶσον<ref decls="#biblical" cRef="NA:Col:4:1"/></quote> αὐτοὺς ἀμείβεσθε ἐν τῇ προσηκούσῃ
@@ -5417,7 +5416,7 @@
         εὐχαριστία τῷ θεῷ μαρτυρία ἐστὶ τῆς τῶν <orgName>Θεσσαλονικέων</orgName> εὐλαβείας. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_1:3">
+     <div type="textpart" subtype="commentary" n="1_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ μὲν <quote>πίστις</quote> ἐγείρει πρὸς ἔργον τοῦ
         ἀγαθοῦ, ἡ δὲ <quote>ἀγάπη</quote> παραμένειν ποιεῖ τοῖς
@@ -5430,7 +5429,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_1:4–5">
+     <div type="textpart" subtype="commentary" n="1_4ad5">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Εἰδότες</quote>, φησίν, <quote>ἀδελφοὶ
@@ -5439,38 +5438,38 @@
         ἀλλὰ καὶ δυνάμεις καὶ θαυματουργίας ὑμῖν ἐπεδείξαμεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_1:8">
+     <div type="textpart" subtype="commentary" n="1_8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀντὶ τοῦ διαδίδοται καὶ διαβεβόηται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_2:2">
+     <div type="textpart" subtype="commentary" n="2_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἀφείλετο ἡμῶν, φησί, τὰ ἐν <orgName>Φιλίπποις</orgName> κακὰ τὴν εἰς <persName type="biblical" key="Jesus_Mat.1.1">Χριστὸν</persName>
         παρρησίαν, ἀλλ’ ἐλθόντες πρὸς ὑμᾶς ἀδεῶς ἐκηρύξαμεν τὸν λόγον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_2:4">
+     <div type="textpart" subtype="commentary" n="2_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ εὐαγγέλιον δι’ οὗ παρακαλοῦμεν τοὺς θλιβομένους, τοῦτ’ ἔστιν ἡ
         ἀνάστασις καὶ ἡ ἐν αὐτῇ μισθαποδοσία οὐ κατὰ πλάνην ἀλλὰ κατ’ ἀλήθειαν
         κηρύττεται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_2:7">
+     <div type="textpart" subtype="commentary" n="2_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀντὶ τοῦ ἐπιβαρεῖς καὶ ἐπαχθεῖς διὰ τὸ ἀπαιτεῖν τιμὰς ἃς δεῖ τιμᾶσθαι
          <quote>ἀποστόλους <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName>.</quote>
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_3:3">
+     <div type="textpart" subtype="commentary" n="3_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ εἶπεν τὸ μηδένα ὀκλάζειν, ἵνα μὴ δόξῃ κατηγορεῖν, ἀλλ’ ἔθηκε λέξιν
         τὴν μὴ δυναμένην ἐλεγκτικὴν εἶναι τῆς ἐνδόσεως <quote>σαίνεσθαι</quote> εἰπὼν τὸ μηδένα ξενίζεσθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_4:15–17">
+     <div type="textpart" subtype="commentary" n="4_15ad17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ αὐτὸς ἔμελλε περιλιμπάνεσθαι, φησίν, ἀλλὰ τὸ <quote>ἡμεῖς</quote> ἢ ἀντὶ τοῦ τοσοῦτον ὀλίγοι καὶ </p>
        <pb n="330"/>
@@ -5510,7 +5509,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_5:4–5">
+     <div type="textpart" subtype="commentary" n="5_4ad5">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἡμέραν</quote> κυρίου τὴν παρουσίαν αὐτοῦ λέγει.
@@ -5521,7 +5520,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_5:6–8">
+     <div type="textpart" subtype="commentary" n="5_6ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀλλ’ ἡ νύμφη καὶ τῷ τῶν ἀρετῶν κόσμῳ κοσμουμένη ψυχὴ τὸν τῆς ἡμέρας
         ὕπνον καθεύδουσα τὸν ἄμοιρον νυκτὸς τὸν τῇ ἐγρηγόρσει συνεζευγμένον, καὶ
@@ -5531,12 +5530,12 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_5:9">
+     <div type="textpart" subtype="commentary" n="5_9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὅτι οὐκ ἐν τοῖς κατακρινομένοις, ἀλλ’ ἐν τοῖς σωζομένοις. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_5:10">
+     <div type="textpart" subtype="commentary" n="5_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διὰ τοῦτό φησιν· <quote>ὑπὲρ ἡμῶν ἀπέθανεν ὁ <persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>, ἵνα
          εἴτε γρηγορῶμεν,</quote> τοῦτ’ ἔστι ζῶμεν, <quote>εἴτε
@@ -5544,7 +5543,7 @@
         κτησάμενοι συζήσουσι καὶ συμβασιλεύσουσι Χριστῷ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_5:19–21">
+     <div type="textpart" subtype="commentary" n="5_19ad21">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τότε <quote>σβέννυται τὸ πνεῦμα,</quote> ὅταν ἡ πολιτεία
         ἀναξία ᾖ τῆς πίστεως. <quote>Προφητείας μὴ ἐξουθενεῖτε.
@@ -5552,7 +5551,7 @@
         ἀποκρύψεις, μήτε πᾶσαν ἀπαγγελίαν ἀδοκιμάστως παραδέχεσθε. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Thess_5:23">
+     <div type="textpart" subtype="commentary" n="5_23">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐδαμοῦ ἐπ’ ἀπίστου τὰ τρία τέθεικε, <quote>πνεῦμα ψυχὴ
          σῶμα,</quote> ἀλλ’ ἐπὶ μόνων τῶν πιστευόντων, ὧν ψυχὴ μὲν καὶ σῶμα τῆς
@@ -5577,13 +5576,13 @@
         πάλιν ἐσομένης μετὰ τὴν τοῦ ἀντιχρίστου πλάνην. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Thess_1:3">
+     <div type="textpart" subtype="commentary" n="1_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ μετὰ δικαιοσύνης ἀγάπη τὸ μὴ μόνον ἀγαπᾶν ἀλλὰ καὶ ἀνταγαπᾶσθαι.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Thess_1:6–8">
+     <div type="textpart" subtype="commentary" n="1_6ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ ἀμφιβολίας ἐστὶ τὸ <quote>εἴπερ δίκαιον</quote>, ἀλλ’
         ἐπιτάσεως καὶ ὁμολογίας· καὶ γὰρ ἐν ἤθει εἴρηται, ὡς πολλάκις φαμέν,
@@ -5595,14 +5594,14 @@
         ἠδικηκότων αὐτοὺς γενομένη τιμωρία. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Thess_1:10">
+     <div type="textpart" subtype="commentary" n="1_10">
       <div type="textpart" subtype="fragment" n="1">
        <p><quote>Ὅτι ἐπιστεύθη τὸ μαρτύριον ἡμῶν ἐν τῇ ἡμέρᾳ
          ἐκείνῃ</quote>· ἡ γὰρ ἐνταῦθα πίστις προευτρεπίζει τὸν μισθὸν ἐν τῇ
         ἡμέρᾳ ἐκείνῃ. ποίᾳ; ἐν ᾗ ἥξει ὁ <persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Thess_2:1–4">
+     <div type="textpart" subtype="commentary" n="2_1ad4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Παραινεῖ αὐτοὺς μὴ θορυβεῖσθαι ἀκαίρως πρὸ τῆς ἐπιφανείας τοῦ κυρίου,
         μήτε εἰ προφῆται λέγοιεν εἶναι ἐν οἷς πνεῦμα πλάνης ἐστίν, μήτε εἰ λόγοι
@@ -5660,12 +5659,12 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Thess_2:4">
+     <div type="textpart" subtype="commentary" n="2_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Κατὰ μίμησιν τοῦ σωτῆρος ἔρχεται ὁ σατανᾶς ἐν ἀνθρώπῳ ὁλοκλήρῳ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Thess_2:6–8a">
+     <div type="textpart" subtype="commentary" n="2_6ad8a">
       <div type="textpart" subtype="fragment" n="1">
        <p>Κατέχει καὶ κωλύει τοῦ ἀνόμου τὴν παρουσίαν τὸ πνεῦμα τὸ ἅγιον.
         ἐπειδὰν οὖν, φησί, τοῦτο διὰ τὴν τῶν ἀνθρώπων κακίαν ἐκ μέσου γένηται
@@ -5690,7 +5689,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Thess_2:8b–9">
+     <div type="textpart" subtype="commentary" n="2_8bad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτο καὶ <persName type="biblical" key="Isaiah_2Ki.19.2">Ἡσαΐας</persName> προλαβὼν εἶπεν· μνημονεύσας γὰρ τοῦ <quote>ἐκ ῥίζης <persName type="biblical" key="Jesse_Rut.4.17">Ἰεσσαὶ</persName></quote> ἐπήγαγεν· <quote>καὶ
          πατάξει τὴν γῆν τῷ λόγῳ τοῦ στόματος αὐτοῦ, καὶ ἐν πνεύματι διὰ χειλέων
@@ -5736,7 +5735,7 @@
      </div>
     </div>
     <div type="textpart" subtype="book" n="1Tim">
-     <div type="textpart" subtype="commentary" n="1Tim_1:1">
+     <div type="textpart" subtype="commentary" n="1_1">
       <div type="textpart" subtype="fragment" n="1">
        <pb n="336"/>
        <p>Οὐ τέθεικεν ἐν ταῖς ἄλλαις ἐπιστολαῖς τὸ <quote>κατ’
@@ -5744,7 +5743,7 @@
         <orgName>ἐκκλησιαστικοὺς</orgName> κανόνας ἐκτίθεσθαι. προλαβὼν πείθει, ὅτι <quote>κατ’ ἐπιταγὴν θεοῦ</quote> μέλλει λέγειν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_1:8–9">
+     <div type="textpart" subtype="commentary" n="1_8ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Καὶ μὴν ἔχει ὁ <quote>νόμος</quote> τὰ πρακτέα, καὶ ἡ
         χάρις τὰ ἀπαγορευτέα, ἀλλ’ ἀπὸ τοῦ πλεονάζοντος ὠνόμασεν ἕκαστον, καὶ
@@ -5754,7 +5753,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_2:5–6">
+     <div type="textpart" subtype="commentary" n="2_5ad6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀλλ’ ἴσως ἐρεῖ τις· πῶς θεὸν εἶναι φῂς τὸν ἀποθανόντα τοῦ <persName type="biblical" key="Paul_Act.7.58">Παύλου</persName> σαφῶς
         εἰρηκότος ἐν οἷς γέγραφε πρὸς <persName>Τιμόθεον</persName>· <quote>ἄνθρωπος
@@ -5804,7 +5803,7 @@
         τὸ γενέσθαι αὐτὸν ἄνθρωπον ἀληθῶς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_2:14–15">
+     <div type="textpart" subtype="commentary" n="2_14ad15">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ αὕτη ἡ γυνὴ <quote>ἐν παραβάσει γέγονε,
          σωθήσεται</quote> διὰ τῶν ἐσομένων αὐτῇ τέκνων καὶ τῶν ἐκγόνων οἳ
@@ -5834,7 +5833,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_3:1">
+     <div type="textpart" subtype="commentary" n="3_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐκ εἶπε τιμῆς, οὐκ εἶπε δορυφορίας, ἀλλὰ <quote>καλοῦ
          ἔργου,</quote> οἷον καλοῦ πόρου, καλοῦ καμάτου διὰ τὴν τῶν ἐκκλησιῶν
@@ -5856,7 +5855,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_3:2–3">
+     <div type="textpart" subtype="commentary" n="3_2ad3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Διδασκαλικώτατα παραινεῖ κατὰ μέρος ἐπάγων τῆς ἀνεπιλήπτου πολιτείας
         τὰ εἴδη. </p>
@@ -5864,7 +5863,7 @@
         ἔγκλημα, πλήττει δὲ ἄλογος μέμψις. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_3:16">
+     <div type="textpart" subtype="commentary" n="3_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀντὶ τοῦ ὤφθη μὲν ἐν σαρκί, ἐδικαιώθη δὲ ἐν πνεύματι πολιτευσάμενος.
         εἰ γὰρ καὶ ἐν σαρκὶ ἦν, ἀλλ’ οὐ κατὰ σάρκα ἐπολιτεύετο, ἀλλ’ ὑπέταξε τῷ
@@ -5889,7 +5888,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_5:10">
+     <div type="textpart" subtype="commentary" n="5_10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀντὶ τοῦ εἰ μὴ ἀπώσατο χηρεύουσα ἃ ἔσχε τέκνα. </p>
        <p>
@@ -5904,21 +5903,21 @@
         ὀβολοὺς καταβαλούσης ἀπορωτέρα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_5:12">
+     <div type="textpart" subtype="commentary" n="5_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὅτι ἐπαγγειλάμεναι τῷ Χριστῷ μένειν οὕτως ὕστερον ἐγαμοῦντο. <quote>πρώτην</quote> δὲ λέγει <quote>πίστιν</quote>
         ἀντὶ τοῦ πρώτην ὑποταγήν, καὶ πάλαι πρώτην τὴν πρωτεύουσαν καὶ ἄκραν καὶ
         πάντων ἀνωτάτην αὐταῖς. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_5:17">
+     <div type="textpart" subtype="commentary" n="5_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Διδασκαλία</quote> μέν ἐστιν ἡ διὰ τῶν λόγων τῆς
         γραφῆς ἁπλῆ παράδοσις καὶ ἡ τῶν ἐν τοῖς λόγοις νοημάτων ἐξήγησις, <quote>λόγος</quote> δὲ ὁ τὰ νοήματα παριστῶν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_5:24–25">
+     <div type="textpart" subtype="commentary" n="5_24ad25">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ εἶπεν ἄνω· <quote>χεῖρας ταχέως μηδενὶ ἐπιτίθει,
          μηδὲ κοινώνει ἁμαρτίαις ἀλλοτρίαις,</quote> νῦν τὴν αἰτίαν λέγει δι’ ἣν
@@ -5941,7 +5940,7 @@
          φῶς,</quote> ὁ δὲ κακοποιῶν κρύπτει λανθάνειν βουλόμενος. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_6:2">
+     <div type="textpart" subtype="commentary" n="6_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὁ εὐλαβὴς καὶ πιστὸς δεσπότης ταχέως ἔστησε λαμβάνειν τῆς τοῦ δούλου
         εὐεργεσίας καὶ εὐνοίας, καὶ ὢν χρηστός, εὐγνώμων πρὸς αὐτὸν γίνεται. </p>
@@ -5950,13 +5949,13 @@
         ἀντὶ τοῦ οἱ εὐαισθητοῦντες πρὸς τὸ ἀμείψασθαι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_6:5">
+     <div type="textpart" subtype="commentary" n="6_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὥσπερ ἐκ τῶν παρατρίψεων τοῦ τε λίθου καὶ τοῦ ξύλου πῦρ τίκτεται,
         οὕτως ἐκ τῆς συναγωγῆς τῶν φαύλων ἡ ἀσέβεια γεννᾶται. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_6:13">
+     <div type="textpart" subtype="commentary" n="6_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ἁπλῶς εἴρηται <quote>τοῦ ζωοποιοῦντος,</quote> ἀλλ’
         ἵνα ὑπομνήσῃ ὅτι ὁ ζωοποιῶν καὶ διδοὺς τὴν ἀναβίωσιν ἑκάστῳ, καὶ τὸν
@@ -5976,7 +5975,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="1 Tim_6:16">
+     <div type="textpart" subtype="commentary" n="6_16">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὡς τῶν κτισμάτων κατὰ τὴν αὐτοῦ χάριν καὶ βούλημα μενόντων ἐν ἀθανασίᾳ
         καὶ ἀφθαρσίᾳ καὶ τῆς ἐξ αὐτοῦ μεθέξεως δεομένων, κἂν ἀθάνατον ἔλαχον
@@ -5987,14 +5986,9 @@
      </div>
     </div>
     <div type="textpart" subtype="book" n="2Tim">
-     <div type="textpart" subtype="commentary" n="2Tim_1:1">
+     <div type="textpart" subtype="commentary" n="1_1">
       <div type="textpart" subtype="fragment" n="1">
        <pb n="342"/>
-       <p> </p>
-      </div>
-     </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_1:1">
-      <div type="textpart" subtype="fragment" n="1">
        <p>Ἐν μὲν τῇ προτέρᾳ ἐπιστολῇ μέλλων <orgName>ἐκκλησιαστικοὺς</orgName> κανόνας παραδιδόναι,
         εἶπε <quote>κατ’ ἐπιταγήν,</quote> ἐν δὲ τῇ δευτέρᾳ <quote>κατ’ ἐπαγγελίαν</quote> ἔφη· ἡ γὰρ ἀποστολὴ ἡ μὲν <quote>κατ’ ἐπιταγὴν τοῦ θεοῦ</quote> διατάττει τὰ συμφέροντα, ἡ
         δὲ τοῖς ἀκούουσι <quote>ἐπαγγελίαν ζωῆς,</quote> οὐ τῆς νῦν
@@ -6008,12 +6002,12 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_1:3">
+     <div type="textpart" subtype="commentary" n="1_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ τὸ ἀπαράλειπτον λέγει τοῦ βίου, ἀλλὰ τῆς εἰς θεὸν πίστεως. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_1:8–10">
+     <div type="textpart" subtype="commentary" n="1_8ad10">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ ὁ κατὰ τῶν εὐαγγελιζομένων πειρασμὸς ἐκκοπὴν ἐποίει τῷ
         εὐαγγελίῳ, διὰ τοῦτό φησιν· <quote>συγκακοπάθησον τῷ
@@ -6034,7 +6028,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_1:12">
+     <div type="textpart" subtype="commentary" n="1_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ποίαν <quote>παραθήκην;</quote> τὴν ὑγιῆ διδασκαλίαν
         ἐδίδαξεν αὐτόν. </p>
@@ -6042,7 +6036,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_2:4">
+     <div type="textpart" subtype="commentary" n="2_4">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ προεῖπεν, οὐ δεῖ <quote>τὸν στρατευόμενον
          ἐμπλέκεσθαι τῆς τοῦ βίου πραγματείας,</quote> ἐζητεῖτο δὲ λοιπὸν πῶς μὴ
@@ -6050,13 +6044,13 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_2:17">
+     <div type="textpart" subtype="commentary" n="2_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Πάθος ἐστὶν ἡ <quote>γάγγραινα,</quote> κατασήπων καὶ
         εὐχερῶς κατατρέχων τοῖς σώμασιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_4:1">
+     <div type="textpart" subtype="commentary" n="4_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ὡς καταγινώσκων ῥᾳθυμοῦντος μαρτύρεται, ἀλλ’ ἵνα ἐν τῇ μαρτυρίᾳ
         φυλάξῃ αὐτῷ δι’ ὅλου τὴν ἑαυτοῦ πρόθεσιν. <quote>διαμαρτύρομαι ἐνώπιον τοῦ θεοῦ καὶ τοῦ κυρίου <persName type="biblical" key="Jesus_Mat.1.1">Ἰησοῦ Χριστοῦ</persName>, τοῦ
@@ -6066,7 +6060,7 @@
         τὸ κηρύττειν τὸν λόγον. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_4:2">
+     <div type="textpart" subtype="commentary" n="4_2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Βούλεται γὰρ διὰ τούτου τοῦ παραγγέλματος κατὰ πάντα καιρὸν τοῖς
         μαθητευομένοις ἐφίστασθαι τὸν διδάσκαλον τοῦ μὲν <quote>εὐκαίρως</quote> δηλοῦντος τὴν μετὰ τὴν ἁμαρτίαν ὑπόμνησιν· τότε γὰρ
@@ -6086,7 +6080,7 @@
         <persName type="biblical" key="Paul_Act.7.58">Παῦλος</persName> ὁ ἀπόστολος διωρίσατο. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_4:5">
+     <div type="textpart" subtype="commentary" n="4_5">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἡ τῆς <quote>διακονίας πληροφορία</quote> τὸ πλῆρες καὶ
         ἀνελλειπὲς ὑποφαίνει τῶν λόγων ὅσα τῆς ἀρχιερωσύνης καθέστηκεν ἴδια, καὶ
@@ -6100,7 +6094,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="2 Tim_4:6">
+     <div type="textpart" subtype="commentary" n="4_6">
       <div type="textpart" subtype="fragment" n="1">
        <p><supplied><quote>Σπένδομαι.</quote></supplied> Ἀντὶ τοῦ
         ἀναιροῦμαι, σφάζομαι ὥστε ῥάναι τὸ αἷμά μου τῇ γῇ. </p>
@@ -6108,7 +6102,7 @@
      </div>
     </div>
     <div type="textpart" subtype="book" n="Tit">
-     <div type="textpart" subtype="commentary" n="Tit_1:12-13">
+     <div type="textpart" subtype="commentary" n="1_12ad13">
       <div type="textpart" subtype="fragment" n="1">
        <pb n="344"/>
        <p>Ἐπειδὴ ὁ ποιητὴς ὁ εἰρηκὼς τὸ <quote><orgName>Κρῆτες</orgName> ἀεὶ ψεῦσται,
@@ -6122,14 +6116,14 @@
         ἐκείνη. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Tit_1:13b">
+     <div type="textpart" subtype="commentary" n="1_13b">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ πολλάκις ἐπαινῶν ἐπιείκειαν ἐκδιδάσκει, εὗρεν δὲ τοὺς <orgName>Κρῆτας</orgName>
         χρείαν ἔχοντας ὥσπερ κέντρου τῆς ἐπιπλήξεως, διὰ τοῦτο <quote>εἶπεν ὅτι ἀποτόμως ἔλεγχε.</quote>
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Tit_1:15–16">
+     <div type="textpart" subtype="commentary" n="1_15ad16">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Πάντα</quote> μὲν <quote>καθαρὰ τοῖς
@@ -6141,12 +6135,12 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Tit_2:3">
+     <div type="textpart" subtype="commentary" n="2_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἔδειξεν ὅτι εἰς κλῆρον τὰς γυναῖκας καλεῖ· οὐ γὰρ ἂν <quote>ἱεροπρεπεῖς</quote> εἶπεν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Tit_2:7">
+     <div type="textpart" subtype="commentary" n="2_7">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸ τῆς <quote>ἀδιαφορίας</quote> ἐπὶ τοῦ νοῦ ἔλαβεν, τὸ
         δὲ τῆς <quote>σεμνότητος</quote> ἐπὶ τοῦ ἔργου, ἵνα μὴ
@@ -6155,7 +6149,7 @@
      </div>
     </div>
     <div type="textpart" subtype="book" n="Phlm">
-     <div type="textpart" subtype="commentary" n="Phlm_1:1">
+     <div type="textpart" subtype="commentary" n="1_1">
       <div type="textpart" subtype="fragment" n="1">
        <pb n="345"/>
        <p>Ἐν πολλαῖς ἐπιστολαῖς ξένον τίθησι ῥῆμα τοῦ μέλλοντος εἰσάγεσθαι λόγου
@@ -6167,12 +6161,6 @@
     </div>
     <div type="textpart" subtype="book" n="Hebr">
      <div type="textpart" subtype="commentary" n="Prolog">
-      <div type="textpart" subtype="fragment" n="1">
-       <pb n="345"/>
-       <p> </p>
-      </div>
-     </div>
-     <div type="textpart" subtype="commentary" n="Hebr: Prolog">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οἱ <orgName key="PTA_O00042">αἱρετικοί</orgName> φασι μὴ εἶναι <persName type="biblical" key="Paul_Act.7.58">Παύλου</persName> τὴν ἐπιστολήν, καὶ τούτου πρώτην
         ἀπόδειξιν προφέρουσι τὸ μὴ προτετάχθαι αὐτοῦ τὸ ὄνομα ὡς ἐν ταῖς ἄλλαις
@@ -6192,7 +6180,7 @@
         ἐπιστολὴν εἶναι. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_1:1–2">
+     <div type="textpart" subtype="commentary" n="1_1ad2">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Πολυμερῶς</quote> μὲν κατὰ τὰς διαφορὰς τῶν χρόνων
@@ -6213,7 +6201,7 @@
         θεολογίαν, πῆ δὲ κατιὼν εἰς τὴν ἐνανθρώπησιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_1:3a">
+     <div type="textpart" subtype="commentary" n="1_3a">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ζητῶν παραστῆσαι τρανότερον τὸ ἐκ τῆς οὐσίας τοῦ πατρὸς γεγεννῆσθαι
         τὸν λόγον, τοῦ <quote>ἀπαυγάσματος</quote> ἐμνημόνευσεν· τὸ
@@ -6232,14 +6220,14 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_1:3b">
+     <div type="textpart" subtype="commentary" n="1_3b">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτό ἐστιν ὃ λέγει <persName type="biblical" key="Jeremiah_2Ch.35.25">Ἰερεμίας</persName>· <quote>ἰσχυρὰ ἔργα λόγων
          αὐτοῦ.</quote>
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_1:3c">
+     <div type="textpart" subtype="commentary" n="1_3c">
       <div type="textpart" subtype="fragment" n="1">
        <p>Εἰ καὶ ὁ <quote>λόγος σὰρξ ἐγένετο,</quote> ἀλλ’ οὖν ἐν
         δόξῃ καὶ φύσει τῆς θεότητος ἦν καὶ τῶν ὑπερτάτων τοῦ θεοῦ πατρὸς οὐκ
@@ -6249,7 +6237,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_1:7–8">
+     <div type="textpart" subtype="commentary" n="1_7ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὥσπερ ἐπὶ τοῦ <quote>ἀπαυγάσματος</quote> καὶ τοῦ <quote>χαρακτῆρος</quote> ἐμιμήσατο τὸν νοῦν <persName type="biblical" key="John_Mat.3.1/John_Mat.4.21">Ἰωάννου</persName>, <quote>λόγον</quote> ὀνομάσαντος καὶ <quote>πρὸς
          θεὸν</quote> εἶναι εἰπόντος, οὕτως καὶ ἐνταῦθα μιμεῖται τὸν <persName key="PTA_P00016/PTA_P00066/John_Mat.3.1/John_Mat.4.21">Ἰωάννην</persName>.
@@ -6260,7 +6248,7 @@
         θρόνον ἔχων αἰώνιον ἀεὶ πρὸς πατέρα ἦν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_1:12–14">
+     <div type="textpart" subtype="commentary" n="1_12ad14">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ μεταβολὴν λέγει φύσεως γινομένην, ἀλλὰ κατὰ σύγκρισιν, ὅτι ἐγχωρεῖ
         ταῦτα ἀπολέσθαι μᾶλλον καὶ ὥσπερ ἀπόλλυται ὅσον πρὸς παράθεσιν τῆς τοῦ
@@ -6278,7 +6266,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_2:2–3">
+     <div type="textpart" subtype="commentary" n="2_2ad3">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐ νόμον λέγει, ἀλλὰ τὸν πολλάκις δι’ ἀγγέλων οἰκονομηθέντα. <quote>ὑπὸ τῶν ἀκουσάντων εἰς ἡμᾶς ἐβεβαιώθη.</quote> τοῦτο
         ὅμοιόν ἐστιν ἐκείνῳ τῷ ἐν τῇ πρὸς <orgName>Γαλάτας</orgName> ἐπιστολῇ, τῷ <quote>ἀνέβην κατὰ ἀποκάλυψιν, καὶ ἀνεθέμην αὐτοῖς τὸ εὐαγγέλιον,
@@ -6287,7 +6275,7 @@
         κηρύσσω. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_2:5–9">
+     <div type="textpart" subtype="commentary" n="2_5ad9">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τὸν μέλλοντα αἰῶνα λέγει. αὐτίκα τελευταῖον ἐπήγαγεν· <quote>νῦν δὲ οὔπω ὁρῶμεν αὐτῷ ὑποτεταγμένα τὰ πάντα· τὸν δὲ
          βραχύ τι παρ’ ἀγγέλους ἠλαττωμένον βλέπομεν <persName type="biblical" key="Jesus_Mat.1.1/Joshua_Exo.17.9/Joshua_Ezr.2.2">Ἰησοῦν</persName>.</quote> ὥστε τὸ
@@ -6304,12 +6292,12 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_3:13">
+     <div type="textpart" subtype="commentary" n="3_13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὥσπερ μίαν ἡμέραν τὸν παρόντα αἰῶνα εἰσάγει. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_4:12">
+     <div type="textpart" subtype="commentary" n="4_12">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Μερισμὸν ψυχῆς καὶ πνεύματος</quote> λέγει, ὅταν ἡ
@@ -6317,7 +6305,7 @@
         πρὸς τὰ οὐράνια. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_6:1–2">
+     <div type="textpart" subtype="commentary" n="6_1ad2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἐπειδὴ ἡ <quote>ἀρχὴ τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName></quote> ἀπὸ τοῦ
         Ἰουδαϊσμοῦ – κατὰ νόμον γὰρ ἐπολιτεύσατο – , διὰ τοῦτο λέγει· <quote type="lemma"/>τοῦτ’ ἀφέντες ἐπὶ </p>
@@ -6343,7 +6331,7 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_6:6">
+     <div type="textpart" subtype="commentary" n="6_6">
       <div type="textpart" subtype="fragment" n="1">
        <p>Νεκροὺς ἤγειραν οἱ ἀπόστολοι. αὕτη δὲ ἡ δύναμις τῆς ἀναστάσεως ἦν.
          <quote>παραδειγματίζοντας</quote> εἶπεν, ὅτι εἰ μυστήριον
@@ -6351,14 +6339,14 @@
         γίνηται τὸ πρᾶγμα, καταφρόνησις καὶ παραδειγματισμός. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_6:7–8">
+     <div type="textpart" subtype="commentary" n="6_7ad8">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὑπόδειγμα ἔλαβεν, οὐκ εἰς τὸ βάπτισμα – πῶς γὰρ δεύτερον βάπτισμα
         ἐκώλυεν; – ἀλλὰ τὴν τοῦ ἁγίου πνεύματος δύναμιν πολλάκις εὐεργετοῦσαν.
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_6:17">
+     <div type="textpart" subtype="commentary" n="6_17">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ἀνωτέρω εἰπὼν <quote>τὴν πληροφορίαν τῆς ἐλπίδος</quote>
         ἐδήλωσεν ὅτι ὁ θεὸς παρέσχε τῷ <persName type="biblical" key="Abraham_Gen.11.26">Ἀβραὰμ</persName> πληροφορίαν, οὐ τὴν δι’ ἔργων τὴν
@@ -6368,7 +6356,7 @@
         τῆς ἐπαγγελίας δύναμιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_7:1–2">
+     <div type="textpart" subtype="commentary" n="7_1ad2">
       <div type="textpart" subtype="fragment" n="1">
        <p>Οὐχ ἁπλῶς μέμνηται ὅπως συνήντησεν ὁ <persName type="biblical" key="Melchizedek_Gen.14.18">Μελχισεδὲκ</persName> τῷ <persName type="biblical" key="Abraham_Gen.11.26">Ἀβραὰμ</persName> περιγεγονότι
         τῶν <orgName key="PTA_O00033">Ἀσσυρίων</orgName>, καὶ ἔδωκεν αὐτῷ δεκάτας ἀπὸ πάντων, ἀλλὰ δεικνὺς ὅτι ὁ
@@ -6376,7 +6364,7 @@
         ἡ ἱερωσύνη ἡ ἄνευ νόμου τῆς ἱερωσύνης τῆς ἐν νόμῳ. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_7:3">
+     <div type="textpart" subtype="commentary" n="7_3">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ἀπάτωρ, ἀμήτωρ, ἀγενεαλόγητος</quote> κατὰ τὸν τῆς
@@ -6398,7 +6386,7 @@
         ἀλλὰ τὸ ἀξίωμα τῆς ἱερατείας. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_9:11">
+     <div type="textpart" subtype="commentary" n="9_11">
       <div type="textpart" subtype="fragment" n="1">
        <p>Ὥσπερ ἡ σκηνὴ κατεσκευάσθη ἐπὶ <persName type="biblical" key="Moses_Exo.2.10">Μωϋσέως</persName> ὥστε τὰς λατρείας γίνεσθαι,
         οὕτω <quote>μείζων</quote> ἡ σκηνὴ αὕτη, τῆς χάριτος ἡ
@@ -6407,7 +6395,7 @@
        <p> </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_11:20">
+     <div type="textpart" subtype="commentary" n="11_20">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Πίστει περὶ μελλόντων εὐλόγησεν <persName type="biblical" key="Isaac_Gen.17.19">Ἰσαὰκ</persName> τὸν <persName type="biblical" key="Israel_Gen.25.26/Jacob_Mat.1.15">Ἰακὼβ</persName> καὶ
@@ -6415,7 +6403,7 @@
         τῆς γενέσεως ἀκολουθίαν, ἀλλὰ κατὰ τὴν τῆς εὐλογίας τάξιν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_11:38">
+     <div type="textpart" subtype="commentary" n="11_38">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ὧν οὐκ ἦν ἄξιος ὁ κόσμος.</quote> οὐ περὶ πάντων
@@ -6423,7 +6411,7 @@
          παρεμβολὰς</quote> καὶ διὰ τὸ χρήσιμον τοῦ λαοῦ εἰληφότων χάριν. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_12:1">
+     <div type="textpart" subtype="commentary" n="12_1">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Ὄγκον ἀποθέμενοι πάντα. ὄγκος</quote> ἐστὶν ἡ
@@ -6431,7 +6419,7 @@
         περιϊσταμένην καὶ ἄγουσαν εἰς τὸ ἑαυτῆς θέλημα. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_12:22–23">
+     <div type="textpart" subtype="commentary" n="12_22ad23">
       <div type="textpart" subtype="fragment" n="1">
        <p>
         <quote>Πανήγυρις</quote> γὰρ καὶ ἑορτὴ ἀγγέλων ἡ εἰς τὸν
@@ -6440,14 +6428,14 @@
        </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_12:27">
+     <div type="textpart" subtype="commentary" n="12_27">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτό ἐστιν ὃ λέγει ὁ <persName type="biblical" key="Paul_Act.7.58">Παῦλος</persName> ἀλλαχοῦ· <quote>παράγει γὰρ
          τὸ σχῆμα τοῦ κόσμου τούτου,</quote> ἵνα παρέλθῃ τὰ πρόσκαιρα καὶ ἔλθῃ
         τὰ αἰώνια. </p>
       </div>
      </div>
-     <div type="textpart" subtype="commentary" n="Hebr_13:10–13">
+     <div type="textpart" subtype="commentary" n="13_10ad13">
       <div type="textpart" subtype="fragment" n="1">
        <p>Τοῦτ’ ἔστιν οἱ ἐν νόμῳ οὐκ ἔχουσι τὸ δῶρον τοῦτο οὗ μετέχομεν ἡμεῖς.
         ἔξω δὲ <quote>τῆς παρεμβολῆς,</quote> ἀντὶ τοῦ ἔξω τῶν

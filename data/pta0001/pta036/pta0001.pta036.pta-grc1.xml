@@ -269,7 +269,7 @@
                      <rdg wit="#V">
                         <witStart/>
                      </rdg>
-                  </app>Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰωάννου ἀρχιεπισκόπου Κωνσταντινουπόλεως τοῦ Χρυσοστόμου ὁμιλία εἰς τὸν <persName type="biblical" key="Noah_Gen.5.29">Νῶε</persName> καὶ εἰς τοὺς υἱοὺς αὐτοῦ, καὶ περὶ τῶν χερουβίμ, καὶ εἰς τὸν προφήτην <persName type="biblical" key="Hosea_Hos.1.1">Ὡσηέ</persName>, πῶς ἔγημεν πόρνην.</title>
+                  </app>Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰωάννου ἀρχιεπισκόπου Κωνσταντινουπόλεως τοῦ Χρυσοστόμου ὁμιλία εἰς τὸν <persName type="biblical" key="Noah_Gen.5.29">Νῶε</persName> καὶ εἰς τοὺς υἱοὺς αὐτοῦ, καὶ περὶ τῶν <orgName key="PTA_O00057">χερουβίμ</orgName>, καὶ εἰς τὸν προφήτην <persName type="biblical" key="Hosea_Hos.1.1">Ὡσηέ</persName>, πῶς ἔγημεν πόρνην.</title>
             </head>
             <div type="textpart" subtype="section" n="1">
                <p>Ἡ μὲν τῶν προηγουμένων ἀκολουθία ἐπὶ τὸν <persName type="biblical" key="Noah_Gen.5.29">Νῶε</persName> καὶ πᾶσαν τὴν κατʼ αὐτὸν ὑπόθεσιν προσκαλεῖται τὸν λόγον καὶ βούλεται τῇ τάξει τὸν οἰκεῖον ἀποδοῦναι δρόμον. Τοῦτο γὰρ καὶ ὁ λόγος
@@ -348,7 +348,7 @@
                         <rdg wit="#V">τῶ</rdg>
                      </app>
                      <app type="variants">
-                        <lem source="#Uthemann" type="correction">χερουβίμ</lem>
+                        <lem source="#Uthemann" type="correction"><orgName key="PTA_O00057">χερουβίμ</orgName></lem>
                         <rdg wit="#V #A" cause="orthographic">χερουβείμ</rdg>
                      </app>.<ref decls="#biblical" cRef="LXX:Gn:3:24"/>
                   </seg>
@@ -358,7 +358,7 @@
                                     <seg type="insertion">γάρ φησιν</seg>
                                     ὁ θεὸς τὰ
                                     <app type="variants">
-                              <lem source="#Uthemann" type="correction">χερουβὶμ</lem>
+                              <lem source="#Uthemann" type="correction"><orgName key="PTA_O00057">χερουβὶμ</orgName></lem>
                               <rdg wit="#V" cause="orthographic">χερουβεὶμ</rdg>
                            </app>
                                     καὶ τὴν φλογίνην ῥομφαίαν τὴν στρεφομένην φυλάττειν τὴν ὁδὸν τοῦ ξύλου τῆς ζωῆς.<ref decls="#biblical" cRef="LXX:Gn:3:24"/>
@@ -367,7 +367,7 @@
                      <rdg wit="#A">καὶ τὴν φλογίνην ῥομφαίαν τὴν περιστρεφομένην φυλάττειν τὸν παράδεισον.</rdg>
                   </app>
                         Ὅρα τὸν θεὸν πανταχοῦ ἄλλα σχηματιζόμενον καὶ ἄλλα πραγματευόμενον.
-                        <quote>Ἔταξε τὰ χερουβὶμ<ref decls="#biblical" cRef="LXX:Gn:3:24"/>
+                        <quote>Ἔταξε τὰ <orgName key="PTA_O00057">χερουβὶμ</orgName><ref decls="#biblical" cRef="LXX:Gn:3:24"/>
                   </quote>
                         σχήματι φυλάκων τῇ
                         <app type="variants">
@@ -380,7 +380,7 @@
                      <rdg wit="#A">προσκαλουμένων</rdg>
                   </app>. Διὰ τί τὰ
                         <app type="variants">
-                     <lem wit="#V">χερουβίμ</lem>
+                     <lem wit="#V"><orgName key="PTA_O00057">χερουβίμ</orgName></lem>
                      <rdg wit="#A" cause="orthographic">χερουβείμ</rdg>
                   </app>
                         ἐτάγη; Ἡ
@@ -405,7 +405,7 @@
                   </app>
                         ξένον ἐστὶν
                         <app type="variants">
-                     <lem wit="#V">τὸ τῶν χερουβὶμ διήγημα</lem>
+                     <lem wit="#V">τὸ τῶν <orgName key="PTA_O00057">χερουβὶμ</orgName> διήγημα</lem>
                      <rdg wit="#A">τῶν χερουβεὶμ μυστήριον</rdg>
                   </app>. Εἴ τις
                         <app type="variants">
@@ -419,7 +419,7 @@
                      <rdg wit="#A">περὶ τῶν</rdg>
                   </app>
                   <app type="variants">
-                     <lem wit="#V">χερουβίμ</lem>
+                     <lem wit="#V"><orgName key="PTA_O00057">χερουβίμ</orgName></lem>
                      <rdg wit="#A" cause="orthographic">χερουβείμ</rdg>
                   </app>
                   <app type="variants">
@@ -436,7 +436,7 @@
                   </app>
                         τοῖς
                         <app type="variants">
-                     <lem wit="#V">χερουβίμ</lem>
+                     <lem wit="#V"><orgName key="PTA_O00057">χερουβίμ</orgName></lem>
                      <rdg wit="#A" cause="orthographic">χερουβείμ</rdg>
                   </app>
                   <app type="variants">
@@ -452,7 +452,7 @@
                             <seg type="insertion">γάρ φησιν</seg>
                             τὰ ζῷα τὰ
                             <app type="variants">
-                        <lem wit="#V">χερουβίμ</lem>
+                        <lem wit="#V"><orgName key="PTA_O00057">χερουβίμ</orgName></lem>
                         <rdg wit="#A" cause="orthographic">χερουβείμ</rdg>
                      </app>
                      <app type="variants">
@@ -465,7 +465,7 @@
                      </app>
                             καὶ ὑπὸ τὰς πτέρυγας τῶν
                             <app type="variants">
-                        <lem wit="#V">χερουβίμ</lem>
+                        <lem wit="#V"><orgName key="PTA_O00057">χερουβίμ</orgName></lem>
                         <rdg wit="#A" cause="orthographic">χερουβείμ</rdg>
                      </app>ἦν πρόσωπον λέοντος
                             <app type="variants">
@@ -562,7 +562,7 @@
                      <rdg wit="#A">τὸ</rdg>
                   </app>
                   <app type="variants">
-                     <lem wit="#V">χερουβίμ</lem>
+                     <lem wit="#V"><orgName key="PTA_O00057">χερουβίμ</orgName></lem>
                      <rdg wit="#A">χερουβείμ</rdg>
                   </app>, ἀδελφοί, γράφεται ἐν
                         <app type="variants">
@@ -587,7 +587,7 @@
                      <rdg wit="#V" cause="homoioteleuton">ὀφθαλμὸν οὐκ ἔχουσα</rdg>
                   </app>, τοῦτο ἐν τοῖς
                         <app type="variants">
-                     <lem wit="#V">χερουβὶμ</lem>
+                     <lem wit="#V"><orgName key="PTA_O00057">χερουβὶμ</orgName></lem>
                      <rdg wit="#A">χερουβεὶμ</rdg>
                   </app>
                   <!-- Stelle schwierig -->
@@ -624,7 +624,7 @@
                   </app>. 
                         Τὰ
                         <app type="variants">
-                     <lem wit="#V">χερουβὶμ</lem>
+                     <lem wit="#V"><orgName key="PTA_O00057">χερουβὶμ</orgName></lem>
                      <rdg wit="#A">χερουβεὶμ</rdg>
                   </app>
                   <app type="variants">
@@ -650,7 +650,7 @@
                         <cit>
                      <ref decls="#biblical" cRef="LXX:Ps:79:2">γράφεται θεὸς ἐπὶ τῶν
                                 <app type="variants">
-                           <lem wit="#V">χερουβὶμ</lem>
+                           <lem wit="#V"><orgName key="PTA_O00057">χερουβὶμ</orgName></lem>
                            <rdg wit="#A">χερουβεὶμ</rdg>
                         </app>
                                 καθήμενος·
@@ -660,7 +660,7 @@
                            <lem wit="#V">γὰρ</lem>
                            <rdg wit="#A" type="omission"/>
                         </app>
-                                ἐπὶ τῶν χερουβὶμ
+                                ἐπὶ τῶν <orgName key="PTA_O00057">χερουβὶμ</orgName>
                                 <app type="variants">
                            <lem wit="#V">ἐμφάνηθι</lem>
                            <rdg wit="#A">ἐμφανήθητι</rdg>
@@ -691,7 +691,7 @@
             <div type="textpart" subtype="section" n="9">
                <p>Καὶ ἦν τὰ
                         <app type="variants">
-                     <lem wit="#V">χερουβὶμ</lem>
+                     <lem wit="#V"><orgName key="PTA_O00057">χερουβὶμ</orgName></lem>
                      <rdg wit="#A">χερουβεὶμ</rdg>
                   </app>
                   <app type="variants">
@@ -704,7 +704,7 @@
                             </ref>
                      <quote>Καὶ τὰ
                                 <app type="variants">
-                           <lem wit="#V">χερουβὶμ</lem>
+                           <lem wit="#V"><orgName key="PTA_O00057">χερουβὶμ</orgName></lem>
                            <rdg wit="#A">χερουβεὶμ</rdg>
                         </app>
                         <app type="variants">
@@ -757,7 +757,7 @@
                   </app>
                   <quote>καθήμενος ἐπὶ τῶν
                             <app type="variants">
-                        <lem wit="#V">χερουβὶμ</lem>
+                        <lem wit="#V"><orgName key="PTA_O00057">χερουβὶμ</orgName></lem>
                         <rdg wit="#A">χερουβεὶμ</rdg>
                      </app>
                      <ref decls="#biblical" cRef="LXX:Ps:79:2"/>
@@ -906,7 +906,7 @@
                                 <persName type="biblical" key="Adam_Gen.2.19">Ἀδὰμ</persName></seg>
                             τὰ
                             <app type="variants">
-                        <lem wit="#V">χερουβὶμ</lem>
+                        <lem wit="#V"><orgName key="PTA_O00057">χερουβὶμ</orgName></lem>
                         <rdg wit="#A">χερουβεὶμ</rdg>
                      </app>
                      <ref decls="#biblical" cRef="LXX:Gn:3:24"/>
@@ -1271,7 +1271,7 @@
             </div>
             <div type="textpart" subtype="section" n="22">
                <p>
-                  <quote>Ἔταξεν ὁ θεὸς τὰ χερουβὶμ καὶ τὴν φλογίνην ῥομφαίαν τὴν στρεφομένην φυλάττειν τὴν ὁδὸν τοῦ ξύλου τῆς ζωῆς<ref decls="#biblical" cRef="LXX:Gn:3:24"/>
+                  <quote>Ἔταξεν ὁ θεὸς τὰ <orgName key="PTA_O00057">χερουβὶμ</orgName> καὶ τὴν φλογίνην ῥομφαίαν τὴν στρεφομένην φυλάττειν τὴν ὁδὸν τοῦ ξύλου τῆς ζωῆς<ref decls="#biblical" cRef="LXX:Gn:3:24"/>
                   </quote>.
                         <cit>
                      <ref decls="#biblical" cRef="LXX:Hos:10:12">Εἰς ταύτην ἡμᾶς τὴν ἀκολουθίαν ἤγαγεν ὁ προφήτης λέγων·

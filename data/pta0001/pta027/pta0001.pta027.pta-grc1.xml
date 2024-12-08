@@ -97,7 +97,7 @@
                <p xml:id="persons" ana="fully-annotated fully-identified">
             Persons are fully annotated and fully referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
           </p>
-               <p xml:id="groups" ana="fully-annotated not-identified">
+               <p xml:id="groups" ana="fully-annotated partially-identified">
             Groups of persons and organisations are fully annotated but not referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
           </p>
                <p xml:id="places" ana="fully-annotated fully-identified">
@@ -325,7 +325,7 @@
                             </ref>
                      <quote>Πῦρ ἦλθον βαλεῖν ἐπὶ τὴν γῆν.</quote>
                   </cit>
-                        Πῦρ οὐκ ἀφανιστικόν. Τὸ γὰρ τοῦ θεοῦ πῦρ οὐ καίει ἀλλ’ ἁγιάζει. Διὰ τοῦτο τῷ Ἡσαΐᾳ ἀπεστάλη ἓν τῶν χερουβὶμ ἔχον ἄνθρακα πυρὸς ἀπὸ τοῦ θυσιαστηρίου. Καὶ ὡς ἐπέθηκε τοῖς χείλεσιν αὐτοῦ,
+                        Πῦρ οὐκ ἀφανιστικόν. Τὸ γὰρ τοῦ θεοῦ πῦρ οὐ καίει ἀλλ’ ἁγιάζει. Διὰ τοῦτο τῷ Ἡσαΐᾳ ἀπεστάλη ἓν τῶν <orgName key="PTA_O00057">χερουβὶμ</orgName> ἔχον ἄνθρακα πυρὸς ἀπὸ τοῦ θυσιαστηρίου. Καὶ ὡς ἐπέθηκε τοῖς χείλεσιν αὐτοῦ,
                         <cit>
                      <ref decls="#biblical" cRef="LXX:Is:6:7">φησὶ πρὸς αὐτόν·
                             </ref>
@@ -472,7 +472,7 @@
                   </cit>;
                         <quote>Εἷς κύριος,<ref decls="#biblical" cRef="NA:Eph:4:5"/>
                   </quote>
-                        κατὰ τὸν ἁγιασμὸν τῶν σεραφίμ. Καὶ γὰρ ἐκεῖνα ἐκβοᾷ·
+                        κατὰ τὸν ἁγιασμὸν τῶν <persName type="biblical" key="Seraph_Isa.6.2">σεραφίμ</persName>. Καὶ γὰρ ἐκεῖνα ἐκβοᾷ·
                         <quote>Ἅγιος, ἅγιος, ἅγιος κύριος.<ref decls="#biblical" cRef="LXX:Is:6:3"/>
                   </quote>
                         Εἰ δὲ φιλονεικοῦσιν οἱ <orgName key="PTA_O00042">αἱρετικοὶ</orgName> ὅτι ἄλλη κυριότης τοῦ πατρός, ἄλλη δὲ τοῦ υἱοῦ, θαυμάζω πῶς ἀνέχονται δυσὶ κυρίοις δουλεύειν. Τοῦ γὰρ σωτῆρός ἐστι φωνὴ τὸ

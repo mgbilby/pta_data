@@ -14,7 +14,7 @@
             </respStmt>
             <respStmt>
                <persName xml:id="AvS">Annette von Stockhausen</persName>
-               <resp>Conversion to CTS-compliant PTA TEI; added biblical references</resp>
+               <resp>Conversion to CTS-compliant PTA TEI; added biblical references; annotations of persons, groups, places</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -91,14 +91,14 @@
                <p xml:id="other-references" ana="fully-annotated fully-identified">
             Other references are fully annotated and fully referenced. References to texts in the PTA follow the scheme declared <ref target="#pta">above (pta)</ref>, references to texts available in the <ref target="https://scaife.perseus.org/">Perseus Digital Library</ref> follow the scheme declared <ref target="#perseus">above (perseus)</ref>. If the referenced text is not available in either repository, the reference for the referenced text is given in the attribute @source in the form “Authorabbrev_Workabbrev_Location”; ancient Greek authors should be referenced according to the lists of H. G. Liddell/R. Scott/H. S. Jones, A Greek - English Lexicon, Oxford 1968 (9th edition) and G. W. H. Lampe, A Patristic Greek Lexicon, Oxford 1987 (3rd edition), for Latin ones the abbreviations of the Thesaurus Linguae Latinae (cf. Index librorum scriptorum inscriptionum ex quibus exempla afferuntur) should be used, with dots in the abbreviations deleted without replacement.
           </p>
-               <p xml:id="persons" ana="not-annotated not-identified">
-            Persons are not annotated and not referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
+               <p xml:id="persons" ana="fully-annotated fully-identified">
+            Persons are fully annotated and fully referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
           </p>
-               <p xml:id="groups" ana="not-annotated not-identified">
-            Groups of persons and organisations are not annotated and not referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
+               <p xml:id="groups" ana="fully-annotated fully-identified">
+            Groups of persons and organisations are fully annotated and fully referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
           </p>
-               <p xml:id="places" ana="not-annotated not-identified">
-            Places are not annotated and not referenced with <ref target="https://pleiades.stoa.org/">Pleiades Gazetteer</ref> IDs.
+               <p xml:id="places" ana="fully-annotated fully-identified">
+            Places are fully annotated and fully referenced with <ref target="https://pleiades.stoa.org/">Pleiades Gazetteer</ref> IDs.
           </p>
             </interpretation>
             <normalization>
@@ -190,7 +190,10 @@
             </keywords>
          </textClass>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="unfinished">
+         <change when="2024-11-20" who="#AvS">
+          Add annotations
+         </change>
          <change when="2023-05-22" who="#AvS">
           Updated file to comply with version 3.0 of <ref target="https://github.com/PatristicTextArchive/Schema">TEI-PTA-Schema</ref>
          </change>
@@ -231,15 +234,15 @@
                         <quote>καλά καὶ καλὰ λίαν<ref decls="#biblical" cRef="LXX:Gn:1:31"/>
                   </quote>, ἐὰν τὴν οἰκείαν φυλάττῃ τάξιν καὶ τὸν οἰκεῖον μεταδιώκῃ νόμον. Ἵνα δὲ μάθῃς, ἀγαπητέ, ὅτι οὐδὲν φαῦλον γεγένηται παρὰ τοῦ θεοῦ κατὰ φύσιν, ἐδίδαξεν ἡμᾶς ὁ θεὸς καὶ τῶν ἀλόγων τούτων εἰκόνα λαμβάνειν. Ὑπέθηκε γάρ τινα μιμεῖσθαι τῶν ἀλόγων πλεονεκτήματα, ἵνα μὴ διαβάλλωμεν εἰς κακίαν τὰ γεγονότα, οὐ καθόλου τὴν φύσιν, ἀλλ’ ὅσα ἁρμόζει λογικῇ καταστάσει. Ἢ οὐκ ἤκουσας σήμερον
                         <cit>
-                     <ref decls="#biblical" cRef="LXX:Prov:6:6">τοῦ Παροιμιαστοῦ λέγοντος ·</ref>
+                     <ref decls="#biblical" cRef="LXX:Prov:6:6">τοῦ <bibl>Παροιμιαστοῦ</bibl> λέγοντος·</ref>
                      <quote>Πορεύθητι πρὸς τὸν μύρμηκα, ὀκνηρέ, καὶ ζήλωσον τὰς ὁδοὺς αὐτοῦ</quote>
                   </cit>; Οὐ συνῆκας πῶς τὴν τοῦ μύρμηκος φιλοπονίαν ὑποθέμενος, εἰς ἄοκνον ἡμῶν προθυμίαν ἐπαιδαγώγησεν; Οὐκ ἐδιδάξαμέν σε ῥητῶς ἀπὸ μὲν τοῦ μύρμηκος τὸ ἄοκνον, ἀπὸ δὲ τῆς μελίσσης τὸ φιλότεχνον; Ἔστι γάρ, ἔστιν, ὡς ἔφθην εἰπών, ἀπανθήσασθαί τινα καὶ τῶν ἀλόγων πλεονεκτήματα ἁρμόζοντα λογικῇ καταστάσει· πλήν γε ταῦτα πρὸς ἡμετέραν λέγονται αἰσχύνην καὶ ὄνειδος. Ἐπειδὴ γὰρ θεὸν οὐκ ἐμιμήσω, μίμησαι, φησί, τὸν μύρμηκα. Οὐκ εἶδές ποτε πατέρα γνήσιον ἐπιτιμῶντα τὰ τέκνα, καὶ μετὰ πολλὴν παιδείαν εἰς μίμησιν αὐτὰ οἰκετῶν ἀνάγοντα, καὶ ταῦτα προφανῶς λέγοντα· Μίμησαι κἂν τὸν οἰκέτην, ὑποδεέστερον μὲν τῇ ἀξίᾳ, ὑπερέχοντα δὲ τῇ ἐπιστήμῃ; Ὅθεν ὁ
                         <pb n="520"/>
                         φιλάνθρωπος θεὸς εἰς ἔνδειξιν τῆς ἡμετέρας ἀγνωμοσύνης προσφέρει τὸν μύρμηκα ἐλέγχοντα ἡμῶν τὸν ὄκνον, καὶ τὴν μέλιτταν ἐλέγχουσαν ἡμῶν τὴν ῥᾳθυμίαν. Καὶ δῆλον ἐκ τούτων, ὅτι οὐδὲν κακὸν ἐγένετο παρὰ τοῦ θεοῦ, ἀλλ’ ἔδωκέ σοι αἴσθησιν καὶ νοῦν διακριτικόν, φεύγειν μὲν τῶν ἀλόγων τὰ ἤθη, ἁρπάζειν δὲ αὐτῶν τὰ πλεονεκτήματα. Δύναται γὰρ καὶ ὁ λέων εἰκὼν εἶναι ἀρετῆς, ὅταν μὴ εἰς τυραννίδα τὴν εἰκόνα, ἀλλ’ εἰς ἀνδρείαν ἐκλάβῃς· ἄλλο γάρ ἐστι τυραννίς, καὶ ἕτερον ἀνδρεία. Διὰ τοῦτο καὶ
                         <cit>
-                     <ref decls="#biblical" cRef="LXX:Gn:49:9">ἡ γραφὴ τὸν ἐκ τοῦ Ἰούδα μέλλοντα ἀνατέλλειν εὐαγγελιζομένη σωτῆρα, φησί·
+                     <ref decls="#biblical" cRef="LXX:Gn:49:9">ἡ γραφὴ τὸν ἐκ τοῦ <placeName ref="https://pleiades.stoa.org/places/687934">Ἰούδα</placeName> μέλλοντα ἀνατέλλειν εὐαγγελιζομένη σωτῆρα, φησί·
                             </ref>
-                     <quote>Σκύμνος λέοντος Ἰούδα· ἐκ βλαστοῦ, υἱέ μου, ἀνέβης· ἀναπεσὼν ἐκοιμήθης ὡς λέων, καὶ ὡς σκύμνος.</quote>
+                     <quote>Σκύμνος λέοντος <placeName ref="https://pleiades.stoa.org/places/687934">Ἰούδα</placeName>· ἐκ βλαστοῦ, υἱέ μου, ἀνέβης· ἀναπεσὼν ἐκοιμήθης ὡς λέων, καὶ ὡς σκύμνος.</quote>
                   </cit>
                         Ὅρα πηλίκην ὁ θεῖος λόγος ὁμοιότητα κατασκευάζει ἐκ τῶν τοῖς ἀλόγοις προσόντων πλεονεκτημάτων. Ἔστι τοίνυν μιμεῖσθαι λέοντα μετὰ συνέσεως· ἔστι δὲ μιμεῖσθαι καὶ ὄφιν, οὐκ ἐν τῷ ἰοβολεῖν, ἀλλ’ ἐν τῷ σύνεσιν ἀναλαμβάνειν καθὼς καὶ
                         <cit>
@@ -253,11 +256,11 @@
                             φρόνιμοι, ὡς ὄφις<ref decls="#biblical" cRef="NA:Mt:10:16"/>
                   </quote>. Μίμησαι τοῦ ὄφεως μὴ τὸν ἰόν, μὴ τὸν θυμόν, ἀλλὰ τὴν σύνεσιν. Ἐὰν γὰρ τὸν ἰὸν μιμήσῃ, καταβοᾷ σου
                         <cit>
-                     <ref decls="#biblical" cRef="LXX:Ps:57:5">Δαυὶδ κατηγορῶν καὶ λέγων·
+                     <ref decls="#biblical" cRef="LXX:Ps:57:5"><persName type="biblical" key="David_Rut.4.17">Δαυὶδ</persName> κατηγορῶν καὶ λέγων·
                             </ref>
                      <quote>Θυμὸς αὐτοῖς κατὰ τὴν ὁμοίωσιν τοῦ ὄφεως·</quote>
                   </cit>
-                        ἐὰν δὲ τὴν σύνεσιν αὐτοῦ μιμήσῃ, μαθητὴς γίνῃ Χριστοῦ τοῦ εἰπόντος
+                        ἐὰν δὲ τὴν σύνεσιν αὐτοῦ μιμήσῃ, μαθητὴς γίνῃ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> τοῦ εἰπόντος
                         <quote>γίνεσθε φρόνιμοι ὡς ὁ ὄφις<ref decls="#biblical" cRef="NA:Mt:10:16"/>
                   </quote>. Ἐπειδὴ γὰρ ὁ ὄφις
                         <quote>φρονιμώτερός
@@ -266,12 +269,12 @@
                   </quote>, ὡς ἀρτίως ὑπανεγνώσθη, ἀντέθηκε τῇ φρονήσει φρόνησιν, οὐχ ἵνα μάθῃς δόλον ποιεῖν, ἀλλ’ ἵνα μάθῃς δόλον ἐκκλίνειν.</p>
             </div>
             <div type="textpart" subtype="section" n="2">
-               <p>Βούλεται γὰρ ἡμᾶς ὁ φιλάνθρωπος θεὸς οὐχὶ κακούργους εἶναι, ἀλλὰ πανούργους· ἕτερον δέ ἐστι τὸ πανοῦργον, καὶ ἕτερον τὸ κακοῦργον. Πανοῦργος τοίνυν ἐστὶν οὐκ εἰς τὸ μελετᾶν κακίαν, ἀλλ’ εἰς τὸ φεύγειν κακίαν. Καὶ κέχρηται τῇ πανουργίᾳ οὐκ εἰς τὸ μηχανορραφεῖν καθ’ ἑτέρων, ἀλλ’ εἰς τὸ τὰ ὑφ’ ἑτέρων πλεκόμενα διαφεύγειν. Κακοῦργος δέ ἐστιν ὁ φονεύς, ὁ δόλιος, ὁ ἑτέροις κακὰ τεκταινόμενος. Τοιοῦτος φρόνιμος ὁ Ἰακώβ, φρόνιμος ὡς ὁ ὄφις, οὐκ ἰοβόλος ὡς ὁ ὄφις. Ὅτε γὰρ ἔμελλε συμβάλλειν τῷ ἀδελφῷ αὐτοῦ Ἡσαὺ κακίας γέμοντι καὶ φονοκτονίας, παρεκάλει τὸν θεὸν λέγων
-                        <quote>Κύριε, ῥῦσαί με ἀπὸ τοῦ ἀδελφοῦ μου Ἡσαύ, ὅτι φοβοῦμαι αὐτὸν πάνυ<ref decls="#biblical" cRef="LXX:Gn:32:12"/>
-                  </quote>, καὶ ἱκέτευε τὸν θεόν, ὡς κατὰ πονηροῦ τὴν εὐχὴν τιθέμενος. Ὅτε δὲ συνήντησε τῷ ἀδελφῷ, ἠθικότητι καὶ κολακείᾳ τὸν θυμὸν ἡμέρωσε, καὶ τὴν πονηρίαν ἔσβεσε. Τί γάρ φησι πρὸς τὸν Ἡσαύ;
+               <p>Βούλεται γὰρ ἡμᾶς ὁ φιλάνθρωπος θεὸς οὐχὶ κακούργους εἶναι, ἀλλὰ πανούργους· ἕτερον δέ ἐστι τὸ πανοῦργον, καὶ ἕτερον τὸ κακοῦργον. Πανοῦργος τοίνυν ἐστὶν οὐκ εἰς τὸ μελετᾶν κακίαν, ἀλλ’ εἰς τὸ φεύγειν κακίαν. Καὶ κέχρηται τῇ πανουργίᾳ οὐκ εἰς τὸ μηχανορραφεῖν καθ’ ἑτέρων, ἀλλ’ εἰς τὸ τὰ ὑφ’ ἑτέρων πλεκόμενα διαφεύγειν. Κακοῦργος δέ ἐστιν ὁ φονεύς, ὁ δόλιος, ὁ ἑτέροις κακὰ τεκταινόμενος. Τοιοῦτος φρόνιμος ὁ <persName type="biblical" key="Israel_Gen.25.26">Ἰακώβ</persName>, φρόνιμος ὡς ὁ ὄφις, οὐκ ἰοβόλος ὡς ὁ ὄφις. Ὅτε γὰρ ἔμελλε συμβάλλειν τῷ ἀδελφῷ αὐτοῦ <persName type="biblical" key="Esau_Gen.25.25">Ἡσαὺ</persName> κακίας γέμοντι καὶ φονοκτονίας, παρεκάλει τὸν θεὸν λέγων
+                        <quote>Κύριε, ῥῦσαί με ἀπὸ τοῦ ἀδελφοῦ μου <persName type="biblical" key="Esau_Gen.25.25">Ἡσαύ</persName>, ὅτι φοβοῦμαι αὐτὸν πάνυ<ref decls="#biblical" cRef="LXX:Gn:32:12"/>
+                  </quote>, καὶ ἱκέτευε τὸν θεόν, ὡς κατὰ πονηροῦ τὴν εὐχὴν τιθέμενος. Ὅτε δὲ συνήντησε τῷ ἀδελφῷ, ἠθικότητι καὶ κολακείᾳ τὸν θυμὸν ἡμέρωσε, καὶ τὴν πονηρίαν ἔσβεσε. Τί γάρ φησι πρὸς τὸν <persName type="biblical" key="Esau_Gen.25.25">Ἡσαύ</persName>;
                         <quote>Εἶδόν σου τὸ πρόσωπον, ὡς εἴ τις ἴδοι πρόσωπον θεοῦ.<ref decls="#biblical" cRef="LXX:Gn:33:10"/>
                   </quote>
-                        Καὶ εἰ μὲν ἔλεγεν ὁ Ἰακὼβ ταῦτα, ἵνα διὰ τῆς ἀπάτης νικήσῃ τὸν ἀδελφόν, κακῶς ἐλάλει· εἰ δὲ εἶπεν, ἵνα τὸν φόβον ἐκφύγῃ, καλῶς ἐχρήσατο τῇ πανουργίᾳ.
+                        Καὶ εἰ μὲν ἔλεγεν ὁ <persName type="biblical" key="Israel_Gen.25.26">Ἰακὼβ</persName> ταῦτα, ἵνα διὰ τῆς ἀπάτης νικήσῃ τὸν ἀδελφόν, κακῶς ἐλάλει· εἰ δὲ εἶπεν, ἵνα τὸν φόβον ἐκφύγῃ, καλῶς ἐχρήσατο τῇ πανουργίᾳ.
                         <quote>Γίνεσθε οὖν φρόνιμοι ὡς ὁ ὄφις<ref decls="#biblical" cRef="NA:Mt:10:16"/>
                   </quote>· μὴ θυμώδεις, μὴ ἰοβόλοι, ἀλλὰ φρόνιμοι,
                         <quote>καὶ ἀκέραιοι ὡς αἱ περιστεραί<ref decls="#biblical" cRef="NA:Mt:10:16"/>
@@ -288,7 +291,7 @@
                         λεγομένοις· Καλεῖ λέοντα ἡ γραφή·
                         <quote>Σκύμνος
                             <seg type="insertion">γάρ φησι</seg>
-                            λέοντος Ἰούδα· ἐκ βλαστοῦ, υἱέ μου, ἀνέβης· ἀναπεσὼν ἐκοιμήθης ὡς λέων.<ref decls="#biblical" cRef="LXX:Gn:49:9"/>
+                            λέοντος <placeName ref="https://pleiades.stoa.org/places/687934">Ἰούδα</placeName>· ἐκ βλαστοῦ, υἱέ μου, ἀνέβης· ἀναπεσὼν ἐκοιμήθης ὡς λέων.<ref decls="#biblical" cRef="LXX:Gn:49:9"/>
                   </quote>
                         Ὧδε τὸ
                         <quote>ὡς λέων<ref decls="#biblical" cRef="LXX:Gn:49:9"/>
@@ -298,15 +301,15 @@
                             <seg type="insertion">γάρ φησιν</seg>
                             ὡς λέων πέποιθεν.<ref decls="#biblical" cRef="LXX:Prov:28:1"/>
                   </quote>
-                        Ἀνδρεῖος τοίνυν ὁ δίκαιος, οὐκ ἐν τῷ δρᾶν κακῶς, ἀλλ’ ἐν τῷ διαπτύειν τὰ παρὰ τῶν πονηρῶν ἐπαγόμενα. Καλεῖ καὶ τὸν σωτῆρα λέοντα, διὰ τὸ ἐκ βασιλικῆς εἶναι φυλῆς. Ὥσπερ γὰρ τῶν τετραπόδων ὑπάρχει βασιλεὺς ὁ λέων, οὕτω καὶ τῶν Ἰουδαίων ἐβασίλευσεν ἡ Ἰούδα φυλή, ἐξ ἧς ὁ σωτὴρ ἀνέτειλε. Καὶ μὴ νομίσῃς, ἀγαπητέ, ἀνάξιον εἶναι τοῦ Χριστοῦ τὸ εἰκόνι λέοντος ἀπεικάζεσθαι· σχηματίζει γὰρ ἡ γραφὴ τὴν εἰκόνα ταύτην καὶ ἐπ’ αὐτῆς τῆς θεότητος. Ἄκουε γοῦν οἷα
+                        Ἀνδρεῖος τοίνυν ὁ δίκαιος, οὐκ ἐν τῷ δρᾶν κακῶς, ἀλλ’ ἐν τῷ διαπτύειν τὰ παρὰ τῶν πονηρῶν ἐπαγόμενα. Καλεῖ καὶ τὸν σωτῆρα λέοντα, διὰ τὸ ἐκ βασιλικῆς εἶναι φυλῆς. Ὥσπερ γὰρ τῶν τετραπόδων ὑπάρχει βασιλεὺς ὁ λέων, οὕτω καὶ τῶν <orgName key="PTA_O00008">Ἰουδαίων</orgName> ἐβασίλευσεν ἡ <persName type="biblical" key="Judah_Gen.29.35">Ἰούδα</persName> φυλή, ἐξ ἧς ὁ σωτὴρ ἀνέτειλε. Καὶ μὴ νομίσῃς, ἀγαπητέ, ἀνάξιον εἶναι τοῦ <persName type="biblical" key="Jesus_Mat.1.1">Χριστοῦ</persName> τὸ εἰκόνι λέοντος ἀπεικάζεσθαι· σχηματίζει γὰρ ἡ γραφὴ τὴν εἰκόνα ταύτην καὶ ἐπ’ αὐτῆς τῆς θεότητος. Ἄκουε γοῦν οἷα
                         <cit>
                      <ref decls="#biblical" cRef="LXX:Am:3:8">ὁ προφήτης φησί·
                             </ref>
                      <quote>Λέων ἐρεύξεται καὶ τίς οὐ φοβηθήσεται; Κύριος ὁ θεὸς ἐλάλησε καὶ τίς οὐ προφητεύσει;</quote>
                   </cit>
-                        Κατὰ τὸ δυνατὸν τοίνυν καὶ τὸ φοβερὸν καὶ τὸ βασιλικὸν λέοντι ἀπεικάζεται ὁ Χριστός. Καλεῖται δὲ καὶ ὁ διάβολος λέων, οὐχ ὡς δυνατός, οὐδ’ ὡς φοβερός, ἀλλ’ ὡς πλήκτης, ὡς τύραννος, ὡς ἀφανιστικός.
+                        Κατὰ τὸ δυνατὸν τοίνυν καὶ τὸ φοβερὸν καὶ τὸ βασιλικὸν λέοντι ἀπεικάζεται ὁ <persName type="biblical" key="Jesus_Mat.1.1">Χριστός</persName>. Καλεῖται δὲ καὶ ὁ διάβολος λέων, οὐχ ὡς δυνατός, οὐδ’ ὡς φοβερός, ἀλλ’ ὡς πλήκτης, ὡς τύραννος, ὡς ἀφανιστικός.
                         <cit>
-                     <ref decls="#biblical" cRef="NA:1P:5:8">Λέγει δὲ περὶ τούτου ὁ μακάριος Πέτρος ὁ ἀπόστολος·
+                     <ref decls="#biblical" cRef="NA:1P:5:8">Λέγει δὲ περὶ τούτου ὁ μακάριος <persName type="biblical" key="Peter_Mat.4.18">Πέτρος</persName> ὁ ἀπόστολος·
                             </ref>
                      <quote>Ἰδοὺ ὁ ἐχθρὸς ὑμῶν διάβολος περιέρχεται, ὡς λέων, ζητῶν καταπιεῖν ψυχήν.</quote>
                   </cit>
@@ -321,13 +324,13 @@
                         Ἐποίησε πρότερον τὴν εἰκόνα τοῦ δικαίου, εἶθ’ οὕτω καὶ τοῦ ἀσεβοῦς.
                         <quote>Εἶδον
                             <seg>γάρ φησι</seg>
-                            τὸν ἀσεβῆ ὑπερυψούμενον καὶ ἐπαιρόμενον ὡς τὰς κέδρους τοῦ Λιβάνου.<ref decls="#biblical" cRef="LXX:Ps:36:35"/>
+                            τὸν ἀσεβῆ ὑπερυψούμενον καὶ ἐπαιρόμενον ὡς τὰς κέδρους τοῦ <placeName ref="https://pleiades.stoa.org/places/678267">Λιβάνου</placeName>.<ref decls="#biblical" cRef="LXX:Ps:36:35"/>
                   </quote>
                         Ὅρα τοίνυν πῶς τὴν μὲν αὐτὴν εἰκόνα παρήγαγε, ταῖς δὲ λέξεσι τὰς ἐννοίας ἐμέρισεν. Ἐπὶ μὲν γὰρ τοῦ ἀσεβοῦς λέγει·
                         <quote>Εἶδον τὸν ἀσεβῆ ὑπερυψούμενον καὶ ἐπαιρόμενον ὡς τὰς κέδρους·<ref decls="#biblical" cRef="LXX:Ps:36:35"/>
                   </quote>
                         ἐπὶ δὲ τοῦ δικαίου οὐκ εἶπεν
-                        <quote>ὡσεὶ κέδρος ἡ ἐν τῷ Λιβάνῳ<ref decls="#biblical" cRef="LXX:Ps:91:13"/>
+                        <quote>ὡσεὶ κέδρος ἡ ἐν τῷ <placeName ref="https://pleiades.stoa.org/places/678267">Λιβάνῳ</placeName><ref decls="#biblical" cRef="LXX:Ps:91:13"/>
                   </quote>
                         ἐπανθήσεται, ἀλλὰ
                         <quote>πληθυνθήσεται<ref decls="#biblical" cRef="LXX:Ps:91:13"/>
@@ -336,7 +339,7 @@
                   </quote>
                         Μὴ μάθῃς, ὅτι κέντρον ἔχει, ἀλλ’ ὅτι μέλι ἐργάζεται. Ἐὰν γὰρ μιμήσῃ τῆς μελίττης τὸ κέντρον, κατηγορεῖ σου
                         <cit>
-                     <ref decls="#biblical" cRef="LXX:Ps:117:10">Δαυὶδ λέγων·
+                     <ref decls="#biblical" cRef="LXX:Ps:117:10"><persName type="biblical" key="David_Rut.4.17">Δαυὶδ</persName> λέγων·
                             </ref>
                      <quote>Πάντα τὰ ἔθνη ἐκύκλωσάν με, ὡσεὶ μέλισσαι κηρίον, καὶ τῷ ὀνόματι κυρίου ἠμυνάμην αὐτούς.</quote>
                   </cit>
@@ -356,7 +359,7 @@
                         <quote>Ἐσθίειν μέλι πολὺ οὐ καλόν, τιμᾶν δὲ χρὴ λόγους ἐνδόξους.<ref decls="#biblical" cRef="LXX:Prov:25:27"/>
                   </quote>
                         Ἔχωμεν οὖν, ἀγαπητοί, τὸ κηρίον τὸ ποικίλον, τὰ θεῖα καὶ ἱερὰ λόγια, διὰ παντός· καὶ ὥσπερ τὸ κηρίον ἐκεῖνο ἐκ πολλῶν μὲν καὶ διαφόρων σχημάτων ἀπαρτίζεται, ἓν δὲ ἔχει καλόν· οὕτω καὶ ἡμῖν ἔστω κηρίον ἡ θεία γραφή, ἐκ πολλῶν μὲν καὶ διαφόρων συγκειμένη προφητῶν, ἓν δὲ μέλι διδασκαλίας ἀποστάζουσα. Τοιοῦτον ἡμῖν καὶ τὸ τῶν πατέρων κηρίον, ἐκ διαφόρων μὲν ἡλικιῶν συνηρμοσμένον, μίαν δὲ χάριν καὶ μίαν πνευματικὴν διδασκαλίαν ἀποστάζον. Ἀλλὰ ταῦτα μὲν εἰς τοσοῦτον.</p>
-               <p>Γένοιτο δὲ ἡμᾶς εὐχαῖς καὶ πρεσβείαις τοῦ κοινοῦ πατρός, τῇ φιλοπονίᾳ τὸν λόγον αὔξοντας, τὸν θεῖον ἀπεργάζεσθαι νόμον ἐν τῇ διανοίᾳ πάντοτε, καὶ ποιεῖν ἐκεῖνο τὸ ὑπὸ τοῦ Δαυὶδ εἰρημένον, τὸ ἔχειν τὸν νόμον τοῦ θεοῦ πάντοτε ἐν μέσῳ τῆς κοιλίας ἡμῶν, ἤγουν τὰ θεῖα νοήματα, ὥστε νομίζειν φύσεως ὅρους ἐπιγινώσκειν, τιμᾶν τε τὴν
+               <p>Γένοιτο δὲ ἡμᾶς εὐχαῖς καὶ πρεσβείαις τοῦ κοινοῦ πατρός, τῇ φιλοπονίᾳ τὸν λόγον αὔξοντας, τὸν θεῖον ἀπεργάζεσθαι νόμον ἐν τῇ διανοίᾳ πάντοτε, καὶ ποιεῖν ἐκεῖνο τὸ ὑπὸ τοῦ <persName type="biblical" key="David_Rut.4.17">Δαυὶδ</persName> εἰρημένον, τὸ ἔχειν τὸν νόμον τοῦ θεοῦ πάντοτε ἐν μέσῳ τῆς κοιλίας ἡμῶν, ἤγουν τὰ θεῖα νοήματα, ὥστε νομίζειν φύσεως ὅρους ἐπιγινώσκειν, τιμᾶν τε τὴν
                         <pb n="522"/>
                         ἀλήθειαν, καταφρονεῖν κόσμου, καὶ θεῷ δόξαν ἀναπέμπειν, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων, Ἀμήν.</p>
             </div>

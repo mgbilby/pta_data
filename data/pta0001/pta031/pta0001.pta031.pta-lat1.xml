@@ -148,9 +148,9 @@
                   and IDs of <ref
                      target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json"
                      >PTA persons index</ref> for all other persons. </p>
-               <p xml:id="groups" ana="not-annotated not-identified">
-                  Groups of persons and organisations are not
-                  annotated and not referenced with IDs according to
+               <p xml:id="groups" ana="partially-annotated fully-identified">
+                  Groups of persons and organisations are partially
+                  annotated and fully referenced with IDs according to
                   the IDs of <ref
                      target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json"
                      >PTA groups index</ref> for all other groups. </p>

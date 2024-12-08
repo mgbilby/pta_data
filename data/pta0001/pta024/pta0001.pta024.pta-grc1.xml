@@ -118,7 +118,7 @@
             Persons are fully annotated and fully referenced with IDs according to the <ref target="https://github.com/PatristicTextArchive/tipnr_data">TIPNR - Tyndale Individualised Proper Names with all References</ref> list for biblical persons and IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_persons.json">PTA persons index</ref> for all other persons.
           </p>
                <p xml:id="groups"
-                  ana="fully-annotated fully-identified">
+                  ana="partially-annotated fully-identified">
             Groups of persons and organisations are fully annotated and fully referenced with IDs according to the IDs of <ref target="https://github.com/PatristicTextArchive/pta_metadata/blob/main/pta_groups.json">PTA groups index</ref> for all other groups.
           </p>
                <p xml:id="places"
@@ -255,7 +255,7 @@
             <div type="textpart" subtype="section" n="1">
                <p>Μήτηρ εὐταξίας ἀκολουθία, ὄψιν μὲν καὶ πρόσωπον ἔχουσα ταῖς ὑποθέσεσιν, εὐκρινῆ δὲ καὶ ἀσύγχυτον φυλάττουσα τὴν τῶν ἀκουόντων διάνοιαν. Μὴ τοίνυν ἀπεχώμεθα τῆς ἀκολουθίας, ἀλλὰ κἂν αἱ ἀναγνώσεις τὸν ἴδιον ἀνυέτωσαν δρόμον, ἡμεῖς τῆς ἱστορίας τὴν ἀκολουθίαν φυλάξωμεν.</p>
                <p>Ἐν τοῖς προηγησαμένοις λόγοις παρεδίδοτο ἐκ τῆς τοῦ ἁγίου πνεύματος διδασκαλίας, τίς γέγονεν ἡ τοῦ ἀνθρώπου κατασκευή, τίς ἡ τιμή, τίς ἡ τάξις, τίς ἡ τῶν πραγμάτων δοθεῖσα ἡγεμονία. Ἥκει γὰρ τούτοις ἡ ἀπάτη ἡ ἐν παραδείσῳ, ἡ ἐξετασθεῖσα δίκη, ἡ ἐξενεχθεῖσα μετὰ φιλανθρωπίας ἀπόφασις.</p>
-               <p>Τούτοις ἠκολούθησεν τὰ κατὰ τὸν Κάιν καὶ τὸν <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName> ὄψει μὲν τῇ αὐτῇ τὸν θεὸν τιμᾶν ἐπιχειρησάντων, διαφόρῳ δὲ διαθέσει τὴν λειτουργίαν ἀναλαβόντων. Προσήνεγκε γὰρ καὶ οὗτος κἀκεῖνος. Ἀλλὰ τοῦ μὲν σχῆμα μόνον δώρου εἶχεν ἡ προσφορά, τοῦ δὲ καὶ τὴν πρέπουσαν διάθεσιν καὶ τιμήν. Εἶτα ἠκολούθησε φθόνος. Τῇ γὰρ εὐσεβείᾳ ἀκολουθεῖ ἀεὶ παρὰ μὲν τῶν κακῶν φθόνος, παρὰ δὲ τοῦ βραβευτοῦ στέφανος. Ἀνῃρέθη ὁ <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName>, ὁ πρῶτος τῆς δικαιοσύνης κῆρυξ, ὁ πρῶτος εὐσέβειαν ἀγαπήσας καὶ μεταδιώξας· ὁ πρῶτος ἀλήθειαν τιμήσας καὶ μετὰ ἀληθείας τὸν θεὸν ἀγαπήσας καὶ προσκυνήσας, ὁ ἐν πολλοῖς μιμητὴς τοῦ Χριστοῦ γενόμενος.
+               <p>Τούτοις ἠκολούθησεν τὰ κατὰ τὸν <persName type="biblical" key="Cain_Gen.4.1">Κάϊν</persName> καὶ τὸν <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName> ὄψει μὲν τῇ αὐτῇ τὸν θεὸν τιμᾶν ἐπιχειρησάντων, διαφόρῳ δὲ διαθέσει τὴν λειτουργίαν ἀναλαβόντων. Προσήνεγκε γὰρ καὶ οὗτος κἀκεῖνος. Ἀλλὰ τοῦ μὲν σχῆμα μόνον δώρου εἶχεν ἡ προσφορά, τοῦ δὲ καὶ τὴν πρέπουσαν διάθεσιν καὶ τιμήν. Εἶτα ἠκολούθησε φθόνος. Τῇ γὰρ εὐσεβείᾳ ἀκολουθεῖ ἀεὶ παρὰ μὲν τῶν κακῶν φθόνος, παρὰ δὲ τοῦ βραβευτοῦ στέφανος. Ἀνῃρέθη ὁ <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName>, ὁ πρῶτος τῆς δικαιοσύνης κῆρυξ, ὁ πρῶτος εὐσέβειαν ἀγαπήσας καὶ μεταδιώξας· ὁ πρῶτος ἀλήθειαν τιμήσας καὶ μετὰ ἀληθείας τὸν θεὸν ἀγαπήσας καὶ προσκυνήσας, ὁ ἐν πολλοῖς μιμητὴς τοῦ Χριστοῦ γενόμενος.
                     </p>
                <p>Εὑρίσκω γὰρ τὸν ἅγιον <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName> πολλὰς τοῦ Χριστοῦ εἰκόνας δεξάμενον. Ὥσπερ γὰρ ὁ σωτὴρ τῶν μετὰ τὸν νόμον ἀνακαινιζομένων ἀρχηγὸς καὶ πρῶτος δίκαιος, οὕτως τῶν ἀρχαίων πάντων ἀνθρώπων ἀρχηγὸς δικαιο<pb n="125" break="no"/>σύνης <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName>. Οὔτε ἐν τῷ ἀνακαινισμῷ τῆς ἀνθρωπότητος, ἣν ἀνεκαίνισεν ὁ πάντων δεσπότης, εὑρίσκεις τι τοῦ δεσποτικοῦ πρῶτον σώματος, οὔτε ἐν τῇ παλαιᾷ τῶν ἀνθρώπων τάξει εὑρίσκεις δικαιοσύνην προλάμψασαν τοῦ <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName>. Ἐκεῖνος ἀρχηγὸς τῶν παλαιῶν δικαίων, καὶ οὗτος ἀρχηγὸς τῶν νέων δικαίων καὶ τῶν μετὰ ἀληθείας ἀνακαινιζομένων ἁγίων.</p>
                <p>Διὰ τοῦτο ὁ σωτὴρ ἔπηξε τοῦ <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName> τὴν μνήμην πάσης δικαιοσύνης ἀρχήν. Λέγει γὰρ <orgName key="PTA_O00008">Ἰουδαίοις</orgName>·
@@ -304,7 +304,7 @@
                             <seg type="insertion">φησίν,</seg>
                             ὁ θεὸς σπέρμα ἕτερον ἀντὶ <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName> ὃν ἀπέκτεινεν <persName type="biblical" key="Cain_Gen.4.1">Κάϊν</persName>.<ref decls="#biblical" cRef="LXX:Gn:4:25"/>
                   </quote>
-                        Οὕτως ὁ <persName type="biblical" key="Seth_Gen.4.25">Σὴθ</persName> τίκτεται, ὡς μαρτυρεῖ ἡ γραφή, ὁμότυπον ἔχων χαρακτῆρα τῷ <persName>Ἀδάμ</persName>. Πρωτότοκος ἐτέχθη ὁ <persName type="biblical" key="Cain_Gen.4.1">Κάϊν</persName>, καὶ οὐδὲ ἓν ἔφερεν ὁμοίωμα τοῦ προσώπου ἢ τῆς εἰκόνος τοῦ πατρός. Ἐγενήθη <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName> ὁ δίκαιος, καὶ εἶχε μορφὴν ἐοικυῖαν τῷ <persName type="biblical" key="Adam_Gen.2.19">Ἀδὰμ</persName> καὶ οὐδὲ οὕτως αὐτοτελῆ καὶ ὁμοίαν. Ὁ δὲ <persName type="biblical" key="Seth_Gen.4.25">Σήθ</persName>, ὃν ἤγειρεν ὁ θεὸς ἀντ’ ἐκείνου, ὥς φησιν ἡ γραφή,
+                        Οὕτως ὁ <persName type="biblical" key="Seth_Gen.4.25">Σὴθ</persName> τίκτεται, ὡς μαρτυρεῖ ἡ γραφή, ὁμότυπον ἔχων χαρακτῆρα τῷ <persName type="biblical" key="Adam_Gen.2.19">Ἀδάμ</persName>. Πρωτότοκος ἐτέχθη ὁ <persName type="biblical" key="Cain_Gen.4.1">Κάϊν</persName>, καὶ οὐδὲ ἓν ἔφερεν ὁμοίωμα τοῦ προσώπου ἢ τῆς εἰκόνος τοῦ πατρός. Ἐγενήθη <persName type="biblical" key="Abel_Gen.4.2">Ἄβελ</persName> ὁ δίκαιος, καὶ εἶχε μορφὴν ἐοικυῖαν τῷ <persName type="biblical" key="Adam_Gen.2.19">Ἀδὰμ</persName> καὶ οὐδὲ οὕτως αὐτοτελῆ καὶ ὁμοίαν. Ὁ δὲ <persName type="biblical" key="Seth_Gen.4.25">Σήθ</persName>, ὃν ἤγειρεν ὁ θεὸς ἀντ’ ἐκείνου, ὥς φησιν ἡ γραφή,
                         <quote>κατὰ τὴν ἰδέαν τοῦ <persName type="biblical" key="Adam_Gen.2.19">Ἀδὰμ</persName> καὶ κατὰ τὴν εἰκόνα αὐτοῦ<ref decls="#biblical" cRef="LXX:Gn:5:3"/>
                   </quote>, ἐκμαξάμενος τὸν πατρικὸν χαρακτῆρα αὐτοῦ προῆλθεν.</p>
                <p>Διὰ τί τοῦτο ἐμαρτύρησεν ἡ γραφὴ ὅτι κατ’ εἰκόνα τοῦ Ἀδὰμ ἐγένετο; Ἐνταῦθα τὸν νοῦν, παρακαλῶ. Ὁ <persName type="biblical" key="Seth_Gen.4.25">Σὴθ</persName> οὗτος, ἐπειδὴ τύπος ἦν τῆς ἀναστάσεως – Ἐξανέστησεν γὰρ αὐτὸν ὁ θεὸς ἀντ’ ἐκείνου. – δείκνυσιν ὅτι ἡ ἀνάστασις τῶν νεκρῶν τὰς πρώτας ἐγείρει μορφὰς καὶ τὰς αὐτὰς εἰκόνας σῴζει καὶ οὐδὲν φθείρεται τοῦ χαρακτῆρος τοῦ ἀνθρώπου.
@@ -361,7 +361,7 @@
                <p>
                   <quote>Ἤλπισεν ἐπικαλεῖσθαι τῷ ὀνόματι κυρίου<ref decls="#biblical" cRef="LXX:Gn:4:26"/>
                   </quote>, οὐ καλεῖσθαι, ἀλλ’ ἐπικαλεῖσθαι τῷ ὀνόματι, ἵνα καὶ <persName type="biblical" key="Enos_Gen.4.26">Ἐνὼς</persName> λέγηται καὶ θεός. <persName type="biblical" key="Enos_Gen.4.26">Ἐνὼς</persName> δέ ἐστιν ἄνθρωπος. Τοῦτο καὶ <bibl>ἡ Σύρα</bibl> καὶ <bibl>ἡ Ἑβραία</bibl> ἑρμηνεύει ὅτι <persName type="biblical" key="Enos_Gen.4.26">Ἐνὼς</persName> ἄνθρωπος ἑρμηνεύεται. Ἤλπισεν οὖν καὶ ἄνθρωπος εἶναι διὰ τὴν φύσιν καὶ θεὸς διὰ τὴν χάριν.</p>
-               <p>Ἐκλήθη τοίνυν οὗτος ὁ <persName type="biblical" key="Enos_Gen.4.26">Ἐνὼς</persName> θεός. Πάντες ἑώρων αὐτὸν οἱ τότε καὶ ἔλεγον· Ἀληθῶς ἄξιος θεοῦ, ἀληθῶς αὕτη ἡ μορφὴ θεοῦ. Οἱ ἐκ τούτου λοιπὸν γεννώμενοι ἐκαλοῦντο υἱοὶ θεοῦ . Οἱ ἐκ τούτου λοιπὸν τοῦ σπέρματος <persName type="biblical" key="Enos_Gen.4.26">Ἐνὼς</persName> φυλάττοντες τὴν εὐσέβειαν ἐκαλοῦντο υἱοὶ θεοῦ τοῦ μὴ ἀχθομένου, ἀλλὰ χαίροντος ἐπὶ τῇ ἰδιότητι καὶ ἀσπαζομένου τὴν οἰκειότητα τῶν εὐσεβῶν.
+               <p>Ἐκλήθη τοίνυν οὗτος ὁ <persName type="biblical" key="Enos_Gen.4.26">Ἐνὼς</persName> θεός. Πάντες ἑώρων αὐτὸν οἱ τότε καὶ ἔλεγον· Ἀληθῶς ἄξιος θεοῦ, ἀληθῶς αὕτη ἡ μορφὴ θεοῦ. Οἱ ἐκ τούτου λοιπὸν γεννώμενοι ἐκαλοῦντο υἱοὶ θεοῦ. Οἱ ἐκ τούτου λοιπὸν τοῦ σπέρματος <persName type="biblical" key="Enos_Gen.4.26">Ἐνὼς</persName> φυλάττοντες τὴν εὐσέβειαν ἐκαλοῦντο υἱοὶ θεοῦ τοῦ μὴ ἀχθομένου, ἀλλὰ χαίροντος ἐπὶ τῇ ἰδιότητι καὶ ἀσπαζομένου τὴν οἰκειότητα τῶν εὐσεβῶν.
                         <quote>Ἐγὼ δὲ εἶπον· Θεοί ἐστὲ καὶ υἱοὶ ὑψίστου πάντες.<ref decls="#biblical" cRef="LXX:Ps:81:6"/>
                   </quote>
                </p>
@@ -426,7 +426,7 @@
                         <quote>Οὐ μὴ καταμείνῃ τὸ πνεῦμά μου ἐν τοῖς ἀνθρώποις τούτοις εἰς τὸν αἰῶνα διὰ τὸ εἶναι αὐτοὺς σάρκας.<ref decls="#biblical" cRef="LXX:Gn:6:3"/>
                   </quote>
                </p>
-               <p>Μανιχαῖοι ἐπιλαμβάνονται τοῦ ῥητοῦ.
+               <p><orgName key="PTA_O00019">Μανιχαῖοι</orgName> ἐπιλαμβάνονται τοῦ ῥητοῦ.
                         <said>Ὁρᾷς,
                             <seg type="insertion">φησίν,</seg>
                             ὅπου σὰρξ ἡ ἀπὸ τῆς ὕλης, οὐκ ἀναπαύεται ὁ θεός.</said>
