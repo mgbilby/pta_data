@@ -374,27 +374,6 @@
          <dct:isPartOf/>
       </cpt:structured-metadata>
    </ti:edition>
-   <ti:edition urn="urn:cts:pta:pta0001.pta001.pta-grcBibex"
-               workUrn="urn:cts:pta:pta0001.pta001">
-      <ti:label xml:lang="eng">Severianus Gabalensis: De fide et lege naturae</ti:label>
-      <ti:description xml:lang="eng">Annette von Stockhausen (Editor), Berlin-Brandenburgische Akademie der Wissenschaften</ti:description>
-      <cpt:structured-metadata xml:lang="deu">
-         <dc:title>Severianus Gabalensis: De fide et lege naturae</dc:title>
-         <dc:creator>Severianus Gabalensis</dc:creator>
-         <dct:source>Annette von Stockhausen (Editor), Berlin-Brandenburgische Akademie der Wissenschaften</dct:source>
-         <dc:contributor>Annette von Stockhausen</dc:contributor>
-         <dc:publisher xml:lang="eng">Patristic Text Archive (BBAW)</dc:publisher>
-         <dc:publisher xml:lang="deu">Patristisches Textarchiv (BBAW)</dc:publisher>
-         <dc:format>application/tei+xml</dc:format>
-         <dc:rights>https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-         <dct:isVersionOf>https://github.com/PatristicTextArchive/pta_data/blob/public/data/pta0001/pta001/pta0001.pta001.pta-grcBibex.xml</dct:isVersionOf>
-         <dct:hasVersion>https://github.com/PatristicTextArchive/pta_data/blob/3daea1e9b648813b45ef12dd1d2819c50c988f24/data/pta0001/pta001/pta0001.pta001.pta-grcBibex.xml</dct:hasVersion>
-         <dc:date>2024-08-03</dc:date>
-         <dct:dateCopyrighted>2018</dct:dateCopyrighted>
-         <dct:bibliographicCitation>Annette von Stockhausen (Editor), Berlin-Brandenburgische Akademie der Wissenschaften, Severianus Gabalensis: De fide et lege naturae. Patristic Text Archive 2018. Version: 3daea1e9, committed on 2024-08-03, https://pta.bbaw.de/text/urn:cts:pta:pta0001.pta001.pta-grcBibex.</dct:bibliographicCitation>
-         <dct:isPartOf>Neueditionen</dct:isPartOf>
-      </cpt:structured-metadata>
-   </ti:edition>
    <ti:translation xml:lang="deu"
                    urn="urn:cts:pta:pta0001.pta001.pta-deuBibex"
                    workUrn="urn:cts:pta:pta0001.pta001">
@@ -418,4 +397,25 @@
          <dct:isPartOf>Neueditionen</dct:isPartOf>
       </cpt:structured-metadata>
    </ti:translation>
+   <ti:edition urn="urn:cts:pta:pta0001.pta001.pta-grcBibex"
+               workUrn="urn:cts:pta:pta0001.pta001">
+      <ti:label xml:lang="eng">Severianus Gabalensis: De fide et lege naturae</ti:label>
+      <ti:description xml:lang="eng">Annette von Stockhausen (Editor), Berlin-Brandenburgische Akademie der Wissenschaften</ti:description>
+      <cpt:structured-metadata xml:lang="deu">
+         <dc:title>Severianus Gabalensis: De fide et lege naturae</dc:title>
+         <dc:creator>Severianus Gabalensis</dc:creator>
+         <dct:source>Annette von Stockhausen (Editor), Berlin-Brandenburgische Akademie der Wissenschaften</dct:source>
+         <dc:contributor>Annette von Stockhausen</dc:contributor>
+         <dc:publisher xml:lang="eng">Patristic Text Archive (BBAW)</dc:publisher>
+         <dc:publisher xml:lang="deu">Patristisches Textarchiv (BBAW)</dc:publisher>
+         <dc:format>application/tei+xml</dc:format>
+         <dc:rights>https://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+         <dct:isVersionOf>https://github.com/PatristicTextArchive/pta_data/blob/public/data/pta0001/pta001/pta0001.pta001.pta-grcBibex.xml</dct:isVersionOf>
+         <dct:hasVersion>https://github.com/PatristicTextArchive/pta_data/blob/e865211b14d8e41f57bfeb4877be7a34b1535a7e/data/pta0001/pta001/pta0001.pta001.pta-grcBibex.xml</dct:hasVersion>
+         <dc:date>2024-12-13</dc:date>
+         <dct:dateCopyrighted>2018</dct:dateCopyrighted>
+         <dct:bibliographicCitation>Annette von Stockhausen (Editor), Berlin-Brandenburgische Akademie der Wissenschaften, Severianus Gabalensis: De fide et lege naturae. Patristic Text Archive 2018. Version: e865211b, committed on 2024-12-13, https://pta.bbaw.de/text/urn:cts:pta:pta0001.pta001.pta-grcBibex.</dct:bibliographicCitation>
+         <dct:isPartOf>Neueditionen</dct:isPartOf>
+      </cpt:structured-metadata>
+   </ti:edition>
 </ti:work>
