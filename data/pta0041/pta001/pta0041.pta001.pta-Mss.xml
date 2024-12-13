@@ -182,7 +182,7 @@
         </keywords>
       </textClass>
     </profileDesc>
-    <revisionDesc>
+    <revisionDesc status="draft">
       <change when="2023-06-30" who="#PhP">Initial version</change>
     </revisionDesc>
   </teiHeader>

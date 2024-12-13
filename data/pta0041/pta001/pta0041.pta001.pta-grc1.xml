@@ -28,66 +28,84 @@
          <sourceDesc>
             <listBibl>
                <head>Frühere Editionen</head>
-               <bibl xml:id="TU_188"
+               <biblStruct type="book" xml:id="TU_188"
                      facs="https://nbn-resolving.org/urn:nbn:de:kobv:b4-opus4-33479">
-                  <title level="a">Das Martyrium des Konon von Bidana in Isaurien</title>
-                  <title level="m">Einleitung, Text und Übersetzung</title>
-                  <title level="s">Texte und Untersuchungen zur Geschichte der altchristlichen Literatur</title>
-                  <biblScope unit="volume">188</biblScope>
-                  <editor role="editor">
-                     <name>Pilhofer</name>
-                     <forename>Philipp</forename>
-                  </editor>
-                  <publisher>De Gruyter</publisher>
-                  <pubPlace>Berlin/Boston</pubPlace>
-                  <biblScope unit="page" from="106" to="148">106–148</biblScope>
-                  <date when="2020">2020</date>
-               </bibl>
-               <bibl type="article" xml:id="TK">
-                  <abbr type="siglum">TK</abbr>
+                  <monogr>
+                     <title level="a">Das Martyrium des Konon von Bidana in Isaurien</title>
+                     <title level="m">Einleitung, Text und Übersetzung</title>
+                     <editor role="editor">
+                        <name>Pilhofer</name>
+                        <forename>Philipp</forename>
+                     </editor>
+                     <imprint>
+                        <publisher>De Gruyter</publisher>
+                        <pubPlace>Berlin/Boston</pubPlace>
+                        <biblScope unit="page" from="106" to="148">106–148</biblScope>
+                        <date when="2020">2020</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">Texte und Untersuchungen zur Geschichte der altchristlichen Literatur</title>
+                     <biblScope unit="volume">188</biblScope>
+                  </series>
+               </biblStruct>
+               <biblStruct type="journalArticle" xml:id="TK">
+                  <analytic>
                   <editor>Reinhold Trautmann</editor>
                   <editor>Robert Klostermann</editor>
                   <title>Drei griechische Texte zum Codex Suprasliensis. II. Das Martyrium von Konon dem Isaurier</title>
-                  <bibl type="monogr">
+                  </analytic>
+                  <monogr>
                      <title level="j">Zeitschrift für slavische Philologie</title>
-                     <date when="1934">11 (1934)</date>
-                     <biblScope unit="page" from="299" to="324">299–324</biblScope>
-                  </bibl>.
-          </bibl>
-               <bibl xml:id="Latysev">
-                  <abbr type="siglum">Latyšev</abbr>
-                  <title level="a">Menologii Anonymi Byzantini saeculi X quae supersunt</title>
-                  <title level="m">Fasciculus prior, Februarium et Martium menses continens. Sumptibus Caesareae Academiae scientiarum e codice Mosquensi 376 Vlad</title>
-                  <editor role="editor">
-                     <name>Latyšev</name>
-                     <forename>Vasilij Vasil’jevič</forename>
-                  </editor>
-                  <pubPlace>St. Petersburg</pubPlace>
-                  <biblScope unit="page" from="203" to="208">203–208</biblScope>
-                  <date>1911</date>
-               </bibl>
-               <bibl xml:id="Weiher">
-                  <abbr type="siglum">Weiher</abbr>
-                  <title level="a">Die großen Lesemenäen des Metropoliten Makarij</title>
-                  <title level="m">Uspenskij Spisok. 1.–11. März</title>
-                  <title level="s">MLSDV Fontes et Dissertationes XXXIX</title>
-                  <biblScope unit="volume">1</biblScope>
-                  <editor role="editor">
-                     <name>Weiher</name>
-                     <forename>Eckhard</forename>
-                  </editor>
-                  <editor role="editor">
-                     <name>Šmidt</name>
-                     <forename>S. O.</forename>
-                  </editor>
-                  <editor role="editor">
-                     <name>Škurko</name>
-                     <forename>A. I.</forename>
-                  </editor>
-                  <pubPlace>Freiburg</pubPlace>
-                  <biblScope unit="page" from="50" to="57">50–57</biblScope>
-                  <date>1911</date>
-               </bibl>
+                     <imprint>
+                        <date when="1934">1934</date>
+                        <biblScope unit="volume">11</biblScope>
+                        <biblScope unit="page" from="299" to="324">299–324</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="bookSection" xml:id="Latysev">
+                  <monogr>
+                     <title level="a">Menologii Anonymi Byzantini saeculi X quae supersunt</title>
+                     <title level="m">Fasciculus prior, Februarium et Martium menses continens. Sumptibus Caesareae Academiae scientiarum e codice Mosquensi 376 Vlad</title>
+                     <editor role="editor">
+                        <name>Latyšev</name>
+                        <forename>Vasilij Vasil’jevič</forename>
+                     </editor>
+                     <imprint>
+                        <pubPlace>St. Petersburg</pubPlace>
+                        <biblScope unit="page" from="203" to="208">203–208</biblScope>
+                        <date>1911</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+               <biblStruct type="bookSection" xml:id="Weiher">
+                  <monogr>
+                     <title level="a">Die großen Lesemenäen des Metropoliten Makarij</title>
+                     <title level="m">Uspenskij Spisok. 1.–11. März</title>
+                     <editor role="editor">
+                        <name>Weiher</name>
+                        <forename>Eckhard</forename>
+                     </editor>
+                     <editor role="editor">
+                        <name>Šmidt</name>
+                        <forename>S. O.</forename>
+                     </editor>
+                     <editor role="editor">
+                        <name>Škurko</name>
+                        <forename>A. I.</forename>
+                     </editor>
+                     <imprint>                  
+                        <pubPlace>Freiburg</pubPlace>
+                        <biblScope unit="page" from="50" to="57">50–57</biblScope>
+                        <date>1911</date>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">MLSDV Fontes et Dissertationes XXXIX</title>
+                     <biblScope unit="volume">1</biblScope>
+                  </series>
+               </biblStruct>
             </listBibl>
             <listWit>
                <witness xml:id="V">
@@ -1493,7 +1511,7 @@
                   <p>
                      <seg type="textpart" subtype="subsection" n="76">
             καὶ πορευθέντων αὐτῶν ὁδὸν μακρὰν ἀνεδείχθη αὐτῷ ὁ τόπος διὰ τοῦ ἀρχαγγέλου
-            <persName key="PTA_P00053">Μιχαὴλ</persName> ἔν τινι τῶν ὀρέων, ἔνθα ἦν ὑπὸ πέτραν κατακείμενα 
+            <persName type="biblical" key="Michael_Dan.10.13">Μιχαὴλ</persName> ἔν τινι τῶν ὀρέων, ἔνθα ἦν ὑπὸ πέτραν κατακείμενα 
             <app type="variants">
                            <lem wit="#V">πάντα τὰ ἐπιζητούμενα</lem>
                            <rdg wit="#u" type="omission"/>
