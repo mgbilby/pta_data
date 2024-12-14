@@ -12,7 +12,11 @@ jobs:
     steps:
       - id: get_version
         name: Get version
-        uses: jannemattila/get-version-from-tag@v3
+        uses: jannemattila/get-version-from-tag@v4        
+      - name: Display version
+        run: |
+          VERSION=$(echo "${{ steps.get_version.outputs.version }}")
+          echo $VERSION
       - name: Send toot to Mastodon with additional options
         id: mastodon_toot
         uses: cbrgm/mastodon-github-action@v2
